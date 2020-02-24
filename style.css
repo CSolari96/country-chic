@@ -7,3 +7,25 @@
 	License: Open
 	Text Domain: country_chic
 */
+
+/*
+	Colors:
+		Blue-gray: 		#82a3af;
+		Primary Green: 	#63a497;
+		Pink: 			#d87777;
+		Gold: 			#d4af37;
+		Light Blue: 	#99c6d1;
+		Dark Green: 	#126051;
+*/
+
+/**********IMPORT FONTS**********/
+
+
+/**********UNIVERSAL STYLING**********/
+
+/* Reset Rule */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

@@ -14,8 +14,8 @@
 
 	/**********Custom Header Logo**********/
 	$custom_image_header = array(
-		'width' 	=> 	110,
-		'height' 	=> 	417,
+		'width' 	=> 	417,
+		'height' 	=> 	110,
 		'uploads' 	=> 	true,
 	);
 

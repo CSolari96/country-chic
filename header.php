@@ -32,7 +32,21 @@
 
 		<?php } ?>
 
-		<nav>
+		<nav class="desktop-nav">
+
+			<?php
+
+				if (has_nav_menu('top-menu')) {
+
+					wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
+				
+				} else {
+
+					echo "Please select a top menu through the dashboard";
+				
+				}
+
+			?>
 
 		</nav>
 

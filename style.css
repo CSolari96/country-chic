@@ -10,8 +10,9 @@
 
 /*
 	Colors:
-		Blue-gray: 		#82a3af;
 		Primary Green: 	#63a497;
+		Blue-gray: 		#82a3af;
+		Gray: 			#7b7b7b;
 		Pink: 			#d87777;
 		Gold: 			#d4af37;
 		Light Blue: 	#99c6d1;
@@ -19,7 +20,7 @@
 */
 
 /**********IMPORT FONTS**********/
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /**********UNIVERSAL STYLING**********/
 
@@ -28,4 +29,9 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #7b7b7b;
 }

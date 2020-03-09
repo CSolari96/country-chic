@@ -13,7 +13,13 @@
 	add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
 	/**********Custom Header Logo**********/
+	$custom_image_header = array(
+		'width' 	=> 	110,
+		'height' 	=> 	417,
+		'uploads' 	=> 	true,
+	);
 
+	add_theme_support('custom-header', $custom_image_header);
 
 	/**********Add menus to theme**********/
 	function register_my_menu() {

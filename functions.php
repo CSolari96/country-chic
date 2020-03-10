@@ -3,6 +3,9 @@
 	/**********Add stylesheet and JS files**********/
 	function custom_theme_scripts() {
 
+		// Boostratp Integration
+		wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/boostrap-grid.min.css');
+
 		// Main CSS
 		wp_enqueue_style('main-styles', get_stylesheet_uri());
 

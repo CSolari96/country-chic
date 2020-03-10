@@ -41,4 +41,7 @@
 	/**********Add Featured Image Capability**********/
 	add_theme_support('post-thumbnails');
 
+	/**********Create a Custom Post Type for Tutorials**********/
+	
+
 ?>

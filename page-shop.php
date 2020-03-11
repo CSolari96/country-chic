@@ -7,14 +7,16 @@
 
 	*/
 	
-	get_header(); 
+	get_header();
 
-	$Cart_Icon = WP_Shopify\Factories\Render\Cart\Cart_Factory::build();
+	 $Products = WP_Shopify\Factories\Render\Products\Products_Factory::build();
 
-	// Show cart icon with custom image
-	$Cart->cart_icon([
-	   'icon' => "https://freeiconshop.com/wp-content/uploads/edd/cart-outline.png"
+	 global $post;
+
+	$Products->products([
+	   'title' => $post->post_title
 	]);
+
 
 ?>
 

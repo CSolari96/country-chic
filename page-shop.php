@@ -1,4 +1,11 @@
 <?php 
+
+	/*
+
+		Template Name: Shop Page Layout
+		Template Post Type: page
+
+	*/
 	
 	get_header(); 
 

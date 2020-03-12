@@ -13,7 +13,7 @@
 	$Settings = WP_Shopify\Factories\DB\Settings_General_Factory::build();
 	   
 	$products_options = [
-      	'excludes' => ['description, buy-button']
+      	'excludes' => ['description', 'buy-button']
   	];
 
 	$args = apply_filters('wps_products_all_args', $products_options);

@@ -171,6 +171,26 @@
 			'before_title' 	=> 	'<h3 class="hero-sub-title">',
 			'after_title' 	=> 	'</h3>'
 		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Home Tutorials Banner'),
+			'id' 			=> 	'home-tutorials',
+			'description' 	=> 	'Home Page Tutorials Banner',
+			'before_widget' => 	'<div class="widget-home-tutorials">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="hero-sub-title">',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Home Retailers Banner'),
+			'id' 			=> 	'home-retailers',
+			'description' 	=> 	'Home Page Retailers Banner',
+			'before_widget' => 	'<div class="widget-home-retailers">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="hero-sub-title">',
+			'after_title' 	=> 	'</h3>'
+		));
 	}
 
 	add_action('widgets_init', 'blank_widgets_init');

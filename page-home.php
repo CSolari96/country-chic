@@ -27,7 +27,7 @@
 
 		<div class="col-md-8">
 
-			<p>Insert widget here</p>
+			<?php dynamic_sidebar('home-intro'); ?>
 
 		</div>
 
@@ -67,7 +67,7 @@
 
 		<div class="col-md-12">
 
-			<p>Insert testimonial widget here</p>
+			<?php dynamic_sidebar('home-testimonials'); ?>
 
 		</div>
 
@@ -87,7 +87,7 @@
 
 		<div class="col-md-12">
 
-			<p>Insert Instagram plugin here</p>
+			<?php dynamic_sidebar('home-instagram'); ?>
 
 		</div>
 

@@ -91,6 +91,16 @@
 
 	</div>
 
+	<div class="row">
+
+		<div class="col-md-8">
+
+			<p>INsert text widget here</p>
+
+		</div>
+
+	</div>
+
 </main>
 
 

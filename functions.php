@@ -261,6 +261,16 @@
 			'before_title' 	=> 	'<h3 class="home-sketches-title">',
 			'after_title' 	=> 	'</h3>'
 		));
+
+		register_sidebar(array(
+			'name' => ('Contact Page Text'),
+			'id' => 'contact-page-text',
+			'description' => 'The text on the Contact Page before the form',
+			'before_widget' => '<p>',
+			'after_widget' => '</p>',
+			'before_title' => '<h3>',
+			'after_title' => '</h3>'
+		));
 	}
 
 	add_action('widgets_init', 'blank_widgets_init');
@@ -273,7 +283,7 @@
 
 
 
-		/**********Widgets for contact form**********/
+		/**********Widgets for contact form*********
 
 function contact_text () {
 	register_sidebar(array(
@@ -287,7 +297,8 @@ function contact_text () {
 	));
 }
 
-add_action('widgets_init', 'contact_text');
+add_action('widgets_init', 'contact_text'); */
+
 
 
 

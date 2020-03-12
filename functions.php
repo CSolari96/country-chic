@@ -173,6 +173,16 @@
 		));
 
 		register_sidebar(array(
+			'name' 			=> 	('Home Intro Widget'),
+			'id' 			=> 	'home-intro',
+			'description' 	=> 	'Home Page Intro Section',
+			'before_widget' => 	'<div class="widget-home-intro">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2 class="intro-widget-title">',
+			'after_title' 	=> 	'</h2>'
+		));
+
+		register_sidebar(array(
 			'name' 			=> 	('Home Values Title Widget'),
 			'id' 			=> 	'home-values-title',
 			'description' 	=> 	'Home Page Values Widget Title',
@@ -203,6 +213,16 @@
 		));
 
 		register_sidebar(array(
+			'name' 			=> 	('Home Testimonials'),
+			'id' 			=> 	'home-testimonials',
+			'description' 	=> 	'Home Page Testimonials',
+			'before_widget' => 	'<div class="widget-home-testimonials">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="testimonials-name">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
 			'name' 			=> 	('Home Tutorials Banner'),
 			'id' 			=> 	'home-tutorials',
 			'description' 	=> 	'Home Page Tutorials Banner',
@@ -210,6 +230,16 @@
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h3 class="hero-sub-title">',
 			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Home Instagram Feed'),
+			'id' 			=> 	'home-instagram',
+			'description' 	=> 	'Home Page Instagram Feed',
+			'before_widget' => 	'<div class="widget-home-instagram">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="instagram-title">',
+			'after_title' 	=> 	'</h4>'
 		));
 
 		register_sidebar(array(

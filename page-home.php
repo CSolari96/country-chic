@@ -43,13 +43,17 @@
 
 		<div class="col-md-6">
 
-			<?php dynamic_sidebar('home-values'); ?>
+			<div class="col-md-6">
 
-		</div>
+				<?php dynamic_sidebar('home-values'); ?>
 
-		<div class="col-md-6">
+			</div>
 
-			<?php dynamic_sidebar('home-values'); ?>
+			<div class="col-md-6">
+
+				<?php dynamic_sidebar('home-values'); ?>
+
+			</div>
 
 		</div>
 

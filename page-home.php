@@ -47,6 +47,12 @@
 
 		</div>
 
+		<div class="col-md-6">
+
+			<?php dynamic_sidebar('home-values'); ?>
+
+		</div>
+
 	</div>
 
 	<div class="row">

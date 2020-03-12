@@ -2,7 +2,7 @@
 
 	/*
 
-	Template Name: Home Page Layout
+	Template Name: Contact About Layout
 	Template Post Type: page
 
 	*/

@@ -63,12 +63,5 @@ body {
   }
 
   .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
-    color: #949293;
     text-decoration: none;
-    font-size: 1.5rem;
-  }
-
-  .top-menu-class ul li a:hover, .top-menu-class ul li a:hover {
-    border-bottom: 2px solid #d90000;
-    padding-bottom: 5%;
   }

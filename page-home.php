@@ -11,7 +11,7 @@
 
 ?>
 
-<main class="container">
+<main class="container-fluid">
 
 	<div class="row">
 

@@ -14,7 +14,7 @@
 
 <body>
 
-	<header class="container">
+	<header class="container-fluid">
 
 		<div class="row">
 

@@ -30,7 +30,13 @@
 
 	<main class="container">
 
-		<section class="wps-container">
+		<aside class="col-md-3">
+
+			<p>Sidebar goes here</p>
+
+		</aside>
+
+		<section class="wps-container col-md-9">
 		   <?= do_action('wps_breadcrumbs') ?>
 
 		   <div class="wps-products-all">

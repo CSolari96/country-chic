@@ -14,40 +14,48 @@
 
 <body>
 
-	<header>
+	<header class="container">
 
-		<?php
+		<div class="row">
 
-			if (get_header_image() == '') { ?>
+			<div class="col-md-3">
 
-				<h1>
-					<a href="<?php echo get_home_url();?>"><?php bloginfo('name'); ?></a>
-				</h1>
+				<?php
 
-		<?php } else { ?>
+					if (get_header_image() == '') { ?>
 
-				<a href="<?php echo get_home_url();?>">
-					<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" />
-				</a>
+						<h1>
+							<a href="<?php echo get_home_url();?>"><?php bloginfo('name'); ?></a>
+						</h1>
 
-		<?php } ?>
+				<?php } else { ?>
 
-		<nav class="desktop-nav">
+						<a href="<?php echo get_home_url();?>">
+							<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" />
+						</a>
 
-			<?php
+				<?php } ?>
 
-				if (has_nav_menu('top-menu')) {
+			</div>
 
-					wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
-				
-				} else {
+			<nav class="desktop-nav col-md-9">
 
-					echo "Please select a top menu through the dashboard";
-				
-				}
+				<?php
 
-			?>
+					if (has_nav_menu('top-menu')) {
 
-		</nav>
+						wp_nav_menu(array('theme_location' => 'top-menu' , 'container_class' => 'top-menu-class'));
+					
+					} else {
+
+						echo "Please select a top menu through the dashboard";
+					
+					}
+
+				?>
+
+			</nav>
+
+		</div>
 
 	</header>

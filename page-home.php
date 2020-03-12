@@ -13,6 +13,8 @@
 
 <main class="container-fluid">
 
+	<?php dynamic_sidebar("home-hero"); ?>
+
 	<div class="row">
 
 		<?php

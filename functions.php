@@ -283,24 +283,6 @@
 
 
 
-		/**********Widgets for contact form*********
-
-function contact_text () {
-	register_sidebar(array(
-		'name' => ('Contact Page Text'),
-		'id' => 'contact-page-text',
-		'description' => 'The text on the Contact Page before the form',
-		'before_widget' => '<p>',
-		'after_widget' => '</p>',
-		'before_title' => '<h3>',
-		'after_title' => '</h3>'
-	));
-}
-
-add_action('widgets_init', 'contact_text'); */
-
-
-
 
 
 

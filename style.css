@@ -45,23 +45,53 @@ body {
 	color: #7b7b7b;
 }
 
+/**********HEADER STYLING**********/
+
 #top-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
 
-  .top-menu-class ul {
-    display: flex;
-    justify-content: space-around;
-    padding: 10% 0;
-  }
+.top-menu-class ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 10% 0;
+}
 
-  .top-menu-class ul li {
-    list-style-type: none;
-    display: inline;
-  }
+.top-menu-class ul li {
+	list-style-type: none;
+	display: inline;
+}
 
-  .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
-    text-decoration: none;
-  }
+.top-menu-class ul li a:link, .top-menu-class ul li a:visited {
+	text-decoration: none;
+}
+
+/**********HOME PAGE STYLING**********/
+
+
+
+/**********ABOUT PAGE STYLING**********/
+
+
+
+/**********TUTORIAL PAGE STYLING**********/
+
+
+
+/**********SHOP PAGE STYLING**********/
+
+.wps-item {
+	width: 33%;
+}
+
+.wps-item img {
+	max-width: 100%;
+}
+
+/**********CONTACT PAGE STYLING**********/
+
+
+
+/**********MEDIA QUERIES STYLING**********/

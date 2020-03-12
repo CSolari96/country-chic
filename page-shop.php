@@ -10,7 +10,7 @@
 	get_header();
 
 	$Products = WP_Shopify\Factories\Render\Products\Products_Factory::build();
-	$Settings = WP_Shopify\Factories\DB\Settings_General_Factory::build();
+	/*$Settings = WP_Shopify\Factories\DB\Settings_General_Factory::build();
 
 	$description_toggle = $Settings->get_col_value('products_plp_descriptions_toggle');
 
@@ -24,7 +24,7 @@
 	   $products_options = [];
 	}
 
-	$args = apply_filters('wps_products_all_args', $products_options);
+	$args = apply_filters('wps_products_all_args', $products_options);*/
 
 	?>
 
@@ -43,11 +43,15 @@
 
 			   <div class="wps-products-all">
 			      
-			      <?php if ($Settings->get_col_value('products_heading_toggle')) { ?>
-			         <h1 class="wps-heading"><?= $Settings->get_col_value('products_heading'); ?></h1>
-			      <?php }
+			     <!-- <?php if ($Settings->get_col_value('products_heading_toggle')) { ?>
+			         <h1 class="wps-heading"><?= $Settings->get_col_value('products_heading'); ?></h1>-->
+			      <?php //}
 
-			      $Products->products($args); 
+				      global $post;
+
+				      $Products->products(['title' => $post->post_title]); 
+
+				      $Products->pricing(['title' => $post->post_title]);
 			      
 			      ?>
 

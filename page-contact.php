@@ -14,13 +14,13 @@
     <div class="row">
       <main class="col-md-12">
         <?php
-          if(have_posts())  {
-            while(have_posts()){
-              the_post(); ?>
+          if(have_posts()) {
+            while(have_posts()) {
+              the_post();
 
-              <?php the_title(); ?>
+              the_title(); 
 
-              <?php the_content(); ?>
+              the_content(); ?>
 
           <?php  } //ends while loop
           } //ends if statement

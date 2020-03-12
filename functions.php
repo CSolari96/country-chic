@@ -183,10 +183,20 @@
 		));
 
 		register_sidebar(array(
-			'name' 			=> 	('Home Values Widget'),
-			'id' 			=> 	'home-values',
-			'description' 	=> 	'Home Page Values Widget',
-			'before_widget' => 	'<div class="widget-home-values col-md-6">',
+			'name' 			=> 	('Home Values Widget - Column 1'),
+			'id' 			=> 	'home-values1',
+			'description' 	=> 	'Home Page Values Widget - Column 1',
+			'before_widget' => 	'<div class="widget-home-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<p class="home-values">',
+			'after_title' 	=> 	'</p>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Home Values Widget - Column 2'),
+			'id' 			=> 	'home-values2',
+			'description' 	=> 	'Home Page Values Widget - Column 2',
+			'before_widget' => 	'<div class="widget-home-values">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<p class="home-values">',
 			'after_title' 	=> 	'</p>'

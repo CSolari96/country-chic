@@ -282,7 +282,7 @@ function contact_text () {
 		'description' => 'The text on the Contact Page before the form',
 		'before_widget' => '<p>',
 		'after_widget' => '</p>',
-		'before_title' => '<h3>'
+		'before_title' => '<h3>',
 		'after_title' => '</h3>'
 	));
 }

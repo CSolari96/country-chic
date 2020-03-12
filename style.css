@@ -44,3 +44,31 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: #7b7b7b;
 }
+
+#top-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .top-menu-class ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 0;
+  }
+
+  .top-menu-class ul li {
+    list-style-type: none;
+    display: inline;
+  }
+
+  .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
+    color: #949293;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .top-menu-class ul li a:hover, .top-menu-class ul li a:hover {
+    border-bottom: 2px solid #d90000;
+    padding-bottom: 5%;
+  }

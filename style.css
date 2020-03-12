@@ -24,6 +24,15 @@
 
 /**********UNIVERSAL STYLING**********/
 
+/* Temporary Fixes to Shopping Cart Error */
+#wps-shop  { 
+    display: none;
+}
+
+div[data-wps-component-options-id="dfffe5c00ecf61fb3a6e669cb17fd986"] {
+	display: none;
+}
+
 /* Reset Rule */
 * {
 	margin: 0;

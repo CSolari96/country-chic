@@ -53,22 +53,36 @@
 			);
 
 			parent::__construct('hero_widget', 'Hero Banner Widget', $widget_details);
+
+			add_action('admin_enqueue_scripts', array($this, 'hero_assets'));
+		}
+
+		public function hero_assets() {
+			wp_enqueue_script('media-upload');
+			wp_enqueue_script('thickbox');
+			wp_enqueue_script('hero-media-upload', get_template_directory_uri() . '/js/hero-media-upload.js', array( 'jquery' )) ;
+			wp_enqueue_style('thickbox');
 		}
 
 		public function widget($args, $instance) {
-			echo $args['before_widget'];
-			if ( ! empty( $instance['sub_title'] ) ) {
-				echo $args['before_title'] . apply_filters( 'widget_title', $instance['sub_title'] ). $args['after_title'];
-			} ?>
+			echo $args['before_widget']; ?>
 
-			<h2 class="hero-title"><?php echo wpautop( esc_html( $instance['title'] ) ) ?></h2>
+			<div style="background-image: url('<?php echo $instance['image']; ?>')">
 
-			<div class='hero-description'>
-				<?php echo wpautop( esc_html( $instance['description'] ) ) ?>
-			</div>
+				<?php if ( ! empty( $instance['sub_title'] ) ) {
+					echo $args['before_title'] . apply_filters( 'widget_title', $instance['sub_title'] ). $args['after_title'];
+				} ?>
 
-			<div class='hero-link'>
-				<a href='<?php echo esc_url( $instance['link_url'] ) ?>'><?php echo esc_html( $instance['link_title'] ) ?></a>
+				<h2 class="hero-title"><?php echo wpautop( esc_html( $instance['title'] ) ) ?></h2>
+
+				<div class='hero-description'>
+					<?php echo wpautop( esc_html( $instance['description'] ) ) ?>
+				</div>
+
+				<div class='hero-link'>
+					<a href='<?php echo esc_url( $instance['link_url'] ) ?>'><?php echo esc_html( $instance['link_title'] ) ?></a>
+				</div>
+
 			</div>
 
 		<?php echo $args['after_widget'];
@@ -103,7 +117,14 @@
 			$cta_text = '';
 			if (!empty($instance['cta_text'])) {
 				$cta_text = $instance['cta_text'];
-			} ?>
+			} 
+
+			$image = '';
+			if (isset($instance['image'])) {
+				$image = $instance['image'];
+			}
+
+			?>
 
 			<p>
 				<label for="<?php echo $this->get_field_name('sub_title'); ?>"><?php _e('Sub-Title:');?></label>
@@ -129,6 +150,12 @@
 		        <label for="<?php echo $this->get_field_name( 'link_title' ); ?>"><?php _e( 'Link Title:' ); ?></label>
 		        <input class="widefat" id="<?php echo $this->get_field_id( 'link_title' ); ?>" name="<?php echo $this->get_field_name( 'link_title' ); ?>" type="text" value="<?php echo esc_attr( $link_title ); ?>" />
 		    </p>
+
+		    <p>
+			    <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
+			    <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36"  value="<?php echo esc_url( $image ); ?>" />
+			    <input class="upload_image_button" type="button" value="Upload Image" />
+			</p>
 <?php
 		}
 	}

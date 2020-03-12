@@ -30,28 +30,32 @@
 
 	<main class="container">
 
-		<aside class="col-md-3">
+		<div class="row">
 
-			<p>Sidebar goes here</p>
+			<aside class="col-md-3">
 
-		</aside>
+				<p>Sidebar goes here</p>
 
-		<section class="wps-container col-md-9">
-		   <?= do_action('wps_breadcrumbs') ?>
+			</aside>
 
-		   <div class="wps-products-all">
-		      
-		      <?php if ($Settings->get_col_value('products_heading_toggle')) { ?>
-		         <h1 class="wps-heading"><?= $Settings->get_col_value('products_heading'); ?></h1>
-		      <?php }
+			<section class="wps-container col-md-9">
+			   <?= do_action('wps_breadcrumbs') ?>
 
-		      $Products->products($args); 
-		      
-		      ?>
+			   <div class="wps-products-all">
+			      
+			      <?php if ($Settings->get_col_value('products_heading_toggle')) { ?>
+			         <h1 class="wps-heading"><?= $Settings->get_col_value('products_heading'); ?></h1>
+			      <?php }
 
-		   </div>
+			      $Products->products($args); 
+			      
+			      ?>
 
-		</section>
+			   </div>
+
+			</section>
+
+		</div>
 
 	</main>
 

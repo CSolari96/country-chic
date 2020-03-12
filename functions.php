@@ -86,14 +86,14 @@
 			</div>
 
 		<?php echo $args['after_widget'];
-		}	
+		}
 
 		public function update($new_instance, $old_instance) {
 			return $new_instance;
 		}
 
 		public function form($instance) {
-			
+
 			$sub_title = '';
 			if (!empty($instance['sub_title'])) {
 				$sub_title = $instance['sub_title'];
@@ -117,7 +117,7 @@
 			$cta_text = '';
 			if (!empty($instance['cta_text'])) {
 				$cta_text = $instance['cta_text'];
-			} 
+			}
 
 			$image = '';
 			if (isset($instance['image'])) {
@@ -239,6 +239,30 @@
 	add_theme_support('post-thumbnails');
 
 	/**********Create a Custom Post Type for Tutorials**********/
-	
+
+
+
+
+		/**********Widgets for contact form**********/
+
+function contact_text () {
+	register_sidebar(array(
+		'name' => ('Contact Page Text'),
+		'id' => 'contact-page-text',
+		'description' => 'The text on the Contact Page before the form',
+		'before_widget' => '<p>',
+		'after_widget' => '</p>',
+		'before_title' => '<h3>'
+		'after_title' => '</h3>'
+	));
+}
+
+add_action('widgets_init', 'contact_text');
+
+
+
+
+
+
 
 ?>

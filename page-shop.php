@@ -17,7 +17,7 @@
 	if (!$description_toggle) {
 	   
 	   $products_options = [
-	      'excludes' => ['description', 'buy-button']
+	      'excludes' => ['buy-button', 'description']
 	   ];
 
 	} else {

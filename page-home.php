@@ -37,15 +37,13 @@
 
 		<div class="col-md-6">
 
-			<p>Insert value title widget here</p>
+			<?php dynamic_sidebar('home-values-title'); ?>
 
 		</div>
 
 		<div class="col-md-6">
 
-			<p class="col-md-6">
-				Insert value widget here
-			</p>
+			<?php dynamic_sidebar('home-values'); ?>
 
 		</div>
 
@@ -65,7 +63,7 @@
 
 		<div class="col-md-12">
 
-			<?php dynamic_sidebar("home-tutorials"); ?>
+			<?php dynamic_sidebar('home-tutorials'); ?>
 
 		</div>
 
@@ -85,7 +83,7 @@
 
 		<div class="col-md-12">
 
-			<?php dynamic_sidebar("home-retailers"); ?>
+			<?php dynamic_sidebar('home-retailers'); ?>
 
 		</div>
 
@@ -95,7 +93,7 @@
 
 		<div class="col-md-8">
 
-			<p>INsert text widget here</p>
+			<?php dynamic_sidebar('home-sketches'); ?>
 
 		</div>
 

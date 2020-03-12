@@ -173,6 +173,26 @@
 		));
 
 		register_sidebar(array(
+			'name' 			=> 	('Home Values Title Widget'),
+			'id' 			=> 	'home-values-title',
+			'description' 	=> 	'Home Page Values Widget Title',
+			'before_widget' => 	'<div class="widget-home-values-title">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="home-values-title">',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Home Values Widget'),
+			'id' 			=> 	'home-values',
+			'description' 	=> 	'Home Page Values Widget',
+			'before_widget' => 	'<div class="widget-home-values col-md-6">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<p class="home-values">',
+			'after_title' 	=> 	'</p>'
+		));
+
+		register_sidebar(array(
 			'name' 			=> 	('Home Tutorials Banner'),
 			'id' 			=> 	'home-tutorials',
 			'description' 	=> 	'Home Page Tutorials Banner',
@@ -189,6 +209,16 @@
 			'before_widget' => 	'<div class="widget-home-retailers">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h3 class="hero-sub-title">',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Home About Sketches Widget'),
+			'id' 			=> 	'home-sketches',
+			'description' 	=> 	'Home Page About Sketches Widget',
+			'before_widget' => 	'<div class="widget-home-sketches">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="home-sketches-title">',
 			'after_title' 	=> 	'</h3>'
 		));
 	}

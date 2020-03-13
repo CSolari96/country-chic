@@ -15,24 +15,55 @@
 <main class="container-fluid">
 
 	<div class="row">
+			<div class="col-12">
+				<?php dynamic_sidebar('contact-page-hero'); ?>
+			</div>
 
-		<?php
-					if (have_posts()) {
-						while (have_posts()) {
-							the_post(); ?>
+		</div>
 
-							<h2><?php the_title(); ?></h2>
+		<div class="row">
+				<div class="col-12">
+					<?php dynamic_sidebar('contact-page-text'); ?>
+				</div>
 
-							<?php the_content(); ?>
-				<?php
-						}  // End while
-					}  // End if
+				<div class="row">
+						<div class="col-6">
+							<?php dynamic_sidebar('contact-page-phone-number'); ?>
+						</div>
+						<div class="col-6">
+							<img src="" alt="Telephone icon"> </img>
+						</div>
 
-				?>
+					</div>
 
-	</div>
+					<div class="row">
+							<div class="col-6">
+								<?php dynamic_sidebar('contact-page-email'); ?>
+							</div>
+							<div class="col-6">
+								<img src="" alt="Mail icon"> </img>
+							</div>
 
-</main>
+						</div>
+
+			</div>
+
+			<div class="row">
+					<div class="col-12">
+					<!--INSERT CONTACT FORM-->
+					</div>
+
+				</div>
+
+				<div class="row">
+						<div class="col-12">
+							<?php dynamic_sidebar('contact-page-hours'); ?>
+
+						</div>
+
+					</div>
+
+	</main>
 
 
 <?php get_footer(); ?>

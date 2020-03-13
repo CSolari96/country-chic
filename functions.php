@@ -262,6 +262,8 @@
 			'after_title' 	=> 	'</h3>'
 		));
 
+		/**********************CONTACT PAGE WIDGETS*************/
+
 		register_sidebar(array(
 			'name' => ('Contact Page Text'),
 			'id' => 'contact-page-text',
@@ -269,6 +271,46 @@
 			'before_widget' => '<p>',
 			'after_widget' => '</p>',
 			'before_title' => '<h3>',
+			'after_title' => '</h3>'
+		));
+
+		register_sidebar(array(
+			'name' => ('Contact Page Hero Image'),
+			'id' => 'contact-page-hero',
+			'description' => 'The hero image on the contact page',
+			'before_widget' => '<div class="widget-contact-image">',
+			'after_widget' => '</div>',
+			'before_title' => '<h2>',
+			'after_title' => '</h2>'
+		));
+
+		register_sidebar(array(
+			'name' => ('Contact Page Phone Number'),
+			'id' => 'contact-page-phone-number',
+			'description' => 'The phone number of Country Chic',
+			'before_widget' => '<p class="phone-number">',
+			'after_widget' => '</p>',
+			'before_title' => '<h3 class="hide">',
+			'after_title' => '</h3>'
+		));
+
+		register_sidebar(array(
+			'name' => ('Contact Page Email'),
+			'id' => 'contact-page-email',
+			'description' => 'The email of Country Chic',
+			'before_widget' => '<p class="email-address">',
+			'after_widget' => '</p>',
+			'before_title' => '<h3 class="hide">',
+			'after_title' => '</h3>'
+		));
+
+		register_sidebar(array(
+			'name' => ('Contact Page Hours'),
+			'id' => 'contact-page-hours',
+			'description' => 'The hours of Country Chic',
+			'before_widget' => '<p>',
+			'after_widget' => '</p>',
+			'before_title' => '<h3 class="hide">',
 			'after_title' => '</h3>'
 		));
 

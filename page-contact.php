@@ -31,7 +31,7 @@
 							<?php dynamic_sidebar('contact-page-phone-number'); ?>
 						</div>
 						<div class="col-6">
-							<img src="../img/phone.PNG" alt="Telephone icon"> </img>
+							<img src="images/phone.PNG" alt="Telephone icon"> </img>
 						</div>
 
 					</div>
@@ -41,7 +41,7 @@
 								<?php dynamic_sidebar('contact-page-email'); ?>
 							</div>
 							<div class="col-6">
-								<img src="paper-plane.PNG" alt="Mail icon"> </img>
+								<img src="images/paper-plane.PNG" alt="Mail icon"> </img>
 							</div>
 
 						</div>

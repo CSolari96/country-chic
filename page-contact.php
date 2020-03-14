@@ -18,7 +18,7 @@
 	      <div class="jumbotron jumbotron-fluid">
 	          <div class="row">
 	            <div class="col-md-12">
-								<img src="<?php echo get_template_directory_uri() . '../images/shoreline-landscape-in-vancouver.jpg'?>" alt="Beautiful shoreline in Vancouver, B.C." class="contact-hero"/>
+								<img src="<?php echo get_template_directory_uri() . '/images/shoreline-landscape-in-vancouver.jpg'?>" alt="Beautiful shoreline in Vancouver, B.C." class="contact-hero"/>
 	              <h1> <?php the_title(); ?> </h1>
 	            </div>
 	      </div>

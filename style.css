@@ -98,22 +98,24 @@ body {
   padding: 5%;
 }
 
+.icons {
+  max-width: 25px;
+}
+
 .your-name input, .your-email input {
   margin-bottom: 1%;
 }
 
-.your-name input, .your-email input, .comment textarea {
+.your-name input, .your-email input, .your-message textarea {
   border: 0;
-  box-shadow: inset 0px 0px 5px 0px #2d2d2e;
   padding: 2%;
 }
 
-.your-name input:focus, .your-email input:focus, .comment textarea:focus {
+.your-name input:focus, .your-email input:focus, textarea:focus {
   outline: 0;
-  box-shadow: 0px 0px 5px 0px #d90000;
 }
 
-.your-name input::placeholder, .your-email input::placeholder, .comment textarea::placeholder {
+.your-name input::placeholder, .your-email input::placeholder, .your-message textarea::placeholder {
   color: #7b7b7b;
 }
 

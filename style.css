@@ -171,6 +171,12 @@ div.wpcf7 {
 	margin-right: auto;
 }
 
+/**********ABOUT PAGE STYLING**********/
+
+.video-container {
+  max-width: 1000px;
+  margin: auto;
+}
 
 
 /**********MEDIA QUERIES STYLING**********/

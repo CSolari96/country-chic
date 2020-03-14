@@ -330,7 +330,7 @@ register_sidebar(array(
 	'name' => ('About video'),
 	'id' => 'video-about-us',
 	'description' => 'A video describing Country Chic',
-	'before_widget' => '<div>',
+	'before_widget' => '<div class="video-container">',
 	'after_widget' => '</div>',
 	'before_title' => '<h3>',
 	'after_title' => '</h3>'

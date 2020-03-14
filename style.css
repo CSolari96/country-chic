@@ -110,6 +110,7 @@ body {
   border: 0;
   padding: 2%;
   border-radius: 8px;
+  width: 100%;
 }
 
 .your-name input:focus, .your-email input:focus, textarea:focus {
@@ -134,11 +135,6 @@ body {
 input.wpcf7-form-control.wpcf7-submit {
 display: block;
 margin: 0 auto;
-}
-
-.wpcf7 input,
-.wpcf7 textarea {
-	width: 100%;
 }
 
 .wpcf7 label {

@@ -30,23 +30,23 @@
 			</section>
 
 		<section class="justify-content-center">
-				<div class="row">
-						<div class="col-6">
+				<div class="row col-12">
+						<div>
 							<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
 						</div>
-						<div class="col-6">
+						<div>
 							<?php dynamic_sidebar('contact-page-phone-number'); ?>
 						</div>
 					</div>
 
-					<div class="row">
-							<div class="col-6">
+					<div class="row col-12">
+							<div>
 								<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
 							</div>
-							<div class="col-6">
+							<div>
 								<?php dynamic_sidebar('contact-page-email'); ?>
 							</div>
-						</div>
+					</div>
 			</section>
 
 			<section id="contact-form-section">

@@ -14,6 +14,15 @@
 
 <main class="container-fluid">
 
+	<!-- Jumbotron header -->
+	      <div class="jumbotron jumbotron-fluid">
+	          <div class="row">
+	            <div class="col-md-12">
+	              <h1> <?php the_title(); ?> </h1>
+	            </div>
+	      </div>
+			</div>
+
 	<div class="row">
 			<div class="col-12">
 				<?php dynamic_sidebar('contact-page-hero'); ?>

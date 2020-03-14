@@ -109,6 +109,7 @@ body {
 .your-name input, .your-email input, .your-message textarea {
   border: 0;
   padding: 2%;
+  border-radius: 3px;
 }
 
 .your-name input:focus, .your-email input:focus, textarea:focus {

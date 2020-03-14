@@ -109,7 +109,7 @@ body {
 .your-name input, .your-email input, .your-message textarea {
   border: 0;
   padding: 2%;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .your-name input:focus, .your-email input:focus, textarea:focus {
@@ -124,10 +124,30 @@ body {
   background-color: #99c6d1;
   color: #ffffff;
   border: 0;
-  font-size: 2rem;
-  padding: 2%;
-  width: 170px;
-  box-shadow: 0px 0px 3px 0px #d90000;
+  font-size: 2.5rem;
+  padding: 15px 25px;
+  box-shadow: 0px 0px 3px 0px #7b7b7b;
+  border-radius: 8px;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+display: block;
+margin: 0 auto;
+}
+
+.wpcf7 input,
+.wpcf7 textarea {
+	width: 100%;
+}
+
+.wpcf7 label {
+	display: block;
+}
+
+div.wpcf7 {
+	max-width: 30em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 

@@ -103,8 +103,6 @@ body {
 }
 
 .your-name input, .your-email input, .comment textarea {
-  background-color: #949293;
-  color: #ffffff;
   border: 0;
   box-shadow: inset 0px 0px 5px 0px #2d2d2e;
   padding: 2%;
@@ -116,7 +114,7 @@ body {
 }
 
 .your-name input::placeholder, .your-email input::placeholder, .comment textarea::placeholder {
-  color: #2d2d2e;
+  color: #7b7b7b;
 }
 
 

@@ -94,7 +94,6 @@ body {
 
 
 .jumbotron {
-  background-image: url('../images/shoreline-landscape-in-vancouver.jpg');
   height: 400px;
   background-attachment: scroll; /*changed to scroll on mobile version because fixed makes the pictures zoomed in and blurry */
   display: flex;

@@ -92,6 +92,33 @@ body {
 
 /**********CONTACT PAGE STYLING**********/
 
+#contact-form-section {
+  background: rgb(99,164,151);
+  background: radial-gradient(circle, rgba(99,164,151,1) 0%, rgba(123,123,123,1) 100%);
+  padding: 5%;
+}
+
+.your-name input, .your-email input {
+  margin-bottom: 1%;
+}
+
+.your-name input, .your-email input, .comment textarea {
+  background-color: #949293;
+  color: #ffffff;
+  border: 0;
+  box-shadow: inset 0px 0px 5px 0px #2d2d2e;
+  padding: 2%;
+}
+
+.your-name input:focus, .your-email input:focus, .comment textarea:focus {
+  outline: 0;
+  box-shadow: 0px 0px 5px 0px #d90000;
+}
+
+.your-name input::placeholder, .your-email input::placeholder, .comment textarea::placeholder {
+  color: #2d2d2e;
+}
+
 
 
 /**********MEDIA QUERIES STYLING**********/

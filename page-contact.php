@@ -49,7 +49,7 @@
 						</div>
 			</section>
 
-			<section>
+			<section id="contact-form-section">
 				<div class="row">
 						<div class="col-12">
 								<?php dynamic_sidebar('contact-form'); ?>

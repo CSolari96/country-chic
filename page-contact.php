@@ -13,23 +13,10 @@
 <?php get_header(); ?>
 
 <main class="container-fluid">
+	<div class="post-featured-image">
+		<?php the_post_thumbnail('large'); ?>
+	</div>
 
-	<!-- Jumbotron header -->
-	      <div class="jumbotron jumbotron-fluid">
-	          <div class="row">
-	            <div class="col-md-12">
-								<img class="contact-jumbo" src="<?php echo get_template_directory_uri() . '/images/shoreline-landscape-in-vancouver.jpg'?>" alt="Beautiful shoreline in Vancouver, B.C." class="contact-hero"/>
-	              <h1> <?php the_title(); ?> </h1>
-	            </div>
-	      </div>
-			</div>
-
-	<div class="row">
-			<div class="col-12">
-				<?php dynamic_sidebar('contact-page-hero'); ?>
-			</div>
-
-		</div>
 
 		<section>
 			<div class="row">

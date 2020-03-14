@@ -93,8 +93,8 @@ body {
 /**********CONTACT PAGE STYLING**********/
 
 
-.jumbotron {
-  background-attachment: scroll; /*changed to scroll on mobile version because fixed makes the pictures zoomed in and blurry */
+/*.jumbotron {
+  background-attachment: scroll; /*changed to scroll on mobile version because fixed makes the pictures zoomed in and blurry
   padding: 0;
   z-index: -1;
   background-size: cover;
@@ -112,6 +112,10 @@ body {
 
 .contact-jumbo {
 
+} */
+
+.post-featured-image img {
+  object-fit: cover;
 }
 
 #contact-form-section {

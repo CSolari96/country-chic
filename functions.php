@@ -324,6 +324,18 @@
 			'after_title' => '</h3>'
 		));
 
+/**********************CONTACT PAGE WIDGETS*************/
+
+register_sidebar(array(
+	'name' => ('About video'),
+	'id' => 'video-about-us',
+	'description' => 'A video describing Country Chic',
+	'before_widget' => '<div>',
+	'after_widget' => '</div>',
+	'before_title' => '<h3>',
+	'after_title' => '</h3>'
+));
+
 	}
 
 	add_action('widgets_init', 'blank_widgets_init');

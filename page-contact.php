@@ -12,12 +12,22 @@
 
 <?php get_header(); ?>
 
-<main class="container-fluid">
+	<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php the_post_thumbnail('full'); ?>)">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1> <?php the_title(); ?> </h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 	<div class="post-featured-image">
 		<?php the_post_thumbnail('large'); ?>
 	</div>
 
-
+<main class="container-fluid">
 		<section>
 			<div class="row">
 				<div class="col-12">

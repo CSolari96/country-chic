@@ -198,7 +198,7 @@
 
 					<?php
 
-						echo '<span class="testimonial_name">' . esc_html($instance['name']) . '</span>';
+						echo '<span class="testimonial_name">' . esc_html($instance['name']) . '</span>  ';
 
 						echo '<span class="testimonial_location">' . esc_html($instance['location']) . '</span';
 

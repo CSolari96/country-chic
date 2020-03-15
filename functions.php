@@ -194,7 +194,17 @@
 
 				<p><span class="quotes">"</span><?php echo esc_html( $instance['review'] ); ?><span class="quotes">"</span></p>
 
-				<p><?php echo '<span class="testimonial_name">' . esc_html( $instance['name'] ) . '</span>' . '<span class="testimonial_location>' . esc_html( $instance['location'] ) . '</span>'; ?></p>
+				<p>
+
+					<?php
+
+						echo '<span class="testimonial_name">' . esc_html($instance['name']) . '</span>';
+
+						echo '<span class="testimonial_location">' . esc_html($instance['location']) . '</span';
+
+					?>
+
+				</p>
 
 			</div>
 

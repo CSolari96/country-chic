@@ -479,8 +479,8 @@ function create_post_type(){
 	register_post_type('tutorial_types',
 		array(
 			'labels' => array(
-				'name' => __('Menu Items'),
-				'singular_name' => __('Menu Item')
+				'name' => __('Tutorials'),
+				'singular_name' => __('Tutorials')
 			),
 			'public' 						=> true,
 			'has_archive'				=> true,

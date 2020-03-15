@@ -67,21 +67,27 @@
 		public function widget($args, $instance) {
 			echo $args['before_widget']; ?>
 
-			<div style="background-image: url('<?php echo $instance['image']; ?>')">
+			<div class="hero-widget-content" style="background-image: url('<?php echo $instance['image']; ?>')">
 
-				<?php if ( ! empty( $instance['sub_title'] ) ) {
-					echo $args['before_title'] . apply_filters( 'widget_title', $instance['sub_title'] ). $args['after_title'];
-				} ?>
+				<?php 
 
-				<h2 class="hero-title"><?php echo wpautop( esc_html( $instance['title'] ) ) ?></h2>
+					if ( ! empty( $instance['sub_title'] ) ) {
+						echo $args['before_title'] . apply_filters( 'widget_title', $instance['sub_title'] ). $args['after_title'];
+					} 
 
-				<div class='hero-description'>
-					<?php echo wpautop( esc_html( $instance['description'] ) ) ?>
-				</div>
+					if (! empty( $instance['title'] ) ) {
+						echo '<h2 class="hero-title">' . esc_html( $instance['title']) . '</h2>';
+					}
 
-				<div class='hero-link'>
-					<a href='<?php echo esc_url( $instance['link_url'] ) ?>'><?php echo esc_html( $instance['link_title'] ) ?></a>
-				</div>
+					if (! empty( $instance['description'] ) ) {
+						echo '<p class="hero-description">' . esc_html( $instance['description']) . '</p>';
+					}
+
+					if (! empty( $instance['link_url'] ) ) {
+						echo '<a href="' . esc_url( $instance['link_url']) . '" class="hero-link">' . esc_html( $instance['link_title']) . '</a>';
+					}
+
+				?>
 
 			</div>
 
@@ -155,6 +161,131 @@
 			    <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
 			    <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36"  value="<?php echo esc_url( $image ); ?>" />
 			    <input class="upload_image_button" type="button" value="Upload Image" />
+			</p>
+<?php
+		}
+	}
+
+	// Create Testimonial Widget
+	add_action('widgets_init', 'testimonial_init');
+
+	function testimonial_init() {
+		register_widget('testimonial_widget');
+	}
+
+	class testimonial_widget extends WP_Widget {
+
+		public function __construct() {
+			$widget_details = array(
+				'classname' 	=> 	'testimonial_widget',
+				'description' 	=>	'Creates a product testimonial with customer name, image, location, and review'
+			);
+
+			parent::__construct('testimonial_widget', 'Testimonial Widget', $widget_details);
+
+			add_action('admin_enqueue_scripts', array($this, 'testimonial_assets'));
+		}
+
+		public function testimonial_assets() {
+			wp_enqueue_script('media-upload');
+			wp_enqueue_script('thickbox');
+			wp_enqueue_script('hero-media-upload', get_template_directory_uri() . '/js/hero-media-upload.js', array( 'jquery' )) ;
+			wp_enqueue_style('thickbox');
+		}
+
+		public function widget($args, $instance) {
+			echo $args['before_widget']; ?>
+
+			<div class="col-md-9">
+
+				<p><span class="quotes">"</span><?php echo esc_html( $instance['review'] ); ?><span class="quotes">"</span></p>
+
+				<p>
+
+					<?php
+
+						echo '<span class="testimonial_name">' . esc_html($instance['name']) . '</span>  ';
+
+						echo '<span class="testimonial_location">' . esc_html($instance['location']) . '</span';
+
+					?>
+
+				</p>
+
+			</div>
+
+			<div class="col-md-3 <?php echo $instance['image_location']; ?>">
+
+				<img src='<?php echo $instance['image']; ?>' />
+
+			</div>
+
+		<?php echo $args['after_widget'];
+		}
+
+		public function update($new_instance, $old_instance) {
+			return $new_instance;
+		}
+
+		public function form($instance) {
+
+			$name = '';
+			if (isset($instance['name'])) {
+				$name = $instance['name'];
+			}
+
+			$location = '';
+			if (isset($instance['location'])) {
+				$location = $instance['location'];
+			}
+
+			$review = '';
+			if (isset($instance['review'])) {
+				$review = $instance['review'];
+			}
+
+			$image = '';
+			if (isset($instance['image'])) {
+				$image = $instance['image'];
+			}
+
+			$image_location = '';
+			if (isset($instance['image_location'])) {
+				$image_location = $instance['image_location'];
+			}
+
+			?>
+
+			<p>
+				<label for="<?php echo $this->get_field_name('name'); ?>"><?php _e('Name:');?></label>
+				<input class="widefat" id="<?php echo $this->get_field_id('name'); ?>" name="<?php echo $this->get_field_name('name'); ?>" type="text" value="<?php echo esc_attr($name); ?>" />
+			</p>
+
+			<p>
+				<label for="<?php echo $this->get_field_name('location'); ?>"><?php _e('Location and/or Business Name:');?></label>
+				<input class="widefat" id="<?php echo $this->get_field_id('location'); ?>" name="<?php echo $this->get_field_name('location'); ?>" type="text" value="<?php echo esc_attr($location); ?>" />
+			</p>
+
+			<p>
+		        <label for="<?php echo $this->get_field_name( 'review' ); ?>"><?php _e( 'Product Review:' ); ?></label>
+		        <textarea class="widefat" id="<?php echo $this->get_field_id( 'review' ); ?>" name="<?php echo $this->get_field_name( 'review' ); ?>" type="text" ><?php echo esc_attr( $review ); ?></textarea>
+		    </p>
+
+		    <p>
+			    <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
+			    <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36"  value="<?php echo esc_url( $image ); ?>" />
+			    <input class="upload_image_button" type="button" value="Upload Image" />
+			</p>
+
+			<p>
+
+				<label for="<?php echo $this->get_field_name( 'image_location' ); ?>"><?php _e( 'Where to Display Image:' ); ?></label>
+				<select class="widefat" id="<?php echo $this->get_field_id('image_location'); ?>" name="<?php echo $this->get_field_name('image_location'); ?>" type="text">
+					<option value="left" <?php echo "left" == $image_location ? "selected" : ""; ?>>Left</option>
+					<option value="right" <?php echo "right" == $image_location ? "selected" : ""; ?>>Right</option>
+				</select>
+
+
 			</p>
 <?php
 		}

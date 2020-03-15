@@ -344,6 +344,40 @@ register_sidebar(array(
 	add_theme_support('post-thumbnails');
 
 	/**********Create a Custom Post Type for Tutorials**********/
+function create_post_type(){
+	register_post_type('tutorial_types',
+		array(
+			'labels' => array(
+				'name' => __('Menu Items'),
+				'singular_name' => __('Menu Item')
+			),
+			'public' 						=> true,
+			'has_archive'				=> true,
+			'show_in_menu'			=> true,
+			'show_in_nav_menus' => true,
+			'show_in_admin_bar' => true,
+			'menu_position' 		=> 1,
+			'can_export' 				=> true,
+			'menu_icon' 				=> 'dashicons-video-alt2',
+		)
+	);
+}
+
+add_action('init', 'create_post_type');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>

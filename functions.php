@@ -69,11 +69,11 @@
 
 			<div class="hero-widget-content" style="background-image: url('<?php echo $instance['image']; ?>')">
 
-				<?php 
+				<?php
 
 					if ( ! empty( $instance['sub_title'] ) ) {
 						echo $args['before_title'] . apply_filters( 'widget_title', $instance['sub_title'] ). $args['after_title'];
-					} 
+					}
 
 					if (! empty( $instance['title'] ) ) {
 						echo '<h2 class="hero-title">' . esc_html( $instance['title']) . '</h2>';
@@ -487,7 +487,7 @@ function create_post_type(){
 			'show_in_menu'			=> true,
 			'show_in_nav_menus' => true,
 			'show_in_admin_bar' => true,
-			'menu_position' 		=> 1,
+			'menu_position' 		=> 2,
 			'can_export' 				=> true,
 			'menu_icon' 				=> 'dashicons-video-alt2',
 		)

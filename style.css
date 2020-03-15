@@ -92,6 +92,7 @@ main.container-fluid {
   background-size: cover;
   background-position: bottom;
   max-height: 650px;
+  width: 100%;
   padding: 5%;
   color: #ffffff;
   margin: 0 0 5% 0;

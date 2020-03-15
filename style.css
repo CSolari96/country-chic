@@ -373,6 +373,12 @@ div.wpcf7 {
 
 p iframe {
   display: block;
+  max-height: 500px;
+}
+
+.tutorial-post h4 img, .block-title, .block-content {
+  display: inline;
+
 
 }
 

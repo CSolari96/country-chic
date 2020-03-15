@@ -128,6 +128,8 @@ body {
 .hero-link:hover, .hero-link:active {
   background-color: #d4af37;
   transition: all 0.2s;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /* Tutorials Banner */

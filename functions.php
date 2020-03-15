@@ -194,7 +194,7 @@
 
 				<p><span class="quotes">"</span><?php echo wpautop( esc_html( $instance['review'] ) ) ?><span class="quotes">"</span></p>
 
-				<p><?php echo wpautop( '<span class="testimonial_name">' . esc_html( $instance['name'] ) . '</span>' . '<span class="testimonial_location>' . esc_html( $instance['location'] ) . '</span>' ) ?></p>
+				<p><?php echo '<span class="testimonial_name">' . esc_html( $instance['name'] ) . '</span>' . '<span class="testimonial_location>' . esc_html( $instance['location'] ) . '</span>'; ?></p>
 
 			</div>
 

@@ -290,5 +290,12 @@ div.wpcf7 {
   margin: auto;
 }
 
+/**********TUTORIALS PAGE STYLING**********/
+
+p iframe {
+  display: block;
+
+}
+
 
 /**********MEDIA QUERIES STYLING**********/

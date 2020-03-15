@@ -11,7 +11,7 @@
 
 							<h2><?php the_title(); ?></h2>
 
-							<?php the_content(); ?>
+							<div class="tutorial-post"><?php the_content(); ?></div>
 				<?php
 						}  // End while
 					}  // End if

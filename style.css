@@ -227,6 +227,27 @@ main.container-fluid {
 }
 /* End Testimonials Container */
 
+/* Instagram Feed */
+.widget-home-instagram {
+  padding: 5%;
+}
+
+.instagram-title {
+  text-align: center;
+  margin: 5% 0;
+  line-height: 25px;
+  color: #63a496;
+}
+.wdi_feed_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#wdi_feed_0 .wdi_feed_item {
+  width: 50% !important;
+}
+/* End Instagram Feed */
+
 
 /**********ABOUT PAGE STYLING**********/
 

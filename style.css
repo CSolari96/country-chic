@@ -73,6 +73,10 @@ main.container-fluid {
   padding: 0;
 }
 
+.col-md-12 {
+  padding: 0;
+}
+
 /* Hero Banners */
 .hero-widget-content {
   background-repeat: no-repeat;

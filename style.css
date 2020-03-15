@@ -373,7 +373,7 @@ p iframe {
   max-height: 500px;
 }
 
-.tutorial-individal-posts {
+.tutorial-individual-posts {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;

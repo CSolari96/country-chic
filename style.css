@@ -259,6 +259,14 @@ main.container-fluid {
 }
 /* End Instagram Feed */
 
+/* Sketches Description */
+.widget-home-sketches {
+  font-size: 0.75rem;
+  line-height: 25px;
+  margin: 5%;
+}
+/* End Sketches Description */
+
 
 /**********ABOUT PAGE STYLING**********/
 

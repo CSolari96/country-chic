@@ -183,6 +183,49 @@ main.container-fluid {
 }
 /* End Values Container */
 
+/* Testimonials Container */
+.testimonials-container {
+  padding: 5%;
+}
+
+.widget-home-testimonials {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0;
+}
+
+.widget-home-testimonials p {
+  margin: 10% 0;
+}
+
+.quotes {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #63a496;
+}
+
+.testimonial-name {
+  /* font-family: 'Noteworthy'; */
+  color: #63a496;
+  padding-right: 5%;
+}
+
+.testimonial-location {
+
+}
+
+.widget-home-testimonials img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  min-width: 150px;
+}
+
+.left, .right {
+  order: -1;
+}
+/* End Testimonials Container */
+
 
 /**********ABOUT PAGE STYLING**********/
 

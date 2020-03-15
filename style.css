@@ -83,6 +83,7 @@ main.container-fluid {
 
 .col-md-12, .col-12 {
   margin: 0;
+  padding: 0;
 }
 
 /* Hero Banners */

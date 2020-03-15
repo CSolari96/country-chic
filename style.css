@@ -46,6 +46,9 @@ body {
 }
 
 /**********HEADER STYLING**********/
+.logo {
+  width: 50%;
+}
 
 #top-menu {
     display: flex;

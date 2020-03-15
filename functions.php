@@ -67,13 +67,13 @@
 		public function widget($args, $instance) {
 			echo $args['before_widget']; ?>
 
-			<div style="background-image: url('<?php echo $instance['image']; ?>')">
+			<div class="hero-widget-content" style="background-image: url('<?php echo $instance['image']; ?>')">
 
 				<?php if ( ! empty( $instance['sub_title'] ) ) {
 					echo $args['before_title'] . apply_filters( 'widget_title', $instance['sub_title'] ). $args['after_title'];
 				} ?>
 
-				<h2 class="hero-title"><?php echo wpautop( esc_html( $instance['title'] ) ) ?></h2>
+				<h2 class="hero-title"><?php echo esc_html( $instance['title'] ); ?></h2>
 
 				<div class='hero-description'>
 					<?php echo wpautop( esc_html( $instance['description'] ) ) ?>

@@ -368,9 +368,10 @@ div.wpcf7 {
 
 /**********TUTORIALS PAGE STYLING**********/
 
-p iframe {
+.tutorial-page iframe {
   display: block;
   max-height: 500px;
+  margin: auto;
 }
 
 .tutorial-individual-posts {
@@ -380,6 +381,10 @@ p iframe {
   justify-content: space-around;
   align-items: flex-start;
 
+}
+
+h4 img {
+  max-width: 200px;
 }
 
 

@@ -375,9 +375,12 @@ p iframe {
   max-height: 500px;
 }
 
-.tutorial-post h4 img, .block-title, .block-content {
-  display: inline;
-
+.tutorial-individal-posts {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
 
 }
 

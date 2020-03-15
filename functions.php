@@ -69,19 +69,25 @@
 
 			<div class="hero-widget-content" style="background-image: url('<?php echo $instance['image']; ?>')">
 
-				<?php if ( ! empty( $instance['sub_title'] ) ) {
-					echo $args['before_title'] . apply_filters( 'widget_title', $instance['sub_title'] ). $args['after_title'];
-				} ?>
+				<?php 
 
-				<h2 class="hero-title"><?php echo esc_html( $instance['title'] ); ?></h2>
+					if ( ! empty( $instance['sub_title'] ) ) {
+						echo $args['before_title'] . apply_filters( 'widget_title', $instance['sub_title'] ). $args['after_title'];
+					} 
 
-				<div class='hero-description'>
-					<?php echo wpautop( esc_html( $instance['description'] ) ) ?>
-				</div>
+					if (! empty( $instance['title'] ) ) {
+						echo '<h2 class="hero-title">' . esc_html( $instance['title']) . '</h2>';
+					}
 
-				<div class='hero-link'>
-					<a href='<?php echo esc_url( $instance['link_url'] ) ?>'><?php echo esc_html( $instance['link_title'] ) ?></a>
-				</div>
+					if (! empty( $instance['description'] ) ) {
+						echo '<p class="hero-description">' . esc_html( $instance['description']) . '</p>';
+					}
+
+					if (! empty( $instance['link_url'] ) ) {
+						echo '<a href="' . esc_url( $instance['link_url']) . '" class="hero-link">' . esc_html( $instance['link_title']) . '</a>';
+					}
+
+				?>
 
 			</div>
 

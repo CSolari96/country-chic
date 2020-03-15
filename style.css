@@ -69,7 +69,40 @@ body {
 }
 
 /**********HOME PAGE STYLING**********/
+main.container-fluid {
+  padding: 0;
+}
 
+.hero-widget-content {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding: 5%;
+  color: #ffffff;
+}
+
+.hero-widget-content h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.hero-widget-content h2 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero-link {
+  margin: 3% 0;
+}
+
+.hero-link a:link, .hero-link a:visited {
+  background-color: #63a497;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 1%;
+}
 
 
 /**********ABOUT PAGE STYLING**********/

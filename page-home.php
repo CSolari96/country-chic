@@ -45,13 +45,13 @@
 
 			<div class="row">
 
-				<div class="col-md-6">
+				<div class="col-6">
 
 					<?php dynamic_sidebar('home-values1'); ?>
 
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-6">
 
 					<?php dynamic_sidebar('home-values2'); ?>
 

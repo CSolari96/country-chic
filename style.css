@@ -391,6 +391,10 @@ div.wpcf7 {
 
 }
 
+.tutorial-individual-posts p {
+  padding: 3% 0;
+}
+
 h4 img {
   max-width: 200px;
 }

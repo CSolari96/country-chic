@@ -149,7 +149,39 @@ main.container-fluid {
 }
 /* End intro description */
 
+/* Values Container */
+.values-container {
+  color: #ffffff;
+  text-shadow: 0 3px 6px #7b7b7b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5%;
+}
 
+.home-values-title {
+    font-size: 1.5rem;
+    margin: 5%;
+}
+
+.widget-home-values {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0;
+}
+
+.home-values {
+  font-size: 0.75rem;
+  margin: 2% 0;
+  order: 55;
+}
+
+.widget-home-values img {
+  display: block;
+  margin: 5% auto;
+  width: 60%;
+}
+/* End Values Container */
 
 
 /**********ABOUT PAGE STYLING**********/

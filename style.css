@@ -398,11 +398,35 @@ h4 img {
 
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 576px) {
+  .hero-sub-title {
+    font-size: 1.25rem;
+  }
+
+  .hero-title{
+    font-size: 3rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .intro-widget-title {
+    font-size: 2rem;
+  }
+
+  .home-values-title {
+    font-size: 1.75rem;
+  }
+
   .widget-home-testimonials {
     flex-direction: row;
   }
 
   .right {
     order: 0;
+  }
+
+  .instagram-title {
+    font-size: 1.5rem;
   }
 }

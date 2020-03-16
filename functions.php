@@ -467,6 +467,7 @@ register_sidebar(array(
 	'after_title' => '</h3>'
 ));
 
+	register_sidebar(array(
 		'name' => ('Values title'),
 		'id' => 'about-values-title',
 		'description' => 'The values of the about page',
@@ -476,6 +477,7 @@ register_sidebar(array(
 		'after_title' => '</h3>'
 		));
 
+	register_sidebar(array(
 		'name' => ('Low Environment Impact Value'),
 		'id' => 'low-impact-value',
 		'description' => 'Low Environmental Impact Value',
@@ -485,6 +487,7 @@ register_sidebar(array(
 		'after_title' => '</h4>'
 		));
 
+	register_sidebar(array(
 		'name' => ('Supporting the local economy'),
 		'id' => 'local-economy-value',
 		'description' => 'Supporting the local economy value',
@@ -494,6 +497,7 @@ register_sidebar(array(
 		'after_title' => '</h4>'
 		));
 
+	register_sidebar(array(
 		'name' => ('Participating in Recycling Programs'),
 		'id' => 'recycling-programs-value',
 		'description' => 'Participating in Recylcling Programs value',
@@ -503,6 +507,7 @@ register_sidebar(array(
 		'after_title' => '</h4>'
 		));
 
+	register_sidebar(array(
 		'name' => ('Helping those in need'),
 		'id' => 'those-in-need-value',
 		'description' => 'Helping those in need value',

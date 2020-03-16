@@ -461,6 +461,13 @@ h4 img {
 
 
 /**********MEDIA QUERIES STYLING**********/
+@media(min-width: 510px) {
+  .wps-w-3.wps-item.p-3 {
+    width: 46%;
+    margin: 5% 2%;
+  }
+}
+
 @media(min-width: 576px) {
   .hero-sub-title {
     font-size: 1.25rem;
@@ -499,6 +506,13 @@ h4 img {
   }
 }
 
+@media(min-width:650px) {
+  .wps-w-3.wps-item.p-3 {
+    width: 31%;
+    margin: 3% 1%;
+  }
+}
+
 @media(min-width: 768px) {
   .widget-home-intro {
     margin: 15% 0;
@@ -528,6 +542,7 @@ h4 img {
     font-size: 1rem;
   }
 }
+
 
 @media(min-width: 1140px) {
     .hero-widget-content {

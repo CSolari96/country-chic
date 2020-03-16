@@ -10,6 +10,7 @@
 	get_header();
 
 	$Products = WP_Shopify\Factories\Render\Products\Products_Factory::build();
+	$Collections = WP_Shopify\Factories\Render\Collections\Collections_Factory::build();
 	$Settings = WP_Shopify\Factories\DB\Settings_General_Factory::build();
 
 	$description_toggle = $Settings->get_col_value('products_plp_descriptions_toggle');
@@ -26,6 +27,12 @@
 
 	$args = apply_filters('wps_products_all_args', $products_options);
 
+	$collections_query = [
+	 	'dropzone_collection_title' => '#title-container'
+	 ];
+
+	 $Collections->collections($collections_query);
+
 	?>
 
 	<main class="container-fluid">
@@ -34,7 +41,11 @@
 
 			<aside class="col-md-3">
 
-				<p>Sidebar goes here</p>
+				<h2>Sort</h2>
+
+			   <div id="title-container">
+
+			   </div>
 
 			</aside>
 

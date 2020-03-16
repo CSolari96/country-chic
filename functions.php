@@ -196,7 +196,7 @@
 		public function widget($args, $instance) {
 			echo $args['before_widget']; ?>
 
-			<div class="col-md-9">
+			<div class="col-sm-8 col-md-8 col-xl-9">
 
 				<p><span class="quotes">&ldquo;</span><?php echo esc_html( $instance['review'] ); ?><span class="quotes">&rdquo;</span></p>
 
@@ -214,7 +214,7 @@
 
 			</div>
 
-			<div class="col-md-3 <?php echo $instance['image_location']; ?>">
+			<div class="col-sm-4 col-md-4 col-xl-3 <?php echo $instance['image_location']; ?>">
 
 				<img src='<?php echo $instance['image']; ?>' />
 

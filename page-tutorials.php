@@ -22,12 +22,11 @@
 		while($loop->have_posts()): $loop->the_post();?>
 
 		<div class="col-md-4">
-			<h3><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h3>
 			<?php if(has_post_thumbnail()) {
 				the_post_thumbnail('medium'); ?>
 		</div>
-		<div class="col-md-8">
 			<div class="col-md-5">
+				<h3><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h3>
 				<?php the_excerpt(); ?>
 		</div>
 
@@ -36,7 +35,6 @@
 				<?php the_field('product'); ?>
 				<?php the_field('brushes_used'); ?>
 			</div>
-		</div>
 
 	<?php	} ?>
 

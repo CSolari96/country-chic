@@ -227,6 +227,7 @@ body {
   margin: 5% auto;
   width: 50%;
   min-width: 150px;
+  max-width: 250px;
 }
 
 .left, .right {
@@ -448,10 +449,6 @@ h4 img {
     font-size: 1rem;
   }
 
-  .widget-home-testimonials {
-    margin: 5% 0;
-  }
-
   .widget-home-testimonials img {
     width: 100%;
   }
@@ -463,4 +460,77 @@ h4 img {
   #wdi_feed_0 .wdi_feed_item {
     width: 25% !important;
   }
+
+  .widget-home-sketches {
+    font-size: 1rem;
+  }
+}
+
+@media(min-width: 1140px) {
+    .hero-widget-content {
+      padding: 5% 10%;
+    }
+
+    .hero-sub-title {
+      font-size: 1.75rem;
+    }
+
+    .hero-title {
+      font-size: 5rem;
+    }
+
+    .hero-description {
+      width: 45%;
+    }
+
+    .hero-link {
+      padding: 1.75% 4%;
+      font-size: 1.25rem;
+    }
+
+    .widget-home-intro {
+      margin: 10% 0; 
+    }
+
+    .widget-home-intro p {
+      margin: 5% 0;
+    }
+
+    .values-container {
+      padding: 5% 10%;
+    }
+
+    .home-values-title {
+      font-size: 3rem;
+    }
+
+    .widget-home-testimonials {
+      margin: 0 auto;
+      max-width: 1140px;
+    }
+
+    .widget-home-testimonials p {
+      margin: 10% 5%;
+    }
+
+    .widget-home-tutorials .hero-description {
+      margin: 0 0 0 auto;
+    }
+
+    .widget-home-instagram {
+      padding: 5%;
+    }
+
+    .instagram-title {
+      font-size: 2rem;
+      margin: 2% 0 5% 0;
+    }
+
+    .wdi_feed_wrapper {
+      max-width: 1200px;
+    }
+    
+    .widget-home-sketches {
+      margin: 5% 14%;
+    }
 }

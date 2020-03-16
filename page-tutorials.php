@@ -15,7 +15,7 @@
 
 	<div class="row">
 
-		<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page'= 12);
+		<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 12);
 
 		$loop = new WP_Query($args);
 

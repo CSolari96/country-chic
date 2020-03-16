@@ -397,3 +397,12 @@ h4 img {
 
 
 /**********MEDIA QUERIES STYLING**********/
+@media(min-width: 576px) {
+  .widget-home-testimonials {
+    flex-direction: row;
+  }
+
+  .right {
+    order: 0;
+  }
+}

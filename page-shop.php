@@ -10,6 +10,7 @@
 	get_header();
 
 	$Products = WP_Shopify\Factories\Render\Products\Products_Factory::build();
+	$Collections = WP_Shopify\Factories\Render\Collections\Collections_Factory::build();
 	$Settings = WP_Shopify\Factories\DB\Settings_General_Factory::build();
 
 	$description_toggle = $Settings->get_col_value('products_plp_descriptions_toggle');
@@ -32,9 +33,20 @@
 
 		<div class="row">
 
-			<aside class="col-md-3">
+			<aside class="wps-container col-md-3">
+			   <?= do_action('wps_breadcrumbs') ?>
 
-				<p>Sidebar goes here</p>
+			   <div class="wps-collections-all">
+			      
+			      <?php if ($Settings->get_col_value('collections_heading_toggle')) { ?>
+			         <p><?= $Settings->get_col_value('collections_heading'); ?></p>
+			      <?php }
+
+			      $Collections->collections(apply_filters('wps_collections_all_args', [])); 
+			      
+			      ?>
+
+			   </div>
 
 			</aside>
 

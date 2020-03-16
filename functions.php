@@ -490,7 +490,7 @@ function create_post_type(){
 			'menu_position' 		=> 2,
 			'can_export' 				=> true,
 			'menu_icon' 				=> 'dashicons-video-alt2',
-			'supports'					=> array('title', 'editor', 'thumbnail'),
+			'supports'					=> array('title', 'editor', 'thumbnail', 'excerpt'),
 		)
 	);
 }

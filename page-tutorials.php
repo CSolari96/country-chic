@@ -50,11 +50,11 @@
 
 		while($loop->have_posts()): $loop->the_post();?>
 
-		<div class="col-md-4">
+		<div class="col-md-3">
 			<?php if(has_post_thumbnail()) {
 				the_post_thumbnail('medium'); ?>
 		</div>
-			<div class="col-md-5">
+			<div class="col-md-6">
 				<h3><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h3>
 				<?php the_excerpt(); ?>
 		</div>

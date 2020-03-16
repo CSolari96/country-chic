@@ -187,6 +187,7 @@ body {
   display: block;
   margin: 5% auto;
   width: 60%;
+  max-width: 130px !important;
 }
 /* End Values Container */
 
@@ -432,5 +433,19 @@ h4 img {
 
   .instagram-title {
     font-size: 1.5rem;
+  }
+}
+
+@media(min-width: 768px) {
+  .widget-home-intro {
+    margin: 0;
+  }
+
+  .home-values-title {
+    font-size: 2rem;
+  }
+
+  .home-values {
+    font-size: 1rem;
   }
 }

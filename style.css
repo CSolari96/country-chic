@@ -86,7 +86,6 @@ body {
   width: 100%;
   padding: 5%;
   color: #ffffff;
-  margin: 0 0 5% 0;
 }
 
 .hero-sub-title {
@@ -438,7 +437,7 @@ h4 img {
 
 @media(min-width: 768px) {
   .widget-home-intro {
-    margin: 0;
+    margin: 15% 0;
   }
 
   .home-values-title {
@@ -447,5 +446,21 @@ h4 img {
 
   .home-values {
     font-size: 1rem;
+  }
+
+  .widget-home-testimonials {
+    margin: 5% 0;
+  }
+
+  .widget-home-testimonials img {
+    width: 100%;
+  }
+  
+  .widget-home-instagram {
+    padding: 5%;
+  }
+
+  #wdi_feed_0 .wdi_feed_item {
+    width: 25% !important;
   }
 }

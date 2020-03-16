@@ -274,13 +274,76 @@ body {
 
 
 /**********SHOP PAGE STYLING**********/
+.filter h2 {
+  display: none;
+}
 
-.wps-item {
-	width: 33%;
+#title-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;;
+}
+
+#title-container div {
+  background-color: #7b7b7b;
+  display: inline;
+  margin: 3%;
+  padding: 3%;
+  border-radius: 30px;
+}
+
+#title-container div:hover {
+  background-color: #99c3d1;
+}
+
+.wps-collections-link:active, .wps-collections-link:hover {
+  text-decoration: none !important;
+}
+
+.wps-collections-link h2{
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  display: inline;
+  width: 100%;
+}
+
+.wps-items {
+  margin: 0 !important;
+}
+
+.wps-w-3.wps-item.p-3 {
+  width: 100%;
+  padding: 0 !important;
+  margin: 5% 0;
 }
 
 .wps-item img {
-	max-width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto !important;
+}
+
+.wps-products-title {
+  color: #7b7b7b !important;
+  font-size: 1rem !important;
+  margin: 5% 0 !important;
+  font-weight: 300;
+}
+
+.wps-products-link:hover, .wps-products-link:active {
+  text-decoration: none !important;
+}
+
+.wps-products-title:hover, .wps-products-title:active {
+    font-weight: 700;
+}
+
+.wps-products-price {
+  color: #7b7b7b;
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 
 /**********CONTACT PAGE STYLING**********/

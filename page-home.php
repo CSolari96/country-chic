@@ -35,13 +35,13 @@
 
 	<div class="row values-container" style="background-image: url('<?php echo get_template_directory_uri() . "/images/values_bkg.png"; ?>')">
 
-		<div class="col-md-6">
+		<div class="col-sm-5 col-md-6">
 
 			<?php dynamic_sidebar('home-values-title'); ?>
 
 		</div>
 
-		<div class="col-md-6">
+		<div class="col-sm-7 col-md-6">
 
 			<div class="row">
 

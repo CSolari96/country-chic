@@ -27,24 +27,23 @@
 
 	$args = apply_filters('wps_products_all_args', $products_options);
 
+	$collections_query = [
+	 	'dropzone_collection_title' => '#title-container'
+	 ];
+
+	 $Collections->collections($collections_query);
+
 	?>
 
 	<main class="container-fluid">
 
 		<div class="row">
 
-			<aside class="wps-container col-md-3">
-			   <?= do_action('wps_breadcrumbs') ?>
+			<aside class="col-md-3">
 
-			   <div class="wps-collections-all">
-			      
-			      <?php if ($Settings->get_col_value('collections_heading_toggle')) { ?>
-			         <p><?= $Settings->get_col_value('collections_heading'); ?></p>
-			      <?php }
+				<h2>Sort</h2>
 
-			      $Collections->collections(apply_filters('wps_collections_all_args', [])); 
-			      
-			      ?>
+			   <div id="title-container">
 
 			   </div>
 

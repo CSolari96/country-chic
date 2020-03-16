@@ -39,7 +39,7 @@
 
 		<div class="row">
 
-			<aside class="col-md-3">
+			<aside class="filter col-md-3">
 
 				<h2>Sort</h2>
 

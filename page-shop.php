@@ -29,7 +29,7 @@
 
 	?>
 
-	<main class="container-fluid">
+	<main class="container-fluid shop-page">
 
 		<div class="row">
 

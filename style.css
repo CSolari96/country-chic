@@ -542,9 +542,14 @@ h4 img {
     font-size: 1rem;
   }
 
+  .shop-page {
+    max-width: 1600px;
+  }
+
   .sort-title {
     display: block;
     border-bottom: 2px solid #99c6d1;
+    margin-left: 5%;
   }
 
   #title-container {
@@ -552,15 +557,15 @@ h4 img {
   }
 
   #title-container div {
-    background-color: #ffffff;
+    background-color: transparent;
     display: block;
-    margin: 8% 5%;
+    margin: 8% 10%;
     padding: 0;
     border-radius: 0;
   }
 
   #title-container div:hover {
-    background-color: #ffffff;
+    background-color: transparent;
   }
 
   .wps-collections-link:active, .wps-collections-link:hover {

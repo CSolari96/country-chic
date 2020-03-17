@@ -517,6 +517,45 @@ register_sidebar(array(
 		'after_title' => '</h4>'
 		));
 
+		register_sidebar(array(
+			'name' => ('Low Environment Impact Value Icon'),
+			'id' => 'low-impact-value-icon',
+			'description' => 'Low Environmental Impact Value Icon',
+			'before_widget' => '<div class="about-values-icon">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="hide">',
+			'after_title' => '</h3>'
+			));
+
+		register_sidebar(array(
+			'name' => ('Supporting the local economy Icon'),
+			'id' => 'local-economy-value-icon',
+			'description' => 'Supporting the local economy value Icon',
+			'before_widget' => '<div class="about-values-icon">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="hide">',
+			'after_title' => '</h3>'
+			));
+
+		register_sidebar(array(
+			'name' => ('Participating in Recycling Programs Icon'),
+			'id' => 'recycling-programs-value-icon',
+			'description' => 'Participating in Recylcling Programs value icon',
+			'before_widget' => '<div class="about-values-icon">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="hide">',
+			'after_title' => '</h3>'
+			));
+
+		register_sidebar(array(
+			'name' => ('Helping those in need Icon'),
+			'id' => 'those-in-need-value-icon',
+			'description' => 'Helping those in need value icon',
+			'before_widget' => '<div class="about-values-icon">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="hide">',
+			'after_title' => '</h3>'
+			));
 
 	}
 

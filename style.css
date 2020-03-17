@@ -274,7 +274,7 @@ body {
 
 
 /**********SHOP PAGE STYLING**********/
-.filter h2 {
+.sort-title {
   display: none;
 }
 
@@ -542,8 +542,9 @@ h4 img {
     font-size: 1rem;
   }
 
-  .filter h2 {
+  .sort-title {
     display: block;
+    border-bottom: 2px solid #99c6d1;
   }
 
   #title-container {
@@ -553,8 +554,8 @@ h4 img {
   #title-container div {
     background-color: #ffffff;
     display: block;
-    margin: 3%;
-    padding: 3%;
+    margin: 8% 5%;
+    padding: 0;
     border-radius: 0;
   }
 
@@ -567,10 +568,11 @@ h4 img {
   }
 
   .wps-collections-link h2{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 300;
     color: #7b7b7b;
     width: 100%;
+    text-align: left;
   }
 
   .wps-collections-link h2:hover {

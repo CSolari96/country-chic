@@ -82,7 +82,7 @@
 
 				<div class="row col-sm-12 col-md-4">
 
-					<?php dynamic_sidebar('those-in-need-value'); ?>
+					<?php dynamic_sidebar('those-in-need-value-icon'); ?>
 					<?php dynamic_sidebar('those-in-need-value'); ?>
 
 				</div>

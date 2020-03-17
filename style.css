@@ -541,6 +541,41 @@ h4 img {
   .widget-home-sketches {
     font-size: 1rem;
   }
+
+  .filter h2 {
+    display: block;
+  }
+
+  #title-container {
+    display: block;
+  }
+
+  #title-container div {
+    background-color: #ffffff;
+    display: block;
+    margin: 3%;
+    padding: 3%;
+    border-radius: 0;
+  }
+
+  #title-container div:hover {
+    background-color: #ffffff;
+  }
+
+  .wps-collections-link:active, .wps-collections-link:hover {
+    text-decoration: none !important;
+  }
+
+  .wps-collections-link h2{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #7b7b7b;
+    width: 100%;
+  }
+
+  .wps-collections-link h2:hover {
+    font-weight: 700;
+  }
 }
 
 

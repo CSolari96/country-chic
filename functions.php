@@ -399,20 +399,10 @@
 			'name' => ('Contact Page Text'),
 			'id' => 'contact-page-text',
 			'description' => 'The text on the Contact Page before the form',
-			'before_widget' => '<p>',
+			'before_widget' => '<p="contant-main-text >',
 			'after_widget' => '</p>',
 			'before_title' => '<h3>',
 			'after_title' => '</h3>'
-		));
-
-		register_sidebar(array(
-			'name' => ('Contact Page Hero Image'),
-			'id' => 'contact-page-hero',
-			'description' => 'The hero image on the contact page',
-			'before_widget' => '<div class="widget-contact-image">',
-			'after_widget' => '</div>',
-			'before_title' => '<h2>',
-			'after_title' => '</h2>'
 		));
 
 		register_sidebar(array(

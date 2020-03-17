@@ -25,10 +25,10 @@
 
 	<div class="post-featured-image">
 		<?php the_post_thumbnail('large'); ?>
-		<?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?>
+		<p class="captions"><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
 	</div>
 
-<main class="container-fluid">
+<main class="container">
 		<section>
 			<div class="row">
 				<div class="col-12">
@@ -39,12 +39,8 @@
 
 		<section>
 				<div class="row col-12 justify-content-center align-items-center">
-						<div>
 							<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
-						</div>
-						<div>
 							<?php dynamic_sidebar('contact-page-phone-number'); ?>
-						</div>
 					</div>
 
 					<div class="row col-12 justify-content-center align-items-center">

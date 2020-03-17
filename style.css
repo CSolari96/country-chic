@@ -427,6 +427,13 @@ div.wpcf7 {
 	margin-right: auto;
 }
 
+.captions {
+  font-size: 0.625rem;
+  font-style: italic;
+}
+
+
+
 /**********ABOUT PAGE STYLING**********/
 
 .video-container {
@@ -529,7 +536,7 @@ h4 img {
   .widget-home-testimonials img {
     width: 100%;
   }
-  
+
   .widget-home-instagram {
     padding: 5%;
   }
@@ -609,7 +616,7 @@ h4 img {
     }
 
     .widget-home-intro {
-      margin: 10% 0; 
+      margin: 10% 0;
     }
 
     .widget-home-intro p {
@@ -649,7 +656,7 @@ h4 img {
     .wdi_feed_wrapper {
       max-width: 1200px;
     }
-    
+
     .widget-home-sketches {
       margin: 5% 14%;
     }

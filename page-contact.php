@@ -25,6 +25,7 @@
 
 	<div class="post-featured-image">
 		<?php the_post_thumbnail('large'); ?>
+		<?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?>
 	</div>
 
 <main class="container-fluid">

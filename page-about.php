@@ -53,27 +53,41 @@
 
 			<div class="row">
 
-				<div class="col-md-6">
+				<div class="col-md-12">
 
-					<?php dynamic_sidebar('home-values-title'); ?>
+					<?php dynamic_sidebar('about-values-title'); ?>
 
 				</div>
 
-				<div class="col-md-6">
+				<div class="row col-sm-12 col-md-4">
 
-					<div class="row">
+					<?php dynamic_sidebar('low-impact-value-icon'); ?>
+					<?php dynamic_sidebar('low-impact-value'); ?>
 
-						<div class="col-md-6">
+				</div>
 
-							<?php dynamic_sidebar('home-values1'); ?>
+				<div class="row col-sm-12 col-md-4">
 
-						</div>
+					<?php dynamic_sidebar('recycling-programs-value-icon'); ?>
+					<?php dynamic_sidebar('recycling-programs-value'); ?>
 
-						<div class="col-md-6">
+				</div>
 
-							<?php dynamic_sidebar('home-values2'); ?>
+				<div class="row col-sm-12 col-md-4">
 
-						</div>
+					<?php dynamic_sidebar('local-economy-value-icon'); ?>
+					<?php dynamic_sidebar('local-economy-value'); ?>
+
+				</div>
+
+				<div class="row col-sm-12 col-md-4">
+
+					<?php dynamic_sidebar('those-in-need-value'); ?>
+					<?php dynamic_sidebar('those-in-need-value'); ?>
+
+				</div>
+
+
 
 					</div>
 

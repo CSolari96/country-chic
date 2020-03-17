@@ -274,7 +274,7 @@ body {
 
 
 /**********SHOP PAGE STYLING**********/
-.filter h2 {
+.sort-title {
   display: none;
 }
 
@@ -540,6 +540,48 @@ h4 img {
 
   .widget-home-sketches {
     font-size: 1rem;
+  }
+
+  .shop-page {
+    max-width: 1600px;
+  }
+
+  .sort-title {
+    display: block;
+    border-bottom: 2px solid #99c6d1;
+    margin-left: 5%;
+  }
+
+  #title-container {
+    display: block;
+  }
+
+  #title-container div {
+    background-color: transparent;
+    display: block;
+    margin: 8% 10%;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  #title-container div:hover {
+    background-color: transparent;
+  }
+
+  .wps-collections-link:active, .wps-collections-link:hover {
+    text-decoration: none !important;
+  }
+
+  .wps-collections-link h2{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #7b7b7b;
+    width: 100%;
+    text-align: left;
+  }
+
+  .wps-collections-link h2:hover {
+    font-weight: 700;
   }
 }
 

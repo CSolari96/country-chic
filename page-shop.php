@@ -27,21 +27,25 @@
 
 	$args = apply_filters('wps_products_all_args', $products_options);
 
-	$collections_query = [
-	 	'dropzone_collection_title' => '#title-container'
-	 ];
-
-	 $Collections->collections($collections_query);
-
 	?>
 
-	<main class="container-fluid">
+	<main class="container-fluid shop-page">
 
 		<div class="row">
 
 			<aside class="filter col-md-3">
 
-				<h2>Sort</h2>
+				<h2 class="sort-title">Sort</h2>
+
+				<?php
+
+					$collections_query = [
+						'dropzone_collection_title' => '#title-container'
+					];
+
+					$Collections->collections($collections_query);
+
+				?>
 
 			   <div id="title-container">
 

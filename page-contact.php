@@ -44,14 +44,18 @@
 				</div>
 		</section>
 
-				<div class="row col-12 justify-content-center align-items-center">
+				<div class="row col-12">
+					<div class="justify-content-center align-items-center">
 						<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
 						<?php dynamic_sidebar('contact-page-phone-number'); ?>
+					</div>
 				</div>
 
-				<div class="row col-12 justify-content-center align-items-center">
+				<div class="row col-12">
+					<div class="justify-content-center align-items-center">
 						<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
 						<?php dynamic_sidebar('contact-page-email'); ?>
+					</div>
 				</div>
 
 				<div class="row values-container contact-form-section" style="background-image: url('<?php echo get_template_directory_uri() . "/images/values_bkg.png"; ?>')">

@@ -386,7 +386,7 @@ body {
 }
 
 .email-address {
-  font-size: 1.75rem;
+  font-size: 1.35rem;
   padding-bottom: 2%;
 }
 
@@ -450,7 +450,8 @@ p.captions {
 }
 
 .contact-page-hours p {
-  padding: 3% 3% 0 15px;
+  padding: 5% 5% 0 15px;
+  display: block; 
 }
 
 

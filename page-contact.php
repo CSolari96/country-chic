@@ -28,7 +28,7 @@
 		<p class="captions"><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
 	</div>
 
-<main class="container">
+<main class="container-fluid">
 	<section>
 			<div class="row col-12">
 				<?php
@@ -53,7 +53,7 @@
 						<?php dynamic_sidebar('contact-page-email'); ?>
 				</div>
 
-			<section id="contact-form-section" class="values-container" style="background-image: url('<?php echo get_template_directory_uri() . "/images/values_bkg.png"; ?>')">">
+			<section id="contact-form-section" class="values-container" style="background-image: url('<?php echo get_template_directory_uri() . "/images/values_bkg.png"; ?>')">
 				<div class="row col-12">
 						<?php dynamic_sidebar('contact-form'); ?>
 				</div>

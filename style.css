@@ -454,6 +454,12 @@ p.captions {
   display: block;
 }
 
+.contact-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
 
 
 /**********ABOUT PAGE STYLING**********/

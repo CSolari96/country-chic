@@ -10,6 +10,7 @@
 
 	<?php wp_enqueue_script('jquery'); ?>
 
+	<?php include_once( ABSPATH . 'wp-admin/includes/plugin.php' ); ?>
 	<?php wp_head(); ?>
 
 </head>

@@ -28,7 +28,8 @@
 		<p class="captions"><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
 	</div>
 
-<main class="container-fluid">
+<main>
+	<div class="container-fluid">
 	<section>
 			<div class="row col-12">
 				<?php
@@ -61,6 +62,7 @@
 							<?php dynamic_sidebar('contact-page-hours'); ?>
 					</div>
 
+		</div>
 	</main>
 
 

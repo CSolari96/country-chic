@@ -377,7 +377,7 @@ body {
   background: radial-gradient(circle, rgba(99,164,151,1) 0%, rgba(123,123,123,1) 100%); */
   display: block;
   margin: 0 -15px;
-  padding: 3% 0;
+  padding: 3% 2%;
 }
 
 .phone-number {
@@ -386,7 +386,7 @@ body {
 }
 
 .email-address {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   padding-bottom: 2%;
 }
 
@@ -417,7 +417,7 @@ body {
   background-color: #99c6d1;
   color: #ffffff;
   border: 0;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   width: 140px;
   padding: 15px 25px;
   box-shadow: 0px 0px 3px 0px #7b7b7b;
@@ -426,7 +426,7 @@ body {
 
 input.wpcf7-form-control.wpcf7-submit {
 display: block;
-margin: 0 auto;
+margin: 5% auto;
 }
 
 .wpcf7 label {
@@ -450,7 +450,7 @@ p.captions {
 }
 
 .contact-page-hours p {
-  padding: 5% 5% 0 15px;
+  padding: 3% 2% 0 15px;
   display: block;
 }
 

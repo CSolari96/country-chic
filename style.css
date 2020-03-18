@@ -430,12 +430,12 @@ body {
 }
 
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
-  border: 5px dashed #d4af37;
+  border: 3px dashed #d4af37;
   font-weight: bold;
 }
 
 div.wpcf7-mail-sent-ok {
-  border: 5px dashed #d87777;
+  border: 3px dashed #d87777;
   font-weight: bold;
 }
 

@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body <?php boyd_class(); ?>>
 
 	<header class="container-fluid">
 

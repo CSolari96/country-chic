@@ -58,9 +58,9 @@
 						<?php dynamic_sidebar('contact-form'); ?>
 				</div>
 
-					<div class="row col-12">
+					<section>
 							<?php dynamic_sidebar('contact-page-hours'); ?>
-					</div>
+					</section>
 
 		</div>
 	</main>

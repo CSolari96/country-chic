@@ -16,6 +16,8 @@
 
 <body <?php boyd_class(); ?>>
 
+	<?php wp_body_open(); ?>
+
 	<header class="container-fluid">
 
 		<div class="row">

@@ -451,11 +451,12 @@ p.captions {
 
 .contact-page-hours p {
   padding: 5% 5% 0 15px;
-  display: block; 
+  display: block;
 }
 
-
-
+.row .contact-page-hours {
+  display: block;
+}
 
 
 /**********ABOUT PAGE STYLING**********/

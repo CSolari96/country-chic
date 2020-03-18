@@ -430,10 +430,10 @@
 			'name' => ('Contact Page Hours'),
 			'id' => 'contact-page-hours',
 			'description' => 'The hours of Country Chic',
-			'before_widget' => '<p>',
-			'after_widget' => '</p>',
-			'before_title' => '<h3 class="hide">',
-			'after_title' => '</h3>'
+			'before_widget' => '<div class="contact-page-hours">',
+			'after_widget' => '</div>',
+			'before_title' => '<p class="hours-contact">',
+			'after_title' => '</p>'
 		));
 
 /**********************ABOUT PAGE WIDGETS*************/

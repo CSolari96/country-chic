@@ -31,7 +31,7 @@
 <main>
 	<div class="container-fluid">
 	<section>
-			<div class="row col-12">
+			<div class="row col-12 contact-content">
 				<?php
 					if(have_posts()){
 						while(have_posts()){

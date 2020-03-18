@@ -377,7 +377,7 @@ body {
   background: radial-gradient(circle, rgba(99,164,151,1) 0%, rgba(123,123,123,1) 100%); */
   display: block;
   margin: 0 -15px;
-  padding: 3% 0; 
+  padding: 3% 0;
 }
 
 .phone-number {
@@ -387,10 +387,11 @@ body {
 
 .email-address {
   font-size: 2rem;
+  padding-bottom: 2%;
 }
 
 .icons {
-  max-width: 25px;
+  max-width: 45px;
 }
 
 .your-name input, .your-email input {
@@ -441,6 +442,15 @@ div.wpcf7 {
 p.captions {
   font-size: 0.625rem;
   font-style: italic;
+  padding: 5px 5px 0 15px;
+}
+
+.contact-content {
+  padding: 3% 0;
+}
+
+.contact-page-hours {
+  padding: 3% 3% 0 15px; 
 }
 
 

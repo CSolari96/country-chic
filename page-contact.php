@@ -59,7 +59,7 @@
 				</div>
 
 					<section>
-							<?php dynamic_sidebar('contact-page-hours'); ?>
+							<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
 					</section>
 
 		</div>

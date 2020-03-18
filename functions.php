@@ -400,20 +400,20 @@
 			'name' => ('Contact Page Phone Number'),
 			'id' => 'contact-page-phone-number',
 			'description' => 'The phone number of Country Chic',
-			'before_widget' => '<p class="phone-number">',
-			'after_widget' => '</p>',
-			'before_title' => '<h3 class="hide">',
-			'after_title' => '</h3>'
+			'before_widget' => '<div class="phone-number-widget">',
+			'after_widget' => '</div>',
+			'before_title' => '<p class="phone-number">',
+			'after_title' => '</p>'
 		));
 
 		register_sidebar(array(
 			'name' => ('Contact Page Email'),
 			'id' => 'contact-page-email',
 			'description' => 'The email of Country Chic',
-			'before_widget' => '<p class="email-address">',
-			'after_widget' => '</p>',
-			'before_title' => '<h3 class="hide">',
-			'after_title' => '</h3>'
+			'before_widget' => '<div class="email-address-widget">',
+			'after_widget' => '</div>',
+			'before_title' => '<p class="email-address">',
+			'after_title' => '</p>'
 		));
 
 		register_sidebar(array(

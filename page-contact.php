@@ -29,10 +29,18 @@
 	</div>
 
 <main class="container">
-		<section>
+	<section>
 			<div class="row col-12">
-					<?php dynamic_sidebar('contact-page-text'); ?>
-			</div>
+				<?php
+					if(have_posts()){
+						while(have_posts()){
+							the_post(); ?>
+
+							<?php the_content(); ?>
+					<?php  }//ends while loop
+					}//ends the if statement
+				 ?>
+				</div>
 		</section>
 
 				<div class="row col-12 justify-content-center align-items-center">

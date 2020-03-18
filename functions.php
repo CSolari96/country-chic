@@ -395,15 +395,6 @@
 
 		/**********************CONTACT PAGE WIDGETS*************/
 
-		register_sidebar(array(
-			'name' => ('Contact Page Text'),
-			'id' => 'contact-page-text',
-			'description' => 'The text on the Contact Page before the form',
-			'before_widget' => '<p="contact-main-text">',
-			'after_widget' => '</p>',
-			'before_title' => '<h3>',
-			'after_title' => '</h3>'
-		));
 
 		register_sidebar(array(
 			'name' => ('Contact Page Phone Number'),

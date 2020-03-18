@@ -381,12 +381,12 @@ body {
 }
 
 .phone-number {
-  font-size: 3rem;
+  font-size: 2.25rem;
   padding: 2% 0;
 }
 
 .email-address {
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding-bottom: 2%;
 }
 
@@ -449,8 +449,8 @@ p.captions {
   padding: 3% 0;
 }
 
-.contact-page-hours {
-  padding: 3% 3% 0 15px; 
+.contact-page-hours p {
+  padding: 3% 3% 0 15px;
 }
 
 
@@ -540,6 +540,16 @@ h4 img {
   .wps-w-3.wps-item.p-3 {
     width: 31%;
     margin: 3% 1%;
+  }
+
+  .phone-number {
+    font-size: 3rem;
+    padding: 2% 0;
+  }
+
+  .email-address {
+    font-size: 2rem;
+    padding-bottom: 2%;
   }
 }
 

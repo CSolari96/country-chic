@@ -31,13 +31,13 @@
 <main>
 	<div class="container-fluid">
 	<section>
-			<div class="row col-12 contact-content">
+			<div class="row col-12">
 				<?php
 					if(have_posts()){
 						while(have_posts()){
 							the_post(); ?>
 
-							<?php the_content(); ?>
+						<div class= "contact-content">	<?php the_content(); ?> </div>
 					<?php  }//ends while loop
 					}//ends the if statement
 				 ?>

@@ -376,7 +376,7 @@ body {
   /*background: rgb(99,164,151);
   background: radial-gradient(circle, rgba(99,164,151,1) 0%, rgba(123,123,123,1) 100%); */
   display: block;
-  margin: 0 -15px;
+  margin: 3% -15px;
   padding: 3% 2%;
 }
 
@@ -582,7 +582,6 @@ h4 img {
 
   .email-address {
     font-size: 2rem;
-    padding-bottom: 2%;
   }
 }
 

@@ -429,8 +429,14 @@ body {
   background-color: #d4af37;
 }
 
-.wpcf7-response-output, .wpcf7-display-none, .wpcf7-validation-errors {
-  border: 2px dashed #d4af37;
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+  border: 1px dashed #d4af37;
+  font-weight: bold;
+}
+
+div.wpcf7-mail-sent-ok {
+  border: 1px dashed #d87777;
+  font-weight: bold; 
 }
 
 

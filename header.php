@@ -14,7 +14,7 @@
 
 </head>
 
-<body <?php boyd_class(); ?>>
+<body <?php body_class(); ?>>
 
 	<?php wp_body_open(); ?>
 

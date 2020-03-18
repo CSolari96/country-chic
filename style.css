@@ -441,7 +441,7 @@ div.wpcf7-mail-sent-ok {
   padding: 15px;
 }
 
-.wpcf7-not-valid-tip {
+span.wpcf7-not-valid-tip {
   color: #d87777;
   font-weight: bold;
 }

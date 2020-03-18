@@ -7,7 +7,7 @@
 
 	*/
 	
-	get_header('wpshopify');
+	get_header();
 
 	$Products = WP_Shopify\Factories\Render\Products\Products_Factory::build();
 	$Collections = WP_Shopify\Factories\Render\Collections\Collections_Factory::build();

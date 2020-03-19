@@ -538,11 +538,23 @@ register_sidebar(array(
 				'after_title' => '</h3>'
 				));
 
+
+		register_sidebar(array(
+			'name' => ('Meet Us Title'),
+			'id' => 'meet-us-title',
+			'description' => 'Title of the Meet Us Section',
+			'before_widget' => '<div class="meet-us>',
+			'after_widget' => '</div>',
+			'before_title' => '<h3>',
+			'after_title' => '</h3>'
+			));
+
+
 		register_sidebar(array(
 			'name' => ('Rosanne Picture'),
 			'id' => 'rosanne-picture',
 			'description' => 'Picture of Rosanne',
-			'before_widget' => '<div class="about-us-pictures>',
+			'before_widget' => '<div class="about-us-pictures">',
 			'after_widget' => '</div>',
 			'before_title' => '<h4>',
 			'after_title' => '</h4>'

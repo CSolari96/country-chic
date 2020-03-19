@@ -269,6 +269,10 @@ body {
   display: none;
 }
 
+.wps-breadcrumbs {
+  display: none;
+}
+
 .sort-title {
   display: none;
 }

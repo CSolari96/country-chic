@@ -528,15 +528,55 @@ register_sidebar(array(
 			'after_title' => '</h3>'
 			));
 
+			register_sidebar(array(
+				'name' => ('Helping those in need Icon'),
+				'id' => 'those-in-need-value-icon',
+				'description' => 'Helping those in need value icon',
+				'before_widget' => '<div class="about-values-icon">',
+				'after_widget' => '</div>',
+				'before_title' => '<h3 class="hide">',
+				'after_title' => '</h3>'
+				));
+
 		register_sidebar(array(
-			'name' => ('Helping those in need Icon'),
-			'id' => 'those-in-need-value-icon',
-			'description' => 'Helping those in need value icon',
-			'before_widget' => '<div class="about-values-icon">',
+			'name' => ('Rosanne Picture'),
+			'id' => 'rosanne-picture',
+			'description' => 'Picture of Rosanne',
+			'before_widget' => '<div class="about-us-pictures>',
 			'after_widget' => '</div>',
-			'before_title' => '<h3 class="hide">',
-			'after_title' => '</h3>'
+			'before_title' => '<h4>',
+			'after_title' => '</h4>'
 			));
+
+			register_sidebar(array(
+				'name' => ('Jan Picture'),
+				'id' => 'jan-picture',
+				'description' => 'Picture of Jan',
+				'before_widget' => '<div class="about-us-pictures">',
+				'after_widget' => '</div>',
+				'before_title' => '<h4>',
+				'after_title' => '</h4>'
+				));
+
+				register_sidebar(array(
+					'name' => ('Sarah Picture'),
+					'id' => 'sarah-picture',
+					'description' => 'Picture of Sarah',
+					'before_widget' => '<div class="about-us-pictures">',
+					'after_widget' => '</div>',
+					'before_title' => '<h4>',
+					'after_title' => '</h4>'
+					));
+
+						register_sidebar(array(
+							'name' => ('Christa Pictures'),
+							'id' => 'christa-picture',
+							'description' => 'Picture of Christa',
+							'before_widget' => '<div class="about-us-pictures">',
+							'after_widget' => '</div>',
+							'before_title' => '<h4>',
+							'after_title' => '</h4>'
+							));
 
 	}
 

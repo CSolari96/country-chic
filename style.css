@@ -63,6 +63,10 @@ body {
 	text-decoration: none;
 }
 
+.wps-cart-counter {
+  color: #ffffff !important;
+}
+
 /**********HOME PAGE STYLING**********/
 /* Hero Banners */
 .banner {
@@ -265,6 +269,14 @@ body {
 
 
 /**********SHOP PAGE STYLING**********/
+.wps-client-component.wps-container[data-wps-client-component-type="collections"] {
+  display: none;
+}
+
+.wps-breadcrumbs {
+  display: none;
+}
+
 .sort-title {
   display: none;
 }
@@ -298,6 +310,11 @@ body {
   color: #ffffff;
   display: inline;
   width: 100%;
+}
+
+.wpshopify .wps-w-3 {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
 }
 
 .wps-items {
@@ -337,6 +354,29 @@ body {
   font-weight: 300;
 }
 
+#collection_products .wps-products-description {
+  display: none;
+}
+
+#collection_title {
+  color: #63a497;
+  padding: 2%;
+  /* font-family: 'Noteworthy'; */
+}
+
+.wps-btn-next-page {
+  background-color: #82a3af !important;
+}
+
+.wps-product-single {
+  max-width: 1400px !important;
+  margin: 2% auto !important;
+}
+
+.wps-product-single h2 {
+  font-size: 1.5rem !important;
+  font-weight: 700;
+}
 /**********CONTACT PAGE STYLING**********/
 
 
@@ -529,7 +569,7 @@ h4 img {
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 510px) {
   .wps-w-3.wps-item.p-3 {
-    width: 46%;
+    flex: 0 0 46% !important;
     margin: 5% 2%;
   }
 }
@@ -573,12 +613,7 @@ h4 img {
 }
 
 @media(min-width:650px) {
-  .wps-w-3.wps-item.p-3 {
-    width: 31%;
-    margin: 3% 1%;
-  }
-
-  .phone-number {
+    .phone-number {
     font-size: 3rem;
     padding: 2% 0;
   }
@@ -648,7 +683,7 @@ h4 img {
   }
 
   .wps-collections-link h2{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     color: #7b7b7b;
     width: 100%;
@@ -657,6 +692,13 @@ h4 img {
 
   .wps-collections-link h2:hover {
     font-weight: 700;
+  }
+}
+
+@media(min-width: 900px) {
+  .wps-w-3.wps-item.p-3 {
+    flex: 0 0 31% !important;
+    margin: 3% 1%;
   }
 }
 
@@ -727,5 +769,9 @@ h4 img {
 
     .widget-home-sketches {
       margin: 5% 14%;
+    }
+
+    .wps-collection-single .wps-w-3.wps-item.p-3 {
+        flex: 0 0 23% !important;
     }
 }

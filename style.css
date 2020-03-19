@@ -361,6 +361,7 @@ body {
 .post-featured-image img {
   object-fit: cover;
   width: 100%;
+	max-height: 650px;
 }
 
 .contact-form-section {
@@ -489,9 +490,14 @@ p.noflex {
 }
 
 .about-us-pictures img {
-  width: 250px;
-  height: 250px;
+  max-width: 300px;
   border-radius: 50%;
+}
+
+.line-spacing p {
+	line-height: 1.6;
+	padding: 3% 2%;
+	text-align: center; 
 }
 
 /**********TUTORIALS PAGE STYLING**********/

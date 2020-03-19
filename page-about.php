@@ -29,7 +29,7 @@
 
 <main class="container-fluid">
 
-		<section>
+		<section class="line-spacing">
 				<div class="row col-12">
 					<?php
 	          if(have_posts()){

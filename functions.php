@@ -543,7 +543,7 @@ register_sidebar(array(
 			'name' => ('Meet Us Title'),
 			'id' => 'meet-us-title',
 			'description' => 'Title of the Meet Us Section',
-			'before_widget' => '<div class="meet-us>',
+			'before_widget' => '<div class="meet-us">',
 			'after_widget' => '</div>',
 			'before_title' => '<h3>',
 			'after_title' => '</h3>'

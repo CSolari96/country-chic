@@ -350,6 +350,10 @@ body {
   font-weight: 300;
 }
 
+#collection_products .wps-products-description {
+  display: none;
+}
+
 /**********CONTACT PAGE STYLING**********/
 
 
@@ -734,5 +738,9 @@ h4 img {
 
     .widget-home-sketches {
       margin: 5% 14%;
+    }
+
+    .wps-w-3.wps-item.p-3 {
+        flex: 0 0 23% !important;
     }
 }

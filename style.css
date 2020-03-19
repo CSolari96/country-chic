@@ -300,6 +300,11 @@ body {
   width: 100%;
 }
 
+.wpshopify .wps-w-3 {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
 .wps-items {
   margin: 0 !important;
 }

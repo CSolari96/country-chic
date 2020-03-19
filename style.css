@@ -364,6 +364,19 @@ body {
   /* font-family: 'Noteworthy'; */
 }
 
+.wps-btn-next-page {
+  background-color: #82a3af !important;
+}
+
+.wps-product-single {
+  max-width: 1400px !important;
+  margin: 2% auto !important;
+}
+
+.wps-product-single h2 {
+  font-size: 1.5rem !important;
+  font-weight: 700;
+}
 /**********CONTACT PAGE STYLING**********/
 
 

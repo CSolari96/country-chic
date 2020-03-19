@@ -528,7 +528,7 @@ h4 img {
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 510px) {
   .wps-w-3.wps-item.p-3 {
-    width: 46%;
+    flex: 0 0 46% !important;
     margin: 5% 2%;
   }
 }
@@ -573,7 +573,7 @@ h4 img {
 
 @media(min-width:650px) {
   .wps-w-3.wps-item.p-3 {
-    width: 31%;
+    flex: 0 0 31% !important;
     margin: 3% 1%;
   }
 

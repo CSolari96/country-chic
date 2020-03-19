@@ -63,6 +63,10 @@ body {
 	text-decoration: none;
 }
 
+.wps-cart-counter {
+  color: #ffffff !important;
+}
+
 /**********HOME PAGE STYLING**********/
 /* Hero Banners */
 .banner {
@@ -352,6 +356,12 @@ body {
 
 #collection_products .wps-products-description {
   display: none;
+}
+
+#collection_title {
+  color: #63a497;
+  padding: 2%;
+  /* font-family: 'Noteworthy'; */
 }
 
 /**********CONTACT PAGE STYLING**********/

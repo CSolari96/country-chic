@@ -35,7 +35,7 @@
 
 			<aside class="filter col-md-3">
 
-				<h2 class="sort-title">Sort</h2>
+				<h2 class="sort-title">Shop by Category</h2>
 
 				<?php
 
@@ -54,8 +54,7 @@
 			</aside>
 
 			<section class="wps-container col-md-9">
-			   <?= do_action('wps_breadcrumbs') ?>
-
+				
 			   <div class="wps-products-all">
 
 			      <?php

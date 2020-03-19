@@ -265,6 +265,10 @@ body {
 
 
 /**********SHOP PAGE STYLING**********/
+.wps-client-component.wps-container[data-wps-client-component-type="collections"] {
+  display: none;
+}
+
 .sort-title {
   display: none;
 }
@@ -647,7 +651,7 @@ h4 img {
   }
 
   .wps-collections-link h2{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     color: #7b7b7b;
     width: 100%;

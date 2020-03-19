@@ -488,6 +488,12 @@ p.noflex {
   margin: auto;
 }
 
+.about-us-picture img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
 /**********TUTORIALS PAGE STYLING**********/
 
 .tutorial-page iframe {

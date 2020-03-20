@@ -1005,10 +1005,6 @@ h4 img {
 
 
 @media(min-width: 1140px) {
-    .header {
-      max-width: 1400px;
-    }
-
     .top-menu-class ul {
       padding: 5% 0;
     }

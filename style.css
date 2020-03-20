@@ -558,6 +558,10 @@ p.noflex {
 	justify-content: center !important;
 }
 
+.row.center {
+	justify-content: center; 
+}
+
 /*** HOVER EFFECT ***/
 .hover-images-effects {
   height: 100%;

@@ -557,7 +557,6 @@ p.noflex {
 
 /*** HOVER EFFECT ***/
 .hover-images-effects {
-  width: 100%;
   height: 100%;
 }
 
@@ -612,10 +611,12 @@ p.noflex {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
-  background: #000;
+  background: #63a497;
   color: #fff;
   text-transform: uppercase;
-  box-shadow: 0 0 1px #000
+  box-shadow: 0 0 1px #000;
+	border-radius: 10%;
+	margin-top: 5px;
 }
 
 .card a.card__info:hover {

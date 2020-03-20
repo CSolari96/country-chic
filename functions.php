@@ -473,8 +473,8 @@ register_sidebar(array(
 		'name' => ('Low Environment Impact Value'),
 		'id' => 'low-impact-value',
 		'description' => 'Low Environmental Impact Value',
-		'before_widget' => '<p class="pop-up">',
-		'after_widget' => '</p>',
+		'before_widget' => '<div class="our-values">',
+		'after_widget' => '</div>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
 		));
@@ -483,8 +483,8 @@ register_sidebar(array(
 		'name' => ('Supporting the local economy'),
 		'id' => 'local-economy-value',
 		'description' => 'Supporting the local economy value',
-		'before_widget' => '<p class="pop-up">',
-		'after_widget' => '</p>',
+		'before_widget' => '<div class="our-values">',
+		'after_widget' => '</div>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
 		));
@@ -493,8 +493,8 @@ register_sidebar(array(
 		'name' => ('Participating in Recycling Programs'),
 		'id' => 'recycling-programs-value',
 		'description' => 'Participating in Recylcling Programs value',
-		'before_widget' => '<p class="pop-up">',
-		'after_widget' => '</p>',
+		'before_widget' => '<div class="our-values">',
+		'after_widget' => '</div>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
 		));
@@ -503,8 +503,8 @@ register_sidebar(array(
 		'name' => ('Helping those in need'),
 		'id' => 'those-in-need-value',
 		'description' => 'Helping those in need value',
-		'before_widget' => '<p class="pop-up">',
-		'after_widget' => '</p>',
+		'before_widget' => '<div class="our-values">',
+		'after_widget' => '</div>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
 		));

@@ -41,13 +41,13 @@
 
 			</nav>
 
-			<div class="col-sm-2 open-menu-btn">
+			<div class="col-1 open-menu-btn">
 
 				<span id="open-mobile-menu" class="open-menu">&#9776;</span>
 
 			</div>
 
-			<div class="col-sm-8 col-md-3">
+			<div class="col-9 col-md-3">
 
 				<?php
 
@@ -85,7 +85,7 @@
 
 			</nav>
 
-			<div class="col-sm-2 col-md-2 shopping-cart">
+			<div class="col-2 col-md-2 shopping-cart">
 
 				<?php
 

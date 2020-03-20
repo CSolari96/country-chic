@@ -114,6 +114,10 @@ body {
 	text-decoration: none;
 }
 
+#menu-shopping-cart-icon {
+  list-style-type: none;
+}
+
 .wps-cart-counter {
   color: #ffffff !important;
 }

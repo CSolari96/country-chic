@@ -763,6 +763,25 @@ h4.values {
 
 /**********TUTORIALS PAGE STYLING**********/
 
+.tutorials-main-post {
+	text-align: center;
+	border-bottom: 3px solid #99c6d1;
+	width: 60%;
+}
+
+.tutorials-main-post p {
+	padding: 3% 0; 
+}
+
+
+
+
+
+
+
+
+
+
 .tutorial-page iframe {
   display: block;
   max-height: 500px;

@@ -26,9 +26,9 @@
 	<?php the_post_thumbnail('large'); ?>
 </div>
 
-<main class="container-fluid">
+<main class="container">
 
-	<section>
+	<section class="tutorials-main-post">
 			<div class="row col-12">
 				<?php
 					if(have_posts()){
@@ -41,6 +41,15 @@
 				 ?>
 				</div>
 		</section>
+
+
+
+
+
+
+
+
+
 
 	<div class="row">
 

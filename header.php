@@ -20,7 +20,7 @@
 
 	<header class="container-fluid">
 
-		<div class="row">
+		<div class="row header">
 
 			<nav class="mobile-menu">
 

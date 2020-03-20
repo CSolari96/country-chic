@@ -41,9 +41,14 @@ body {
 }
 
 /**********HEADER STYLING**********/
+.header {
+  flex-wrap: no-wrap;
+  height: 90px;
+}
+
 .logo {
   max-width: 250px;
-  width: 100%;
+  width: 85%;
   display: block;
   margin: auto;
   object-fit: contain;
@@ -52,6 +57,13 @@ body {
 /* Navigation */
 .desktop-nav {
   display: none;
+}
+
+.open-menu-btn {
+  position: relative;
+  top: 20px;
+  left: 15px;
+  padding: 0;
 }
 
 .open-menu {
@@ -116,6 +128,12 @@ body {
 
 #menu-shopping-cart-icon {
   list-style-type: none;
+}
+
+.shopping-cart {
+  position: relative;
+  right: 50px;
+  top: 10px;
 }
 
 .wps-cart-counter {

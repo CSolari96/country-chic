@@ -88,10 +88,16 @@
 			<div class="col-sm-2 col-md-2 shopping-cart">
 
 				<?php
-				
-					$Cart_Icon = WP_Shopify\Factories\Render\Cart\Cart_Factory::build();
 
-					$Cart->cart_icon();
+					if (has_nav_menu('icon-menu')) {
+
+						wp_nav_menu(array('theme_location' => 'icon-menu' , 'container_class' => 'icon-menu-class'));
+					
+					} else {
+
+						echo "Please add the shopping cart icon to this menu through the dashboard";
+					
+					}
 
 				?>
 

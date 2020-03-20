@@ -472,7 +472,7 @@ register_sidebar(array(
 		'name' => ('Low Environment Impact Value'),
 		'id' => 'low-impact-value',
 		'description' => 'Low Environmental Impact Value',
-		'before_widget' => '<div class="about-values">',
+		'before_widget' => '<div class="pop-up">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
@@ -482,7 +482,7 @@ register_sidebar(array(
 		'name' => ('Supporting the local economy'),
 		'id' => 'local-economy-value',
 		'description' => 'Supporting the local economy value',
-		'before_widget' => '<div class="about-values">',
+		'before_widget' => '<div class="popup">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
@@ -492,7 +492,7 @@ register_sidebar(array(
 		'name' => ('Participating in Recycling Programs'),
 		'id' => 'recycling-programs-value',
 		'description' => 'Participating in Recylcling Programs value',
-		'before_widget' => '<div class="about-values">',
+		'before_widget' => '<div class="pop-up">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
@@ -502,7 +502,7 @@ register_sidebar(array(
 		'name' => ('Helping those in need'),
 		'id' => 'those-in-need-value',
 		'description' => 'Helping those in need value',
-		'before_widget' => '<div class="about-values">',
+		'before_widget' => '<div class="pop-up">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
@@ -547,17 +547,6 @@ register_sidebar(array(
 				'before_title' => '<h3 class="hide">',
 				'after_title' => '</h3>'
 				));
-
-
-		register_sidebar(array(
-			'name' => ('Meet Us Title'),
-			'id' => 'meet-us-title',
-			'description' => 'Title of the Meet Us Section',
-			'before_widget' => '<div class="meet-us">',
-			'after_widget' => '</div>',
-			'before_title' => '<h3>',
-			'after_title' => '</h3>'
-			));
 
 
 		register_sidebar(array(

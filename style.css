@@ -552,6 +552,11 @@ p.noflex {
 .values-title {
 	text-align: center;
 	padding: 3% 0;
+}
+
+.meet-us-section {
+	justify-content: center;
+}
 
 }
 
@@ -661,7 +666,7 @@ p.noflex {
 .card-third:hover img {
   -webkit-transform: scale(10);
   transform: scale(10);
-  opacity: 0.6;
+  opacity: 0;
 }
 
 .card-third:hover .card--hidden {

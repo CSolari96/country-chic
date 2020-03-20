@@ -591,6 +591,16 @@ register_sidebar(array(
 				));
 
 				register_sidebar(array(
+					'name' => ('Jan Picture Info'),
+					'id' => 'jan-picture-info',
+					'description' => 'Information of Jan',
+					'before_widget' => '<div class="about-us-pictures-info">',
+					'after_widget' => '</div>',
+					'before_title' => '<h2>',
+					'after_title' => '</h2>'
+					));
+
+				register_sidebar(array(
 					'name' => ('Sarah Picture'),
 					'id' => 'sarah-picture',
 					'description' => 'Picture of Sarah',
@@ -600,15 +610,35 @@ register_sidebar(array(
 					'after_title' => '</h4>'
 					));
 
-						register_sidebar(array(
-							'name' => ('Christa Pictures'),
-							'id' => 'christa-picture',
-							'description' => 'Picture of Christa',
-							'before_widget' => '<div class="about-us-pictures">',
-							'after_widget' => '</div>',
-							'before_title' => '<h4>',
-							'after_title' => '</h4>'
-							));
+					register_sidebar(array(
+						'name' => ('Sarah Picture Info'),
+						'id' => 'sarah-picture-info',
+						'description' => 'Information of Sarah',
+						'before_widget' => '<div class="about-us-pictures-info">',
+						'after_widget' => '</div>',
+						'before_title' => '<h2>',
+						'after_title' => '</h2>'
+						));
+
+				register_sidebar(array(
+					'name' => ('Christa Pictures'),
+					'id' => 'christa-picture',
+					'description' => 'Picture of Christa',
+					'before_widget' => '<div class="about-us-pictures">',
+					'after_widget' => '</div>',
+					'before_title' => '<h4>',
+					'after_title' => '</h4>'
+					));
+
+					register_sidebar(array(
+						'name' => ('Christa Pictures Info'),
+						'id' => 'christa-picture-info',
+						'description' => 'Information of Christa',
+						'before_widget' => '<div class="about-us-pictures-info">',
+						'after_widget' => '</div>',
+						'before_title' => '<h2>',
+						'after_title' => '</h2>'
+						));
 
 	}
 

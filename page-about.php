@@ -71,25 +71,44 @@
 					      <a href="#" class="card__info">Read More</a>
 					    </div>
 					  </div>
+					</div>
+				</div>
+
+				<div class="row col-sm-12 col-lg-3">
+					<div class="hover-images-effects">
+						<div class="card card-third">
+							<?php dynamic_sidebar('jan-picture'); ?>
+							<div class="card--hidden">
+								<?php dynamic_sidebar('jan-picture-info'); ?>
+								<a href="#" class="card__info">Read More</a>
+							</div>
+						</div>
+					</div>
 
 				</div>
 
-				<div class="row col-sm-12 col-md-3">
-
-					<?php dynamic_sidebar('jan-picture'); ?>
-
+				<div class="row col-sm-12 col-lg-3">
+					<div class="hover-images-effects">
+						<div class="card card-third">
+							<?php dynamic_sidebar('sarah-picture'); ?>
+							<div class="card--hidden">
+								<?php dynamic_sidebar('sarah-picture-info'); ?>
+								<a href="#" class="card__info">Read More</a>
+							</div>
+						</div>
+					</div>
 				</div>
 
-				<div class="row col-sm-12 col-md-3">
-
-					<?php dynamic_sidebar('sarah-picture'); ?>
-
-				</div>
-
-				<div class="row col-sm-12 col-md-3">
-
-					<?php dynamic_sidebar('christa-picture'); ?>
-
+				<div class="row col-sm-12 col-lg-3">
+					<div class="hover-images-effects">
+						<div class="card card-third">
+							<?php dynamic_sidebar('christa-picture'); ?>
+							<div class="card--hidden">
+								<?php dynamic_sidebar('christa-picture-info'); ?>
+								<a href="#" class="card__info">Read More</a>
+							</div>
+						</div>
+					</div>
 				</div>
 
 			</div>

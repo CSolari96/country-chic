@@ -44,6 +44,7 @@ body {
 .header {
   flex-wrap: nowrap;
   height: 90px;
+  margin-bottom: 5%;
 }
 
 .logo {
@@ -105,34 +106,13 @@ body {
     transition: all 0.5s;
 }
 
-#top-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.top-menu-class ul {
-	display: flex;
-	justify-content: space-around;
-	padding: 10% 0;
-}
-
-.top-menu-class ul li {
-	list-style-type: none;
-	display: inline;
-}
-
-.top-menu-class ul li a:link, .top-menu-class ul li a:visited {
-	text-decoration: none;
-}
-
 #menu-shopping-cart-icon {
   list-style-type: none;
 }
 
 .shopping-cart {
   position: relative;
-  right: 50px;
+  right: 60px;
   top: 10px;
 }
 
@@ -808,6 +788,18 @@ h4 img {
 
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 510px) {
+  .logo {
+    max-width: 300px;
+  }
+
+  .open-menu-btn {
+    left: 30px;
+  }
+
+  .shopping-cart {
+    right: 60px;
+  }
+
   .wps-w-3.wps-item.p-3 {
     flex: 0 0 46% !important;
     margin: 5% 2%;
@@ -815,6 +807,10 @@ h4 img {
 }
 
 @media(min-width: 576px) {
+  .logo {
+    max-width: 350px;
+  }
+
   .hero-sub-title {
     font-size: 1.25rem;
   }
@@ -864,6 +860,63 @@ h4 img {
 }
 
 @media(min-width: 768px) {
+  .header {
+    height: 65px;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .open-menu {
+      display: none;
+  }
+
+  .open-menu-btn {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  #top-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .top-menu-class ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 0;
+  }
+
+  .top-menu-class ul li {
+    list-style-type: none;
+    display: inline;
+  }
+
+  .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
+    text-decoration: none;
+    color: #7b7b7b;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    transition: all 0.4s;
+  }
+
+  .top-menu-class ul li a:hover, .top-menu-class ul li a:active {
+    color: #63a497;
+    font-weight: 700;
+    text-shadow: 0 3px 6px #7b7b7b;
+    transition: all 0.4s;
+  }
+
+  .shopping-cart {
+    right: 30px;
+    top: 20px;
+  }
+
   .widget-home-intro {
     margin: 15% 0;
   }
@@ -944,6 +997,10 @@ h4 img {
 
 
 @media(min-width: 1140px) {
+    .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
+      font-size: 1rem;
+    }
+
     .hero-widget-content {
       padding: 5% 10%;
     }

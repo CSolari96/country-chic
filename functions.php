@@ -28,7 +28,8 @@
 	function register_my_menu() {
 		register_nav_menus(
 			array(
-				'top-menu' => ('Top Menu')
+				'top-menu' 	=> 	('Top Menu'),
+				'icon-menu' =>	('Cart Icon Menu')
 			)
 		);
 	}

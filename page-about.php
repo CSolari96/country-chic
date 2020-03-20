@@ -63,6 +63,14 @@
 				</div>
 
 				<div class="row col-sm-12 col-md-3">
+					<div class="hover-images-effects">
+					  <div class="card card-third">
+					    <?php dynamic_sidebar('rosanne-picture'); ?>
+					    <div class="card--hidden">
+								<?php dynamic_sidebar('rosanne-picture-info'); ?>
+					      <a href="#" class="card__info">Read More</a>
+					    </div>
+					  </div>
 
 					<?php dynamic_sidebar('rosanne-picture'); ?>
 

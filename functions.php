@@ -571,6 +571,16 @@ register_sidebar(array(
 			));
 
 			register_sidebar(array(
+				'name' => ('Rosanne Picture Info'),
+				'id' => 'rosanne-picture-info',
+				'description' => 'Information of Rosanne',
+				'before_widget' => '<div class="about-us-pictures-info">',
+				'after_widget' => '</div>',
+				'before_title' => '<h2>',
+				'after_title' => '</h2>'
+				));
+
+			register_sidebar(array(
 				'name' => ('Jan Picture'),
 				'id' => 'jan-picture',
 				'description' => 'Picture of Jan',

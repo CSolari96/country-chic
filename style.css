@@ -620,6 +620,7 @@ p.noflex {
 
 .row.center {
 	justify-content: center;
+	margin-left: 0 !important;
 }
 
 /*** HOVER EFFECT ON MEET US***/
@@ -787,9 +788,7 @@ h4 img {
   max-width: 200px;
 }
 
-.row {
-	margin-left: 0 !important;
-}
+
 
 
 

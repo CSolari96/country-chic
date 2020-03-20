@@ -62,7 +62,7 @@
 
 				</div>
 
-				<div class="row col-sm-12 col-md-6 col-md-3">
+				<div class="row col-sm-12 col-md-6 col-lg-3">
 					<div class="hover-images-effects">
 					  <div class="card card-third">
 					    <?php dynamic_sidebar('rosanne-picture'); ?>

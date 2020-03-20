@@ -535,8 +535,8 @@ p.noflex {
 }
 
 .about-us-pictures img {
-  max-width: 225px;
-  border-radius: 50%;
+  max-width: 250px !important;
+  border-radius: 10%;
 }
 
 .line-spacing p {
@@ -546,7 +546,7 @@ p.noflex {
 
 .line-spacing {
 	padding: 3% 2%;
-	text-align: center; 
+	text-align: center;
 }
 
 .values-title {

@@ -530,11 +530,12 @@ p.noflex {
 .video-container h2 {
 	 color: #63a496;
 	 text-align: center;
-	 padding-bottom: 2%; 
+	 padding-bottom: 3%;
+	 font-size: 2rem;
 }
 
 .about-us-pictures img {
-  max-width: 300px;
+  max-width: 225px;
   border-radius: 50%;
 }
 
@@ -545,6 +546,12 @@ p.noflex {
 
 .line-spacing {
 	padding: 3% 2%;
+}
+
+.values-title {
+	text-align: center;
+	padding: 3% 0;
+
 }
 
 /**********TUTORIALS PAGE STYLING**********/

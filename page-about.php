@@ -55,6 +55,40 @@
 
 				<div class="col-md-12">
 
+					<?php dynamic_sidebar('meet-us-title'); ?>
+
+				</div>
+
+				<div class="row col-sm-12 col-md-3">
+
+					<?php dynamic_sidebar('rosanne-picture'); ?>
+
+				</div>
+
+				<div class="row col-sm-12 col-md-3">
+
+					<?php dynamic_sidebar('jan-picture'); ?>
+
+				</div>
+
+				<div class="row col-sm-12 col-md-3">
+
+					<?php dynamic_sidebar('sarah-picture'); ?>
+
+				</div>
+
+				<div class="row col-sm-12 col-md-3">
+
+					<?php dynamic_sidebar('christa-picture'); ?>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-12">
+
 					<?php dynamic_sidebar('about-values-title'); ?>
 
 				</div>
@@ -89,40 +123,6 @@
 
 			</div>
 
-
-			<div class="row">
-
-				<div class="col-md-12">
-
-					<?php dynamic_sidebar('meet-us-title'); ?>
-
-				</div>
-
-				<div class="row col-sm-12 col-md-3">
-
-					<?php dynamic_sidebar('rosanne-picture'); ?>
-
-				</div>
-
-				<div class="row col-sm-12 col-md-3">
-
-					<?php dynamic_sidebar('jan-picture'); ?>
-
-				</div>
-
-				<div class="row col-sm-12 col-md-3">
-
-					<?php dynamic_sidebar('sarah-picture'); ?>
-
-				</div>
-
-				<div class="row col-sm-12 col-md-3">
-
-					<?php dynamic_sidebar('christa-picture'); ?>
-
-				</div>
-
-			</div>
 
 	</main>
 

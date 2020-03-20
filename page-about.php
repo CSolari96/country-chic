@@ -135,7 +135,7 @@
 
 				</div>
 
-				<div class="row centercol-sm-12 col-md-6">
+				<div class="row center col-sm-12 col-md-6">
 
 					<?php dynamic_sidebar('local-economy-value-icon'); ?>
 					<?php dynamic_sidebar('local-economy-value'); ?>

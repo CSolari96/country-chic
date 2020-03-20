@@ -32,6 +32,8 @@
 		<section class="line-spacing">
 				<div class="row col-12">
 					<?php dynamic_sidebar('secondary-title-about'); ?>
+				</div>
+				<div class="row col-12">
 					<?php
 	          if(have_posts()){
 	            while(have_posts()){
@@ -41,7 +43,7 @@
 	          <?php  }//ends while loop
 	          }//ends the if statement
 	         ?>
-					</div>
+				</div>
 			</section>
 
 			<section>

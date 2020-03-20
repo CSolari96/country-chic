@@ -55,7 +55,6 @@
 			</section>
 
 			<div class="row justify-content-center">
-				<div class= "meet-us-section">
 
 				<div class="col-md-12">
 
@@ -112,7 +111,6 @@
 					</div>
 				</div>
 
-			</div>
 		</div>
 
 			<div class="row">

@@ -47,7 +47,7 @@
 
 			</div>
 
-			<div class="col-10 col-md-4">
+			<div class="col-10 col-md-4 col-lg-3 logo-container">
 
 				<?php
 
@@ -67,7 +67,7 @@
 
 			</div>
 
-			<nav class="desktop-nav col-md-7">
+			<nav class="desktop-nav col-md-7 col-lg-8">
 
 				<?php
 
@@ -85,7 +85,7 @@
 
 			</nav>
 
-			<div class="col-1 col-md-1 shopping-cart">
+			<div class="col-1 col-md-1 col-lg-1 shopping-cart">
 
 				<?php
 

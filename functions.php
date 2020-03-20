@@ -28,8 +28,7 @@
 	function register_my_menu() {
 		register_nav_menus(
 			array(
-				'top-menu' 	=> 	('Top Menu'),
-				'icon-menu' => 	('Cart Icon Menu')
+				'top-menu' => ('Top Menu')
 			)
 		);
 	}
@@ -443,7 +442,7 @@ register_sidebar(array(
 	'name' => ('Secondary title'),
 	'id' => 'secondary-title-about',
 	'description' => 'The secondary title on the about page',
-	'before_widget' => '<div class="hide">',
+	'before_widget' => '<div>',
 	'after_widget' => '</div>',
 	'before_title' => '<h2 class="secondary-title">',
 	'after_title' => '</h2>'
@@ -473,8 +472,8 @@ register_sidebar(array(
 		'name' => ('Low Environment Impact Value'),
 		'id' => 'low-impact-value',
 		'description' => 'Low Environmental Impact Value',
-		'before_widget' => '<div class="about-values">',
-		'after_widget' => '</div>',
+		'before_widget' => '<p class="pop-up">',
+		'after_widget' => '</p>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
 		));
@@ -483,8 +482,8 @@ register_sidebar(array(
 		'name' => ('Supporting the local economy'),
 		'id' => 'local-economy-value',
 		'description' => 'Supporting the local economy value',
-		'before_widget' => '<div class="about-values">',
-		'after_widget' => '</div>',
+		'before_widget' => '<p class="pop-up">',
+		'after_widget' => '</p>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
 		));
@@ -493,8 +492,8 @@ register_sidebar(array(
 		'name' => ('Participating in Recycling Programs'),
 		'id' => 'recycling-programs-value',
 		'description' => 'Participating in Recylcling Programs value',
-		'before_widget' => '<div class="about-values">',
-		'after_widget' => '</div>',
+		'before_widget' => '<p class="pop-up">',
+		'after_widget' => '</p>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
 		));
@@ -503,8 +502,8 @@ register_sidebar(array(
 		'name' => ('Helping those in need'),
 		'id' => 'those-in-need-value',
 		'description' => 'Helping those in need value',
-		'before_widget' => '<div class="about-values">',
-		'after_widget' => '</div>',
+		'before_widget' => '<p class="pop-up">',
+		'after_widget' => '</p>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
 		));

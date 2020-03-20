@@ -610,10 +610,10 @@ p.noflex {
 }
 
 .row.center {
-	justify-content: center; 
+	justify-content: center;
 }
 
-/*** HOVER EFFECT ***/
+/*** HOVER EFFECT ON MEET US***/
 .hover-images-effects {
   height: 100%;
 }
@@ -731,6 +731,20 @@ p.noflex {
 .card-third:hover a.card__info {
   transform: scale(1);
   opacity: 1;
+}
+
+/*** END HOVER EFFECT ON MEET US***/
+
+.pop-up {
+	display:none;
+}
+
+.pop-up:hover {
+	display:block !important;
+}
+
+h4.values {
+	text-align: center;
 }
 
 

@@ -555,7 +555,7 @@ p.noflex {
 }
 
 .meet-us-section {
-	justify-content: center;
+	justify-content: center !important;
 }
 
 }

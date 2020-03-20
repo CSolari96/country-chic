@@ -444,8 +444,8 @@ register_sidebar(array(
 	'description' => 'A video describing Country Chic',
 	'before_widget' => '<div class="video-container">',
 	'after_widget' => '</div>',
-	'before_title' => '<h3>',
-	'after_title' => '</h3>'
+	'before_title' => '<h2>',
+	'after_title' => '</h2>'
 ));
 
 	register_sidebar(array(

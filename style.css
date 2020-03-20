@@ -43,7 +43,10 @@ body {
 /**********HEADER STYLING**********/
 .logo {
   max-width: 250px;
-  height: 100%;
+  width: 100%;
+  display: block;
+  margin: auto;
+  object-fit: contain;
 }
 
 /* Navigation */

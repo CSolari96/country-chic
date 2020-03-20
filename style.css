@@ -594,7 +594,7 @@ p.noflex {
 
 .line-spacing p {
 	line-height: 1.8;
-	padding: 2% 0;
+	padding: 1% 0;
 }
 
 .line-spacing {
@@ -752,7 +752,7 @@ h4.values {
 
 .our-values p {
 	text-align: center;
-	padding: 0 15%; 
+	padding: 0 15%;
 }
 
 /**********TUTORIALS PAGE STYLING**********/

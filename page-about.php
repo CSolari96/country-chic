@@ -31,6 +31,8 @@
 
 		<section class="line-spacing">
 				<div class="row col-12">
+					<?php dynamic_sidebar('secondary-title-about'); ?>
+					secondary-title-about
 					<?php
 	          if(have_posts()){
 	            while(have_posts()){

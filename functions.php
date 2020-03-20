@@ -439,6 +439,16 @@
 /**********************ABOUT PAGE WIDGETS*************/
 
 register_sidebar(array(
+	'name' => ('Secondary title'),
+	'id' => 'secondary-title-about',
+	'description' => 'The secondary title on the about page',
+	'before_widget' => '<div class="hide">',
+	'after_widget' => '</div>',
+	'before_title' => '<h2 class="secondary-title">',
+	'after_title' => '</h2>'
+));
+
+register_sidebar(array(
 	'name' => ('About video'),
 	'id' => 'video-about-us',
 	'description' => 'A video describing Country Chic',

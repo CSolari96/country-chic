@@ -558,6 +558,8 @@ p.noflex {
 	justify-content: center !important;
 }
 
+div.row.meet-us-section.justify-content-center {
+	justify-content: center;
 }
 
 /*** HOVER EFFECT ***/

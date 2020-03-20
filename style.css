@@ -527,6 +527,12 @@ p.noflex {
   margin: auto;
 }
 
+.video-container h2 {
+	 color: #63a496;
+	 text-align: center;
+	 padding-bottom: 2%; 
+}
+
 .about-us-pictures img {
   max-width: 300px;
   border-radius: 50%;
@@ -535,7 +541,6 @@ p.noflex {
 .line-spacing p {
 	line-height: 1.8;
 	padding: 1% 0;
-	text-align: center;
 }
 
 .line-spacing {

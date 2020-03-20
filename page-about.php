@@ -72,8 +72,6 @@
 					    </div>
 					  </div>
 
-					<?php dynamic_sidebar('rosanne-picture'); ?>
-
 				</div>
 
 				<div class="row col-sm-12 col-md-3">

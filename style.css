@@ -737,7 +737,11 @@ p.noflex {
 }
 
 .pop-up:hover {
-	display:inline-block;
+	display:block !important;
+}
+
+h4.values {
+	text-align: center;
 }
 
 

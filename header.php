@@ -22,7 +22,32 @@
 
 		<div class="row">
 
-			<div class="col-md-3">
+			<nav class="mobile-menu">
+
+				<p class="close-menu-container"><a href="javascript:void()" id="close-menu">&times;</a></p>
+
+				<?php
+
+					if (has_nav_menu('top-menu')) {
+
+						wp_nav_menu(array('theme_location' => 'top-menu', 'container-class' => 'mobile-top-menu-class'));
+					} else {
+
+						echo "Please select a top menu through the dashboard.";
+
+					}
+
+				?>
+
+			</nav>
+
+			<div class="col-sm-2 open-menu-btn">
+
+				<span id="open-mobile-menu" class="open-menu">&#9776;</span>
+
+			</div>
+
+			<div class="col-sm-8 col-md-3">
 
 				<?php
 
@@ -42,7 +67,7 @@
 
 			</div>
 
-			<nav class="desktop-nav col-md-9">
+			<nav class="desktop-nav col-md-7">
 
 				<?php
 
@@ -59,6 +84,24 @@
 				?>
 
 			</nav>
+
+			<div class="col-sm-2 col-md-2 shopping-cart">
+
+				<?php
+
+					if (has_nav_menu('icon-menu')) {
+
+						wp_nav_menu(array('theme_location' => 'icon-menu' , 'container_class' => 'icon-menu-class'));
+					
+					} else {
+
+						echo "Please add the shopping cart icon to this menu through the dashboard";
+					
+					}
+
+				?>
+
+			</div>
 
 		</div>
 

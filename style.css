@@ -745,6 +745,12 @@ h4.values {
 	justify-content: center;
 }
 
+.about-values-icon {
+	display:flex;
+	justify-content: center;
+	padding-bottom: 2%; 
+}
+
 
 /**********TUTORIALS PAGE STYLING**********/
 

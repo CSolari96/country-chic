@@ -54,7 +54,8 @@
 				</div>
 			</section>
 
-			<div class="row meet-us-section justify-content-center">
+			<div class="row">
+				<div class= "meet-us-section justify-content-center">
 
 				<div class="col-md-12">
 
@@ -112,6 +113,7 @@
 				</div>
 
 			</div>
+		</div>
 
 			<div class="row">
 

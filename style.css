@@ -536,7 +536,7 @@ p.noflex {
 
 .about-us-pictures img {
   max-width: 225px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .line-spacing p {
@@ -570,6 +570,7 @@ p.noflex {
   text-align: center;
   box-shadow: 1px 1px 2px #e6e6e6;
   cursor: default;
+	border-radius: 10%;
 }
 
 .card .card--hidden,

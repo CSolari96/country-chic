@@ -42,7 +42,7 @@ body {
 
 /**********HEADER STYLING**********/
 .header {
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   height: 90px;
 }
 

@@ -546,6 +546,7 @@ p.noflex {
 
 .line-spacing {
 	padding: 3% 2%;
+	text-align: center; 
 }
 
 .values-title {

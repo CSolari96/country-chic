@@ -515,8 +515,8 @@ register_sidebar(array(
 			'description' => 'Low Environmental Impact Value Icon',
 			'before_widget' => '<div class="about-values-icon">',
 			'after_widget' => '</div>',
-			'before_title' => '<h3 class="hide">',
-			'after_title' => '</h3>'
+			'before_title' => '<h4 class="values">',
+			'after_title' => '</h4>'
 			));
 
 		register_sidebar(array(
@@ -525,8 +525,8 @@ register_sidebar(array(
 			'description' => 'Supporting the local economy value Icon',
 			'before_widget' => '<div class="about-values-icon">',
 			'after_widget' => '</div>',
-			'before_title' => '<h3 class="hide">',
-			'after_title' => '</h3>'
+			'before_title' => '<h4 class="values">',
+			'after_title' => '</h4>'
 			));
 
 		register_sidebar(array(

@@ -743,14 +743,19 @@ p.noflex {
 h4.values {
 	text-align: center;
 	justify-content: center;
-	padding-bottom: 2%;
+	padding: 2% 0;
 }
 
 .about-values-icon {
 	display:flex;
 	justify-content: center;
+	padding: 3% 5%;
+	max-height: 149px;
 }
 
+.our-values p {
+	text-align: center;
+}
 
 /**********TUTORIALS PAGE STYLING**********/
 

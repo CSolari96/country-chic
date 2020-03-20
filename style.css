@@ -42,6 +42,50 @@ body {
   height: 100%;
 }
 
+/* Navigation */
+.desktop-nav {
+  display: none;
+}
+
+.open-menu {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-align: center;
+  padding-top: 20%;
+  background-color: #82a3af;
+}
+
+.mobile-menu ul li {
+  list-style-type: none;
+  padding: 5%;
+}
+
+.mobile-menu a:link, .mobile-menu a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  transition: all 0.5s;
+}
+
+.mobile-menu a:hover, .mobile-menu a:active {
+    text-shadow: 0 3px 6px #7b7b7b;
+    transition: all 0.5s;
+}
+
 #top-menu {
     display: flex;
     flex-direction: column;

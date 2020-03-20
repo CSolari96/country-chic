@@ -30,7 +30,7 @@
 <main class="container-fluid">
 
 		<section class="line-spacing">
-				<div class="row col-12">
+				<div class="row col-12 justify-content-center">
 					<?php dynamic_sidebar('secondary-title-about'); ?>
 				</div>
 				<div class="row col-12">

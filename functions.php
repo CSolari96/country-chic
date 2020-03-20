@@ -28,8 +28,7 @@
 	function register_my_menu() {
 		register_nav_menus(
 			array(
-				'top-menu' 	=> 	('Top Menu'),
-				'icon-menu' => 	('Cart Icon Menu')
+				'top-menu' => ('Top Menu')
 			)
 		);
 	}
@@ -443,7 +442,7 @@ register_sidebar(array(
 	'name' => ('Secondary title'),
 	'id' => 'secondary-title-about',
 	'description' => 'The secondary title on the about page',
-	'before_widget' => '<div class="hide">',
+	'before_widget' => '<div>',
 	'after_widget' => '</div>',
 	'before_title' => '<h2 class="secondary-title">',
 	'after_title' => '</h2>'
@@ -483,7 +482,7 @@ register_sidebar(array(
 		'name' => ('Supporting the local economy'),
 		'id' => 'local-economy-value',
 		'description' => 'Supporting the local economy value',
-		'before_widget' => '<div class="popup">',
+		'before_widget' => '<div class="pop-up">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="values">',
 		'after_title' => '</h4>'
@@ -548,6 +547,17 @@ register_sidebar(array(
 				'before_title' => '<h3 class="hide">',
 				'after_title' => '</h3>'
 				));
+
+
+		register_sidebar(array(
+			'name' => ('Meet Us Title'),
+			'id' => 'meet-us-title',
+			'description' => 'Title of the Meet Us Section',
+			'before_widget' => '<div class="meet-us">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3>',
+			'after_title' => '</h3>'
+			));
 
 
 		register_sidebar(array(

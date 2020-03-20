@@ -753,8 +753,6 @@ h4.values {
 }
 
 .about-values-icon {
-	display:flex;
-	justify-content: center;
 	padding: 3% 5%;
 }
 

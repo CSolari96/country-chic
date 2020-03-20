@@ -121,28 +121,28 @@
 
 				</div>
 
-				<div class="row center col-sm-12 col-md-6 col-lg-3">
+				<div class="row center pop-up-parent col-sm-12 col-md-6 col-lg-3">
 
 					<?php dynamic_sidebar('low-impact-value-icon'); ?>
 					<?php dynamic_sidebar('low-impact-value'); ?>
 
 				</div>
 
-				<div class="row center col-sm-12 col-md-6 col-lg-3">
+				<div class="row center pop-up-parent col-sm-12 col-md-6 col-lg-3">
 
 					<?php dynamic_sidebar('recycling-programs-value-icon'); ?>
 					<?php dynamic_sidebar('recycling-programs-value'); ?>
 
 				</div>
 
-				<div class="row center col-sm-12 col-md-6 col-lg-3">
+				<div class="row center pop-up-parent col-sm-12 col-md-6 col-lg-3">
 
 					<?php dynamic_sidebar('local-economy-value-icon'); ?>
 					<?php dynamic_sidebar('local-economy-value'); ?>
 
 				</div>
 
-				<div class="row center col-sm-12 col-md-6 col-lg-3">
+				<div class="row center pop-up-parent col-sm-12 col-md-6 col-lg-3">
 
 					<?php dynamic_sidebar('those-in-need-value-icon'); ?>
 					<?php dynamic_sidebar('those-in-need-value'); ?>

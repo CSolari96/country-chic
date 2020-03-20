@@ -732,16 +732,17 @@ p.noflex {
 
 /*** END HOVER EFFECT ON MEET US***/
 
-.pop-up {
+.pop-up-parent .popup {
 	display:none;
 }
 
-.pop-up:hover {
+.pop-up-parent .popup:hover {
 	display:block !important;
 }
 
 h4.values {
 	text-align: center;
+	justify-content: center;
 }
 
 

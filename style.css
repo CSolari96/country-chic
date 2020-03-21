@@ -803,12 +803,22 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
 
 }
 
+.tutorial-individual-posts img {
+	float: left;
+	margin: 10px;
+}
+
 .tutorial-individual-posts p {
-  padding: 3% 0;
+  padding: 1% 0;
 }
 
 h4 img {
-  max-width: 200px;
+  max-width: 225px;
+}
+
+h4.block-title {
+    clear: both;
+    padding: 15px;
 }
 
 .card-text {

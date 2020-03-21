@@ -3,8 +3,8 @@
 <main class="container-fluid">
 
 	<div class="row">
-		<aside class="col-md-3">
-			<h3>Country Chic Products Used</h3>
+		<aside class="col-md-3 products-list">
+			<h3 class="products-used-title">Country Chic Products Used</h3>
 			<ul>
 				<li class="products-used"><?php the_field('product'); ?></li>
 				<li class="products-used"><?php the_field('brushes_used'); ?></li>

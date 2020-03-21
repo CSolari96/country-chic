@@ -857,6 +857,10 @@ li.products-used {
     margin: 3%;
 }
 
+h3.products-used-title {
+	padding-top: 5px;
+}
+
 /**********FOOTER STYLING**********/
 
 .social-footer a{
@@ -1090,6 +1094,15 @@ li.products-used {
   .wps-collections-link h2:hover {
     font-weight: 700;
   }
+
+	h3.products-used-title {
+		text-align: center;
+	}
+
+	.products-list {
+		background-color: #99c6d1;
+		opacity: 0.7;
+	}
 }
 
 @media(min-width: 900px) {

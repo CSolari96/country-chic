@@ -6,8 +6,8 @@
 		<aside class="col-md-3">
 			<h3>Country Chic Products Used</h3>
 			<ul>
-				<li class="products-used"><?php get_field('product'); ?></li>
-				<li class="products-used"><?php get_field('brushes_used'); ?></li>
+				<li class="products-used"><?php echo get_field('product'); ?></li>
+				<li class="products-used"><?php echo get_field('brushes_used'); ?></li>
 			</ul>
 		</aside>
 

@@ -28,8 +28,10 @@
 	function register_my_menu() {
 		register_nav_menus(
 			array(
-				'top-menu' 	=> 	('Top Menu'),
-				'icon-menu' =>	('Cart Icon Menu')
+				'top-menu' 	    => 	('Top Menu'),
+				'icon-menu'     =>	('Cart Icon Menu'),
+				'footer-left'   =>  ('Left Footer Menu'),
+		    'footer-middle' =>  ('Middle Footer Menu'),
 			)
 		);
 	}
@@ -392,6 +394,29 @@
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h3 class="home-sketches-title">',
 			'after_title' 	=> 	'</h3>'
+		));
+
+
+		/**********************FOOTER WIDGETS*************/
+
+	  register_sidebar(array(
+	    'name'          => ('Footer Left'),
+	    'id'            => 'footer-left',
+	    'description'   => 'Left section of the footer',
+	    'before_widget' => '<div class="footer-left">',
+	    'after_widget'  => '</div>',
+	    'before_title'  => '<h3 class="footer-left-widget-title">',
+	    'after_title'   => '</h3>',
+	  ));
+
+		register_sidebar(array(
+			'name'          => ('Footer Middle'),
+			'id'            => 'footer-middle',
+			'description'   => 'Middle section of the footer',
+			'before_widget' => '<div class="footer-middle">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="footer-middle-widget-title">',
+			'after_title'   => '</h3>',
 		));
 
 		/**********************CONTACT PAGE WIDGETS*************/

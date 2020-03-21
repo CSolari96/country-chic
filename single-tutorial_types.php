@@ -3,22 +3,32 @@
 <main class="container-fluid">
 
 	<div class="row">
+		<aside class="col-md-3">
+			<ul>
+				<li class="products-used"><?php the_field('product'); ?></li>
+				<li class="products-used"><?php the_field('brushes_used'); ?></li>
+			</ul>
+		</aside>
 
-		<?php
-					if (have_posts()) {
-						while (have_posts()) {
-							the_post(); ?>
+		<section class="col-md-9">
 
-							<h2><?php the_title(); ?></h2>
+			<?php
+						if (have_posts()) {
+							while (have_posts()) {
+								the_post(); ?>
 
-							<div class="tutorial-post"><?php the_content(); ?></div>
-				<?php
-						}  // End while
-					}  // End if
+								<h2><?php the_title(); ?></h2>
 
-				?>
+								<div class="tutorial-post"><?php the_content(); ?></div>
+					<?php
+							}  // End while
+						}  // End if
 
-	</div>
+					?>
+
+		</div>
+		</section>
+
 
 </main>
 

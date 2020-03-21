@@ -37,21 +37,6 @@
 				</div>
 		</section>
 
-	<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 6);
-
-	$loop = new WP_Query($args);
-
-	while($loop->have_posts()): $loop->the_post();?>
-
-		<div class="card tutorial-card">
-		  <?php the_post_thumbnail('medium'); ?>
-		  <div class="card-body">
-		    <h5 class="tutorial-card-titles"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-		    <p class="tutorial-card-text"><?php the_excerpt(); ?> </p>
-		  </div>
-		</div>
-
-</main>
 
 
 <?php get_footer(); ?>

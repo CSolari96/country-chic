@@ -800,11 +800,6 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
 }
 
 .tutorial-individual-posts {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
 
 }
 

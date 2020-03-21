@@ -4,6 +4,7 @@
 
 	<div class="row">
 		<aside class="col-md-3">
+			<h2>Country Chic Products Used</h2>
 			<ul>
 				<li class="products-used"><?php the_field('product'); ?></li>
 				<li class="products-used"><?php the_field('brushes_used'); ?></li>

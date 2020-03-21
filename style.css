@@ -828,13 +828,13 @@ a.tutorial-title-link:active, a.tutorial-title-link:hover {
 	text-decoration: underline;
 }
 
-a.card-link, a.card-link:visited {
+a.cards-link, a.cards-link:visited {
 	color: #63a497;
 }
 
-a.card-link:active, a.card-link:hover {
+a.cards-link:active, a.cards-link:hover {
 	color:	#82a3af;
-	font-size: 1.5rem; 
+	font-size: 1.5rem;
 }
 
 .card p {

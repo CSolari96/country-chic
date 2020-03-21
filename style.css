@@ -781,16 +781,13 @@ h4.values {
 
 .card .tutorial-cards img {
 	width: 100%;
-	max-width: 200px; 
+	max-width: 200px;
 }
 
-
-
-
-
-
-
-
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    max-height: 200px;
+    max-width: 300px;
+}
 
 .tutorial-page iframe {
   display: block;

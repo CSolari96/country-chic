@@ -874,7 +874,18 @@ a.cards-link:active, a.cards-link:hover {
 
 .green-footer{
 	background-color: #63a497;
-	height: 100px;
+	padding: 5% 0;
+}
+
+.green-footer li {
+	list-style: none;
+	margin-bottom: 5%;
+
+}
+
+.green-footer a{
+	color: white;
+	text-decoration: none;
 }
 
 

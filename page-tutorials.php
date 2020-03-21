@@ -50,7 +50,7 @@
 		while($loop->have_posts()): $loop->the_post();?>
 
 			<div class="card" style="width: 18rem;">
-  			<img src="<?php the_post_thumbnail('small'); ?> ">  
+  			<img class="card-picture"><?php the_post_thumbnail('small'); ?> </img> 
   			<div class="card-body">
     			<h5 class="card-title">Card title</h5>
     			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

@@ -53,7 +53,7 @@
   			<div class="card-img-top"><?php the_post_thumbnail(); ?> </div>
   			<div class="card-body">
     			<h5 class="card-title-tutorials"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    			<p class="card-text"><?php the_excerpt(); ?></p>
     			<a href="#" class="btn btn-primary">Go somewhere</a>
   			</div>
 			</div>

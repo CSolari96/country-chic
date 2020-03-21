@@ -849,6 +849,34 @@ a.cards-link:active, a.cards-link:hover {
 	font-style: normal !important;
 }
 
+/**********FOOTER STYLING**********/
+
+.social-footer a{
+	text-decoration: none;
+}
+.social-button {
+	width: 12%;
+	margin: 0 4% 2% 0;
+	border-radius: 50%;
+	padding: 2.5% 0%;
+	background-color: #63a497;
+	transition: all 0.2s;
+}
+
+.social-icon{
+ width: 60%;
+}
+
+.social-button:hover{
+	background-color: #d4af37;
+	transition: all 0.2s;
+}
+
+.green-footer{
+	background-color: #63a497;
+	height: 100px;
+}
+
 
 
 

@@ -54,7 +54,7 @@
   			<div class="card-body">
     			<h5 class="card-title-tutorials"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
     			<p class="card-text"><?php the_excerpt(); ?></p>
-    			<a href="#" class="btn btn-primary">Go somewhere</a>
+    			<a href="<?php the_permalink(); ?>">Learn More</a>
   			</div>
 			</div>
 

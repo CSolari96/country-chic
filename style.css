@@ -799,22 +799,6 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
   margin: auto;
 }
 
-.tutorial-individual-posts {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
-
-}
-
-.tutorial-individual-posts p {
-  padding: 3% 0;
-}
-
-h4 img {
-  max-width: 200px;
-}
 
 .card-text {
 	padding: 10px 0;
@@ -827,8 +811,6 @@ a.tutorial-title-link, a.tutorial-title-link:visited {
 	padding: 5px;
 	padding-top: 5px;
 }
-
-
 
 a.tutorial-title-link:active, a.tutorial-title-link:hover {
 	color: 	#82a3af;
@@ -847,6 +829,41 @@ a.cards-link:active, a.cards-link:hover {
 .card p {
 	color: #7b7b7b !important;
 	font-style: normal !important;
+}
+
+.tutorial-individual-posts {
+
+}
+
+.tutorial-individual-posts img {
+	float: left;
+	margin: 10px;
+}
+
+.tutorial-individual-posts p {
+  padding: 1% 0;
+}
+
+h4 img {
+  max-width: 225px;
+}
+
+h4.block-title {
+    clear: both;
+    padding: 15px;
+}
+
+li.products-used {
+    margin: 3%;
+}
+
+h3.products-used-title {
+	padding-top: 5px;
+}
+
+.products-list {
+	background-color: #99c6d1;
+	text-align: center;
 }
 
 /**********FOOTER STYLING**********/
@@ -1093,6 +1110,11 @@ a.cards-link:active, a.cards-link:hover {
   .wps-collections-link h2:hover {
     font-weight: 700;
   }
+
+	.products-list {
+		background-color: #ffffff;
+		text-align: left;
+	}
 }
 
 @media(min-width: 900px) {
@@ -1182,4 +1204,8 @@ a.cards-link:active, a.cards-link:hover {
     .wps-collection-single .wps-w-3.wps-item.p-3 {
         flex: 0 0 23% !important;
     }
+
+		h3.products-used-title {
+    padding-bottom: 25px;
+	}
 }

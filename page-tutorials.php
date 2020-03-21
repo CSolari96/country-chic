@@ -52,7 +52,7 @@
 			<div class="card tutorial-cards" style="width: 18rem;">
   			<div class="card-img-top"><?php the_post_thumbnail(); ?> </div>
   			<div class="card-body">
-    			<h5 class="card-title-tutorials"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
+    			<h5 class="card-title-tutorials"><a href="<?php the_permalink(); ?>" class="tutorial-title-link"><?php the_title(); ?></a></h5>
     			<p class="card-text"><?php the_excerpt(); ?></p>
     			<a href="<?php the_permalink(); ?>">Learn More</a>
   			</div>

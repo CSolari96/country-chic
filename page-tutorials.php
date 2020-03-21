@@ -58,47 +58,6 @@
 		  </div>
 		</div>
 
-
-
-
-
-
-
-
-
-
-	<div class="row">
-
-		<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 12);
-
-		$loop = new WP_Query($args);
-
-		while($loop->have_posts()): $loop->the_post();?>
-
-		<div class="col-md-3">
-			<?php if(has_post_thumbnail()) {
-				the_post_thumbnail('medium'); ?>
-		</div>
-			<div class="col-md-6">
-				<h3><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h3>
-				<?php the_excerpt(); ?>
-		</div>
-
-			<div class="col-md-3">
-				<h4>Country Chic Products Used</h4>
-				<p class="products-used"><?php the_field('product'); ?></p>
-				</p class="products-used"><?php the_field('brushes_used'); ?></p>
-			</div>
-
-	<?php	} ?>
-
-		</div>
-
-
-	<?php endwhile; ?>
-
-	</div>
-
 </main>
 
 

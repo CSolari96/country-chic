@@ -41,7 +41,14 @@
 				</div>
 		</section>
 
-		<div class="row"> 
+		<div class="row">
+
+		<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 6);
+
+		$loop = new WP_Query($args);
+
+		while($loop->have_posts()): $loop->the_post();?>
+
 			<div class="card" style="width: 18rem;">
   			<img src="..." class="card-img-top" alt="...">
   			<div class="card-body">

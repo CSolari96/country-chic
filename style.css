@@ -775,8 +775,13 @@ h4.values {
 }
 
 
-.card .tutorial-card {
+.card .tutorial-cards {
 	width: 18rem;
+}
+
+.card .tutorial-cards img {
+	width: 100%;
+	max-width: 200px; 
 }
 
 

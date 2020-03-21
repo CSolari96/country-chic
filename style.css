@@ -767,12 +767,17 @@ h4.values {
 	text-align: center;
 	border-bottom: 3px solid #99c6d1;
 	width: 60%;
+	margin: auto;
 }
 
 .tutorials-main-post p {
-	padding: 3% 0; 
+	padding: 3% 5% 0 0;
 }
 
+
+.card .tutorial-card {
+	width: 18rem;
+}
 
 
 

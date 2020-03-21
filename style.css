@@ -787,6 +787,7 @@ h4.values {
 img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
     max-height: 300px;
     max-width: 300px;
+		padding-bottom: 10px;
 }
 
 .tutorial-page iframe {
@@ -817,18 +818,28 @@ a.tutorial-title-link, a.tutorial-title-link:visited {
 	text-decoration: none;
 	font-size: 1rem;
 	padding: 5px;
-	padding-top: 5px; 
+	padding-top: 5px;
 }
+
+
 
 a.tutorial-title-link:active, a.tutorial-title-link:hover {
 	color: 	#82a3af;
 	text-decoration: underline;
 }
 
+a.card-link, a.card-link:visited {
+	color: #63a497;
+}
+
+a.card-link:active, a.card-link:hover {
+	color:	#82a3af;
+	font-size: 1.5rem; 
+}
+
 .card p {
 	color: #7b7b7b !important;
 	font-style: normal !important;
-	padding: 5px;
 }
 
 

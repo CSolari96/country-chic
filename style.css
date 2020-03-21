@@ -824,9 +824,9 @@ h5.card-titles-tutorials a:active, h5.card-titles-tutorials a:hover {
 	text-decoration: underline;
 }
 
-.card-text p {
-	color: #7b7b7b;
-	font-style: normal;
+.card p {
+	color: #7b7b7b !important;
+	font-style: normal !important;
 }
 
 

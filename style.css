@@ -768,10 +768,13 @@ h4.values {
 	border-bottom: 3px solid #99c6d1;
 	width: 60%;
 	margin: auto;
+	margin-bottom: 10%;
 }
 
 .tutorials-main-post p {
-	padding: 3% 5% 0 0;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    line-height: 1.8;
 }
 
 
@@ -811,6 +814,10 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
 
 h4 img {
   max-width: 200px;
+}
+
+.card-text {
+	padding: 10px 0;
 }
 
 a.tutorial-title-link, a.tutorial-title-link:visited {

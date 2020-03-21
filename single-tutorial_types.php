@@ -4,7 +4,7 @@
 
 	<div class="row">
 		<aside class="col-md-3">
-			<h2>Country Chic Products Used</h2>
+			<h3>Country Chic Products Used</h3>
 			<ul>
 				<li class="products-used"><?php the_field('product'); ?></li>
 				<li class="products-used"><?php the_field('brushes_used'); ?></li>
@@ -18,7 +18,7 @@
 							while (have_posts()) {
 								the_post(); ?>
 
-								<h2><?php the_title(); ?></h2>
+								<h2 class="secondary-title"><?php the_title(); ?></h2>
 
 								<div class="tutorial-post"><?php the_content(); ?></div>
 					<?php

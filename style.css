@@ -799,6 +799,38 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
   margin: auto;
 }
 
+
+.card-text {
+	padding: 10px 0;
+}
+
+a.tutorial-title-link, a.tutorial-title-link:visited {
+	color: #63a497;
+	text-decoration: none;
+	font-size: 1rem;
+	padding: 5px;
+	padding-top: 5px;
+}
+
+a.tutorial-title-link:active, a.tutorial-title-link:hover {
+	color: 	#82a3af;
+	text-decoration: underline;
+}
+
+a.cards-link, a.cards-link:visited {
+	color: #63a497;
+}
+
+a.cards-link:active, a.cards-link:hover {
+	color:	#82a3af;
+	font-size: 1.5rem;
+}
+
+.card p {
+	color: #7b7b7b !important;
+	font-style: normal !important;
+}
+
 .tutorial-individual-posts {
 
 }
@@ -821,37 +853,8 @@ h4.block-title {
     padding: 15px;
 }
 
-.card-text {
-	padding: 10px 0;
-}
-
-a.tutorial-title-link, a.tutorial-title-link:visited {
-	color: #63a497;
-	text-decoration: none;
-	font-size: 1rem;
-	padding: 5px;
-	padding-top: 5px;
-}
-
-
-
-a.tutorial-title-link:active, a.tutorial-title-link:hover {
-	color: 	#82a3af;
-	text-decoration: underline;
-}
-
-a.cards-link, a.cards-link:visited {
-	color: #63a497;
-}
-
-a.cards-link:active, a.cards-link:hover {
-	color:	#82a3af;
-	font-size: 1.5rem;
-}
-
-.card p {
-	color: #7b7b7b !important;
-	font-style: normal !important;
+li.products-used {
+    margin: 3%;
 }
 
 /**********FOOTER STYLING**********/

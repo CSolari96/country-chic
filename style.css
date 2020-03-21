@@ -863,6 +863,7 @@ h3.products-used-title {
 
 .products-list {
 	background-color: #99c6d1;
+	text-align: center;
 }
 
 /**********FOOTER STYLING**********/
@@ -1104,7 +1105,8 @@ h3.products-used-title {
 	}
 
 	.products-list {
-		background-color: #ffffff;;
+		background-color: #ffffff;
+		text-align: left;
 	}
 }
 

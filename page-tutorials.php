@@ -41,7 +41,7 @@
 				</div>
 		</section>
 
-		<div class="row">
+		<div class="row center">
 
 		<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 6);
 

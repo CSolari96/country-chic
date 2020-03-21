@@ -812,14 +812,14 @@ h4 img {
   max-width: 200px;
 }
 
-.tutorial-title-link a:link, h5.card-titles-tutorials a:visited {
+a.tutorial-title-link, a.tutorial-title-link:visited {
 	color: #63a497;
 	text-decoration: none;
 	font-size: 1rem;
 	padding: 5px;
 }
 
-.tutorial-title-link a:active, h5.card-titles-tutorials a:hover {
+a.tutorial-title-link:active, a.tutorial-title-link:hover {
 	color: 	#82a3af;
 	text-decoration: underline;
 }

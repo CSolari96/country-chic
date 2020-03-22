@@ -508,7 +508,7 @@ a:hover, a:active {
 }
 
 .your-name input, .your-email input {
-  margin-bottom: 1%;
+  margin-bottom: 1%; 
 }
 
 .your-name input, .your-email input, .your-message textarea {

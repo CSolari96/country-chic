@@ -489,12 +489,12 @@ a:hover, a:active {
 }
 
 .phone-number {
-  font-size: 2.25rem;
+  font-size: 1.2rem;
   padding: 2% 0;
 }
 
 .email-address {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding-bottom: 2%;
 }
 
@@ -1002,6 +1002,11 @@ footer{
   .card .about-us-pictures-info p {
     font-size: 1rem;
   }
+
+	.phone-number {
+	  font-size: 2.25rem;
+	  padding: 2% 0;
+	}
 }
 
 @media(min-width: 576px) {

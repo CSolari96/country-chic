@@ -640,7 +640,7 @@ p.noflex {
 }
 
 /*** HOVER EFFECT ON MEET US***/
-section.row.card-images-about.justify-content-center {
+.card-images-about {
     margin-top: 5%;
 }
 

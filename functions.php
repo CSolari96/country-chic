@@ -666,6 +666,16 @@ register_sidebar(array(
 						'after_title' => '</h2>'
 						));
 
+/**********************CONTACT PAGE WIDGETS*************/
+						register_sidebar(array(
+							'name' => ('Secondary title Tutorials'),
+							'id' => 'secondary-title-tutorials',
+							'description' => 'The secondary title on the tutorials page',
+							'before_widget' => '<div>',
+							'after_widget' => '</div>',
+							'before_title' => '<h2 class="secondary-title">',
+							'after_title' => '</h2>'
+						));
 	}
 
 	add_action('widgets_init', 'blank_widgets_init');

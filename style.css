@@ -696,7 +696,7 @@ p.noflex {
   font-size: 1rem;
 }
 
-.about-us-pictures-info .card p {
+.card .about-us-pictures-info p {
   font-style: italic;
   font-size: 0.75rem;
   position: relative;
@@ -972,10 +972,6 @@ footer{
 	color: white;
 	text-decoration: none;
 }
-
-
-
-
 
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 510px) {

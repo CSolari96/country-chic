@@ -928,6 +928,7 @@ footer{
 
 .social-footer a{
 	text-decoration: none;
+	margin-left: 5%;
 }
 .social-button {
 	width: 12%;
@@ -950,7 +951,7 @@ footer{
 
 .green-footer{
 	background-color: #63a497;
-	padding: 5% 0;
+	padding: 5%;
 }
 
 .green-footer li {

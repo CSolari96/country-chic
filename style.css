@@ -907,21 +907,29 @@ h3.products-used-title {
 
 /*push test*/
 
+.animals{
+float: right;
+margin-top: -51.6%;
+width: 44%;
+}
+
+
 .animals img {
-	width: 100%;
+	width: 102%;
 }
 
 .social-footer a{
 	text-decoration: none;
 	margin-left: 5%;
 }
+
 .social-button {
-	width: 18%;
+	width: 13%;
   max-width: 70px;
   max-height: 70px;
   margin: 0 0 2% 0;
   border-radius: 50%;
-  padding: 3.5% 0%;
+  padding: 2.5% 0%;
   background-color: #63a497;
   transition: all 0.2s;
   z-index: 111111;

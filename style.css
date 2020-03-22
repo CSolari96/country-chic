@@ -699,7 +699,7 @@ p.noflex {
   font-style: italic;
   font-size: 14px;
   position: relative;
-  color: #fff; !important
+  color: #fff !important;
   padding: 0px 20px 0px;
   text-align: center
 }
@@ -738,14 +738,14 @@ p.noflex {
 .card-third h2 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background: transparent;
-  margin: 20px 40px 10px 40px;
+  margin: 10px 40px 10px 40px;
   transform: scale(0);
   transition: all 0.5s linear;
   opacity: 0;
 }
 
 .card-third p {
-  color: #333;
+  color: #ffffff;
   opacity: 0;
   transform: scale(0);
   transition: all 0.5s linear;

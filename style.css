@@ -843,6 +843,8 @@ a.cards-link:active, a.cards-link:hover {
 
 .tutorial-individual-posts p {
   padding: 1% 0;
+	margin: 3% 0;
+	line-height: 1.8; 
 }
 
 h4 img {

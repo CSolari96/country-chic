@@ -451,9 +451,8 @@ a:hover, a:active {
   font-size: 1.5rem !important;
   font-weight: 700;
 }
+
 /**********CONTACT PAGE STYLING**********/
-
-
 .jumbotron {
   background-attachment: scroll; /*changed to scroll on mobile version because fixed makes the pictures zoomed in and blurry */
   padding: 0;
@@ -469,7 +468,7 @@ a:hover, a:active {
   text-align: left;
   z-index: 100000;
   font-size: 3rem;
-  text-shadow: 0px 0px 6px #3a3a3c;
+  text-shadow: 0 3px 6px #7b7b7b;
 	padding: 25px;
 }
 
@@ -1286,11 +1285,15 @@ h4.block-title {
       margin: 5% 14%;
     }
 
+    .jumbotron h1 {
+      font-size: 5rem;
+    }
+
     .wps-collection-single .wps-w-3.wps-item.p-3 {
         flex: 0 0 23% !important;
     }
 
 		h3.products-used-title {
-    padding-bottom: 25px;
-	}
+      padding-bottom: 25px;
+  	}
 }

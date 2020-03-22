@@ -38,7 +38,7 @@
 
     <!-- Green Footer bar -->
       <div class="container-fluid">
-          <div class="row green-footer">
+          <div class="row green-footer test">
               <!-- Left -->
               <div class="col-md-4">
                 <?php dynamic_sidebar('footer-left'); ?>

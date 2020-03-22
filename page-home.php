@@ -13,7 +13,7 @@
 
 <main class="container-fluid">
 
-	<div class="row">
+	<section class="row">
 
 		<div class="col-12 banner">
 
@@ -21,9 +21,9 @@
 
 		</div>
 
-	</div>
+	</section>
 
-	<div class="row justify-content-center">
+	<section class="row justify-content-center">
 
 		<div class="col-md-8">
 
@@ -31,9 +31,9 @@
 
 		</div>
 
-	</div>
+	</section>
 
-	<div class="row values-container" style="background-image: url('<?php echo get_template_directory_uri() . "/images/values_bkg.png"; ?>')">
+	<section class="row values-container" style="background-image: url('<?php echo get_template_directory_uri() . "/images/values_bkg.png"; ?>')">
 
 		<div class="col-sm-5 col-md-5">
 
@@ -61,9 +61,9 @@
 
 		</div>
 
-	</div>
+	</section>
 
-	<div class="row">
+	<section class="row">
 
 		<div class="col-12 testimonials-container">
 
@@ -71,9 +71,9 @@
 
 		</div>
 
-	</div>
+	</section>
 
-	<div class="row">
+	<section class="row">
 
 		<div class="col-md-12 banner">
 
@@ -81,9 +81,9 @@
 
 		</div>
 
-	</div>
+	</section>
 
-	<div class="row">
+	<section class="row">
 
 		<div class="col-md-12">
 
@@ -91,9 +91,9 @@
 
 		</div>
 
-	</div>
+	</section>
 
-	<div class="row">
+	<section class="row">
 
 		<div class="col-md-12 banner">
 
@@ -101,9 +101,9 @@
 
 		</div>
 
-	</div>
+	</section>
 
-	<div class="row">
+	<section class="row">
 
 		<div class="col-md-8">
 
@@ -111,7 +111,7 @@
 
 		</div>
 
-	</div>
+	</section>
 
 </main>
 

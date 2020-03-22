@@ -35,12 +35,6 @@ body {
 	font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 	color: #7b7b7b;
-	display: flex;
-	flex-direction: column;
-}
-
-.main{
-	flex: 1 0 auto;
 }
 
 .hide {

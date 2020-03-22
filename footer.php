@@ -2,7 +2,7 @@
 
   <div class="not-animals">
     <!-- Social Media Bar -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row social-footer">
             <div class="col-md-12">
 
@@ -37,7 +37,7 @@
     </div>
 
     <!-- Green Footer bar -->
-      <div class="container">
+      <div class="container-fluid">
           <div class="row green-footer">
               <!-- Left -->
               <div class="col-md-4">

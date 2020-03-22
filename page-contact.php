@@ -28,42 +28,43 @@
 		<p class="captions"><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
 	</div>
 
-<main>
-	<div class="container-fluid">
-	<section>
-			<div class="row col-12">
-				<?php
-					if(have_posts()){
-						while(have_posts()){
-							the_post(); ?>
+<main class="container-fluid">
 
-						<div class= "contact-content">	<?php the_content(); ?> </div>
-					<?php  }//ends while loop
-					}//ends the if statement
-				 ?>
-				</div>
+	<section>
+		<div class="row col-12">
+			<?php
+				if(have_posts()){
+					while(have_posts()){
+						the_post(); ?>
+
+					<div class= "contact-content">	<?php the_content(); ?> </div>
+				<?php  }//ends while loop
+				}//ends the if statement
+			 ?>
+			</div>
+
+			<div class="row col-12 contact-flex">
+					<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
+					<?php dynamic_sidebar('contact-page-phone-number'); ?>
+			</div>
+
+			<div class="row col-12 contact-flex">
+					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
+					<?php dynamic_sidebar('contact-page-email'); ?>
+			</div>
+
 		</section>
 
-				<div class="row col-12 contact-flex">
-						<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
-						<?php dynamic_sidebar('contact-page-phone-number'); ?>
-				</div>
 
-				<div class="row col-12 contact-flex">
-						<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
-						<?php dynamic_sidebar('contact-page-email'); ?>
-				</div>
-
-				<div class="row values-container contact-form-section" style="background-image: url('<?php echo get_template_directory_uri() . '/images/values_bkg.png'; ?>')">
-						<?php dynamic_sidebar('contact-form'); ?>
-				</div>
-
-					<section>
-							<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
-					</section>
-
+		<div class="row values-container contact-form-section" style="background-image: url('<?php echo get_template_directory_uri() . '/images/values_bkg.png'; ?>')">
+				<?php dynamic_sidebar('contact-form'); ?>
 		</div>
-	</main>
+
+		<section>
+				<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
+		</section>
+		
+</main>
 
 
 <?php get_footer(); ?>

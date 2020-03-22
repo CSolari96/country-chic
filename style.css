@@ -902,6 +902,14 @@ footer{
 	padding-left: 5%;
 }
 
+.social-footer{
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	z-index: 111111
+}
+
+
 .not-animals{
 	width: 100%;
 	position: absolute;
@@ -914,7 +922,7 @@ footer{
 	width: 50%;
 	bottom: 0;
 	right:0;
-	z-index: 1000;
+	z-index: 11;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
@@ -923,7 +931,6 @@ footer{
 .animals img {
 	width: 100%;
 }
-
 
 .social-footer a{
 	text-decoration: none;

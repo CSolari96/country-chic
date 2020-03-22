@@ -642,7 +642,6 @@ p.noflex {
 
 .row.center {
 	justify-content: center;
-	margin-left: 0 !important;
 }
 
 /*** HOVER EFFECT ON MEET US***/
@@ -794,15 +793,22 @@ h4.values {
 	text-align: center;
 	border-bottom: 3px solid #99c6d1;
 	margin: auto;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
+  max-width: 1400px;
 }
 
 .tutorials-main-post p {
     padding-top: 5%;
-    padding-bottom: 20%;
+    padding-bottom: 8%;
     line-height: 1.8;
+    width: 75%;
+    margin: auto;
 }
 
+.tutorial-cards-container {
+  max-width: 1200px;
+  margin: auto;
+}
 
 .card .tutorial-cards {
 	width: 18rem;
@@ -825,6 +831,9 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
   margin: auto;
 }
 
+.tutorial-page .card {
+  margin: 3% !important;
+}
 
 .card-text {
 	padding: 10px 0;
@@ -1229,9 +1238,6 @@ h4.block-title {
 	.animals {
 		width: 22%;
 	}
-
-
-
 }
 
 @media(min-width: 900px) {

@@ -48,7 +48,7 @@
 			</div>
 		</section>
 
-		<div class="row center">
+		<div class="row center tutorial-cards-container">
 
 		<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 6);
 

@@ -35,6 +35,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 	color: #7b7b7b;
+	overflow-x: hidden;
 }
 
 .hide {
@@ -964,7 +965,7 @@ width: 44%;
 .green-footer a{
 	color: white;
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1.4rem;
 }
 
 /**********MEDIA QUERIES STYLING**********/

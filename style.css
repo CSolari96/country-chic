@@ -643,7 +643,6 @@ p.noflex {
 
 .row.center {
 	justify-content: center;
-	margin-left: 0 !important;
 }
 
 /*** HOVER EFFECT ON MEET US***/
@@ -795,15 +794,22 @@ h4.values {
 	text-align: center;
 	border-bottom: 3px solid #99c6d1;
 	margin: auto;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
+  max-width: 1400px;
 }
 
 .tutorials-main-post p {
     padding-top: 5%;
-    padding-bottom: 20%;
+    padding-bottom: 8%;
     line-height: 1.8;
+    width: 75%;
+    margin: auto;
 }
 
+.tutorial-cards-container {
+  max-width: 1200px;
+  margin: auto;
+}
 
 .card .tutorial-cards {
 	width: 18rem;
@@ -826,6 +832,9 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
   margin: auto;
 }
 
+.tutorial-page .card {
+  margin: 3% !important;
+}
 
 .card-text {
 	padding: 10px 0;
@@ -897,38 +906,7 @@ h3.products-used-title {
 
 /**********FOOTER STYLING**********/
 
-footer{
-	position: relative;
-	margin-top: 75%;
-	padding-left: 5%;
-	height: 200px;
-}
-
-.social-footer{
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 111111
-}
-
-
-.not-animals{
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	left:0;
-}
-
-.animals {
-	position: absolute;
-	width: 50%;
-	bottom: 0;
-	right:0;
-	z-index: 11;
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-}
+/*push test*/
 
 .animals img {
 	width: 100%;
@@ -939,18 +917,16 @@ footer{
 	margin-left: 5%;
 }
 .social-button {
-	width: 12%;
-	max-width: 70px;
-	max-height: 70px;
-	margin: 0 0 2% 0;
-	border-radius: 50%;
-	padding: 2.5% 0%;
-	background-color: #63a497;
-	transition: all 0.2s;
-	z-index: 1100000;
+	width: 18%;
+  max-width: 70px;
+  max-height: 70px;
+  margin: 0 0 2% 0;
+  border-radius: 50%;
+  padding: 3.5% 0%;
+  background-color: #63a497;
+  transition: all 0.2s;
+  z-index: 111111;
 }
-
-/*push test*/
 
 .social-icon{
  width: 60%;
@@ -1020,6 +996,10 @@ footer{
   }
 
   .hero-title{
+    font-size: 3rem;
+  }
+
+  .jumbotron h1.hero-title{
     font-size: 3rem;
   }
 
@@ -1226,9 +1206,6 @@ h4.block-title {
 	.animals {
 		width: 22%;
 	}
-
-
-
 }
 
 @media(min-width: 900px) {
@@ -1257,6 +1234,10 @@ h4.block-title {
     }
 
     .hero-title {
+      font-size: 5rem;
+    }
+
+    .jumbotron h1.hero-title{
       font-size: 5rem;
     }
 

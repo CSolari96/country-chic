@@ -25,7 +25,7 @@
 	<?php the_post_thumbnail('large'); ?>
 </div>
 
-<main class="container">
+<main class="container-fluid">
 
 	<section class="tutorials-main-post">
 		<div class="row justify-content-center">
@@ -34,7 +34,7 @@
 			</div>
 		</div>
 			<div class="row justify-content-center">
-				<div class="col-md-8">
+				<div class="col-md-12 col-xl-10">
 				<?php
 					if(have_posts()){
 						while(have_posts()){
@@ -48,7 +48,7 @@
 			</div>
 		</section>
 
-		<div class="row center">
+		<div class="row center tutorial-cards-container">
 
 		<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 6);
 

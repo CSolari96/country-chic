@@ -203,11 +203,10 @@ a:hover, a:active {
 /* Tutorials Banner */
 .widget-home-tutorials {
   text-align: right;
+	display: flex;
+	justify-content: flex-end;
 }
 
-.widget-home-tutorials p {
-	float: right;
-}
 /* End Tutorials banner */
 /* End hero banners */
 

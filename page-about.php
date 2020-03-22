@@ -58,7 +58,7 @@
 				</div>
 			</section>
 
-			<section class="card-images-about">
+			<section class="row center card-images-about">
 				<div class=" row center col-sm-12 col-md-6 col-xl-3">
 					<div class="hover-images-effects">
 					  <div class="card card-third">

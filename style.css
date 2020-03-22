@@ -832,8 +832,13 @@ a.cards-link:active, a.cards-link:hover {
 	font-style: normal !important;
 }
 
-.tutorial-individual-posts {
+.tutorial-individual-posts p:first-child {
 		margin: 3% 0;
+}
+
+.tutorial-individual-post ul li {
+    margin: 0 15px;
+		line-height: 1.3;
 }
 
 .tutorial-individual-posts img {
@@ -842,7 +847,6 @@ a.cards-link:active, a.cards-link:hover {
 }
 
 .tutorial-individual-posts p {
-  padding: 2% 0;
 	line-height: 1.8;
 }
 

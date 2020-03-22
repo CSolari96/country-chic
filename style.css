@@ -991,6 +991,14 @@ footer{
     flex: 0 0 46% !important;
     margin: 5% 2%;
   }
+
+  .card h2 {
+    font-size: 1.5rem;
+  }
+
+  .card .about-us-pictures-info p {
+    font-size: 1rem;
+  }
 }
 
 @media(min-width: 576px) {

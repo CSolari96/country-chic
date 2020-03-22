@@ -52,12 +52,10 @@
               </div>
           </div>
       </div>
-    </div>
 
     <div class="animals">
       <img src="<?php echo get_template_directory_uri() . '/images/FooterImage.png'?>" alt="Bear and Bunny">
     </div>
-
 
 </footer>
 

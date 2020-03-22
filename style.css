@@ -218,8 +218,15 @@ a:hover, a:active {
 }
 
 .intro-widget-title {
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.intro-widget-title span {
   font-family: 'Noteworthy';
   color: #63a496;
+  display: block;
+  text-transform: capitalize;
 }
 
 .widget-home-intro p {

@@ -296,6 +296,8 @@
 
 	// Initialize Widgets
 	function blank_widgets_init() {
+
+		// Home Page Widgets
 		register_sidebar(array(
 			'name' 			=> 	('Home Hero Banner'),
 			'id' 			=> 	'home-hero',
@@ -396,18 +398,16 @@
 			'after_title' 	=> 	'</h3>'
 		));
 
-
-		/**********************FOOTER WIDGETS*************/
-
-	  register_sidebar(array(
-	    'name'          => ('Footer Left'),
-	    'id'            => 'footer-left',
-	    'description'   => 'Left section of the footer',
-	    'before_widget' => '<div class="footer-left">',
-	    'after_widget'  => '</div>',
-	    'before_title'  => '<h3 class="footer-left-widget-title">',
-	    'after_title'   => '</h3>',
-	  ));
+		// Footer Widgets
+		register_sidebar(array(
+			'name'          => ('Footer Left'),
+			'id'            => 'footer-left',
+			'description'   => 'Left section of the footer',
+			'before_widget' => '<div class="footer-left">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="footer-left-widget-title">',
+			'after_title'   => '</h3>',
+		));
 
 		register_sidebar(array(
 			'name'          => ('Footer Middle'),
@@ -419,252 +419,250 @@
 			'after_title'   => '</h3>',
 		));
 
-		/**********************CONTACT PAGE WIDGETS*************/
-
-
+		// Contact Page Widgets
 		register_sidebar(array(
-			'name' => ('Contact Page Phone Number'),
-			'id' => 'contact-page-phone-number',
-			'description' => 'The phone number of Country Chic',
-			'before_widget' => '<div class="phone-number-widget">',
-			'after_widget' => '</div>',
-			'before_title' => '<p class="phone-number">',
-			'after_title' => '</p>'
+			'name' 			=> 	('Contact Page Phone Number'),
+			'id' 			=> 	'contact-page-phone-number',
+			'description' 	=> 	'The phone number of Country Chic',
+			'before_widget' => 	'<div class="phone-number-widget">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<p class="phone-number">',
+			'after_title' 	=> 	'</p>'
 		));
 
 		register_sidebar(array(
-			'name' => ('Contact Page Email'),
-			'id' => 'contact-page-email',
-			'description' => 'The email of Country Chic',
-			'before_widget' => '<div class="email-address-widget">',
-			'after_widget' => '</div>',
-			'before_title' => '<p class="email-address">',
-			'after_title' => '</p>'
+			'name' 			=> 	('Contact Page Email'),
+			'id' 			=> 	'contact-page-email',
+			'description' 	=> 	'The email of Country Chic',
+			'before_widget' => 	'<div class="email-address-widget">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<p class="email-address">',
+			'after_title' 	=> 	'</p>'
 		));
 
 		register_sidebar(array(
-			'name' => ('Contact Form'),
-			'id' => 'contact-form',
-			'description' => 'The contact form for Country Chic',
-			'before_widget' => '<div>',
-			'after_widget' => '</div>',
-			'before_title' => '<h3 class="hide">',
-			'after_title' => '</h3>'
+			'name' 			=> 	('Contact Form'),
+			'id' 			=> 	'contact-form',
+			'description' 	=> 	'The contact form for Country Chic',
+			'before_widget' => 	'<div>',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="hide">',
+			'after_title' 	=> 	'</h3>'
 		));
 
 		register_sidebar(array(
-			'name' => ('Contact Page Hours'),
-			'id' => 'contact-page-hours',
-			'description' => 'The hours of Country Chic',
-			'before_widget' => '<div class="contact-page-hours">',
-			'after_widget' => '</div>',
-			'before_title' => '<p class="hours-contact">',
-			'after_title' => '</p>'
+			'name' 			=> 	('Contact Page Hours'),
+			'id' 			=> 	'contact-page-hours',
+			'description' 	=> 	'The hours of Country Chic',
+			'before_widget' => 	'<div class="contact-page-hours">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<p class="hours-contact">',
+			'after_title' 	=> 	'</p>'
 		));
 
-/**********************ABOUT PAGE WIDGETS*************/
+		// About Page Widgets
 
-register_sidebar(array(
-	'name' => ('Secondary title'),
-	'id' => 'secondary-title-about',
-	'description' => 'The secondary title on the about page',
-	'before_widget' => '<div>',
-	'after_widget' => '</div>',
-	'before_title' => '<h2 class="secondary-title">',
-	'after_title' => '</h2>'
-));
-
-register_sidebar(array(
-	'name' => ('About video'),
-	'id' => 'video-about-us',
-	'description' => 'A video describing Country Chic',
-	'before_widget' => '<div class="video-container">',
-	'after_widget' => '</div>',
-	'before_title' => '<h2>',
-	'after_title' => '</h2>'
-));
-
-	register_sidebar(array(
-		'name' => ('Values title'),
-		'id' => 'about-values-title',
-		'description' => 'The values of the about page',
-		'before_widget' => '<div class="title-about-values">',
-		'after_widget' => '</div>',
-		'before_title' => '<h2 class="secondary-title">',
-		'after_title' => '</h2>'
-		));
-
-	register_sidebar(array(
-		'name' => ('Low Environment Impact Value'),
-		'id' => 'low-impact-value',
-		'description' => 'Low Environmental Impact Value',
-		'before_widget' => '<div class="our-values">',
-		'after_widget' => '</div>',
-		'before_title' => '<h4 class="values">',
-		'after_title' => '</h4>'
-		));
-
-	register_sidebar(array(
-		'name' => ('Supporting the local economy'),
-		'id' => 'local-economy-value',
-		'description' => 'Supporting the local economy value',
-		'before_widget' => '<div class="our-values">',
-		'after_widget' => '</div>',
-		'before_title' => '<h4 class="values">',
-		'after_title' => '</h4>'
-		));
-
-	register_sidebar(array(
-		'name' => ('Participating in Recycling Programs'),
-		'id' => 'recycling-programs-value',
-		'description' => 'Participating in Recylcling Programs value',
-		'before_widget' => '<div class="our-values">',
-		'after_widget' => '</div>',
-		'before_title' => '<h4 class="values">',
-		'after_title' => '</h4>'
-		));
-
-	register_sidebar(array(
-		'name' => ('Helping those in need'),
-		'id' => 'those-in-need-value',
-		'description' => 'Helping those in need value',
-		'before_widget' => '<div class="our-values">',
-		'after_widget' => '</div>',
-		'before_title' => '<h4 class="values">',
-		'after_title' => '</h4>'
+		register_sidebar(array(
+			'name' 			=> 	('Secondary title'),
+			'id' 			=> 	'secondary-title-about',
+			'description' 	=> 	'The secondary title on the about page',
+			'before_widget' => 	'<div>',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2 class="secondary-title">',
+			'after_title' 	=> 	'</h2>'
 		));
 
 		register_sidebar(array(
-			'name' => ('Low Environment Impact Value Icon'),
-			'id' => 'low-impact-value-icon',
-			'description' => 'Low Environmental Impact Value Icon',
-			'before_widget' => '<div class="about-values-icon">',
-			'after_widget' => '</div>',
-			'before_title' => '<h4 class="values">',
-			'after_title' => '</h4>'
-			));
+			'name' 			=> 	('About video'),
+			'id' 			=> 	'video-about-us',
+			'description' 	=> 	'A video describing Country Chic',
+			'before_widget' => 	'<div class="video-container">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2>',
+			'after_title' 	=> 	'</h2>'
+		));
 
 		register_sidebar(array(
-			'name' => ('Supporting the local economy Icon'),
-			'id' => 'local-economy-value-icon',
-			'description' => 'Supporting the local economy value Icon',
-			'before_widget' => '<div class="about-values-icon">',
-			'after_widget' => '</div>',
-			'before_title' => '<h4 class="values">',
-			'after_title' => '</h4>'
-			));
+			'name' 			=> 	('Values title'),
+			'id' 			=> 	'about-values-title',
+			'description' 	=> 	'The values of the about page',
+			'before_widget' => 	'<div class="title-about-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2 class="secondary-title">',
+			'after_title' 	=> 	'</h2>'
+		));
 
 		register_sidebar(array(
-			'name' => ('Participating in Recycling Programs Icon'),
-			'id' => 'recycling-programs-value-icon',
-			'description' => 'Participating in Recylcling Programs value icon',
-			'before_widget' => '<div class="about-values-icon">',
-			'after_widget' => '</div>',
-			'before_title' => '<h4 class="values">',
-			'after_title' => '</h4>'
-			));
+			'name' 			=> 	('Low Environment Impact Value'),
+			'id' 			=> 	'low-impact-value',
+			'description' 	=> 	'Low Environmental Impact Value',
+			'before_widget' => 	'<div class="our-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
 
-			register_sidebar(array(
-				'name' => ('Helping those in need Icon'),
-				'id' => 'those-in-need-value-icon',
-				'description' => 'Helping those in need value icon',
-				'before_widget' => '<div class="about-values-icon">',
-				'after_widget' => '</div>',
-				'before_title' => '<h4 class="values">',
-				'after_title' => '</h4>'
-				));
+		register_sidebar(array(
+			'name' 			=> 	('Supporting the local economy'),
+			'id' 			=> 	'local-economy-value',
+			'description' 	=> 	'Supporting the local economy value',
+			'before_widget' => 	'<div class="our-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Participating in Recycling Programs'),
+			'id' 			=> 	'recycling-programs-value',
+			'description' 	=> 	'Participating in Recylcling Programs value',
+			'before_widget' => 	'<div class="our-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Helping those in need'),
+			'id' 			=> 	'those-in-need-value',
+			'description' 	=> 	'Helping those in need value',
+			'before_widget' => 	'<div class="our-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Low Environment Impact Value Icon'),
+			'id' 			=> 	'low-impact-value-icon',
+			'description' 	=> 	'Low Environmental Impact Value Icon',
+			'before_widget' => 	'<div class="about-values-icon">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Supporting the local economy Icon'),
+			'id' 			=> 	'local-economy-value-icon',
+			'description' 	=> 	'Supporting the local economy value Icon',
+			'before_widget' => 	'<div class="about-values-icon">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Participating in Recycling Programs Icon'),
+			'id' 			=> 	'recycling-programs-value-icon',
+			'description' 	=> 	'Participating in Recylcling Programs value icon',
+			'before_widget' => 	'<div class="about-values-icon">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Helping those in need Icon'),
+			'id' 			=> 	'those-in-need-value-icon',
+			'description' 	=> 	'Helping those in need value icon',
+			'before_widget' => 	'<div class="about-values-icon">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
 
 
 		register_sidebar(array(
-			'name' => ('Meet Us Title'),
-			'id' => 'meet-us-title',
-			'description' => 'Title of the Meet Us Section',
-			'before_widget' => '<div class="meet-us">',
-			'after_widget' => '</div>',
-			'before_title' => '<h3>',
-			'after_title' => '</h3>'
-			));
+			'name' 			=> 	('Meet Us Title'),
+			'id' 			=> 	'meet-us-title',
+			'description' 	=> 	'Title of the Meet Us Section',
+			'before_widget' => 	'<div class="meet-us">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3>',
+			'after_title' 	=> 	'</h3>'
+		));
 
 
 		register_sidebar(array(
-			'name' => ('Rosanne Picture'),
-			'id' => 'rosanne-picture',
-			'description' => 'Picture of Rosanne',
-			'before_widget' => '<div class="about-us-pictures">',
-			'after_widget' => '</div>',
-			'before_title' => '<h4>',
-			'after_title' => '</h4>'
-			));
+			'name' 			=> 	('Rosanne Picture'),
+			'id' 			=> 	'rosanne-picture',
+			'description' 	=> 	'Picture of Rosanne',
+			'before_widget' => 	'<div class="about-us-pictures">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4>',
+			'after_title' 	=> 	'</h4>'
+		));
 
-			register_sidebar(array(
-				'name' => ('Rosanne Picture Info'),
-				'id' => 'rosanne-picture-info',
-				'description' => 'Information of Rosanne',
-				'before_widget' => '<div class="about-us-pictures-info">',
-				'after_widget' => '</div>',
-				'before_title' => '<h2>',
-				'after_title' => '</h2>'
-				));
+		register_sidebar(array(
+			'name' 			=> 	('Rosanne Picture Info'),
+			'id' 			=> 	'rosanne-picture-info',
+			'description' 	=> 	'Information of Rosanne',
+			'before_widget' => 	'<div class="about-us-pictures-info">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2>',
+			'after_title' 	=> 	'</h2>'
+		));
 
-			register_sidebar(array(
-				'name' => ('Jan Picture'),
-				'id' => 'jan-picture',
-				'description' => 'Picture of Jan',
-				'before_widget' => '<div class="about-us-pictures">',
-				'after_widget' => '</div>',
-				'before_title' => '<h4>',
-				'after_title' => '</h4>'
-				));
+		register_sidebar(array(
+			'name' 			=> 	('Jan Picture'),
+			'id' 			=> 	'jan-picture',
+			'description' 	=> 	'Picture of Jan',
+			'before_widget' => 	'<div class="about-us-pictures">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4>',
+			'after_title' 	=> 	'</h4>'
+		));
 
-				register_sidebar(array(
-					'name' => ('Jan Picture Info'),
-					'id' => 'jan-picture-info',
-					'description' => 'Information of Jan',
-					'before_widget' => '<div class="about-us-pictures-info">',
-					'after_widget' => '</div>',
-					'before_title' => '<h2>',
-					'after_title' => '</h2>'
-					));
+		register_sidebar(array(
+			'name' 			=> 	('Jan Picture Info'),
+			'id' 			=> 	'jan-picture-info',
+			'description' 	=> 	'Information of Jan',
+			'before_widget' => 	'<div class="about-us-pictures-info">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2>',
+			'after_title' 	=> 	'</h2>'
+		));
 
-				register_sidebar(array(
-					'name' => ('Sarah Picture'),
-					'id' => 'sarah-picture',
-					'description' => 'Picture of Sarah',
-					'before_widget' => '<div class="about-us-pictures">',
-					'after_widget' => '</div>',
-					'before_title' => '<h4>',
-					'after_title' => '</h4>'
-					));
+		register_sidebar(array(
+			'name' 			=> 	('Sarah Picture'),
+			'id' 			=> 	'sarah-picture',
+			'description' 	=> 	'Picture of Sarah',
+			'before_widget' => 	'<div class="about-us-pictures">',
+			'after_widget'	=> 	'</div>',
+			'before_title'	=> 	'<h4>',
+			'after_title' 	=> 	'</h4>'
+		));
 
-					register_sidebar(array(
-						'name' => ('Sarah Picture Info'),
-						'id' => 'sarah-picture-info',
-						'description' => 'Information of Sarah',
-						'before_widget' => '<div class="about-us-pictures-info">',
-						'after_widget' => '</div>',
-						'before_title' => '<h2>',
-						'after_title' => '</h2>'
-						));
+		register_sidebar(array(
+			'name' 			=> 	('Sarah Picture Info'),
+			'id' 			=> 	'sarah-picture-info',
+			'description' 	=> 	'Information of Sarah',
+			'before_widget' => 	'<div class="about-us-pictures-info">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2>',
+			'after_title' 	=> 	'</h2>'
+		));
 
-				register_sidebar(array(
-					'name' => ('Christa Pictures'),
-					'id' => 'christa-picture',
-					'description' => 'Picture of Christa',
-					'before_widget' => '<div class="about-us-pictures">',
-					'after_widget' => '</div>',
-					'before_title' => '<h4>',
-					'after_title' => '</h4>'
-					));
+		register_sidebar(array(
+			'name' 			=> 	('Christa Pictures'),
+			'id' 			=> 	'christa-picture',
+			'description' 	=> 	'Picture of Christa',
+			'before_widget' => 	'<div class="about-us-pictures">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4>',
+			'after_title' 	=> 	'</h4>'
+		));
 
-					register_sidebar(array(
-						'name' => ('Christa Pictures Info'),
-						'id' => 'christa-picture-info',
-						'description' => 'Information of Christa',
-						'before_widget' => '<div class="about-us-pictures-info">',
-						'after_widget' => '</div>',
-						'before_title' => '<h2>',
-						'after_title' => '</h2>'
-						));
+		register_sidebar(array(
+			'name' 			=> 	('Christa Pictures Info'),
+			'id' 			=> 	'christa-picture-info',
+			'description' 	=> 	'Information of Christa',
+			'before_widget' => 	'<div class="about-us-pictures-info">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2>',
+			'after_title' 	=> 	'</h2>'
+		));
 
 	}
 
@@ -704,27 +702,28 @@ register_sidebar(array(
 	add_theme_support('post-thumbnails');
 
 	/**********Create a Custom Post Type for Tutorials**********/
-function create_post_type(){
-	register_post_type('tutorial_types',
-		array(
-			'labels' => array(
-				'name' => __('Tutorials'),
-				'singular_name' => __('Tutorials')
-			),
-			'public' 						=> true,
-			'has_archive'				=> true,
-			'show_in_menu'			=> true,
-			'show_in_nav_menus' => true,
-			'show_in_admin_bar' => true,
-			'menu_position' 		=> 2,
-			'can_export' 				=> true,
-			'menu_icon' 				=> 'dashicons-video-alt2',
-			'supports'					=> array('title', 'editor', 'thumbnail', 'excerpt'),
-		)
-	);
-}
+	function create_post_type(){
+		register_post_type('tutorial_types',
+			array(
+				'labels' => array(
+					'name' => __('Tutorials'),
+					'singular_name' => __('Tutorials')
+				),
+				
+				'public' 			=> true,
+				'has_archive'		=> true,
+				'show_in_menu'		=> true,
+				'show_in_nav_menus' => true,
+				'show_in_admin_bar' => true,
+				'menu_position' 	=> 2,
+				'can_export' 		=> true,
+				'menu_icon' 		=> 'dashicons-video-alt2',
+				'supports'			=> array('title', 'editor', 'thumbnail', 'excerpt'),
+			)
+		);
+	}
 
-add_action('init', 'create_post_type');
+	add_action('init', 'create_post_type');
 
 
 

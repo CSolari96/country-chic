@@ -652,6 +652,10 @@ p.noflex {
 	justify-content: center;
 }
 
+.wp-video {
+	margin-bottom: 5%;
+}
+
 /*** HOVER EFFECT ON MEET US***/
 .card-images-about {
     margin-top: 10%;

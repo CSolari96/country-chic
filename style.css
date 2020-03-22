@@ -209,7 +209,6 @@ a:hover, a:active {
   text-align: right;
 	direction: rtl;
 }
-/*push test */
 
 
 /* End Tutorials banner */
@@ -904,6 +903,7 @@ h3.products-used-title {
 footer{
 	position: relative;
 	margin-top: 105%;
+	padding-left: 4.5%;
 }
 
 .not-animals{
@@ -931,10 +931,11 @@ footer{
 
 .social-footer a{
 	text-decoration: none;
+	margin-left: 5%;
 }
 .social-button {
 	width: 12%;
-	margin: 0 4% 2% 0;
+	margin: 0 0 2% 0;
 	border-radius: 50%;
 	padding: 2.5% 0%;
 	background-color: #63a497;
@@ -953,7 +954,7 @@ footer{
 
 .green-footer{
 	background-color: #63a497;
-	padding: 5% 0;
+	padding: 5%;
 }
 
 .green-footer li {

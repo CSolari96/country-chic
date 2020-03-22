@@ -337,15 +337,6 @@ a:hover, a:active {
 }
 /* End Sketches Description */
 
-
-/**********ABOUT PAGE STYLING**********/
-
-
-
-/**********TUTORIAL PAGE STYLING**********/
-
-
-
 /**********SHOP PAGE STYLING**********/
 .wps-client-component.wps-container[data-wps-client-component-type="collections"] {
   display: none;
@@ -502,6 +493,11 @@ a:hover, a:active {
   max-width: 45px;
 }
 
+.contact-flex a:link, .contact-flex a:visited {
+  color: #7b7b7b;
+  text-decoration: none;
+}
+
 .your-name input, .your-email input {
   margin-bottom: 1%;
 }
@@ -532,7 +528,6 @@ a:hover, a:active {
   border-radius: 8px;
 }
 
-
 .wpcf7-submit:hover, .wpcf7-submit:active {
   background-color: #d4af37;
 }
@@ -553,8 +548,6 @@ span.wpcf7-not-valid-tip {
   color: #d87777;
   font-weight: bold;
 }
-
-
 
 input.wpcf7-form-control.wpcf7-submit {
 display: block;
@@ -658,7 +651,7 @@ p.noflex {
   overflow: hidden;
   position: relative;
   text-align: center;
-  box-shadow: 1px 1px 2px #e6e6e6;
+  box-shadow: 0 3px 6px #7B7B7B;
   cursor: default;
 	border-radius: 10%;
 }

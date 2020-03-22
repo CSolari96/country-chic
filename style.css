@@ -203,9 +203,9 @@ a:hover, a:active {
 /* Tutorials Banner */
 .widget-home-tutorials {
   text-align: right;
-	display: flex;
-	justify-content: flex-end;
+	direction: rtl;
 }
+
 
 /* End Tutorials banner */
 /* End hero banners */

@@ -912,6 +912,10 @@ h3.products-used-title {
 
 .products-list {
 	background-color: #99c6d1;
+	color: #ffffff;
+}
+
+.products-list h3 {
 	text-align: center;
 }
 

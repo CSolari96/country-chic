@@ -654,7 +654,7 @@ p.noflex {
 
 /*** HOVER EFFECT ON MEET US***/
 .card-images-about {
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .hover-images-effects {
@@ -756,13 +756,10 @@ p.noflex {
 
 .card-third a.card__info {
   opacity: 0;
-  transform: scale(0);
   transition: all 0.5s linear;
 }
 
 .card-third:hover img {
-  -webkit-transform: scale(10);
-  transform: scale(10);
   opacity: 0;
 }
 
@@ -773,7 +770,6 @@ p.noflex {
 .card-third:hover h2,
 .card-third:hover p,
 .card-third:hover a.card__info {
-  transform: scale(1);
   opacity: 1;
 }
 
@@ -892,7 +888,7 @@ a.cards-link:active, a.cards-link:hover {
 
 .tutorial-individual-posts p {
 	line-height: 1.8;
-	padding: 10px 0; 
+	padding: 10px 0;
 }
 
 h4 img {

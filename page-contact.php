@@ -28,7 +28,7 @@
 		<p class="captions"><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
 	</div>
 
-<main class="container-fluid">
+<main class="container-fluid contact">
 
 	<section>
 		<div class="row col-12">

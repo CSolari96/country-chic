@@ -695,7 +695,7 @@ p.noflex {
   font-size: 1rem;
 }
 
-.card .about-us-pictures-info p {
+.about-us-pictures-info .card p {
   font-style: italic;
   font-size: 0.75rem;
   position: relative;
@@ -944,6 +944,8 @@ footer{
 	transition: all 0.2s;
 	z-index: 1100000;
 }
+
+/*push test*/
 
 .social-icon{
  width: 60%;

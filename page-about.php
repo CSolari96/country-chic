@@ -76,7 +76,6 @@
 							<?php dynamic_sidebar('jan-picture'); ?>
 							<div class="card--hidden">
 								<?php dynamic_sidebar('jan-picture-info'); ?>
-								<a href="#" class="card__info">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -89,7 +88,6 @@
 							<?php dynamic_sidebar('sarah-picture'); ?>
 							<div class="card--hidden">
 								<?php dynamic_sidebar('sarah-picture-info'); ?>
-								<a href="#" class="card__info">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -101,7 +99,6 @@
 							<?php dynamic_sidebar('christa-picture'); ?>
 							<div class="card--hidden">
 								<?php dynamic_sidebar('christa-picture-info'); ?>
-								<a href="#" class="card__info">Read More</a>
 							</div>
 						</div>
 					</div>

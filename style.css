@@ -695,9 +695,9 @@ p.noflex {
   font-size: 1rem;
 }
 
-.card p {
+.about-us-pictures-info .card p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 0.75rem;
   position: relative;
   color: #fff !important;
   padding: 0px 20px 0px;

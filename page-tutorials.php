@@ -28,7 +28,8 @@
 <main class="container">
 
 	<section class="tutorials-main-post">
-			<div class="row col-12">
+			<div class="row justify-content-center">
+				<div class="col-md-8">
 				<?php
 					if(have_posts()){
 						while(have_posts()){
@@ -38,7 +39,8 @@
 					<?php  }//ends while loop
 					}//ends the if statement
 				 ?>
-				</div>
+			 </div>
+			</div>
 		</section>
 
 		<div class="row center">

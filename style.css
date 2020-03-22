@@ -593,7 +593,7 @@ p.captions {
   display: flex;
   align-items: center;
   justify-content: center;
-	padding: 15px; 
+	padding: 15px;
 }
 
 p.noflex {
@@ -910,8 +910,9 @@ h3.products-used-title {
 
 /**********FOOTER STYLING**********/
 
-/*push test*/
-
+footer{
+	margin-top: 5%;
+}
 .animals{
 float: right;
 margin-top: -51.6%;
@@ -920,7 +921,7 @@ width: 44%;
 
 
 .animals img {
-	width: 102%;
+	width: 101%;
 }
 
 .social-footer a{

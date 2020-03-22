@@ -2,7 +2,7 @@
 
 <main class="container-fluid">
 
-	<div class="row">
+	<div class="row col-12">
 		<h2 class="secondary-title"><?php the_title(); ?></h2>
 	</div>
 	<div class="row">

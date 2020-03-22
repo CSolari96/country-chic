@@ -31,6 +31,7 @@
 	border: 0;
 }
 
+
 body {
 	font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -868,6 +869,34 @@ h3.products-used-title {
 
 /**********FOOTER STYLING**********/
 
+footer{
+	position: relative;
+	margin-top: 105%;
+}
+
+.not-animals{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left:0;
+}
+
+.animals {
+	position: absolute;
+	width: 40%;
+	bottom: 0;
+	right:0;
+	z-index: 1000;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.animals img {
+	width: 100%;
+}
+
+
 .social-footer a{
 	text-decoration: none;
 }
@@ -878,6 +907,7 @@ h3.products-used-title {
 	padding: 2.5% 0%;
 	background-color: #63a497;
 	transition: all 0.2s;
+	z-index: 1100000;
 }
 
 .social-icon{
@@ -891,7 +921,18 @@ h3.products-used-title {
 
 .green-footer{
 	background-color: #63a497;
-	height: 100px;
+	padding: 5% 0;
+}
+
+.green-footer li {
+	list-style: none;
+	margin-bottom: 5%;
+
+}
+
+.green-footer a{
+	color: white;
+	text-decoration: none;
 }
 
 
@@ -1104,6 +1145,24 @@ h3.products-used-title {
 		background-color: #ffffff;
 		text-align: left;
 	}
+
+	/*Footer 768 */
+
+	footer{
+		margin-top: 46%;
+	}
+
+	.social-button {
+		width: 7%;
+		padding: 1.5% 0%;
+	}
+
+	.animals {
+		width: 22%;
+	}
+
+
+
 }
 
 @media(min-width: 900px) {

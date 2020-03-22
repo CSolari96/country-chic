@@ -868,17 +868,16 @@ h3.products-used-title {
 
 /**********FOOTER STYLING**********/
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+footer{
+	position: relative;
+	bottom: 0;
+	left:0;
 }
 
 .not-animals{
 	width: 100%;
-	position: relative;
-	top: 0;
+	position: absolute;
+	bottom: 0;
 	left:0;
 }
 
@@ -886,6 +885,7 @@ footer {
 	position: absolute;
 	bottom: 0;
 	right:0;
+	z-index: 1000;
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;

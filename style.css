@@ -683,14 +683,17 @@ p.noflex {
   background: #63a497;
   color: #fff;
   text-transform: uppercase;
-	font-style:
-	border-radius: 10%;
+	border-radius: 30px;
 	margin-top: 5px;
 }
 
 .card a.card__info:hover {
 	background-color: #d4af37;
-	font-size: 1rem
+	font-size: 1rem;
+	font-weight: 700;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 3px 6px #7b7b7b;
 }
 
 .card-third img {

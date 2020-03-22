@@ -224,8 +224,10 @@ a:hover, a:active {
 
 .intro-widget-title span {
   font-family: 'Noteworthy';
+  font-size: 1.9rem;
   color: #63a496;
   display: block;
+  margin: 2% 0;
   text-transform: capitalize;
 }
 
@@ -1012,6 +1014,10 @@ footer{
 
   .intro-widget-title {
     font-size: 2rem;
+  }
+
+  .intro-widget-title span {
+    font-size: 2.5rem;
   }
 
   .home-values-title {

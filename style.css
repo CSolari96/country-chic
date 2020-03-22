@@ -42,6 +42,10 @@ body {
   display: none;
 }
 
+.fix-margin .row {
+  margin: 0;
+}
+
 a:link {
   color: #63a497;
 }
@@ -203,9 +207,9 @@ a:hover, a:active {
 /* Tutorials Banner */
 .widget-home-tutorials {
   text-align: right;
-	display: flex;
-	justify-content: flex-end;
+	direction: rtl;
 }
+
 
 /* End Tutorials banner */
 /* End hero banners */
@@ -217,8 +221,17 @@ a:hover, a:active {
 }
 
 .intro-widget-title {
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.intro-widget-title span {
   font-family: 'Noteworthy';
+  font-size: 1.9rem;
   color: #63a496;
+  display: block;
+  margin: 2% 0;
+  text-transform: capitalize;
 }
 
 .widget-home-intro p {
@@ -315,6 +328,7 @@ a:hover, a:active {
 
 .instagram-title {
   text-align: center;
+  font-family: 'Noteworthy';
   margin: 5% 0;
   line-height: 25px;
   color: #63a496;
@@ -336,15 +350,6 @@ a:hover, a:active {
   margin: 10% 5%;
 }
 /* End Sketches Description */
-
-
-/**********ABOUT PAGE STYLING**********/
-
-
-
-/**********TUTORIAL PAGE STYLING**********/
-
-
 
 /**********SHOP PAGE STYLING**********/
 .wps-client-component.wps-container[data-wps-client-component-type="collections"] {
@@ -502,6 +507,11 @@ a:hover, a:active {
   max-width: 45px;
 }
 
+.contact-flex a:link, .contact-flex a:visited {
+  color: #7b7b7b;
+  text-decoration: none;
+}
+
 .your-name input, .your-email input {
   margin-bottom: 1%;
 }
@@ -532,7 +542,6 @@ a:hover, a:active {
   border-radius: 30px;
 }
 
-
 .wpcf7-submit:hover, .wpcf7-submit:active {
   background-color: #d4af37;
 	transition: all 0.2s;
@@ -554,8 +563,6 @@ span.wpcf7-not-valid-tip {
   color: #d87777;
   font-weight: bold;
 }
-
-
 
 input.wpcf7-form-control.wpcf7-submit {
 display: block;
@@ -684,17 +691,16 @@ p.noflex {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 17px;
   padding: 10px;
-  /*background: rgba(0, 0, 0, 0.8);*/
-  margin: 20px 0 0 0
+  margin: 20px 0 0 0;
+  font-size: 1rem;
 }
 
-.card p {
+.about-us-pictures-info .card p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 0.75rem;
   position: relative;
-  color: #fff;
+  color: #fff !important;
   padding: 0px 20px 0px;
   text-align: center
 }
@@ -733,16 +739,14 @@ p.noflex {
 .card-third h2 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background: transparent;
-  margin: 20px 40px 0px 40px;
+  margin: 10px 40px 10px 40px;
   transform: scale(0);
-  color: #333;
   transition: all 0.5s linear;
   opacity: 0;
 }
 
-
 .card-third p {
-  color: #333;
+  color: #ffffff;
   opacity: 0;
   transform: scale(0);
   transition: all 0.5s linear;
@@ -900,6 +904,7 @@ h3.products-used-title {
 footer{
 	position: relative;
 	margin-top: 105%;
+	padding-left: 5%;
 }
 
 .not-animals{
@@ -927,16 +932,21 @@ footer{
 
 .social-footer a{
 	text-decoration: none;
+	margin-left: 5%;
 }
 .social-button {
 	width: 12%;
-	margin: 0 4% 2% 0;
+	max-width: 70px;
+	max-height: 70px;
+	margin: 0 -4% 2% 0;
 	border-radius: 50%;
 	padding: 2.5% 0%;
 	background-color: #63a497;
 	transition: all 0.2s;
 	z-index: 1100000;
 }
+
+/*push test*/
 
 .social-icon{
  width: 60%;
@@ -949,7 +959,7 @@ footer{
 
 .green-footer{
 	background-color: #63a497;
-	padding: 5% 0;
+	padding: 5%;
 }
 
 .green-footer li {
@@ -1010,6 +1020,10 @@ footer{
 
   .intro-widget-title {
     font-size: 2rem;
+  }
+
+  .intro-widget-title span {
+    font-size: 2.5rem;
   }
 
   .home-values-title {

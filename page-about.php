@@ -27,7 +27,7 @@
 		<?php the_post_thumbnail('large'); ?>
 	</div>
 
-<main class="container-fluid">
+<main class="container-fluid fix-margin">
 
 		<section class="line-spacing">
 				<div class="row justify-content-center">
@@ -65,7 +65,6 @@
 					    <?php dynamic_sidebar('rosanne-picture'); ?>
 					    <div class="card--hidden">
 								<?php dynamic_sidebar('rosanne-picture-info'); ?>
-					      <a href="#" class="card__info">Read More</a>
 					    </div>
 					  </div>
 					</div>
@@ -77,7 +76,6 @@
 							<?php dynamic_sidebar('jan-picture'); ?>
 							<div class="card--hidden">
 								<?php dynamic_sidebar('jan-picture-info'); ?>
-								<a href="#" class="card__info">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -90,7 +88,6 @@
 							<?php dynamic_sidebar('sarah-picture'); ?>
 							<div class="card--hidden">
 								<?php dynamic_sidebar('sarah-picture-info'); ?>
-								<a href="#" class="card__info">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -102,7 +99,6 @@
 							<?php dynamic_sidebar('christa-picture'); ?>
 							<div class="card--hidden">
 								<?php dynamic_sidebar('christa-picture-info'); ?>
-								<a href="#" class="card__info">Read More</a>
 							</div>
 						</div>
 					</div>

@@ -236,6 +236,7 @@ body {
   font-size: 0.75rem;
   margin: 2% 0;
   order: 55;
+  min-height: 45px;
 }
 
 .widget-home-values img {

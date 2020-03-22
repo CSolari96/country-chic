@@ -1,3 +1,5 @@
+</body>
+
 <footer>
 
   <div class="not-animals">

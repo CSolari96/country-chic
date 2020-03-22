@@ -12,7 +12,7 @@
 
 <?php get_header(); ?>
 
-	<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php the_post_thumbnail('full'); ?>)">
+	<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $thumb_url; ?>)">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">

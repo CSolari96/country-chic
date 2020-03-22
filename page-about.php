@@ -65,7 +65,7 @@
 
 			<section class="row center card-images-about">
 
-				<div class="row center col-sm-12 col-md-6 col-xl-3">
+				<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn duration1 eds-on-scroll ">
 					<div class="hover-images-effects">
 					  <div class="card card-third">
 					    <?php dynamic_sidebar('rosanne-picture'); ?>
@@ -76,7 +76,7 @@
 					</div>
 				</div>
 
-				<div class="row center col-sm-12 col-md-6 col-xl-3">
+				<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn delay1 duration1 eds-on-scroll">
 					<div class="hover-images-effects">
 						<div class="card card-third">
 							<?php dynamic_sidebar('jan-picture'); ?>
@@ -87,7 +87,7 @@
 					</div>
 				</div>
 
-				<div class="row center col-sm-12 col-md-6 col-xl-3">
+				<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn delay2 duration1 eds-on-scroll">
 					<div class="hover-images-effects">
 						<div class="card card-third">
 							<?php dynamic_sidebar('sarah-picture'); ?>
@@ -98,7 +98,7 @@
 					</div>
 				</div>
 
-				<div class="row center col-sm-12 col-md-6 col-xl-3">
+				<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn delay3 duration1 eds-on-scroll">
 					<div class="hover-images-effects">
 						<div class="card card-third">
 							<?php dynamic_sidebar('christa-picture'); ?>

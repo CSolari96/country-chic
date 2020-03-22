@@ -756,6 +756,7 @@ p.noflex {
 
 .card-third a.card__info {
   opacity: 0;
+  transform: scale(0);
   transition: all 0.5s linear;
 }
 
@@ -770,6 +771,7 @@ p.noflex {
 .card-third:hover h2,
 .card-third:hover p,
 .card-third:hover a.card__info {
+  transform: scale(1);
   opacity: 1;
 }
 

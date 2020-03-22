@@ -838,7 +838,6 @@ a.cards-link:active, a.cards-link:hover {
 }
 
 .tutorial-individual-posts img {
-	float: left;
 	margin: 10px;
 }
 
@@ -851,7 +850,6 @@ h4 img {
 }
 
 h4.block-title {
-    clear: both;
     padding: 15px;
 }
 
@@ -1000,7 +998,14 @@ footer{
   .instagram-title {
     font-size: 1.5rem;
   }
+
+	.tutorial-individual-posts img {
+		float: left;
 }
+
+h4.block-title {
+    clear: both;
+	}
 
 @media(min-width:650px) {
     .phone-number {

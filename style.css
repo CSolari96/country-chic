@@ -150,7 +150,7 @@ a:hover, a:active {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  max-height: 300px;
+  max-height: 650px;
   width: 100%;
   padding: 5%;
   color: #ffffff;
@@ -1109,10 +1109,6 @@ h4.block-title {
     right: 30px;
     top: 20px;
   }
-
-	.hero-widget-content {
-		height: 475px;
-	}
 
   .widget-home-intro {
     margin: 15% 0;

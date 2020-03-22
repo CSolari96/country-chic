@@ -683,13 +683,14 @@ p.noflex {
   background: #63a497;
   color: #fff;
   text-transform: uppercase;
-  box-shadow: 0 0 1px #000;
+	font-style:
 	border-radius: 10%;
 	margin-top: 5px;
 }
 
 .card a.card__info:hover {
-  box-shadow: 0 0 5px #000
+	background-color: #d4af37;
+	font-size: 1rem
 }
 
 .card-third img {
@@ -698,7 +699,7 @@ p.noflex {
 }
 
 .card-third .card--hidden {
-  background-color: rgba(255, 231, 179, 0.3);
+  background-color: #99c6d1;
   transition: all 0.5s linear;
   opacity: 0;
 }
@@ -1009,7 +1010,7 @@ footer{
 }
 
 .tutorial-individual-posts {
-	text-align: left; 
+	text-align: left;
 }
 
 h4.block-title {

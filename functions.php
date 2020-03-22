@@ -664,44 +664,33 @@
 			'after_title' 	=> 	'</h2>'
 		));
 
-/**********************CONTACT PAGE WIDGETS*************/
-						register_sidebar(array(
-							'name' => ('Secondary title Tutorials'),
-							'id' => 'secondary-title-tutorials',
-							'description' => 'The secondary title on the tutorials page',
-							'before_widget' => '<div>',
-							'after_widget' => '</div>',
-							'before_title' => '<h2 class="secondary-title">',
-							'after_title' => '</h2>'
-						));
+		// Tutorials Page Widgets
+		register_sidebar(array(
+			'name' 			=> 	('Secondary title Tutorials'),
+			'id' 			=> 	'secondary-title-tutorials',
+			'description'	=> 	'The secondary title on the tutorials page',
+			'before_widget' => 	'<div>',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2 class="secondary-title">',
+			'after_title' 	=> 	'</h2>'
+		));
 	}
 
 	add_action('widgets_init', 'blank_widgets_init');
 
 	/**********Enable HTML in Specified Widget Titles**********/
-	add_filter( 'contact-page-phone-number', 'accept_html_widget_title_link' );
-	add_filter( 'contact-page-email', 'accept_html_widget_title_link' );
+	add_filter( 'widget_title', 'accept_html_widget_title' );
 
-	function accept_html_widget_title_link( $mytitle ) { 
+	function accept_html_widget_title( $mytitle ) { 
 
 	  // The sequence of String Replacement is important!!
 	  
 		$mytitle = str_replace( '[link', '<a', $mytitle );
 		$mytitle = str_replace( '[/link]', '</a>', $mytitle );
-	    $mytitle = str_replace( ']', '>', $mytitle );
-		
 
-		return $mytitle;
-	}
-
-	add_filter( 'home-intro', 'accept_html_widget_title_span' );
-
-	function accept_html_widget_title_span( $mytitle ) { 
-
-	  // The sequence of String Replacement is important!!
-	  
 		$mytitle = str_replace( '[span', '<span', $mytitle );
 		$mytitle = str_replace( '[/span]', '</span>', $mytitle );
+
 	    $mytitle = str_replace( ']', '>', $mytitle );
 		
 

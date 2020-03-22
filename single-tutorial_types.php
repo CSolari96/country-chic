@@ -3,6 +3,9 @@
 <main class="container-fluid">
 
 	<div class="row">
+		<h2 class="secondary-title"><?php the_title(); ?></h2>
+	</div>
+	<div class="row">
 		<aside class="col-md-3 products-list">
 			<h3 class="products-used-title">Country Chic Products Used</h3>
 			<ul>
@@ -17,8 +20,6 @@
 						if (have_posts()) {
 							while (have_posts()) {
 								the_post(); ?>
-
-								<h2 class="secondary-title"><?php the_title(); ?></h2>
 
 								<div class="tutorial-individual-posts"><?php the_content(); ?></div>
 					<?php

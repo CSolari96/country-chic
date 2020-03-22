@@ -839,6 +839,11 @@ a.cards-link:active, a.cards-link:hover {
 
 .tutorial-individual-posts img {
 	margin: 10px;
+
+}
+
+.tutorial-individual-posts {
+	text-align: center;
 }
 
 .tutorial-individual-posts p {
@@ -1001,6 +1006,10 @@ footer{
 
 	.tutorial-individual-posts img {
 		float: left;
+}
+
+.tutorial-individual-posts {
+	text-align: left; 
 }
 
 h4.block-title {

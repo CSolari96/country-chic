@@ -42,6 +42,18 @@ body {
   display: none;
 }
 
+a:link {
+  color: #63a497;
+}
+
+a:visited {
+  color: #82a3af;
+}
+
+a:hover, a:active {
+  text-shadow: 0 3px 6px #7b7b7b;
+}
+
 /**********HEADER STYLING**********/
 .header {
   flex-wrap: nowrap;
@@ -85,7 +97,7 @@ body {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1000;
+  z-index: 100000;
   top: 0;
   left: 0;
   overflow-x: hidden;
@@ -236,6 +248,7 @@ body {
   font-size: 0.75rem;
   margin: 2% 0;
   order: 55;
+  min-height: 45px;
 }
 
 .widget-home-values img {

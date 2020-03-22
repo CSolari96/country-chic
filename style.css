@@ -173,6 +173,7 @@ a:hover, a:active {
   margin: 2% 0;
   font-size: .75rem;
   text-shadow: 0 3px 6px #7b7b7b;
+	width: 300px;
 }
 
 .hero-link {
@@ -202,6 +203,10 @@ a:hover, a:active {
 /* Tutorials Banner */
 .widget-home-tutorials {
   text-align: right;
+}
+
+.widget-home-tutorials p {
+	float: right;
 }
 /* End Tutorials banner */
 /* End hero banners */
@@ -794,7 +799,7 @@ h4.values {
 }
 
 .tutorials-main-post p {
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 20%;
     line-height: 1.8;
 }
@@ -836,7 +841,6 @@ a.tutorial-title-link, a.tutorial-title-link:visited {
 
 a.tutorial-title-link:active, a.tutorial-title-link:hover {
 	color: 	#82a3af;
-	text-decoration: underline;
 }
 
 a.cards-link, a.cards-link:visited {
@@ -845,7 +849,6 @@ a.cards-link, a.cards-link:visited {
 
 a.cards-link:active, a.cards-link:hover {
 	color:	#82a3af;
-	font-size: 1.5rem;
 }
 
 .card p {

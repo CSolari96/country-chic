@@ -20,7 +20,7 @@
 
 								<h2 class="secondary-title"><?php the_title(); ?></h2>
 
-								<div class="tutorial-post"><?php the_content(); ?></div>
+								<div class="tutorial-individual-posts"><?php the_content(); ?></div>
 					<?php
 							}  // End while
 						}  // End if

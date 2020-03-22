@@ -890,6 +890,7 @@ footer{
 
 .animals {
 	position: absolute;
+	width: 40%;
 	bottom: 0;
 	right:0;
 	z-index: 1000;
@@ -898,8 +899,8 @@ footer{
 	align-items: flex-end;
 }
 
-footer .animals img {
-	width: 40%;
+.animals img {
+	width: 100%;
 }
 
 
@@ -913,6 +914,7 @@ footer .animals img {
 	padding: 2.5% 0%;
 	background-color: #63a497;
 	transition: all 0.2s;
+	z-index: 1100000;
 }
 
 .social-icon{

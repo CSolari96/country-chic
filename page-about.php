@@ -30,10 +30,13 @@
 <main class="container-fluid">
 
 		<section class="line-spacing">
-				<div class="row col-md-8 justify-content-center">
+				<div class="row justify-content-center">
+					<div class="col-md-8">
 					<?php dynamic_sidebar('secondary-title-about'); ?>
+					</div>
 				</div>
-				<div class="row col-md-8 justify-content-center">
+				<div class="row justify-content-center">
+					<div class="col-md-8">
 					<?php
 	          if(have_posts()){
 	            while(have_posts()){
@@ -43,6 +46,7 @@
 	          <?php  }//ends while loop
 	          }//ends the if statement
 	         ?>
+				 	</div>
 				</div>
 			</section>
 

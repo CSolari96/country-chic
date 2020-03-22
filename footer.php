@@ -37,8 +37,6 @@
 
       </div>
   </div>
-
-  <div class="not-animals">
     <!-- Green Footer bar -->
       <div class="container-fluid">
           <div class="row green-footer test">
@@ -54,7 +52,6 @@
 
               </div>
           </div>
-      </div>
 
     <div class="animals animated fadeInRight duration1 eds-on-scroll ">
       <img src="<?php echo get_template_directory_uri() . '/images/FooterImage.png'?>" alt="Bear and Bunny">

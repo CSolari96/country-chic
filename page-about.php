@@ -30,10 +30,10 @@
 <main class="container-fluid">
 
 		<section class="line-spacing">
-				<div class="row col-12 justify-content-center">
+				<div class="row col-md-8 justify-content-center">
 					<?php dynamic_sidebar('secondary-title-about'); ?>
 				</div>
-				<div class="row col-12">
+				<div class="row col-md-8 justify-content-center">
 					<?php
 	          if(have_posts()){
 	            while(have_posts()){

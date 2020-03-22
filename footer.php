@@ -5,7 +5,7 @@
   <div class="not-animals">
     <!-- Social Media Bar -->
     <div class="container-fluid">
-        <div class="row social-footer">
+        <div class="row social-footer animated fadeInLeft duration1 eds-on-scroll ">
             <div class="col-md-12">
 
               <a href="https://www.facebook.com/CountryChicPaint/">
@@ -55,7 +55,7 @@
           </div>
       </div>
 
-    <div class="animals">
+    <div class="animals animated fadeInRight duration1 eds-on-scroll ">
       <img src="<?php echo get_template_directory_uri() . '/images/FooterImage.png'?>" alt="Bear and Bunny">
     </div>
 

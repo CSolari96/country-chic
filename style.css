@@ -833,7 +833,7 @@ a.cards-link:active, a.cards-link:hover {
 }
 
 .tutorial-individual-posts {
-
+		margin: 3% 0;
 }
 
 .tutorial-individual-posts img {
@@ -842,9 +842,8 @@ a.cards-link:active, a.cards-link:hover {
 }
 
 .tutorial-individual-posts p {
-  padding: 1% 0;
-	margin: 3% 0;
-	line-height: 1.8; 
+  padding: 2% 0;
+	line-height: 1.8;
 }
 
 h4 img {

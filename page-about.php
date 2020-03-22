@@ -58,15 +58,8 @@
 				</div>
 			</section>
 
-			<div class="row justify-content-center">
-
-				<div class="col-md-12">
-
-					<?php dynamic_sidebar('meet-us-title'); ?>
-
-				</div>
-
-				<div class="row center col-sm-12 col-md-6 col-xl-3">
+			<section class="row center card-images-about">
+				<div class="col-sm-12 col-md-6 col-xl-3">
 					<div class="hover-images-effects">
 					  <div class="card card-third">
 					    <?php dynamic_sidebar('rosanne-picture'); ?>
@@ -115,7 +108,7 @@
 					</div>
 				</div>
 
-		</div>
+		</section>
 
 			<div class="row">
 

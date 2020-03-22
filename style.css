@@ -892,6 +892,7 @@ a.cards-link:active, a.cards-link:hover {
 
 .tutorial-individual-posts p {
 	line-height: 1.8;
+	padding: 10px 0; 
 }
 
 h4 img {

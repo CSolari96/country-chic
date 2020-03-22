@@ -652,13 +652,10 @@ p.noflex {
 	justify-content: center;
 }
 
-.video-container {
-	margin-bottom: 5%;
-}
 
 /*** HOVER EFFECT ON MEET US***/
 .card-images-about {
-    margin-top: 10%;
+    margin-top: 5% !important;
 }
 
 .hover-images-effects {

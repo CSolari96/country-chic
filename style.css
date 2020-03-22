@@ -900,11 +900,12 @@ footer{
 	position: relative;
 	margin-top: 75%;
 	padding-left: 5%;
+	height: 200px;
 }
 
 .social-footer{
 	position: absolute;
-	bottom: 10%;
+	top: 0;
 	left: 0;
 	z-index: 111111
 }

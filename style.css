@@ -483,6 +483,11 @@ a:hover, a:active {
 	max-height: 450px;
 }
 
+.contact section {
+    max-width:  1400px;
+    margin: auto;
+}
+
 .contact-form-section {
   display: block;
   margin: 3% -15px;
@@ -887,6 +892,7 @@ a.cards-link:active, a.cards-link:hover {
 
 .tutorial-individual-posts p {
 	line-height: 1.8;
+	padding: 10px 0; 
 }
 
 h4 img {
@@ -907,6 +913,10 @@ h3.products-used-title {
 
 .products-list {
 	background-color: #99c6d1;
+	color: #ffffff;
+}
+
+.products-list h3 {
 	text-align: center;
 }
 
@@ -1204,6 +1214,7 @@ h4.block-title {
 
 	.products-list {
 		background-color: #ffffff;
+		color: #7b7b7b;
 		text-align: left;
 	}
 

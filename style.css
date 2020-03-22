@@ -157,7 +157,7 @@ a:hover, a:active {
 }
 
 .hero-sub-title {
-  /* font-family: 'Noteworthy'; */
+  font-family: 'Noteworthy';
   font-size: 1rem;
   text-shadow: 0 3px 6px #7b7b7b;
 }
@@ -213,7 +213,7 @@ a:hover, a:active {
 }
 
 .intro-widget-title {
-  /* font-family: 'Noteworthy'; */
+  font-family: 'Noteworthy';
   color: #63a496;
 }
 
@@ -282,7 +282,7 @@ a:hover, a:active {
 }
 
 .testimonial-name {
-  /* font-family: 'Noteworthy'; */
+	font-family: 'Noteworthy';
   color: #63a496;
   padding-right: 5%;
 }
@@ -435,7 +435,7 @@ a:hover, a:active {
 #collection_title {
   color: #63a497;
   padding: 2%;
-  /* font-family: 'Noteworthy'; */
+  font-family: 'Noteworthy';
 }
 
 .wps-btn-next-page {

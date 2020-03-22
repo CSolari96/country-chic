@@ -8,6 +8,12 @@
 
 	<title><?php bloginfo('name'); ?></title>
 
+	<!--Noteworthy Font-->
+
+	<style>
+      @font-face { font-family: NoteWorthy; src: url('<?php echo get_template_directory_uri() . '/fonts/Noteworthy-Bold.ttf'?>'); }
+    </style>
+
 	<!--<?php wp_enqueue_script('jquery'); ?>-->
 
 	<?php wp_head(); ?>

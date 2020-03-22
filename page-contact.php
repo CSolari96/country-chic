@@ -52,7 +52,6 @@
 					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
 					<?php dynamic_sidebar('contact-page-email'); ?>
 			</div>
-
 		</section>
 
 
@@ -63,7 +62,7 @@
 		<section>
 				<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
 		</section>
-		
+
 </main>
 
 

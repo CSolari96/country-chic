@@ -42,6 +42,18 @@ body {
   display: none;
 }
 
+a:link {
+  color: #63a497;
+}
+
+a:visited {
+  color: #82a3af;
+}
+
+a:hover, a:active {
+  text-shadow: 0 3px 6px #7b7b7b;
+}
+
 /**********HEADER STYLING**********/
 .header {
   flex-wrap: nowrap;

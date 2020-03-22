@@ -457,6 +457,7 @@ body {
   z-index: 100000;
   font-size: 3rem;
   text-shadow: 0px 0px 6px #3a3a3c;
+	padding: 25px; 
 }
 
 .post-featured-image img {
@@ -685,12 +686,12 @@ p.noflex {
   text-transform: uppercase;
 	border-radius: 30px;
 	margin-top: 5px;
+	font-size: 1rem;
+	font-weight: 700;
 }
 
 .card a.card__info:hover {
 	background-color: #d4af37;
-	font-size: 1rem;
-	font-weight: 700;
   text-decoration: none;
   border-radius: 30px;
   box-shadow: 0 3px 6px #7b7b7b;

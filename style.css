@@ -535,6 +535,7 @@ a:hover, a:active {
   padding: 15px 25px;
   box-shadow: 0px 0px 3px 0px #7b7b7b;
   border-radius: 30px;
+  transition: all 0.2s;
 }
 
 .wpcf7-submit:hover, .wpcf7-submit:active {

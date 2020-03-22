@@ -670,6 +670,36 @@ register_sidebar(array(
 
 	add_action('widgets_init', 'blank_widgets_init');
 
+	/**********Enable HTML in Specified Widget Titles**********/
+	add_filter( 'contact-page-phone-number', 'accept_html_widget_title_link' );
+	add_filter( 'contact-page-email', 'accept_html_widget_title_link' );
+
+	function accept_html_widget_title_link( $mytitle ) { 
+
+	  // The sequence of String Replacement is important!!
+	  
+		$mytitle = str_replace( '[link', '<a', $mytitle );
+		$mytitle = str_replace( '[/link]', '</a>', $mytitle );
+	    $mytitle = str_replace( ']', '>', $mytitle );
+		
+
+		return $mytitle;
+	}
+
+	add_filter( 'home-intro', 'accept_html_widget_title_span' );
+
+	function accept_html_widget_title_span( $mytitle ) { 
+
+	  // The sequence of String Replacement is important!!
+	  
+		$mytitle = str_replace( '[span', '<span', $mytitle );
+		$mytitle = str_replace( '[/span]', '</span>', $mytitle );
+	    $mytitle = str_replace( ']', '>', $mytitle );
+		
+
+		return $mytitle;
+	}
+
 	/**********Add Featured Image Capability**********/
 	add_theme_support('post-thumbnails');
 

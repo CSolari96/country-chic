@@ -884,6 +884,11 @@ a.cards-link:active, a.cards-link:hover {
 	font-style: normal !important;
 }
 
+.tutorials-post {
+  max-width: 1400px;
+  margin: auto;
+}
+
 .tutorial-individual-posts ul li {
     margin: 0 15px;
 		line-height: 1.3;

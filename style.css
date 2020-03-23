@@ -367,7 +367,7 @@ a:hover, a:active {
 #title-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;;
+  justify-content: center;
 }
 
 #title-container div {
@@ -910,7 +910,7 @@ h3.products-used-title {
 .products-list {
 	background-color: #99c6d1;
 	color: #ffffff;
-	margin-bottom: 15px; 
+	margin-bottom: 15px;
 }
 
 .products-list h3 {

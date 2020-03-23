@@ -892,7 +892,7 @@ a.cards-link:active, a.cards-link:hover {
 
 .tutorial-individual-posts p {
 	line-height: 1.8;
-	padding: 10px 0; 
+	padding: 10px 0;
 }
 
 h4 img {
@@ -914,6 +914,7 @@ h3.products-used-title {
 .products-list {
 	background-color: #99c6d1;
 	color: #ffffff;
+	margin-bottom: 15px; 
 }
 
 .products-list h3 {

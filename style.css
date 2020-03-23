@@ -1080,6 +1080,7 @@ width: 44%;
 h4.block-title {
     clear: both;
 	}
+}
 
 @media(min-width:650px) {
     .phone-number {

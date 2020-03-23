@@ -46,15 +46,27 @@ body {
   margin: 0;
 }
 
-[class^=wps-] a:link, a:link {
+[class^=wps-] a:link {
   color: #63a497 !important;
 }
 
-[class^=wps-] a:visited, a:visited {
+[class^=wps-] a:visited {
   color: #82a3af !important;
 }
 
-[class^=wps-] a:hover, [class^=wps-] a:active, a:hover, a:active {
+[class^=wps-] a:hover, [class^=wps-] a:active {
+  text-shadow: 0 3px 6px #7b7b7b;
+}
+
+a:link {
+  color: #63a497;
+}
+
+a:visited {
+  color: #82a3af;
+}
+
+a:hover, a:active {
   text-shadow: 0 3px 6px #7b7b7b;
 }
 

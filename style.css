@@ -46,15 +46,15 @@ body {
   margin: 0;
 }
 
-a:link {
-  color: #63a497;
+[class^=wps-] a:link, a:link {
+  color: #63a497 !important;
 }
 
-a:visited {
-  color: #82a3af;
+[class^=wps-] a:visited, a:visited {
+  color: #82a3af !important;
 }
 
-a:hover, a:active {
+[class^=wps-] a:hover, [class^=wps-] a:active, a:hover, a:active {
   text-shadow: 0 3px 6px #7b7b7b;
 }
 

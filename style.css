@@ -46,6 +46,18 @@ body {
   margin: 0;
 }
 
+[class^=wps-] a:link {
+  color: #63a497 !important;
+}
+
+[class^=wps-] a:visited {
+  color: #82a3af !important;
+}
+
+[class^=wps-] a:hover, [class^=wps-] a:active {
+  text-shadow: 0 3px 6px #7b7b7b;
+}
+
 a:link {
   color: #63a497;
 }
@@ -1068,12 +1080,13 @@ width: 44%;
 h4.block-title {
     clear: both;
 	}
+}
 
 @media(min-width:650px) {
     .phone-number {
-    font-size: 3rem;
-    padding: 2% 0;
-  }
+      font-size: 3rem;
+      padding: 2% 0;
+    }
 
   .email-address {
     font-size: 2rem;
@@ -1234,7 +1247,6 @@ h4.block-title {
     margin: 3% 1%;
   }
 }
-
 
 @media(min-width: 1140px) {
     .top-menu-class ul {

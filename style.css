@@ -1344,4 +1344,8 @@ h4.block-title {
 		h3.products-used-title {
       padding-bottom: 25px;
   	}
+
+		.card .about-us-pictures-info p {
+			font-size: 0.875rem;
+		}
 }

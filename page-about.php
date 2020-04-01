@@ -65,6 +65,10 @@
 
 			<section class="row center card-images-about">
 
+				<div class="meet-header col-12">
+					<?php dynamic_sidebar('meet-us-title'); ?>
+				</div>
+
 				<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn duration1 eds-on-scroll ">
 					<div class="hover-images-effects">
 					  <div class="card card-third">

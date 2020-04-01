@@ -666,7 +666,9 @@ p.noflex {
 
 h3.third-title {
 	font-size: 1.5rem;
-	color: #82a3af; 
+	color: #82a3af;
+	text-align: center;
+	padding-bottom: 20px; 
 }
 
 /*** HOVER EFFECT ON MEET US***/

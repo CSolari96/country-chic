@@ -488,8 +488,8 @@
 			'description' 	=> 	'The values of the about page',
 			'before_widget' => 	'<div class="title-about-values">',
 			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h2 class="secondary-title">',
-			'after_title' 	=> 	'</h2>'
+			'before_title' 	=> 	'<h3 class="third-title">',
+			'after_title' 	=> 	'</h3>'
 		));
 
 		register_sidebar(array(
@@ -579,8 +579,8 @@
 			'description' 	=> 	'Title of the Meet Us Section',
 			'before_widget' => 	'<div class="meet-us">',
 			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h2 class="secondary-title">',
-			'after_title' 	=> 	'</h2>'
+			'before_title' 	=> 	'<h3 class="third-title">',
+			'after_title' 	=> 	'</h3>'
 		));
 
 

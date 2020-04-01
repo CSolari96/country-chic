@@ -664,6 +664,10 @@ p.noflex {
 	justify-content: center;
 }
 
+h3.third-title {
+	font-size: 1.5rem;
+	color: #82a3af; 
+}
 
 /*** HOVER EFFECT ON MEET US***/
 .card-images-about {

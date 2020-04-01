@@ -579,8 +579,8 @@
 			'description' 	=> 	'Title of the Meet Us Section',
 			'before_widget' => 	'<div class="meet-us">',
 			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h3>',
-			'after_title' 	=> 	'</h3>'
+			'before_title' 	=> 	'<h2 class="secondary-title">',
+			'after_title' 	=> 	'</h2>'
 		));
 
 
@@ -681,10 +681,10 @@
 	/**********Enable HTML in Specified Widget Titles**********/
 	add_filter( 'widget_title', 'accept_html_widget_title' );
 
-	function accept_html_widget_title( $mytitle ) { 
+	function accept_html_widget_title( $mytitle ) {
 
 	  // The sequence of String Replacement is important!!
-	  
+
 		$mytitle = str_replace( '[link', '<a', $mytitle );
 		$mytitle = str_replace( '[/link]', '</a>', $mytitle );
 
@@ -692,7 +692,7 @@
 		$mytitle = str_replace( '[/span]', '</span>', $mytitle );
 
 	    $mytitle = str_replace( ']', '>', $mytitle );
-		
+
 
 		return $mytitle;
 	}
@@ -708,7 +708,7 @@
 					'name' => __('Tutorials'),
 					'singular_name' => __('Tutorials')
 				),
-				
+
 				'public' 			=> true,
 				'has_archive'		=> true,
 				'show_in_menu'		=> true,

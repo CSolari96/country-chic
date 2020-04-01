@@ -1345,7 +1345,13 @@ h4.block-title {
       padding-bottom: 25px;
   	}
 
+	/******ABOUT PAGE FLIP CARDS***********/
+
 		.card .about-us-pictures-info p {
 			font-size: 0.875rem;
+		}
+
+		.card h2 {
+			font-size: 1rem; 
 		}
 }

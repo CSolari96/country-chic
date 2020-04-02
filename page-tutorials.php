@@ -83,12 +83,14 @@
 
 			       $big = 999999999; // need an unlikely integer
 
-			       echo paginate_links( array(
-			       'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-			       'format' => '?paged=%#%',
-			       'current' => max( 1, get_query_var('paged') ),
-			       'total' => $total
-			        ) );
+						 echo paginate_links(array(
+			 				'base'			=> str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+			 				'format'		=> $format,
+			 				'current'		=> max( 1, get_query_var('paged') ),
+			 				'total' 		=> $total,
+			 				'mid_size'		=> 3,
+			 				'type' 			=> 'list'
+						) );
 
 ?>
 </div>

@@ -69,7 +69,7 @@
 
 					<?php endwhile; ?>
 
-				<div class="pagination">
+				<div class="row col-12 pagination">
 					<?php
 					$wp_query = new WP_Query($args);
 

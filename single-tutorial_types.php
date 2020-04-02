@@ -24,9 +24,9 @@
 								<div class="tutorial-individual-posts"><?php the_content(); ?></div>
 
 								<div class="pagination-tutorials">
-									<?php next_post_link('%link', 'Next Tutorial'); ?>
-									
-									<?php previous_post_link('%link', 'Previous Tutorial'); ?>
+									<?php next_post_link('%link', 'Next Tutorial>>'); ?>
+
+									<?php previous_post_link('%link', '<<Previous Tutorial'); ?>
 								</div>
 					<?php
 							}  // End while

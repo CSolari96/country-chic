@@ -1255,6 +1255,10 @@ h4.block-title {
 
 	/*********PAGINATION FOR TUTORIALS SINGLE*******/
 	.pagination-tutorials a {
+    display: inline;
+	}
+
+	.pagination-tutorials {
     display: flex;
     justify-content: space-between;
 	}

@@ -49,7 +49,7 @@
 				</div>
 			</section>
 
-			<section class="row center tutorial-cards-container">
+			<section class="row center tutorial-cards-container changeagain">
 
 					<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 3);
 
@@ -70,7 +70,7 @@
 					<?php endwhile; ?>
 
 					<?php
-       global $wp_query;
+       global $loop;
 
        $big = 999999999; // need an unlikely integer
 

@@ -98,6 +98,7 @@
 			 				'total' 		=> $total,
 			 				'mid_size'		=> 3,
 						) );
+					}
 
 ?>
 </div>

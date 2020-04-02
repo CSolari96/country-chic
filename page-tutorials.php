@@ -70,7 +70,7 @@
 			</div>
 
 			<div class ="pagination-links">
-				<?php the_posts_pagination();?>
+				<?php echo the_posts_pagination();?>
 			</div>
 		</section>
 	</main>

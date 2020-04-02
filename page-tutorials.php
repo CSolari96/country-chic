@@ -69,8 +69,11 @@
 
 					<?php endwhile; ?>
 
+				<div class="pagination">
 					<?php
-       global $loop;
+					$wp_query = new WP_Query($args);
+
+					global $wp_query;
 
        $big = 999999999; // need an unlikely integer
 
@@ -82,6 +85,7 @@
         ) );
 
 ?>
+</div>
 
 
 		</section>

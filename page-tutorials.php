@@ -43,20 +43,6 @@
 								<?php the_content();
 						}//ends while loop ?>
 
-						<div class ="pagination-links">
-							<?php
-								 global $wp_query;
-
-								 $big = 999999999; // need an unlikely integer
-
-								 echo paginate_links( array(
-								 'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-								 'format' => '?paged=%#%',
-								 'current' => max( 1, get_query_var('paged') ),
-								 'total' => $wp_query->max_num_pages
-									) );
-							?>
-						</div>
 					<?php }//ends the if statement
 					 ?>
 				 </div>
@@ -72,7 +58,8 @@
 			while($loop->have_posts()): $loop->the_post();?>
 
 				<div class="card tutorial-cards animated fadeIn duration1 eds-on-scroll" style="width: 18rem;">
-		  			<div class="card-img-top"><?php the_post_thumbnail(); ?> </div>
+		  			<div class="card-img-top"><?php the_post_thumbnail(); ?>
+						</div>
 		  			<div class="card-body">
 		    			<h5 class="card-title-tutorials"><a href="<?php the_permalink(); ?>" class="tutorial-title-link"><?php the_title(); ?></a></h5>
 		    			<p class="card-text"><?php the_excerpt(); ?></p>
@@ -80,11 +67,22 @@
 		  			</div>
 				</div>
 
+				<div class="pagination-links">
+					<?php
+						 global $wp_query;
 
+						 $big = 999999999; // need an unlikely integer
+
+						 echo paginate_links( array(
+						 'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+						 'format' => '?paged=%#%',
+						 'current' => max( 1, get_query_var('paged') ),
+						 'total' => $wp_query->max_num_pages
+							) );
+					?>
+				</div>
 
 			<?php endwhile; ?>
-
-			</div>
 
 
 		</section>

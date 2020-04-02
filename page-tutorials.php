@@ -65,13 +65,15 @@
 		  			</div>
 				</div>
 
+				<div class ="pagination-links">
+					<?php echo the_posts_pagination();?>
+				</div>
+
 			<?php endwhile; ?>
 
 			</div>
 
-			<div class ="pagination-links">
-				<?php echo the_posts_pagination();?>
-			</div>
+
 		</section>
 	</main>
 

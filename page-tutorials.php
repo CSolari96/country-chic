@@ -50,7 +50,6 @@
 			</section>
 
 			<section class="row center tutorial-cards-container">
-				<div class="whole-tutorial-post">
 
 					<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 3);
 
@@ -69,7 +68,6 @@
 						</div>
 
 					<?php endwhile; ?>
-				</div>
 
 
 		</section>

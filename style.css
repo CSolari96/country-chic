@@ -941,6 +941,19 @@ h3.products-used-title {
 	text-align: center;
 }
 
+.pagination-tutorials {
+	display: inline;
+	margin: 0 20px;
+}
+
+.pagination-tutorials a {
+	text-decoration: none;
+}
+
+.pagniation-tutorials a:hover {
+
+}
+
 /**********FOOTER STYLING**********/
 
 footer{

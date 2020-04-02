@@ -96,7 +96,7 @@
 			 				'format'		=> $format,
 			 				'current'		=> max( 1, get_query_var('paged') ),
 			 				'total' 		=> $total,
-			 				'mid_size'		=> 3,
+			 				'mid_size'		=> 3
 						) );
 					}
 

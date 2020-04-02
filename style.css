@@ -959,7 +959,7 @@ h3.products-used-title {
 }
 
 .page-numbers {
-	padding: 15px;
+	padding: 4% 15px;
 }
 
 .page-numbers a:hover, .page-numbers a:active {
@@ -1276,7 +1276,7 @@ h4.block-title {
 	}
 
 	.pagination {
-		text-align: right; 
+		text-align: right;
 	}
 
 	/*Footer 768 test */

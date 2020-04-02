@@ -25,9 +25,7 @@
 
 								<div class="pagination-tutorials">
 									<?php next_post_link('%link', 'Next Tutorial'); ?>
-								</div>
-
-								<div class="pagination-tutorials">
+									
 									<?php previous_post_link('%link', 'Previous Tutorial'); ?>
 								</div>
 					<?php

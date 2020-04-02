@@ -941,16 +941,17 @@ h3.products-used-title {
 	text-align: center;
 }
 
-.pagination-tutorials {
-	display: inline;
-	margin: 0 20px;
-}
-
 .pagination-tutorials a {
 	text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 20px 0; 
 }
 
 .pagniation-tutorials a:hover {
+	text-decoration: underline;
+  color: #82a3af;
+	font-weight: 700;
 
 }
 
@@ -1251,6 +1252,12 @@ h4.block-title {
 		background-color: #ffffff;
 		color: #7b7b7b;
 		text-align: left;
+	}
+
+	/*********PAGINATION FOR TUTORIALS SINGLE*******/
+	.pagination-tutorials {
+    display: flex;
+    justify-content: space-between;
 	}
 
 	/*Footer 768 test */

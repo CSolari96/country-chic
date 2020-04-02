@@ -953,6 +953,19 @@ h3.products-used-title {
 	font-weight: 700;
 }
 
+.pagination {
+	display: inline;
+	text-align: center;
+}
+
+.page-numbers {
+	padding: 15px;
+}
+
+.page-numbers a:hover, .page-numbers a:active {
+	font-weight: 700;
+}
+
 /**********FOOTER STYLING**********/
 
 footer{
@@ -1252,7 +1265,7 @@ h4.block-title {
 		text-align: left;
 	}
 
-	/*********PAGINATION FOR TUTORIALS SINGLE*******/
+	/*********PAGINATION FOR TUTORIALS*******/
 	.pagination-tutorials a {
     display: inline;
 	}
@@ -1260,6 +1273,10 @@ h4.block-title {
 	.pagination-tutorials {
     display: flex;
     justify-content: space-between;
+	}
+
+	.pagination {
+		text-align: right; 
 	}
 
 	/*Footer 768 test */

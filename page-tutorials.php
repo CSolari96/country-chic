@@ -66,7 +66,7 @@
 
 			<section class="row center tutorial-cards-container">
 
-			<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 6);
+			<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 3);
 
 			$loop = new WP_Query($args);
 

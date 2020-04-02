@@ -40,13 +40,9 @@
 							while(have_posts()){
 								the_post(); ?>
 
-								<?php the_content(); ?>
-						<?php  }//ends while loop ?>
-
-						<div class ="pagination-links">
-							<?php the_posts_pagination();?>
-						</div>
-						<?php }//ends the if statement
+								<?php the_content();
+						}//ends while loop
+						 }//ends the if statement
 					 ?>
 				 </div>
 				</div>
@@ -71,7 +67,12 @@
 
 			<?php endwhile; ?>
 
-		</div>
+			</div>
+
+			<div class ="pagination-links">
+				<?php the_posts_pagination();?>
+			</div>
+		</section>
 	</main>
 
 

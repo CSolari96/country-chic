@@ -56,7 +56,7 @@
 					$loop = new WP_Query($args);
 
 					while($loop->have_posts()): $loop->the_post();?>
- 
+
 						<div class="card tutorial-cards animated fadeIn duration1 eds-on-scroll" style="width: 18rem;">
 				  			<div class="card-img-top"><?php the_post_thumbnail(); ?>
 								</div>
@@ -72,7 +72,7 @@
 
 		</section>
 
-		<div class="pagination-links">
+		<div class="pagination-links"> 
 			<?php
 				 global $wp_query;
 

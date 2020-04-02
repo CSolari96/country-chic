@@ -75,13 +75,19 @@
 
 					global $wp_query, $wpex_query;
 
+						if ( $wpex_query ) {
+					    $total = $wpex_query->max_num_pages;
+					} else {
+					    $total = $wp_query->max_num_pages;
+					}
+
 			       $big = 999999999; // need an unlikely integer
 
 			       echo paginate_links( array(
 			       'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
 			       'format' => '?paged=%#%',
 			       'current' => max( 1, get_query_var('paged') ),
-			       'total' => $wp_query->max_num_pages
+			       'total' => $total
 			        ) );
 
 ?>

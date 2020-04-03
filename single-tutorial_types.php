@@ -16,15 +16,9 @@
 			</ul>
 
 			<?php
-$colors = get_field( 'product' );
-$productOptions = $colors.toString();
-
-// Create a comma-separated list from selected values.
-if( $colors ): ?>
-<ul>
-<li>Color: <?php echo $productOptions; ?></li>
-<?php endif; ?>
-</ul>
+			$field = get_field_object('product');
+			?>
+			<p><?php echo $field['label']; ?>: <?php echo $field['value']; ?></p>
 		</aside>
 
 		<section class="col-md-9">

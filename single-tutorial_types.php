@@ -20,7 +20,7 @@
         <?php
 
         // Get the sub field called "choices".
-        $select = get_sub_field_object('choices');
+        $select = get_sub_field_object('product');
 
         // Get its value.
         $value = $select['label'];

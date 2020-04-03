@@ -18,7 +18,7 @@
 			<?php
 			$field = get_field_object('product');
 			?>
-			<p><?php echo $field['label']; ?>: <br> <?php echo implode('<br>', $field['value']); ?></p>
+			<ul><?php echo $field['label']; ?>: <?php echo implode('<br>', $field['value']); ?><ul>
 		</aside>
 
 		<section class="col-md-9">

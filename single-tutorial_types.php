@@ -17,11 +17,12 @@
 
 			<?php
 $colors = get_field( 'product' );
+$productOptions = $colors.toString();
 
 // Create a comma-separated list from selected values.
 if( $colors ): ?>
 <ul>
-<li>Color: <?php echo "$colors"; ?></li>
+<li>Color: <?php echo $productOptions; ?></li>
 <?php endif; ?>
 </ul>
 		</aside>

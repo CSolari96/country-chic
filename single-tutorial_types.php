@@ -15,16 +15,6 @@
 					<?php endif; ?>
 			</ul>
 
-			<?php
-			 $value = get_sub_field('choices');
-			$fields = get_field_objects();
-			if( $fields ): ?>
-    <ul>
-        <?php foreach( $fields as $field ): ?>
-            <li><?php echo $field['label']; ?>: <?php echo get_sub_field('choices'); ?></li>
-        <?php endforeach; ?>
-    </ul>
-<?php endif; ?>
 		</aside>
 
 		<section class="col-md-9">

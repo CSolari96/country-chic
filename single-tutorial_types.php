@@ -20,7 +20,7 @@
 			if( $fields ): ?>
     <ul>
         <?php foreach( $fields as $field ): ?>
-            <li><?php echo $field['label']; ?></li>
+            <li><?php echo $field['choices']; ?></li>
         <?php endforeach; ?>
     </ul>
 <?php endif; ?>

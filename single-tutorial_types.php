@@ -18,6 +18,8 @@
 			<?php
 
 			$fields = get_fields();
+			$value = $field['value'];
+			$label = $field['choices'][ $value ];
 
 			if( $fields ): ?>
 			    <ul>

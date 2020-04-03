@@ -21,8 +21,8 @@
 
 			if( $fields ): ?>
 			    <ul>
-			        <?php foreach( $fields as $name => $value ): ?>
-			            <li><b><?php echo $name; ?></b> <?php echo $value; ?></li>
+			        <?php foreach( $fields as $name => $label ): ?>
+			            <li><b><?php echo $name; ?></b> <?php echo $label; ?></li>
 			        <?php endforeach; ?>
 			    </ul>
 			<?php endif; ?>

@@ -91,8 +91,8 @@
 			 				'mid_size'		=> 3
 						) );
 
-?>
-</div>
+					?>
+		</div>
 
 
 		</section>

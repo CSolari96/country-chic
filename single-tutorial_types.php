@@ -10,16 +10,31 @@
 			<h3 class="products-used-title">Country Chic Products Used</h3>
 			<ul>
 				<li class="products-used"><?php the_field('product'); ?></li>
+
+<!---Looks to see if anything is under the brushes category in Advanced Custom Fields and doesn't post anything if not-->
 					<?php if( get_field('brushes_used') ): ?>
 							<li class="products-used"><?php the_field('brushes_used'); ?></li>
 					<?php endif; ?>
 			</ul>
 
+<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
 			<?php
 			$field = get_field_object('product');
 			$fieldValues =  implode('<li>', $field['value']) . '</li>';
 			?>
 			<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul>
+
+
+			<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
+						<?php
+						$fieldBrushes = get_field_object('brushes_used');
+						$fieldBrushesValues =  implode('<li>', $fieldBrushes['value']) . '</li>';
+						?>
+
+						<?php if( get_field('brushes_used') ): ?>
+							<ul><?php echo '<li>' . $fieldBrushesValues . '</li>' ?>
+						<?php endif; ?>
+							</ul>
 		</aside>
 
 		<section class="col-md-9">

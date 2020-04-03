@@ -15,9 +15,6 @@
 					<?php endif; ?>
 			</ul>
 
-			<?php if( get_field('brushes_used') ): ?>
-    <h2><?php the_field('brushes_used'); ?></h2>
-	<?php endif; ?>
 		</aside>
 
 		<section class="col-md-9">

@@ -959,11 +959,11 @@ h3.products-used-title {
 }
 
 .page-numbers {
-	padding: 4% 15px;
+	padding: 15px;
 }
 
-.page-numbers a:hover, .page-numbers a:active {
-	font-weight: 700;
+a.page-numbers:hover {
+    font-weight: 700;
 }
 
 

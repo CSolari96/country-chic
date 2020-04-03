@@ -35,7 +35,7 @@
 									<?php previous_post_link('%link', '<< Previous Tutorial'); ?>
 									<?php next_post_link('%link', 'Next Tutorial >>'); ?>
 
-								</div>
+								</div> 
 					<?php
 							}  // End while
 						}  // End if

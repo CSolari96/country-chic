@@ -18,7 +18,7 @@
 			<?php
 			$field = get_field_object('product');
 			?>
-			<ul><?php echo $field['label']; ?>: <?php echo implode('<br>', $field['value']); ?><ul>
+			<ul><?php echo implode('<br>', $field['value']); ?><ul>
 		</aside>
 
 		<section class="col-md-9">
@@ -35,7 +35,7 @@
 									<?php previous_post_link('%link', '<< Previous Tutorial'); ?>
 									<?php next_post_link('%link', 'Next Tutorial >>'); ?>
 
-								</div> 
+								</div>
 					<?php
 							}  // End while
 						}  // End if

@@ -15,6 +15,28 @@
 					<?php endif; ?>
 			</ul>
 
+			<?php if( have_rows('repeater') ): ?>
+    <?php while( have_rows('repeater') ): the_row(); ?>
+        <?php
+
+        // Get the sub field called "choices".
+        $select = get_sub_field_object('choices');
+
+        // Get its value.
+        $value = $select['label'];
+
+        // Loop over its choices.
+        ?>
+        <ul>
+            <?php foreach( $select['choices'] as $k => $v ): ?>
+                <li <?php echo ($k === $value) ? 'class="selected"' : ''; ?>>
+                    <?php echo $v; ?>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    <?php endwhile; ?>
+<?php endif; ?>
+
 		</aside>
 
 		<section class="col-md-9">

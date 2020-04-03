@@ -18,12 +18,12 @@
 			<?php
 			$fields = get_field_objects();
 			if( $fields ): ?>
-			    <ul>
-			        <?php foreach( $fields as $name => $value): ?>
-			            <li><b><?php echo $name; ?></b> <?php echo $value; ?></li>
-			        <?php endforeach; ?>
-			    </ul>
-			<?php endif; ?>
+    <ul>
+        <?php foreach( $fields as $field ): ?>
+            <li><?php echo $field['label']; ?>: <?php echo $field['value']; ?></li>
+        <?php endforeach; ?>
+    </ul>
+<?php endif; ?>
 		</aside>
 
 		<section class="col-md-9">

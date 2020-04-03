@@ -20,9 +20,10 @@ $colors = get_field( 'product' );
 
 // Create a comma-separated list from selected values.
 if( $colors ): ?>
-<p>Color: <?php echo implode( ', ', $colors ); ?></p>
+<ul>
+<li>Color: <?php echo implode( ', ', $colors ); ?></li>
 <?php endif; ?>
-
+</ul>
 		</aside>
 
 		<section class="col-md-9">

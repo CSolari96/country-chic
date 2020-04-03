@@ -21,7 +21,7 @@ $colors = get_field( 'product' );
 // Create a comma-separated list from selected values.
 if( $colors ): ?>
 <ul>
-<li>Color: <?php echo '<li>', $colors, '</li>' ); ?></li>
+<li>Color: <?php echo ('<li>', $colors, '</li>' ); ?></li>
 <?php endif; ?>
 </ul>
 		</aside>

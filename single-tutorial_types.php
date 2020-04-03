@@ -17,9 +17,9 @@
 
 			<?php
 			$field = get_field_object('product');
-			$fieldValues =  implode('<br>', $field['value']);
+			$fieldValues =  implode('<li>', $field['value']) . '</li>';
 			?>
-			<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul> 
+			<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul>
 		</aside>
 
 		<section class="col-md-9">

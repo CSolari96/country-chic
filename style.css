@@ -966,14 +966,6 @@ h3.products-used-title {
 	font-weight: 700;
 }
 
-.page-numbers:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
 
 /**********FOOTER STYLING**********/
 

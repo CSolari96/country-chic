@@ -51,8 +51,10 @@
 
 			<section class="row center tutorial-cards-container changeagain">
 
-					<?php $args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 3);
+					<?php
 
+					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+					$args = array ('post_type' => 'tutorial_types', 'posts_per_page' => 3, 'paged' => $paged );
 					$loop = new WP_Query($args);
 
 					while($loop->have_posts()): $loop->the_post();?>

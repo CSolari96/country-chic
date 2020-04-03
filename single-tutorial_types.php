@@ -17,7 +17,7 @@
 
 			<?php
 
-			$fields = get_fields('product');
+			$fields = get_fields();
 
 			if( $fields ): ?>
 			    <ul>

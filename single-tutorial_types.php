@@ -27,6 +27,11 @@
 							<ul><?php echo '<li>' . $fieldBrushesValues . '</li>' ?>
 						<?php endif; ?>
 							</ul>
+
+						<div class="shop-button-tutorials">
+							<a href=""
+						</div>
+
 		</aside>
 
 		<section class="col-md-9">

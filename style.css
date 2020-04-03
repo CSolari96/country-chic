@@ -939,6 +939,11 @@ h3.products-used-title {
 
 .products-list h3 {
 	text-align: center;
+	padding-bottom: 20px;
+}
+
+.products-list ul {
+    padding-left: 10px;
 }
 
 .pagination-tutorials a {
@@ -1388,9 +1393,6 @@ h4.block-title {
         flex: 0 0 23% !important;
     }
 
-		h3.products-used-title {
-      padding-bottom: 25px;
-  	}
 
 	/******ABOUT PAGE FLIP CARDS***********/
 

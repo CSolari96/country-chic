@@ -21,7 +21,7 @@
 			if( $fields ): ?>
     <ul>
         <?php foreach( $fields as $field ): ?>
-            <li><?php echo $field['label']; ?>: <?php echo $value; ?></li>
+            <li><?php echo $field['label']; ?>: <?php echo get_sub_field('choices'); ?></li>
         <?php endforeach; ?>
     </ul>
 <?php endif; ?>

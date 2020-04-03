@@ -15,6 +15,14 @@
 					<?php endif; ?>
 			</ul>
 
+			<?php
+$colors = get_field( 'product' );
+
+// Create a comma-separated list from selected values.
+if( $colors ): ?>
+<p>Color: <?php echo implode( ', ', $colors ); ?></p>
+<?php endif; ?>
+
 		</aside>
 
 		<section class="col-md-9">

@@ -16,7 +16,7 @@
 			</ul>
 
 			<?php
-
+			$fields = get_field_objects();
 			if( $fields ): ?>
 			    <ul>
 			        <?php foreach( $fields as $name => $value): ?>

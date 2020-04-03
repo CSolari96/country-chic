@@ -16,11 +16,12 @@
 			</ul>
 
 			<?php
+			 $value = get_sub_field('choices');
 			$fields = get_field_objects();
 			if( $fields ): ?>
     <ul>
         <?php foreach( $fields as $field ): ?>
-            <li><?php echo $field['label']; ?>: <?php echo $field['value']; ?></li>
+            <li><?php echo $field['label']; ?>: <?php echo $value; ?></li>
         <?php endforeach; ?>
     </ul>
 <?php endif; ?>

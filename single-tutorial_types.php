@@ -17,14 +17,10 @@
 
 			<?php
 
-			$fields = get_fields();
-			$value = $fields['value'];
-			$label = $fields['choices'][ $value ];
-
 			if( $fields ): ?>
 			    <ul>
-			        <?php foreach( $fields as $name => $label ): ?>
-			            <li><b><?php echo $name; ?></b> <?php echo $label; ?></li>
+			        <?php foreach( $fields as $name => $value): ?>
+			            <li><b><?php echo $name; ?></b> <?php echo $value; ?></li>
 			        <?php endforeach; ?>
 			    </ul>
 			<?php endif; ?>

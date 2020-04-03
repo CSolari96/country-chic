@@ -10,8 +10,14 @@
 			<h3 class="products-used-title">Country Chic Products Used</h3>
 			<ul>
 				<li class="products-used"><?php the_field('product'); ?></li>
-				<li class="products-used"><?php the_field('brushes_used'); ?></li>
+					<?php if( get_field('brushes_used') ): ?>
+							<li class="products-used"><?php the_field('brushes_used'); ?></li>
+					<?php endif; ?>
 			</ul>
+
+			<?php if( get_field('brushes_used') ): ?>
+    <h2><?php the_field('brushes_used'); ?></h2>
+	<?php endif; ?>
 		</aside>
 
 		<section class="col-md-9">

@@ -950,6 +950,10 @@ h3.products-used-title {
     padding-left: 10px;
 }
 
+.products-list ul li {
+	font-weight: 400;
+}
+
 .pagination-tutorials a {
     display: block;
     padding: 20px;
@@ -982,7 +986,7 @@ a.page-numbers:hover {
 	padding: 10px;
 	border-radius: 30px;
 	text-align: center;
-	margin: 15px auto;
+	margin: 25px auto;
 	text-decoration: none;
 	display: block;
 	width: 150px;

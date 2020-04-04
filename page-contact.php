@@ -31,6 +31,13 @@
 <main class="container-fluid contact">
 
 	<section>
+
+		<div class="row justify-content-center">
+			<div class="col-md-12">
+			<?php dynamic_sidebar('secondary-title-contact'); ?>
+			</div>
+		</div>
+
 		<div class="row col-12">
 			<?php
 				if(have_posts()){

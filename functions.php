@@ -420,6 +420,17 @@
 		));
 
 		// Contact Page Widgets
+
+		register_sidebar(array(
+			'name' 			=> 	('Secondary title contact'),
+			'id' 			=> 	'secondary-title-contact',
+			'description' 	=> 	'The secondary title on the contact page',
+			'before_widget' => 	'<div>',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2 class="secondary-title">',
+			'after_title' 	=> 	'</h2>'
+		));
+
 		register_sidebar(array(
 			'name' 			=> 	('Contact Page Phone Number'),
 			'id' 			=> 	'contact-page-phone-number',

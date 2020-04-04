@@ -38,6 +38,24 @@
 			</div>
 		</div>
 
+		<div class="row justify-content-center">
+			<div class="col-md-12 col-lg-3">
+				<?php dynamic_sidebar('product-faqs'); ?>
+			</div>
+
+			<div class="col-md-12 col-lg-3">
+				<?php dynamic_sidebar('shipping-and-return'); ?>
+			</div>
+
+			<div class="col-md-12 col-lg-3">
+				<?php dynamic_sidebar('find-a-store'); ?>
+			</div>
+
+			<div class="col-md-12 col-lg-3">
+				<?php dynamic_sidebar('become-a-retailer'); ?>
+			</div>
+		</div>
+
 		<div class="row col-12">
 			<?php
 				if(have_posts()){

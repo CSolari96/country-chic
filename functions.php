@@ -432,6 +432,47 @@
 		));
 
 		register_sidebar(array(
+			'name' 			=> 	('Product FAQs'),
+			'id' 			=> 	'product-faqs',
+			'description' 	=> 	'Link for Product FAQs',
+			'before_widget' => 	'<a href="https://www.countrychicpaint.com/pages/contact-us">',
+			'after_widget' 	=> 	'</a>',
+			'before_title' 	=> 	'<h3>',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Shipping and Return Policy'),
+			'id' 			=> 	'shipping-and-return',
+			'description' 	=> 	'Link for Shipping and Return Policy',
+			'before_widget' => 	'<a href="">',
+			'after_widget' 	=> 	'</a>',
+			'before_title' 	=> 	'<h3>',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Find a Store Near You'),
+			'id' 			=> 	'find-a-store',
+			'description' 	=> 	'Link for Find a Store',
+			'before_widget' => 	'<a href="">',
+			'after_widget' 	=> 	'</a>',
+			'before_title' 	=> 	'<h3>',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Become a Retailer'),
+			'id' 			=> 	'become-a-retailer',
+			'description' 	=> 	'Link for Become a Retailer',
+			'before_widget' => 	'<a href="">',
+			'after_widget' 	=> 	'</a>',
+			'before_title' 	=> 	'<h3>',
+			'after_title' 	=> 	'</h3>'
+		));
+		--------
+
+		register_sidebar(array(
 			'name' 			=> 	('Contact Page Phone Number'),
 			'id' 			=> 	'contact-page-phone-number',
 			'description' 	=> 	'The phone number of Country Chic',

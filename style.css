@@ -979,12 +979,18 @@ a.page-numbers:hover {
 	background-color: #63a497;
   color: #ffffff;
   transition: all 0.2s;
+	padding: 10px;
+	border-radius: 30px;
+	text-align: center;
+	margin: 25px 0;
+	text-decoration: none;
 }
 
 .shop-button-tutorials a:hover, .shop-button-tutorials a:active {
 background-color: #d4af37;
 transition: all 0.2s;
 }
+
 
 /**********FOOTER STYLING**********/
 
@@ -1280,8 +1286,6 @@ h4.block-title {
   }
 
 	.products-list {
-		background-color: #ffffff;
-		color: #7b7b7b;
 		text-align: left;
 	}
 

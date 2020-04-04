@@ -7,30 +7,32 @@
 	</div>
 	<div class="row">
 		<aside class="col-md-3 products-list">
-			<h3 class="products-used-title">Country Chic Products Used</h3>
-
-<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
-			<?php
-			$field = get_field_object('product');
-			$fieldValues =  implode('<li>', $field['value']) . '</li>';
-			?>
-			<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul>
-
+			<div class="all-products">
+				<h3 class="products-used-title">Country Chic Products Used</h3>
 
 	<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
-						<?php
-						$fieldBrushes = get_field_object('brushes_used');
-						$fieldBrushesValues =  implode('<li>', $fieldBrushes['value']) . '</li>';
-						?>
-<!---Looks to see if anything is under the brushes category in Advanced Custom Fields and doesn't post anything if not-->
-						<?php if( get_field('brushes_used') ): ?>
-							<ul><?php echo '<li>' . $fieldBrushesValues . '</li>' ?>
-						<?php endif; ?>
-							</ul>
+				<?php
+				$field = get_field_object('product');
+				$fieldValues =  implode('<li>', $field['value']) . '</li>';
+				?>
+				<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul>
 
-						<div class="shop-button-tutorials">
-							<a href="http://www.courtneysolari.com/country-chic/shop/">Shop</a>
-						</div>
+
+		<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
+							<?php
+							$fieldBrushes = get_field_object('brushes_used');
+							$fieldBrushesValues =  implode('<li>', $fieldBrushes['value']) . '</li>';
+							?>
+	<!---Looks to see if anything is under the brushes category in Advanced Custom Fields and doesn't post anything if not-->
+							<?php if( get_field('brushes_used') ): ?>
+								<ul><?php echo '<li>' . $fieldBrushesValues . '</li>' ?>
+							<?php endif; ?>
+								</ul>
+							</div>
+
+							<div class="shop-button-tutorials">
+								<a href="http://www.courtneysolari.com/country-chic/shop/">Shop Now</a>
+							</div>
 
 		</aside>
 

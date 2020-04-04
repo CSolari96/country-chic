@@ -435,8 +435,8 @@
 			'name' 			=> 	('Product FAQs'),
 			'id' 			=> 	'product-faqs',
 			'description' 	=> 	'Link for Product FAQs',
-			'before_widget' => 	'<a href="https://www.countrychicpaint.com/pages/contact-us">',
-			'after_widget' 	=> 	'</a>',
+			'before_widget' => 	'<div class="contact-links">',
+			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h3>',
 			'after_title' 	=> 	'</h3>'
 		));
@@ -465,8 +465,8 @@
 			'name' 			=> 	('Become a Retailer'),
 			'id' 			=> 	'become-a-retailer',
 			'description' 	=> 	'Link for Become a Retailer',
-			'before_widget' => 	'<a href="">',
-			'after_widget' 	=> 	'</a>',
+			'before_widget' => 	'<div class="contact-links">',
+			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h3>',
 			'after_title' 	=> 	'</h3>'
 		));

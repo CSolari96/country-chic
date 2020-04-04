@@ -932,14 +932,18 @@ h3.products-used-title {
 }
 
 .products-list {
-	background-color: #99c6d1;
+	background-color: rgba(153,198,209, 0.5);
 	color: #ffffff;
+	text-shadow: 0 3px 6px #7b7b7b;
 	margin-bottom: 15px;
+	padding: 15px;
 }
 
 .products-list h3 {
 	text-align: center;
 	padding-bottom: 20px;
+	color: #ffffff;
+
 }
 
 .products-list ul {
@@ -971,6 +975,16 @@ a.page-numbers:hover {
     font-weight: 700;
 }
 
+.shop-button-tutorials a:link, .shop-button-tutorials a:visited {
+	background-color: #63a497;
+  color: #ffffff;
+  transition: all 0.2s;
+}
+
+.shop-button-tutorials a:hover, .shop-button-tutorials a:active {
+background-color: #d4af37;
+transition: all 0.2s;
+}
 
 /**********FOOTER STYLING**********/
 

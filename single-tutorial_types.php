@@ -29,7 +29,7 @@
 							</ul>
 
 						<div class="shop-button-tutorials">
-							<a href=""
+							<a href="http://www.courtneysolari.com/country-chic/shop/">Shop</a>
 						</div>
 
 		</aside>

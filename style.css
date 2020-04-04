@@ -982,8 +982,12 @@ a.page-numbers:hover {
 	padding: 10px;
 	border-radius: 30px;
 	text-align: center;
-	margin: 25px 0;
+	margin: 15px auto;
 	text-decoration: none;
+	display: block;
+	width: 150px;
+	font-weight: 700;
+	box-shadow: 0px 0px 3px 0px #7b7b7b;
 }
 
 .shop-button-tutorials a:hover, .shop-button-tutorials a:active {

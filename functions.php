@@ -470,7 +470,6 @@
 			'before_title' 	=> 	'<h3>',
 			'after_title' 	=> 	'</h3>'
 		));
-		--------
 
 		register_sidebar(array(
 			'name' 			=> 	('Contact Page Phone Number'),

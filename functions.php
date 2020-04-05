@@ -510,7 +510,6 @@
 			'before_title' 	=> 	'<h3 class="white-header-three">',
 			'after_title' 	=> 	'</h3>'
 		));
-	}
 
 		register_sidebar(array(
 			'name' 			=> 	('Contact Page Hours'),

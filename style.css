@@ -1094,7 +1094,6 @@ width: 44%;
   }
 
 	.phone-number {
-	  font-size: 2.25rem;
 	  padding: 2% 0;
 	}
 }
@@ -1163,13 +1162,9 @@ h4.block-title {
 
 @media(min-width:650px) {
     .phone-number {
-      font-size: 3rem;
       padding: 2% 0;
     }
 
-  .email-address {
-    font-size: 2rem;
-  }
 }
 
 @media(min-width: 768px) {

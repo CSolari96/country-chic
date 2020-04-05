@@ -88,38 +88,21 @@
 						<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
 						<?php dynamic_sidebar('contact-page-live-chat'); ?>
 				</div>
+
+				<div class="row col-12 contact-icons">
+					<?php dynamic_sidebar('contact-have-more-questions-title'); ?>
+					<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
+				</div>
 			</div>
 		</section>
-
-
-		<div class="row values-container contact-form-section" style="background-image: url('<?php echo get_template_directory_uri() . '/images/values_bkg.png'; ?>')">
-			<?php dynamic_sidebar('contact-form-title'); ?>
-				<?php dynamic_sidebar('contact-form'); ?>
-		</div>
 
 		<section>
-			<div class="row col-12 contact-icons">
-				<?php dynamic_sidebar('contact-have-more-questions-title'); ?>
-				<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
+			<div class="row values-container contact-form-section" style="background-image: url('<?php echo get_template_directory_uri() . '/images/values_bkg.png'; ?>')">
+				<?php dynamic_sidebar('contact-form-title'); ?>
+					<?php dynamic_sidebar('contact-form'); ?>
 			</div>
+		</section> 
 
-			<div class="row col-md-12 col-lg-4 contact-icons">
-					<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
-					<?php dynamic_sidebar('contact-page-phone-number'); ?>
-			</div>
-
-			<div class="row col-12 col-lg-4 contact-flex">
-					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
-					<?php dynamic_sidebar('contact-page-email'); ?>
-			</div>
-
-			<div class="row col-12 col-lg-4 contact-flex">
-					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
-					<?php dynamic_sidebar('contact-page-live-chat'); ?>
-			</div>
-
-
-		</section>
 
 </main>
 

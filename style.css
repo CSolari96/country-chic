@@ -531,6 +531,7 @@ a:hover, a:active {
   padding: 2%;
   border-radius: 8px;
   width: 100%;
+	font-family: inherit;
 }
 
 .your-name input:focus, .your-email input:focus, textarea:focus {

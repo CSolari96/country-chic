@@ -90,7 +90,6 @@
 				</div>
 
 				<div class="row col-12 contact-icons">
-					<?php dynamic_sidebar('contact-have-more-questions-title'); ?>
 					<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
 				</div>
 			</div>
@@ -101,7 +100,7 @@
 				<?php dynamic_sidebar('contact-form-title'); ?>
 					<?php dynamic_sidebar('contact-form'); ?>
 			</div>
-		</section> 
+		</section>
 
 
 </main>

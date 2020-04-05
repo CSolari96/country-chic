@@ -86,7 +86,27 @@
 		</div>
 
 		<section>
+			<div class="row col-12 contact-flex">
+				<?php dynamic_sidebar('contact-have-more-questions-title'); ?>
 				<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
+			</div>
+
+			<div class="row col-md-12 col-lg-4 contact-flex">
+					<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
+					<?php dynamic_sidebar('contact-page-phone-number'); ?>
+			</div>
+
+			<div class="row col-12 col-lg-4 contact-flex">
+					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
+					<?php dynamic_sidebar('contact-page-email'); ?>
+			</div>
+
+			<div class="row col-12 col-lg-4 contact-flex">
+					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
+					<?php dynamic_sidebar('contact-page-live-chat'); ?>
+			</div>
+
+
 		</section>
 
 </main>

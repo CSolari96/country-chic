@@ -472,6 +472,16 @@
 		));
 
 		register_sidebar(array(
+			'name' 			=> 	('Have More Questions'),
+			'id' 			=> 	'contact-have-more-questions-title',
+			'description' 	=> 	'The title underneath the contact form',
+			'before_widget' => 	'<div>',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="third-title">',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
 			'name' 			=> 	('Contact Page Phone Number'),
 			'id' 			=> 	'contact-page-phone-number',
 			'description' 	=> 	'The phone number of Country Chic',
@@ -488,6 +498,16 @@
 			'before_widget' => 	'<div class="email-address-widget">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<p class="email-address">',
+			'after_title' 	=> 	'</p>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Contact Page Live Chat'),
+			'id' 			=> 	'contact-page-live-chat',
+			'description' 	=> 	'The live chat link for Country Chic',
+			'before_widget' => 	'<div class="contact-options-widget">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<p class="phone-number">',
 			'after_title' 	=> 	'</p>'
 		));
 

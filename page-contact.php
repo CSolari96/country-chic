@@ -81,6 +81,7 @@
 
 
 		<div class="row values-container contact-form-section" style="background-image: url('<?php echo get_template_directory_uri() . '/images/values_bkg.png'; ?>')">
+			<?php dynamic_sidebar('contact-form-title'); ?>
 				<?php dynamic_sidebar('contact-form'); ?>
 		</div>
 

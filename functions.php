@@ -502,6 +502,17 @@
 		));
 
 		register_sidebar(array(
+			'name' 			=> 	('Contact Form Title'),
+			'id' 			=> 	'contact-form-title',
+			'description'	=> 	'The title for the contact form',
+			'before_widget' => 	'<div>',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="white-header-three">',
+			'after_title' 	=> 	'</h3>'
+		));
+	}
+
+		register_sidebar(array(
 			'name' 			=> 	('Contact Page Hours'),
 			'id' 			=> 	'contact-page-hours',
 			'description' 	=> 	'The hours of Country Chic',

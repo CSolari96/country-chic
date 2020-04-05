@@ -623,6 +623,11 @@ p.noflex {
     text-align: center;
 }
 
+.contact-icons {
+    display: block;
+    text-align: center;
+}
+
 
 
 /**********ABOUT PAGE STYLING**********/

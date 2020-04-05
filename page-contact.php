@@ -62,7 +62,7 @@
 					while(have_posts()){
 						the_post(); ?>
 
-					<div class= "contact-content">	<?php the_content(); ?> </div>
+					<?php the_content(); ?>
 				<?php  }//ends while loop
 				}//ends the if statement
 			 ?>

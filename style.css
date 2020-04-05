@@ -631,7 +631,11 @@ p.noflex {
 	font-weight: bold;
 }
 
-.text-under-contact-links {
+.text-under-contact-icons {
+	padding: 5%;
+}
+
+.top-links-on-contact {
 	padding: 5%; 
 }
 

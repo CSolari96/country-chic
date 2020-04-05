@@ -38,7 +38,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row top-links-on-contact">
 			<div class="col-md-12 col-lg-3">
 				<?php dynamic_sidebar('product-faqs'); ?>
 			</div>

@@ -619,6 +619,10 @@ p.noflex {
   display: block !important;
 }
 
+.contact-links {
+    text-align: center;
+}
+
 
 
 /**********ABOUT PAGE STYLING**********/

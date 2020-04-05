@@ -631,6 +631,9 @@ p.noflex {
 	font-weight: bold;
 }
 
+.text-under-contact-links {
+	padding: 5%; 
+}
 
 
 /**********ABOUT PAGE STYLING**********/

@@ -487,7 +487,7 @@
 			'description' 	=> 	'The phone number of Country Chic',
 			'before_widget' => 	'<div class="phone-number-widget">',
 			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<p class="phone-number">',
+			'before_title' 	=> 	'<p class="text-under-contact-icons">',
 			'after_title' 	=> 	'</p>'
 		));
 
@@ -497,7 +497,7 @@
 			'description' 	=> 	'The email of Country Chic',
 			'before_widget' => 	'<div class="email-address-widget">',
 			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<p class="email-address">',
+			'before_title' 	=> 	'<p class="text-under-contact-icons">',
 			'after_title' 	=> 	'</p>'
 		));
 
@@ -507,7 +507,7 @@
 			'description' 	=> 	'The live chat link for Country Chic',
 			'before_widget' => 	'<div class="contact-options-widget">',
 			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<p class="phone-number">',
+			'before_title' 	=> 	'<p class="text-under-contact-icons">',
 			'after_title' 	=> 	'</p>'
 		));
 

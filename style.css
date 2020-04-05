@@ -507,17 +507,15 @@ a:hover, a:active {
 }
 
 .phone-number {
-  font-size: 1.2rem;
   padding: 2% 0;
 }
 
 .email-address {
-  font-size: 1rem;
   padding-bottom: 2%;
 }
 
 .icons {
-  max-width: 45px;
+  max-width: 65px;
 }
 
 .contact-flex a:link, .contact-flex a:visited {
@@ -608,12 +606,13 @@ p.captions {
   display: block;
 }
 
-.contact-flex {
+ /*.contact-flex {
   display: flex;
   align-items: center;
   justify-content: center;
 	padding: 15px;
 }
+*/
 
 p.noflex {
   display: block !important;

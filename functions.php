@@ -505,7 +505,7 @@
 			'name' 			=> 	('Contact Page Live Chat'),
 			'id' 			=> 	'contact-page-live-chat',
 			'description' 	=> 	'The live chat link for Country Chic',
-			'before_widget' => 	'<div class="contact-options-widget">',
+			'before_widget' => 	'<div class="live-chat-widget">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<p class="text-under-contact-icons">',
 			'after_title' 	=> 	'</p>'

@@ -496,7 +496,6 @@ a:hover, a:active {
 }
 
 .contact section {
-    max-width:  1400px;
     margin: auto;
 }
 
@@ -636,7 +635,7 @@ p.noflex {
 }
 
 .top-links-on-contact {
-	padding: 5%; 
+	padding: 5%;
 }
 
 

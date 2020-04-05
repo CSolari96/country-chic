@@ -68,20 +68,23 @@
 			 ?>
 			</div>
 
-			<div class="row col-md-12 col-lg-4 contact-icons">
-					<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
-					<?php dynamic_sidebar('contact-page-phone-number'); ?>
-			</div>
+			<div class="row">
 
-			<div class="row col-md-12 col-lg-4 contact-icons">
-					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
-					<?php dynamic_sidebar('contact-page-email'); ?>
-			</div>
+				<div class="col-md-12 col-lg-4 contact-icons">
+						<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
+						<?php dynamic_sidebar('contact-page-phone-number'); ?>
+				</div>
 
-			<div class="row col-md-12 col-lg-4 contact-icons">
-					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
-					<?php dynamic_sidebar('contact-page-live-chat'); ?>
-			</div>
+				<div class="col-md-12 col-lg-4 contact-icons">
+						<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
+						<?php dynamic_sidebar('contact-page-email'); ?>
+				</div>
+
+				<div class="col-md-12 col-lg-4 contact-icons">
+						<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
+						<?php dynamic_sidebar('contact-page-live-chat'); ?>
+				</div>
+			</div> 
 		</section>
 
 

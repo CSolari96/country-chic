@@ -70,6 +70,10 @@
 
 			<div class="row">
 
+				<div class="col-md-12">
+						<?php dynamic_sidebar('contact-have-more-questions-title'); ?>
+				</div>
+
 				<div class="col-md-12 col-lg-4 contact-icons">
 						<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
 						<?php dynamic_sidebar('contact-page-phone-number'); ?>
@@ -84,7 +88,7 @@
 						<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
 						<?php dynamic_sidebar('contact-page-live-chat'); ?>
 				</div>
-			</div> 
+			</div>
 		</section>
 
 

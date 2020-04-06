@@ -292,6 +292,14 @@ a:hover, a:active {
   padding: 5%;
 }
 
+.testimonials-name {
+  font-family: 'Noteworthy';
+  color: #63a497;
+  width: 100%;
+  text-align: center;
+  font-size: 1.9rem;
+}
+
 .widget-home-testimonials {
   display: flex;
   flex-direction: column;

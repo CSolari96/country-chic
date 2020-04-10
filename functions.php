@@ -322,7 +322,7 @@
 			'name' 			=> 	('Home Values Title Widget'),
 			'id' 			=> 	'home-values-title',
 			'description' 	=> 	'Home Page Values Widget Title',
-			'before_widget' => 	'<div class="widget-home-values-title">',
+			'before_widget' => 	'<div class="col-12 widget-home-values-title">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h3 class="home-values-title">',
 			'after_title' 	=> 	'</h3>'
@@ -332,7 +332,7 @@
 			'name' 			=> 	('Home Values Widget - Column 1'),
 			'id' 			=> 	'home-values1',
 			'description' 	=> 	'Home Page Values Widget - Column 1',
-			'before_widget' => 	'<div class="widget-home-values">',
+			'before_widget' => 	'<div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 widget-home-values">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<p class="home-values">',
 			'after_title' 	=> 	'</p>'

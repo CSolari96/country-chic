@@ -33,31 +33,17 @@
 
 	</section>
 
-	<section class="row values-container" style="background-image: url('<?php echo get_template_directory_uri() . "/images/values_bkg.png"; ?>')">
+	<section class="values-container" style="background-image: url('<?php echo get_template_directory_uri() . "/images/values_bkg.png"; ?>')">
 
-		<div class="col-sm-5 col-md-5">
+		<div class="row">
 
 			<?php dynamic_sidebar('home-values-title'); ?>
 
 		</div>
 
-		<div class="col-sm-7 col-md-7">
+		<div class="row">
 
-			<div class="row">
-
-				<div class="col-6">
-
-					<?php dynamic_sidebar('home-values1'); ?>
-
-				</div>
-
-				<div class="col-6">
-
-					<?php dynamic_sidebar('home-values2'); ?>
-
-				</div>
-
-			</div>
+			<?php dynamic_sidebar('home-values1'); ?>
 
 		</div>
 

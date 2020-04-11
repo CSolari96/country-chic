@@ -1256,10 +1256,6 @@ h4.block-title {
     font-size: 2rem;
   }
 
-  .home-values {
-    font-size: 1rem;
-  }
-
   .widget-home-testimonials img {
     width: 100%;
   }
@@ -1353,6 +1349,12 @@ h4.block-title {
   .wps-w-3.wps-item.p-3 {
     flex: 0 0 31% !important;
     margin: 3% 1%;
+  }
+}
+
+@media(min-width: 902px) {
+  .home-values {
+    font-size: 1rem;
   }
 }
 

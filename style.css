@@ -261,6 +261,11 @@ a:hover, a:active {
   padding: 5%;
 }
 
+.values-row {
+  display: flex;
+  justify-content: center;
+}
+
 .home-values-title {
     font-size: 1.5rem;
     margin: 5%;
@@ -1253,11 +1258,6 @@ h4.block-title {
 
   .home-values {
     font-size: 1rem;
-  }
-
-  .values-row {
-    display: flex;
-    justify-content: center;
   }
 
   .widget-home-testimonials img {

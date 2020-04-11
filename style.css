@@ -357,6 +357,21 @@ a:hover, a:active {
   line-height: 25px;
   color: #63a496;
 }
+
+.widget-home-instagram .textwidget.custom-html-widget {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+
+.widget-home-instagram .text-widget.custom-html-widget a:link, .widget-home-instagram .text-widget.custom-html-widget a:visted {
+  text-decoration: none;
+}
+
+.widget-home-instagram .social-button {
+  margin: 0 10px;
+}
+
 .wdi_feed_wrapper {
   display: flex;
   flex-wrap: wrap;

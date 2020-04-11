@@ -364,7 +364,7 @@ a:hover, a:active {
   text-align: center;
 }
 
-.widget-home-instagram .text-widget.custom-html-widget a:link, .widget-home-instagram .text-widget.custom-html-widget a:visted {
+.widget-home-instagram a:link, .widget-home-instagram a:visited {
   text-decoration: none;
 }
 

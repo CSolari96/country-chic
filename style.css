@@ -1255,6 +1255,11 @@ h4.block-title {
     font-size: 1rem;
   }
 
+  .values-row {
+    display: flex;
+    justify-content: center;
+  }
+
   .widget-home-testimonials img {
     width: 100%;
   }

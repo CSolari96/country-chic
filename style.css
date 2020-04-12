@@ -492,7 +492,7 @@ a:hover, a:active {
 .post-featured-image img {
   object-fit: cover;
   width: 100%;
-	max-height: 450px;
+	max-height: 250px;
 }
 
 .contact section {
@@ -1324,6 +1324,11 @@ h4.block-title {
 	.pagination {
 		text-align: right;
 	}
+
+/****JUMBO IMAGES******/
+.post-featured-image img {
+	max-height: 450px;
+}
 
 	/*Footer 768 test */
 

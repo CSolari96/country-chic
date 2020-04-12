@@ -67,7 +67,7 @@ a:visited {
 }
 
 a:hover, a:active {
-  text-shadow: 0 3px 6px #7b7b7b;
+
 }
 
 /**********HEADER STYLING**********/
@@ -138,8 +138,7 @@ a:hover, a:active {
 }
 
 .mobile-menu a:hover, .mobile-menu a:active {
-    text-shadow: 0 3px 6px #7b7b7b;
-    transition: all 0.5s;
+
 }
 
 #menu-shopping-cart-icon {
@@ -262,6 +261,11 @@ a:hover, a:active {
   padding: 5%;
 }
 
+.values-row {
+  display: flex;
+  justify-content: center;
+}
+
 .home-values-title {
     font-size: 1.5rem;
     margin: 5%;
@@ -291,6 +295,14 @@ a:hover, a:active {
 /* Testimonials Container */
 .testimonials-container {
   padding: 5%;
+}
+
+.testimonials-name {
+  font-family: 'Noteworthy';
+  color: #63a497;
+  width: 100%;
+  text-align: center;
+  font-size: 1.9rem;
 }
 
 .widget-home-testimonials {
@@ -345,6 +357,21 @@ a:hover, a:active {
   line-height: 25px;
   color: #63a496;
 }
+
+.widget-home-instagram .textwidget.custom-html-widget {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+
+.widget-home-instagram a:link, .widget-home-instagram a:visited {
+  text-decoration: none;
+}
+
+.widget-home-instagram .social-button {
+  margin: 0 10px;
+}
+
 .wdi_feed_wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -1228,7 +1255,6 @@ h4.block-title {
   .top-menu-class ul li a:hover, .top-menu-class ul li a:active {
     color: #63a497;
     font-weight: 700;
-    text-shadow: 0 3px 6px #7b7b7b;
     transition: all 0.4s;
   }
 
@@ -1243,10 +1269,6 @@ h4.block-title {
 
   .home-values-title {
     font-size: 2rem;
-  }
-
-  .home-values {
-    font-size: 1rem;
   }
 
   .widget-home-testimonials img {
@@ -1347,6 +1369,12 @@ h4.block-title {
   .wps-w-3.wps-item.p-3 {
     flex: 0 0 31% !important;
     margin: 3% 1%;
+  }
+}
+
+@media(min-width: 902px) {
+  .home-values {
+    font-size: 1rem;
   }
 }
 

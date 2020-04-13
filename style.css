@@ -1067,7 +1067,7 @@ width: 44%;
 	margin-left: 5%;
 }
 
-.social-button {
+button .social-button {
 	width: 13%;
   max-width: 70px;
   max-height: 70px;

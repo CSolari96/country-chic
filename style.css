@@ -577,25 +577,25 @@ a:hover, a:active {
 }
 
 .wpcf7-submit:hover, .wpcf7-submit:active {
-  background-color: #d4af37;
+  background-color: #63a497;
 	transition: all 0.2s;
 }
 
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
-  border: 3px dashed #d4af37;
+  border: none;
   font-weight: bold;
   padding: 15px;
 }
 
 div.wpcf7-mail-sent-ok {
-  border: 3px dashed #d87777;
+  border: none;
   font-weight: bold;
   padding: 15px;
 }
 
 span.wpcf7-not-valid-tip {
-  color: #d87777;
-  font-weight: bold;
+  color: #ffffff;
+  font-size: .75rem;
 }
 
 input.wpcf7-form-control.wpcf7-submit {
@@ -627,14 +627,6 @@ p.captions {
   padding: 3% 2% 0 15px;
   display: block;
 }
-
- /*.contact-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-	padding: 15px;
-}
-*/
 
 p.noflex {
   display: block !important;

@@ -358,17 +358,17 @@ a:hover, a:active {
   color: #63a496;
 }
 
-.widget-home-instagram .textwidget.custom-html-widget {
+.widget-home-instagram .textwidget.custom-html-widget, .contact-page-social {
   max-width: 1140px;
   margin: auto;
   text-align: center;
 }
 
-.widget-home-instagram a:link, .widget-home-instagram a:visited {
+.widget-home-instagram a:link, .widget-home-instagram a:visited, .contact-page-social a:link, .contact-page-social a:visited {
   text-decoration: none;
 }
 
-.widget-home-instagram .social-button {
+.widget-home-instagram .social-button, .contact-page-social .social-button {
   margin: 0 10px;
 }
 

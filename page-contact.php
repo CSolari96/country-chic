@@ -95,7 +95,7 @@
 					</div>
 
 					<div class="col-md-12 col-lg-4 contact-icons">
-							<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
+							<img src="<?php echo get_template_directory_uri() . '/images/chat-bubble.png'?>" alt="Chat bubble" class="icons"/>
 							<?php dynamic_sidebar('contact-page-live-chat'); ?>
 					</div>
 

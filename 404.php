@@ -6,7 +6,7 @@
 
 		<div class="col-4">
 
-			<img src="<?php echo get_template_directory_uri() . '/images/CCP_Lustrum_BrushPile3.jpg'?>" alt="Pile of Paint Brushes">
+			<img src="<?php echo get_template_directory_uri() . '/images/brushPile.png'?>" alt="Pile of Paint Brushes">
 
 		</div>
 

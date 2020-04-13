@@ -1090,6 +1090,16 @@ width: 44%;
 	text-decoration: none;
 }
 
+/**********404 PAGE STYLING**********/
+.page-404 {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.page-404 img {
+  width: 100%;
+}
+
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 510px) {
   .logo {

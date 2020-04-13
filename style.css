@@ -209,7 +209,7 @@ a:hover, a:active {
 }
 
 .hero-link:hover, .hero-link:active {
-  background-color: #d4af37;
+  background-color: #99c6d1;
   transition: all 0.2s;
   color: #ffffff;
   text-decoration: none;
@@ -787,7 +787,7 @@ h3.third-title {
 }
 
 .card a.card__info:hover {
-	background-color: #d4af37;
+	background-color: #99c6d1;
   text-decoration: none;
   border-radius: 30px;
   box-shadow: 0 3px 6px #7b7b7b;
@@ -1041,7 +1041,7 @@ a.page-numbers:hover {
 }
 
 .shop-button-tutorials a:hover, .shop-button-tutorials a:active {
-background-color: #d4af37;
+background-color: #99c6d1;
 transition: all 0.2s;
 }
 
@@ -1084,7 +1084,7 @@ width: 44%;
 }
 
 .social-button:hover{
-	background-color: #d4af37;
+	background-color: #99c6d1;
 	transition: all 0.2s;
 }
 

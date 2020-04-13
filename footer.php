@@ -9,27 +9,27 @@
           <div class="col-md-12">
 
             <a href="https://www.facebook.com/CountryChicPaint/">
-              <button class="social-button">
+              <div class="social-button">
                 <img src="<?php echo get_template_directory_uri() . '/images/facebook.png'?>" alt="Facebook icon" class="social-icon"/>
-              </button>
+              </div>
             </a>
 
             <a href="https://www.pinterest.com/CountryChicP/">
-              <button class="social-button">
+              <div class="social-button">
                 <img src="<?php echo get_template_directory_uri() . '/images/pinterest.png'?>" alt="Facebook icon" class="social-icon"/>
-              </button>
+              </div>
             </a>
 
             <a href="https://www.youtube.com/user/CountryChicPaint">
-              <button class="social-button">
+              <div class="social-button">
                 <img src="<?php echo get_template_directory_uri() . '/images/youtube.png'?>" alt="Facebook icon" class="social-icon"/>
-              </button>
+              </div>
             </a>
 
             <a href="https://www.instagram.com/countrychicpaint/">
-              <button class="social-button">
+              <div class="social-button">
                 <img src="<?php echo get_template_directory_uri() . '/images/instagram.png'?>" alt="Facebook icon" class="social-icon"/>
-              </button>
+              </div>
             </a>
 
           </div>

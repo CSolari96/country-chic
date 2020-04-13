@@ -1011,14 +1011,11 @@ h3.products-used-title {
 .pagination {
 	display: inline;
 	text-align: center;
+  z-index: 5;
 }
 
 .page-numbers {
 	padding: 15px;
-}
-
-a.page-numbers:hover {
-    font-weight: 700;
 }
 
 .shop-button-tutorials a:link, .shop-button-tutorials a:visited {

@@ -81,7 +81,7 @@
 
 						<div class="col-6">
 
-
+							<img src="<?php echo get_template_directory_uri() . '/images/checkmark.png'?>" alt="Checkmark">
 
 						</div>
 

@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var thankYouContainer = document.getElementsByClassName("thank-you")[0];
 
 	// Trigger displayThankYou function when user submits the form
-	//contactForm.addEventListener("submit", displayThankYou);
+	document.addEventListener("wpcf7submit", displayThankYou);
 
 	// Hide contact form and display thank you message
 	function displayThankYou() {

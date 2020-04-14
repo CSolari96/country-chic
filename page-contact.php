@@ -75,14 +75,14 @@
 					
 					<?php dynamic_sidebar('contact-form-title'); ?>
 					
-					?php dynamic_sidebar('contact-form'); ?>
+					<?php dynamic_sidebar('contact-form'); ?>
 
 					<div class="thank-you">
 
 					</div>
 
 				</div>
-				
+
 			</section>
 
 			<section>

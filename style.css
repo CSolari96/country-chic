@@ -1227,10 +1227,6 @@ width: 44%;
   h4.block-title {
       clear: both;
   }
-
-  .page-404 img {
-    width: 80%;
-  }
 }
 
 @media(min-width:650px) {

@@ -612,6 +612,23 @@ div.wpcf7 {
 	margin-right: auto;
 }
 
+.thank-you {
+  max-width: 1140px;
+  margin: 10% auto;
+  text-align: left;
+}
+
+.thank-you img {
+  width: 100%;
+  max-width: 150px;
+  display: block;
+  margin-left: auto;
+}
+
+.thank-you .checkmark {
+  margin: 0 auto;
+}
+
 p.captions {
   font-size: 0.625rem;
   font-style: italic;

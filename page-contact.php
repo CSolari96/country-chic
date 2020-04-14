@@ -79,7 +79,7 @@
 
 					<div class="col-12 row thank-you hide">
 
-						<div class="col-6">
+						<div class="col-6 checkmark">
 
 							<img src="<?php echo get_template_directory_uri() . '/images/checkmark.png'?>" alt="Checkmark">
 

@@ -197,6 +197,12 @@
 		}
 
 		public function widget($args, $instance) {
+			function pippin_get_image_id($image_url) {
+			    global $wpdb;
+			    $attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url )); 
+			    return $attachment[0]; 
+			}
+
 			echo $args['before_widget']; ?>
 
 			<div class="col-sm-8 col-md-8 col-xl-9">
@@ -219,7 +225,21 @@
 
 			<div class="col-sm-4 col-md-4 col-xl-3 <?php echo $instance['image_location']; ?>">
 
-				<img src='<?php echo $instance['image']; ?>' />
+				<?php
+
+					$img_url = $instance['image'];
+
+					if ( $img_id = pippin_get_image_id($img_url) ) {
+					    // Using wp_get_attachment_image should return your alt text added in the WordPress admin.
+					    echo wp_get_attachment_image( $img_id, 'full' );
+					} else {
+					    // Fallback in case it's not found.
+					    echo '<img src="' . $img_url . '" alt="" />';
+					}
+
+				?>
+
+				<!--<img src='<?php echo $instance['image']; ?>' /> -->
 
 			</div>
 

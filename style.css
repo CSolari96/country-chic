@@ -582,8 +582,7 @@ a:hover, a:active {
 }
 
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
-  border: none;
-  font-weight: bold;
+  border: 2px solid #99c6d1;
   padding: 15px;
 }
 

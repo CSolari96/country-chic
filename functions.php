@@ -563,6 +563,16 @@
 		));
 
 		register_sidebar(array(
+			'name' 			=> 	('Contact Form Thank You'),
+			'id' 			=> 	'contact-form-thanks',
+			'description'	=> 	'Thank you message for the contact form',
+			'before_widget' => 	'<div class="thank-you col-6">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="white-header-three">',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
 			'name' 			=> 	('Contact Page Hours'),
 			'id' 			=> 	'contact-page-hours',
 			'description' 	=> 	'The hours of Country Chic',
@@ -846,20 +856,5 @@
 	}
 
 	add_action('init', 'create_post_type');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>

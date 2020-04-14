@@ -85,11 +85,7 @@
 
 						</div>
 
-						<div class="thank-you col-6">
-
-
-
-						</div>
+						<?php dynamic_sidebar('contact-form-thanks'); ?>
 
 					</div>
 

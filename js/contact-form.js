@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event)) {
+document.addEventListener("DOMContentLoaded", function(event) {
 	// Locate and store contact form and header
 	var contactForm = document.getElementsByClassName("wpcf7-form")[0];
 	var contactHeading = document.querySelector(".contact-form-section .white-header-three");
@@ -31,4 +31,4 @@ document.addEventListener("DOMContentLoaded", function(event)) {
 		// Display paragraph in thank you message container
 		thankYouContainer.appendChild(messagePara);
 	}
-}
+};

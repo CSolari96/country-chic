@@ -11,6 +11,16 @@
 
 		// Javascript Files
 		wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
+
+		if(is_page()) {
+			global $wp_query;
+
+			$template_name = get_post_meta($wp_query->post->ID, '_wp_page_template', true);
+
+			if($template_name == 'page-contact.php') {
+				wp_enqueue_script('contact-js', get_template_directory_uri() . '/js/contact-form.js');
+			}
+		}
 	}
 
 	add_action('wp_enqueue_scripts', 'custom_theme_scripts');

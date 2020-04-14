@@ -1112,16 +1112,27 @@ width: 44%;
 	max-width: 45px;
 	margin: 0 1%;
 }
-	/*push test*/
 
 /**********404 PAGE STYLING**********/
 .page-404 {
-  max-width: 1600px;
+  max-width: 1500px;
   margin: auto;
 }
 
 .page-404 img {
-  width: 100%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+.content-404 {
+    margin: 10% 0;
+}
+
+.hero-title.green {
+    color: #82a3af;
+    margin-bottom: 3%;
+    text-shadow: none;
 }
 
 /**********MEDIA QUERIES STYLING**********/

@@ -755,6 +755,17 @@
 			'before_title' 	=> 	'<h2 class="secondary-title">',
 			'after_title' 	=> 	'</h2>'
 		));
+
+		// 404 Page Widget
+		register_sidebar(array(
+			'name' 			=> 	('404 Page Widget'),
+			'id' 			=> 	'404-content',
+			'description'	=> 	'Content for the 404 page',
+			'before_widget' => 	'<div class="404-content">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2 class="hero-title green">',
+			'after_title' 	=> 	'</h2>'
+		));
 	}
 
 	add_action('widgets_init', 'blank_widgets_init');

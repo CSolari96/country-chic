@@ -50,24 +50,23 @@ body {
   color: #63a497 !important;
 }
 
-[class^=wps-] a:visited {
+[class^=wps-] a:visited, [class^=wps-] a:hover, [class^=wps-] a:active {
   color: #82a3af !important;
-}
-
-[class^=wps-] a:hover, [class^=wps-] a:active {
-  text-shadow: 0 3px 6px #7b7b7b;
 }
 
 a:link {
   color: #63a497;
+  text-decoration: none;
 }
 
 a:visited {
   color: #82a3af;
+  text-decoration: none;
 }
 
 a:hover, a:active {
-
+  color: #82a3af;
+  text-decoration: underline;
 }
 
 /**********HEADER STYLING**********/
@@ -135,10 +134,6 @@ a:hover, a:active {
   font-weight: 700;
   font-size: 2rem;
   transition: all 0.5s;
-}
-
-.mobile-menu a:hover, .mobile-menu a:active {
-
 }
 
 #menu-shopping-cart-icon {
@@ -218,7 +213,6 @@ a:hover, a:active {
 /* Tutorials Banner */
 .widget-home-tutorials {
   text-align: right;
-	direction: rtl;
 }
 
 
@@ -583,25 +577,25 @@ a:hover, a:active {
 }
 
 .wpcf7-submit:hover, .wpcf7-submit:active {
-  background-color: #d4af37;
+  background-color: #63a497;
 	transition: all 0.2s;
 }
 
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
-  border: 3px dashed #d4af37;
+  border: none;
   font-weight: bold;
   padding: 15px;
 }
 
 div.wpcf7-mail-sent-ok {
-  border: 3px dashed #d87777;
+  border: none;
   font-weight: bold;
   padding: 15px;
 }
 
 span.wpcf7-not-valid-tip {
-  color: #d87777;
-  font-weight: bold;
+  color: #ffffff;
+  font-size: .75rem;
 }
 
 input.wpcf7-form-control.wpcf7-submit {
@@ -633,14 +627,6 @@ p.captions {
   padding: 3% 2% 0 15px;
   display: block;
 }
-
- /*.contact-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-	padding: 15px;
-}
-*/
 
 p.noflex {
   display: block !important;
@@ -1016,14 +1002,11 @@ h3.products-used-title {
 .pagination {
 	display: inline;
 	text-align: center;
+  z-index: 5;
 }
 
 .page-numbers {
 	padding: 15px;
-}
-
-a.page-numbers:hover {
-    font-weight: 700;
 }
 
 .shop-button-tutorials a:link, .shop-button-tutorials a:visited {
@@ -1128,6 +1111,15 @@ width: 44%;
 	width: 40%;
 	max-width: 45px;
 	margin: 0 1%;
+
+/**********404 PAGE STYLING**********/
+.page-404 {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.page-404 img {
+  width: 100%;
 }
 
 /**********MEDIA QUERIES STYLING**********/

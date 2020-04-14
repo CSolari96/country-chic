@@ -1,5 +1,5 @@
 // Locate and store contact form and header
-var contactForm = document.get("wpcf7-form")[0];
+var contactForm = document.getElementsByClassName("wpcf7-form")[0];
 var contactHeading = document.querySelector(".contact-form-section .white-header-three");
 
 // Locate and store thank you message container div

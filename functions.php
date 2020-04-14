@@ -566,7 +566,7 @@
 			'name' 			=> 	('Contact Form Thank You'),
 			'id' 			=> 	'contact-form-thanks',
 			'description'	=> 	'Thank you message for the contact form',
-			'before_widget' => 	'<div class="thank-you col-6">',
+			'before_widget' => 	'<div class="thank-you col-6 hide">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h3 class="white-header-three">',
 			'after_title' 	=> 	'</h3>'

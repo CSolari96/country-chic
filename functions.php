@@ -172,6 +172,12 @@
 	// Create Testimonial Widget
 	add_action('widgets_init', 'testimonial_init');
 
+	function pippin_get_image_id($image_url) {
+	    global $wpdb;
+	    $attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url )); 
+	    return $attachment[0]; 
+	}
+
 	function testimonial_init() {
 		register_widget('testimonial_widget');
 	}
@@ -221,12 +227,6 @@
 			<div class="col-sm-4 col-md-4 col-xl-3 <?php echo $instance['image_location']; ?>">
 
 				<?php
-
-					function pippin_get_image_id($image_url) {
-					    global $wpdb;
-					    $attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url )); 
-					    return $attachment[0]; 
-					}
 
 					$img_url = $instance['image'];
 

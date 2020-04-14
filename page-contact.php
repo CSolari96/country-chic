@@ -77,7 +77,19 @@
 					
 					<?php dynamic_sidebar('contact-form'); ?>
 
-					<div class="thank-you">
+					<div class="col-12 row">
+
+						<div class="col-6">
+
+
+
+						</div>
+
+						<div class="thank-you col-6">
+
+
+
+						</div>
 
 					</div>
 

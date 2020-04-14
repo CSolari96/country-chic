@@ -1115,7 +1115,7 @@ width: 44%;
 
 /**********404 PAGE STYLING**********/
 .page-404 {
-  max-width: 1500px;
+  max-width: 1140px;
   margin: auto;
 }
 
@@ -1218,15 +1218,19 @@ width: 44%;
 
 	.tutorial-individual-posts img {
 		float: left;
-}
+  }
 
-.tutorial-individual-posts {
-	text-align: left;
-}
+  .tutorial-individual-posts {
+  	text-align: left;
+  }
 
-h4.block-title {
-    clear: both;
-	}
+  h4.block-title {
+      clear: both;
+  }
+
+  .page-404 img {
+    width: 80%;
+  }
 }
 
 @media(min-width:650px) {

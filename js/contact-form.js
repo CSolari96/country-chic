@@ -1,7 +1,4 @@
 document.addEventListener("DOMContentLoaded", function(event) {
-	// Track if form has been submitted
-	var isSubmitted = false;
-
 	// Locate and store contact form and header
 	var contactForm = document.getElementsByClassName("wpcf7-form")[0];
 	var contactHeading = document.querySelector(".contact-form-section .white-header-three");
@@ -10,15 +7,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var thankYouContainer = document.getElementsByClassName("thank-you")[0];
 
 	// Trigger displayThankYou function when user submits the form
-	contactForm.addEventListener("submit", function() {
-		isSubmitted = true;
-	});
-
-	if (isSubmitted) {
-		alert("Form Submitted");
-	} else {
-		alert("Error!");
-	}
+	//contactForm.addEventListener("submit", displayThankYou);
 
 	// Hide contact form and display thank you message
 	function displayThankYou() {

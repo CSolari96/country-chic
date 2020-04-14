@@ -53,9 +53,35 @@
               </div>
           </div>
 
+    <!-- Animals -->
     <div class="animals animated fadeInRight duration1 eds-on-scroll ">
       <img src="<?php echo get_template_directory_uri() . '/images/FooterImage.png'?>" alt="Bear and Bunny">
     </div>
+
+    <!-- Copyright and Payment info -->
+    <div class="under-footer">
+      
+        <div class="copyright">
+          <p> &copy; 2020 Country Chic Paint </p>
+        </div>
+
+        <div class="payment">
+          <img src="<?php echo get_template_directory_uri() . '/images/amex.png'?>" alt="American Express" class="pay-icon"/>
+
+          <img src="<?php echo get_template_directory_uri() . '/images/apay.png'?>" alt="Apple Pay" class="pay-icon"/>
+
+          <img src="<?php echo get_template_directory_uri() . '/images/gpay.png'?>" alt="Google Pay" class="pay-icon"/>
+
+          <img src="<?php echo get_template_directory_uri() . '/images/master.png'?>" alt="Master Card" class="pay-icon"/>
+
+          <img src="<?php echo get_template_directory_uri() . '/images/paypal.png'?>" alt="PayPal" class="pay-icon"/>
+
+          <img src="<?php echo get_template_directory_uri() . '/images/spay.png'?>" alt="Shop Pay" class="pay-icon"/>
+
+          <img src="<?php echo get_template_directory_uri() . '/images/visa.png'?>" alt="Visa" class="pay-icon"/>
+        </div>
+
+      </div>
 
 </footer>
 

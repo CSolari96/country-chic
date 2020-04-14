@@ -77,7 +77,7 @@
 					
 					<?php dynamic_sidebar('contact-form'); ?>
 
-					<div class="col-12 row">
+					<div class="col-12 row thank-you hide">
 
 						<div class="col-6">
 

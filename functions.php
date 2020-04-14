@@ -761,7 +761,7 @@
 			'name' 			=> 	('404 Page Widget'),
 			'id' 			=> 	'404-content',
 			'description'	=> 	'Content for the 404 page',
-			'before_widget' => 	'<div class="404-content">',
+			'before_widget' => 	'<div class="content-404">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h2 class="hero-title green">',
 			'after_title' 	=> 	'</h2>'

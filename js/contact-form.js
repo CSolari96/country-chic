@@ -31,4 +31,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		// Display paragraph in thank you message container
 		thankYouContainer.appendChild(messagePara);
 	}
-};
+});

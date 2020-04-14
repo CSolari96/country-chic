@@ -197,11 +197,6 @@
 		}
 
 		public function widget($args, $instance) {
-			function pippin_get_image_id($image_url) {
-			    global $wpdb;
-			    $attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url )); 
-			    return $attachment[0]; 
-			}
 
 			echo $args['before_widget']; ?>
 
@@ -226,6 +221,12 @@
 			<div class="col-sm-4 col-md-4 col-xl-3 <?php echo $instance['image_location']; ?>">
 
 				<?php
+
+					function pippin_get_image_id($image_url) {
+					    global $wpdb;
+					    $attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url )); 
+					    return $attachment[0]; 
+					}
 
 					$img_url = $instance['image'];
 

@@ -71,7 +71,18 @@ a:hover, a:active {
 
 .page-header-banner {
   min-height: 250px;
+}
+
+.page-header-banner.bkg-top {
   background-position: top !important;
+}
+
+.page-header-banner.bkg-center {
+  background-position: center !important;
+}
+
+.page-header-banner.bkg-bottom {
+  background-position: bottom !important;
 }
 
 /**********HEADER STYLING**********/
@@ -694,11 +705,6 @@ p.noflex {
 
 
 /**********ABOUT PAGE STYLING**********/
-.about .page-header-banner {
-  background-position: center !important;
-}
-
-
 .video-container {
   max-width: 1000px;
   margin: auto;

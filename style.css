@@ -495,13 +495,19 @@ a:hover, a:active {
 }
 
 .wps-product-single {
-  max-width: 1400px !important;
+  max-width: 1140px !important;
   margin: 2% auto !important;
 }
 
 .wps-product-single h2 {
   font-size: 1.5rem !important;
   font-weight: 700;
+}
+
+.wps-product-single .wps-product-image {
+  width: 90%;
+  display: block;
+  margin: auto;
 }
 
 /**********CONTACT PAGE STYLING**********/
@@ -1166,6 +1172,16 @@ width: 44%;
 }
 
 /**********MEDIA QUERIES STYLING**********/
+@media(min-width: 500px) {
+  .wps-product-single-content.col {
+    padding-left: 5%;
+  }
+
+  .wps-product-single-gallery.col {
+    border-right: 2px solid black;
+  }
+}
+
 @media(min-width: 510px) {
   .logo {
     max-width: 300px;

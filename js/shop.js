@@ -5,7 +5,6 @@ window.addEventListener("load", function(event) {
 	newLink.appendChild(linkText);
 
 	// Set link attributes
-	newLink.href = document.referrer;
 	newLink.id = "back-link";
 
 	// Locate and store product or collection container
@@ -18,9 +17,11 @@ window.addEventListener("load", function(event) {
 	// Check if it is a single product or single collection page and set appropriate page container
 	if (typeof(collectionContainer) != 'undefined' && collectionContainer != null) {
 		pageContainer = collectionContainer.parentElement;
+		newLink.href = "www.courtneysolari.com/country-chic/shop";
 		addLink(collectionContainer);
 	} else if (typeof(productContainer) != 'undefined' && productContainer != null) {
 		pageContainer = productContainer.parentElement;
+		newLink.href = document.referrer;
 		addLink(productContainer);
 	}
 

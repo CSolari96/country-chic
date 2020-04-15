@@ -335,6 +335,7 @@ a:hover, a:active {
   display: block;
   margin: 5% auto;
   width: 50%;
+  height: inherit;
   min-width: 150px;
   max-width: 250px;
 }

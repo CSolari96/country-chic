@@ -394,9 +394,9 @@ a:hover, a:active {
 /* End Sketches Description */
 
 /**********SHOP PAGE STYLING**********/
- .shop-page .page-header-banner {
-    background-position: center !important;
-  }
+.shop-page .page-header-banner {
+  background-position: center !important;
+}
 
 .wps-client-component.wps-container[data-wps-client-component-type="collections"] {
   display: none;

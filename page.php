@@ -4,7 +4,7 @@
 
 	<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
 
-	<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $background_img; ?>)">
+	<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $background_img[0]; ?>)">
 
 		<div class="container">
 

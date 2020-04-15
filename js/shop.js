@@ -29,4 +29,3 @@ window.addEventListener("load", function(event) {
 		pageContainer.insertBefore(newLink, container);
 	}
 });
-

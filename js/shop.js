@@ -17,9 +17,13 @@ var pageContainer;
 // Check if it is a single product or single collection page and set appropriate page container
 if (typeof(collectionContainer) != 'undefined' && collectionContainer != null) {
 	pageContainer = collectionContainer.parentElement;
+	addLink();
 } elseif (typeof(productContainer) != 'undefined' && productContainer != null) {
 	pageContainer = productContainer.parentElement;
+	addLink();
 }
 
 // Add link above product information
-pageContainer.insertBefore(newLink, productContainer);
+function addLink() {
+	pageContainer.insertBefore(newLink, productContainer);
+}

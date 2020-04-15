@@ -11,23 +11,7 @@
 
 <?php get_header(); ?>
 
-	<!--<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $thumb_url; ?>)">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="hero-title"> <?php the_title(); ?> </h1>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="post-featured-image">
-		<?php the_post_thumbnail('large'); ?>
-	</div>
-
-	<main class="container-fluid fix-margin">-->
-
-		<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
+	<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
 
 	<div class="hero-widget-content page-header-banner" style="background-image: url(<?php echo $background_img[0]; ?>)">
 
@@ -52,13 +36,13 @@
 		<section class="line-spacing">
 
 				<div class="row justify-content-center">
-					<div class="col-md-8">
+					<div class="col-md-12">
 					<?php dynamic_sidebar('secondary-title-about'); ?>
 					</div>
 				</div>
 
 				<div class="row justify-content-center">
-					<div class="col-md-8">
+					<div class="col-md-12">
 					<?php
 			          if(have_posts()){
 			            while(have_posts()){

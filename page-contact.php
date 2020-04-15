@@ -77,9 +77,9 @@
 					
 					<?php dynamic_sidebar('contact-form'); ?>
 
-					<div class="col-12 row thank-you hide">
+					<div class="col-12 row thank-you hide justify-content-center">
 
-						<div class="col-6 checkmark">
+						<div class="col-12 col-sm-3 checkmark">
 
 							<img src="<?php echo get_template_directory_uri() . '/images/checkmark.png'?>" alt="Checkmark">
 

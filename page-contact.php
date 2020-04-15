@@ -12,23 +12,29 @@
 
 <?php get_header(); ?>
 
-	<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $thumb_url; ?>)">
-		<div class="container">
+	<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
+
+	<div class="hero-widget-content page-header-banner bkg-center" style="background-image: url(<?php echo $background_img[0]; ?>)">
+
+		<div class="container-fluid">
+
 			<div class="row">
+
 				<div class="col-md-12">
+
 					<h1 class="hero-title"> <?php the_title(); ?> </h1>
+
 				</div>
+
 			</div>
+
 		</div>
+
 	</div>
 
+	<p class="captions"><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
 
-	<div class="post-featured-image">
-		<?php the_post_thumbnail('large'); ?>
-		<p class="captions"><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
-	</div>
-
-<main class="container-fluid contact">
+<main class="container contact">
 
 	<section>
 

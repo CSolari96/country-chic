@@ -34,9 +34,9 @@
 
 	<p class="captions"><?php echo get_post(get_post_thumbnail_id())->post_excerpt; ?></p>
 
-<main class="container contact">
+<main class="container-fluid contact">
 
-	<section>
+	<section class="container">
 
 		<div class="row justify-content-center">
 			<div class="col-md-12">
@@ -73,62 +73,60 @@
 				}//ends the if statement
 			 ?>
 			</div>
-		</section>
+	</section>
 
-			<section>
+	<section>
 
-				<div class="row values-container contact-form-section" style="background-image: url('<?php echo get_template_directory_uri() . '/images/values_bkg.png'; ?>')">
-					
-					<?php dynamic_sidebar('contact-form-title'); ?>
-					
-					<?php dynamic_sidebar('contact-form'); ?>
+		<div class="row values-container contact-form-section" style="background-image: url('<?php echo get_template_directory_uri() . '/images/values_bkg.png'; ?>')">
+			
+			<?php dynamic_sidebar('contact-form-title'); ?>
+			
+			<?php dynamic_sidebar('contact-form'); ?>
 
-					<div class="col-12 row thank-you hide justify-content-center">
+			<div class="col-12 row thank-you hide justify-content-center">
 
-						<div class="col-12 col-sm-3 checkmark">
+				<div class="col-12 col-sm-3 checkmark">
 
-							<img src="<?php echo get_template_directory_uri() . '/images/checkmark.png'?>" alt="Checkmark">
-
-						</div>
-
-						<?php dynamic_sidebar('contact-form-thanks'); ?>
-
-					</div>
+					<img src="<?php echo get_template_directory_uri() . '/images/checkmark.png'?>" alt="Checkmark">
 
 				</div>
 
-			</section>
+				<?php dynamic_sidebar('contact-form-thanks'); ?>
 
-			<section>
+			</div>
 
-				<div class="row">
+		</div>
 
-					<div class="col-md-12">
-							<?php dynamic_sidebar('contact-have-more-questions-title'); ?>
-					</div>
+	</section>
 
-					<div class="col-md-12 col-lg-4 contact-icons">
-							<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
-							<?php dynamic_sidebar('contact-page-phone-number'); ?>
-					</div>
+	<section class="container">
 
-					<div class="col-md-12 col-lg-4 contact-icons">
-							<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
-							<?php dynamic_sidebar('contact-page-email'); ?>
-					</div>
+		<div class="row">
 
-					<div class="col-md-12 col-lg-4 contact-icons">
-							<img src="<?php echo get_template_directory_uri() . '/images/chat-bubble.png'?>" alt="Chat bubble" class="icons"/>
-							<?php dynamic_sidebar('contact-page-live-chat'); ?>
-					</div>
+			<div class="col-md-12">
+					<?php dynamic_sidebar('contact-have-more-questions-title'); ?>
+			</div>
 
-					<div class="row col-12 contact-icons">
-						<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
-					</div>
-				</div>
-		</section>
+			<div class="col-md-12 col-lg-4 contact-icons">
+					<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
+					<?php dynamic_sidebar('contact-page-phone-number'); ?>
+			</div>
 
+			<div class="col-md-12 col-lg-4 contact-icons">
+					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
+					<?php dynamic_sidebar('contact-page-email'); ?>
+			</div>
 
+			<div class="col-md-12 col-lg-4 contact-icons">
+					<img src="<?php echo get_template_directory_uri() . '/images/chat-bubble.png'?>" alt="Chat bubble" class="icons"/>
+					<?php dynamic_sidebar('contact-page-live-chat'); ?>
+			</div>
+
+			<div class="row col-12 contact-icons">
+				<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
+			</div>
+		</div>
+	</section>
 
 </main>
 

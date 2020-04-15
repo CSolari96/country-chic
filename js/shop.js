@@ -17,7 +17,7 @@ window.addEventListener("load", function(event) {
 	// Check if it is a single product or single collection page and set appropriate page container
 	if (typeof(collectionContainer) != 'undefined' && collectionContainer != null) {
 		pageContainer = collectionContainer.parentElement;
-		newLink.href = "www.courtneysolari.com/country-chic/shop";
+		newLink.href = "/country-chic/shop";
 		addLink(collectionContainer);
 	} else if (typeof(productContainer) != 'undefined' && productContainer != null) {
 		pageContainer = productContainer.parentElement;

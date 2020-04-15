@@ -9,10 +9,9 @@
 
 ?>
 
-
 <?php get_header(); ?>
 
-	<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $thumb_url; ?>)">
+	<!--<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $thumb_url; ?>)">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -27,7 +26,29 @@
 		<?php the_post_thumbnail('large'); ?>
 	</div>
 
-	<main class="container-fluid fix-margin">
+	<main class="container-fluid fix-margin">-->
+
+		<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
+
+	<div class="hero-widget-content page-header-banner" style="background-image: url(<?php echo $background_img[0]; ?>)">
+
+		<div class="container-fluid">
+
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<h1 class="hero-title"> <?php the_title(); ?> </h1>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<main class="container">
 
 		<section class="line-spacing">
 
@@ -51,67 +72,67 @@
 				 	</div>
 				</div>
 
-			</section>
+		</section>
 
-			<section>
+		<section>
 
-				<div class="row">
-					<div class="col-12">
-							<?php dynamic_sidebar('video-about-us'); ?>
-					</div>
+			<div class="row">
+				<div class="col-12">
+						<?php dynamic_sidebar('video-about-us'); ?>
 				</div>
+			</div>
 
-			</section>
+		</section>
 
-			<section class="row center card-images-about">
+		<section class="row center card-images-about">
 
-				<div class="meet-header col-12">
-					<?php dynamic_sidebar('meet-us-title'); ?>
+			<div class="meet-header col-12">
+				<?php dynamic_sidebar('meet-us-title'); ?>
+			</div>
+
+			<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll ">
+				<div class="hover-images-effects">
+				  <div class="card card-third">
+				    <?php dynamic_sidebar('rosanne-picture'); ?>
+				    <div class="card--hidden">
+							<?php dynamic_sidebar('rosanne-picture-info'); ?>
+				    </div>
+				  </div>
 				</div>
+			</div>
 
-				<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll ">
-					<div class="hover-images-effects">
-					  <div class="card card-third">
-					    <?php dynamic_sidebar('rosanne-picture'); ?>
-					    <div class="card--hidden">
-								<?php dynamic_sidebar('rosanne-picture-info'); ?>
-					    </div>
-					  </div>
-					</div>
-				</div>
-
-				<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">
-					<div class="hover-images-effects">
-						<div class="card card-third">
-							<?php dynamic_sidebar('jan-picture'); ?>
-							<div class="card--hidden">
-								<?php dynamic_sidebar('jan-picture-info'); ?>
-							</div>
+			<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">
+				<div class="hover-images-effects">
+					<div class="card card-third">
+						<?php dynamic_sidebar('jan-picture'); ?>
+						<div class="card--hidden">
+							<?php dynamic_sidebar('jan-picture-info'); ?>
 						</div>
 					</div>
 				</div>
+			</div>
 
-				<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">
-					<div class="hover-images-effects">
-						<div class="card card-third">
-							<?php dynamic_sidebar('sarah-picture'); ?>
-							<div class="card--hidden">
-								<?php dynamic_sidebar('sarah-picture-info'); ?>
-							</div>
+			<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">
+				<div class="hover-images-effects">
+					<div class="card card-third">
+						<?php dynamic_sidebar('sarah-picture'); ?>
+						<div class="card--hidden">
+							<?php dynamic_sidebar('sarah-picture-info'); ?>
 						</div>
 					</div>
 				</div>
+			</div>
 
-				<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">
-					<div class="hover-images-effects">
-						<div class="card card-third">
-							<?php dynamic_sidebar('christa-picture'); ?>
-							<div class="card--hidden">
-								<?php dynamic_sidebar('christa-picture-info'); ?>
-							</div>
+			<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">
+				<div class="hover-images-effects">
+					<div class="card card-third">
+						<?php dynamic_sidebar('christa-picture'); ?>
+						<div class="card--hidden">
+							<?php dynamic_sidebar('christa-picture-info'); ?>
 						</div>
 					</div>
 				</div>
+			</div>
 
 		</section>
 

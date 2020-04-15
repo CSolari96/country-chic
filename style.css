@@ -505,7 +505,7 @@ a:hover, a:active {
 }
 
 .wps-product-single .wps-product-image {
-  width: 90%;
+  width: 90% !important;
   display: block;
   margin: auto;
 }
@@ -1174,11 +1174,11 @@ width: 44%;
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 500px) {
   .wps-product-single-content.col {
-    padding-left: 5%;
+    padding-left: 5% !important;
   }
 
   .wps-product-single-gallery.col {
-    border-right: 2px solid black;
+    border-right: 2px solid #82a3af;
   }
 }
 

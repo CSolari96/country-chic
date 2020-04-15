@@ -98,7 +98,7 @@
 					}
 
 					if (! empty( $instance['link_url'] ) ) {
-						echo '<a href="' . esc_url( $instance['link_url']) . '" class="hero-link">' . esc_html( $instance['link_title']) . '</a>';
+						echo '<a href="' . esc_url( $instance['link_url']) . '" class="hero-link">' . esc_html( $instance['cta_text']) . '</a>';
 					}
 
 				?>
@@ -167,8 +167,8 @@
 		    </p>
 
 		    <p>
-		        <label for="<?php echo $this->get_field_name( 'link_title' ); ?>"><?php _e( 'Link Title:' ); ?></label>
-		        <input class="widefat" id="<?php echo $this->get_field_id( 'link_title' ); ?>" name="<?php echo $this->get_field_name( 'link_title' ); ?>" type="text" value="<?php echo esc_attr( $link_title ); ?>" />
+		        <label for="<?php echo $this->get_field_name( 'cta_text' ); ?>"><?php _e( 'Link Title:' ); ?></label>
+		        <input class="widefat" id="<?php echo $this->get_field_id( 'cta_text' ); ?>" name="<?php echo $this->get_field_name( 'cta_text' ); ?>" type="text" value="<?php echo esc_attr( $cta_text ); ?>" />
 		    </p>
 
 		    <p>

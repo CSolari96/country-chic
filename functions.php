@@ -20,6 +20,10 @@
 			if($template_name == 'page-contact.php') {
 				wp_enqueue_script('contact-js', get_template_directory_uri() . '/js/contact-form.js');
 			}
+
+			if($template_name == 'products-single.php' || $template_name == 'collections-single.php') {
+				wp_enqueue_script('shop-js', get_template_directory_uri() . '/js/shop.js');
+			}
 		}
 	}
 

@@ -1172,7 +1172,7 @@ width: 44%;
 }
 
 /**********MEDIA QUERIES STYLING**********/
-@media(min-width: 500px) {
+@media(min-width: 501px) {
   .wps-product-single-content.col {
     padding-left: 5% !important;
   }

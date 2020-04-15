@@ -29,43 +29,67 @@
 
 	?>
 
-	<main class="container-fluid shop-page">
+	<main class="shop-page">
 
-		<div class="row">
+		<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
 
-			<aside class="filter col-md-3">
+		<div class="hero-widget-content page-header-banner" style="background-image: url(<?php echo $background_img[0]; ?>)">
 
-				<h2 class="sort-title">Shop by Category</h2>
+			<div class="container-fluid">
 
-				<?php
+				<div class="row">
 
-					$collections_query = [
-						'dropzone_collection_title' => '#title-container'
-					];
+					<div class="col-md-12">
 
-					$Collections->collections($collections_query);
+						<h1 class="hero-title"> <?php the_title(); ?> </h1>
 
-				?>
+					</div>
 
-			   <div id="title-container">
+				</div>
 
-			   </div>
+			</div>
 
-			</aside>
+		</div>
 
-			<section class="wps-container col-md-9">
-				
-			   <div class="wps-products-all">
+		<div class="container">
 
-			      <?php
+			<div class="row">
 
-			      	$Products->products($args); 
-			      
-			      ?>
+				<aside class="filter col-md-3">
 
-			   </div>
+					<h2 class="sort-title">Shop by Category</h2>
 
-			</section>
+					<?php
+
+						$collections_query = [
+							'dropzone_collection_title' => '#title-container'
+						];
+
+						$Collections->collections($collections_query);
+
+					?>
+
+				   <div id="title-container">
+
+				   </div>
+
+				</aside>
+
+				<section class="wps-container col-md-9">
+					
+				   <div class="wps-products-all">
+
+				      <?php
+
+				      	$Products->products($args); 
+				      
+				      ?>
+
+				   </div>
+
+				</section>
+
+			</div>
 
 		</div>
 

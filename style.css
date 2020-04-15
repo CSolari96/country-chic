@@ -622,11 +622,16 @@ div.wpcf7 {
   width: 100%;
   max-width: 150px;
   display: block;
-  margin-left: auto;
+  margin: 5% auto;
 }
 
-.thank-you .checkmark {
-  margin: 0 auto;
+.thanks-message {
+  text-align: center;
+}
+
+.thanks-message h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 p.captions {
@@ -1242,6 +1247,14 @@ width: 44%;
 
   h4.block-title {
       clear: both;
+  }
+
+  .thank-you {
+    margin: 5% auto;
+  }
+
+  .thanks-message {
+    text-align: left !important;
   }
 }
 

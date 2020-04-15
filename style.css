@@ -69,6 +69,11 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
+.page-header-banner {
+  min-height: 250px;
+  background-position: top;
+}
+
 /**********HEADER STYLING**********/
 .header {
   flex-wrap: nowrap;
@@ -1321,6 +1326,10 @@ width: 44%;
   .shopping-cart {
     right: 30px;
     top: 20px;
+  }
+
+  .page-header-banner {
+    min-height: 450px;
   }
 
   .widget-home-intro {

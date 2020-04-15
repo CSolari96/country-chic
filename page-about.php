@@ -21,7 +21,6 @@
 		</div>
 	</div>
 
-
 	<div class="post-featured-image">
 		<?php the_post_thumbnail('large'); ?>
 	</div>

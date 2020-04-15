@@ -12,13 +12,13 @@ var collectionContainer = document.getElementsByClassName("wps-collection-single
 var productContainer = document.getElementsByClassName("wps-product-single")[0];
 
 // Create variable to hold page container
-var pageContainer;
+var pageContainer = null;
 
 // Check if it is a single product or single collection page and set appropriate page container
 if (typeof(collectionContainer) != 'undefined' && collectionContainer != null) {
 	pageContainer = collectionContainer.parentElement;
 	addLink();
-} elseif (typeof(productContainer) != 'undefined' && productContainer != null) {
+} else if (typeof(productContainer) != 'undefined' && productContainer != null) {
 	pageContainer = productContainer.parentElement;
 	addLink();
 }

@@ -55,6 +55,22 @@
 
 			<div class="row">
 
+				<?php
+					if (have_posts()) {
+						while (have_posts()) {
+							the_post(); ?>
+
+							<?php the_content(); ?>
+				<?php
+						}  // End while
+					}  // End if
+
+				?>
+
+			</div>
+
+			<div class="row">
+
 				<aside class="filter col-md-3">
 
 					<h2 class="sort-title">Shop by Category</h2>

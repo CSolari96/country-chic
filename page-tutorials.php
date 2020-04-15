@@ -11,25 +11,31 @@
 
 ?>
 
-	<div class="jumbotron jumbotron-fluid" style="background-image: url(<?php echo $thumb_url; ?>)">
-		<div class="container">
+	<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
+
+	<div class="hero-widget-content page-header-banner bkg-center" style="background-image: url(<?php echo $background_img[0]; ?>)">
+
+		<div class="container-fluid">
+
 			<div class="row">
+
 				<div class="col-md-12">
+
 					<h1 class="hero-title"> <?php the_title(); ?> </h1>
+
 				</div>
+
 			</div>
+
 		</div>
+
 	</div>
 
-	<div class="post-featured-image">
-		<?php the_post_thumbnail('large'); ?>
-	</div>
-
-	<main class="container-fluid">
+	<main class="container">
 
 		<section class="tutorials-main-post">
 			<div class="row justify-content-center">
-				<div class="col-md-8">
+				<div class="col-12">
 				<?php dynamic_sidebar('secondary-title-tutorials'); ?>
 				</div>
 			</div>

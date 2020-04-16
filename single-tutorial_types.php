@@ -10,32 +10,12 @@
 			<div class="all-products">
 				<h3 class="products-used-title">Country Chic Products Used</h3>
 
-	<!---Makes each item under the products category in Advanced Custom Field on a single bullet
+	<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
 				<?php
 				$field = get_field_object('product');
 				$fieldValues =  implode('<li>', $field['value']) . '</li>';
 				?>
-				<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul>-->
-
-				<?php
-
-					$field_value = get_field('product');
-					$field_object = get_field_object('product');
-					$choices = $field_object['choices'];
-					$myArray = array();
-
-					foreach ($choices as $value => $label) {
-						if (in_array($value, $field_value)) {
-							$myArray[] = "<li><a href='$value'>$label</a></li>";
-							echo $value . $field_value;
-						}
-					}  ?>
-
-				<ul>
-
-					<?php echo implode(', ', $myArray); ?>
-
-				</ul>
+				<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul>
 
 
 		<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->

@@ -326,6 +326,143 @@
 		}
 	}
 
+	// Create Team Member Widget
+	add_action('widgets_init', 'team_init');
+
+	function testimonial_init() {
+		register_widget('team_widget');
+	}
+
+	class team_widget extends WP_Widget {
+
+		public function __construct() {
+			$widget_details = array(
+				'classname' 	=> 	'team_widget',
+				'description' 	=>	'Creates a card featuring a team member and a fun fact about them'
+			);
+
+			parent::__construct('team_widget', 'Team Widget', $widget_details);
+
+			add_action('admin_enqueue_scripts', array($this, 'team_assets'));
+		}
+
+		public function team_assets() {
+			wp_enqueue_script('media-upload');
+			wp_enqueue_script('thickbox');
+			wp_enqueue_script('hero-media-upload', get_template_directory_uri() . '/js/hero-media-upload.js', array( 'jquery' )) ;
+			wp_enqueue_style('thickbox');
+		}
+
+		public function widget($args, $instance) {
+
+			echo $args['before_widget']; ?>
+
+			<div class="hover-images-effects">
+
+			  <div class="card card-third">
+
+			    <div class="about-us-pictures">
+
+			    	<?php
+
+						$img_url = $instance['image'];
+
+						if ( $img_id = pippin_get_image_id($img_url) ) {
+						    // Using wp_get_attachment_image should return your alt text added in the WordPress admin.
+						    echo wp_get_attachment_image( $img_id, 'full' );
+						} else {
+						    // Fallback in case it's not found.
+						    echo '<img src="' . $img_url . '" alt="" />';
+						}
+
+					?>
+
+			    </div>
+
+			    <div class="card--hidden">
+
+					<div class="about-us-pictures-info">
+
+						<?php
+
+							if ( ! empty( $instance['name'] ) ) {
+								echo $args['before_title'] . apply_filters( 'widget_title', $instance['name'] ). $args['after_title'];
+							}
+
+							if (! empty( $instance['job_title'] ) ) {
+								echo '<p class="bold">' . esc_html( $instance['job_title']) . '</p>';
+							}
+
+							if (! empty( $instance['fun_fact'] ) ) {
+								echo '<p>' . esc_html( $instance['fun_fact']) . '</p>';
+							}
+
+						?>
+
+					</div>
+
+			    </div>
+
+			  </div>
+
+			</div>
+
+			<?php echo $args['after_widget'];
+		
+		}
+
+		public function update($new_instance, $old_instance) {
+			return $new_instance;
+		}
+
+		public function form($instance) {
+
+			$name = '';
+			if (isset($instance['name'])) {
+				$name = $instance['name'];
+			}
+
+			$job_title = '';
+			if (isset($instance['job_title'])) {
+				$job_title = $instance['job_title'];
+			}
+
+			$fun_fact = '';
+			if (isset($instance['fun_fact'])) {
+				$fun_fact = $instance['fun_fact'];
+			}
+
+			$image = '';
+			if (isset($instance['image'])) {
+				$image = $instance['image'];
+			}
+
+			?>
+
+			<p>
+				<label for="<?php echo $this->get_field_name('name'); ?>"><?php _e('Name:');?></label>
+				<input class="widefat" id="<?php echo $this->get_field_id('name'); ?>" name="<?php echo $this->get_field_name('name'); ?>" type="text" value="<?php echo esc_attr($name); ?>" />
+			</p>
+
+			<p>
+				<label for="<?php echo $this->get_field_name('job_title'); ?>"><?php _e('Job Title:');?></label>
+				<input class="widefat" id="<?php echo $this->get_field_id('job_title'); ?>" name="<?php echo $this->get_field_name('job_title'); ?>" type="text" value="<?php echo esc_attr($job_title); ?>" />
+			</p>
+
+			<p>
+		        <label for="<?php echo $this->get_field_name( 'fun_fact' ); ?>"><?php _e( 'Fun Fact About Employee' ); ?></label>
+		        <textarea class="widefat" id="<?php echo $this->get_field_id( 'fun_fact' ); ?>" name="<?php echo $this->get_field_name( 'fun_fact' ); ?>" type="text" ><?php echo esc_attr( $fun_fact ); ?></textarea>
+		    </p>
+
+		    <p>
+			    <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
+			    <input name="<?php echo $this->get_field_name( 'image' ); ?>" id="<?php echo $this->get_field_id( 'image' ); ?>" class="widefat" type="text" size="36"  value="<?php echo esc_url( $image ); ?>" />
+			    <input class="upload_image_button" type="button" value="Upload Image" />
+			</p>
+<?php
+		}
+	}
+
 	// Initialize Widgets
 	function blank_widgets_init() {
 
@@ -806,6 +943,17 @@
 			'before_widget' => 	'<div class="content-404">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h2 class="hero-title green">',
+			'after_title' 	=> 	'</h2>'
+		));
+
+		// Team Members Widget
+		register_sidebar(array(
+			'name' 			=> 	('Team Members Widget'),
+			'id' 			=> 	'team-member',
+			'description'	=> 	'Team Member Information',
+			'before_widget' => 	'<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2>',
 			'after_title' 	=> 	'</h2>'
 		));
 	}

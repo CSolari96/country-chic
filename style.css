@@ -178,7 +178,7 @@ a:hover, a:active {
   background-position: bottom;
   max-height: 650px;
   width: 100%;
-  padding: 5%;
+  padding: 50px 5%;
   color: #ffffff;
 }
 
@@ -196,15 +196,15 @@ a:hover, a:active {
 }
 
 .hero-description {
-  margin: 2% 0;
+  margin: 20px 0;
   font-size: 1rem;
   text-shadow: 0 3px 6px #7b7b7b;
 	width: 300px;
 }
 
 .hero-link {
-  margin: 3% 0;
-  padding: 3% 5%;
+  margin: 20px 0;
+  padding: 20px 40px;
   display: inline-block;
   text-align: center;
   font-weight: 700;
@@ -270,7 +270,7 @@ a:hover, a:active {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 5%;
+  padding: 50px 5%;
 }
 
 .values-row {
@@ -1239,10 +1239,6 @@ width: 44%;
     font-size: 1.2rem;
   }
 
-  .hero-link {
-    padding: 2% 4%;
-  }
-
   .intro-widget-title {
     font-size: 2rem;
   }
@@ -1483,7 +1479,7 @@ width: 44%;
     }
 
     .hero-widget-content {
-      padding: 5% 10%;
+      padding: 75px 10%;
     }
 
     .hero-sub-title {
@@ -1504,7 +1500,6 @@ width: 44%;
     }
 
     .hero-link {
-      padding: 1.75% 4%;
       font-size: 1.25rem;
     }
 
@@ -1517,7 +1512,7 @@ width: 44%;
     }
 
     .values-container {
-      padding: 5% 10%;
+      padding: 75px 10%;
     }
 
     .home-values-title {

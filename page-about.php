@@ -75,50 +75,6 @@
 
 			<?php dynamic_sidebar('team-member'); ?>
 
-			<!--<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll ">
-				<div class="hover-images-effects">
-				  <div class="card card-third">
-				    <?php dynamic_sidebar('rosanne-picture'); ?>
-				    <div class="card--hidden">
-							<?php dynamic_sidebar('rosanne-picture-info'); ?>
-				    </div>
-				  </div>
-				</div>
-			</div>
-
-			<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">
-				<div class="hover-images-effects">
-					<div class="card card-third">
-						<?php dynamic_sidebar('jan-picture'); ?>
-						<div class="card--hidden">
-							<?php dynamic_sidebar('jan-picture-info'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">
-				<div class="hover-images-effects">
-					<div class="card card-third">
-						<?php dynamic_sidebar('sarah-picture'); ?>
-						<div class="card--hidden">
-							<?php dynamic_sidebar('sarah-picture-info'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">
-				<div class="hover-images-effects">
-					<div class="card card-third">
-						<?php dynamic_sidebar('christa-picture'); ?>
-						<div class="card--hidden">
-							<?php dynamic_sidebar('christa-picture-info'); ?>
-						</div>
-					</div>
-				</div>
-			</div>-->
-
 		</section>
 
 		<section class="row">

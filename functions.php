@@ -363,7 +363,7 @@
 
 			    <div class="about-us-pictures">
 
-			    	<img src="<?php echo $instance['image']; ?>" />
+			    	<img src="<?php echo $instance['image']; ?>" alt="Team member headshot" />
 
 			    </div>
 
@@ -555,29 +555,138 @@
 			'after_title' 	=> 	'</h3>'
 		));
 
-		// Footer Widgets
+		// About Page Widgets
 		register_sidebar(array(
-			'name'          => ('Footer Left'),
-			'id'            => 'footer-left',
-			'description'   => 'Left section of the footer',
-			'before_widget' => '<div class="footer-left">',
-			'after_widget'  => '</div>',
-			'before_title'  => '<h3 class="footer-left-widget-title">',
-			'after_title'   => '</h3>',
+			'name' 			=> 	('Secondary title'),
+			'id' 			=> 	'secondary-title-about',
+			'description' 	=> 	'The secondary title on the about page',
+			'before_widget' => 	'<div>',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2 class="secondary-title">',
+			'after_title' 	=> 	'</h2>'
 		));
 
 		register_sidebar(array(
-			'name'          => ('Footer Middle'),
-			'id'            => 'footer-middle',
-			'description'   => 'Middle section of the footer',
-			'before_widget' => '<div class="footer-middle">',
-			'after_widget'  => '</div>',
-			'before_title'  => '<h3 class="footer-middle-widget-title">',
-			'after_title'   => '</h3>',
+			'name' 			=> 	('About video'),
+			'id' 			=> 	'video-about-us',
+			'description' 	=> 	'A video describing Country Chic',
+			'before_widget' => 	'<div class="video-container">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2>',
+			'after_title' 	=> 	'</h2>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Meet Us Title'),
+			'id' 			=> 	'meet-us-title',
+			'description' 	=> 	'Title of the Meet Us Section',
+			'before_widget' => 	'<div class="meet-us">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="third-title">',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Team Members Widget'),
+			'id' 			=> 	'team-member',
+			'description'	=> 	'Team Member Information',
+			'before_widget' => 	'<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h2>',
+			'after_title' 	=> 	'</h2>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Values title'),
+			'id' 			=> 	'about-values-title',
+			'description' 	=> 	'The values of the about page',
+			'before_widget' => 	'<div class="title-about-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3 class="third-title">',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Low Environment Impact Value'),
+			'id' 			=> 	'low-impact-value',
+			'description' 	=> 	'Low Environmental Impact Value',
+			'before_widget' => 	'<div class="our-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Supporting the local economy'),
+			'id' 			=> 	'local-economy-value',
+			'description' 	=> 	'Supporting the local economy value',
+			'before_widget' => 	'<div class="our-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Participating in Recycling Programs'),
+			'id' 			=> 	'recycling-programs-value',
+			'description' 	=> 	'Participating in Recylcling Programs value',
+			'before_widget' => 	'<div class="our-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Helping those in need'),
+			'id' 			=> 	'those-in-need-value',
+			'description' 	=> 	'Helping those in need value',
+			'before_widget' => 	'<div class="our-values">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Low Environment Impact Value Icon'),
+			'id' 			=> 	'low-impact-value-icon',
+			'description' 	=> 	'Low Environmental Impact Value Icon',
+			'before_widget' => 	'<div class="about-values-icon">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Supporting the local economy Icon'),
+			'id' 			=> 	'local-economy-value-icon',
+			'description' 	=> 	'Supporting the local economy value Icon',
+			'before_widget' => 	'<div class="about-values-icon">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Participating in Recycling Programs Icon'),
+			'id' 			=> 	'recycling-programs-value-icon',
+			'description' 	=> 	'Participating in Recylcling Programs value icon',
+			'before_widget' => 	'<div class="about-values-icon">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
+		));
+
+		register_sidebar(array(
+			'name' 			=> 	('Helping those in need Icon'),
+			'id' 			=> 	'those-in-need-value-icon',
+			'description' 	=> 	'Helping those in need value icon',
+			'before_widget' => 	'<div class="about-values-icon">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h4 class="values">',
+			'after_title' 	=> 	'</h4>'
 		));
 
 		// Contact Page Widgets
-
 		register_sidebar(array(
 			'name' 			=> 	('Secondary title contact'),
 			'id' 			=> 	'secondary-title-contact',
@@ -708,210 +817,6 @@
 			'after_title' 	=> 	'</p>'
 		));
 
-		// About Page Widgets
-
-		register_sidebar(array(
-			'name' 			=> 	('Secondary title'),
-			'id' 			=> 	'secondary-title-about',
-			'description' 	=> 	'The secondary title on the about page',
-			'before_widget' => 	'<div>',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h2 class="secondary-title">',
-			'after_title' 	=> 	'</h2>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('About video'),
-			'id' 			=> 	'video-about-us',
-			'description' 	=> 	'A video describing Country Chic',
-			'before_widget' => 	'<div class="video-container">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h2>',
-			'after_title' 	=> 	'</h2>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Values title'),
-			'id' 			=> 	'about-values-title',
-			'description' 	=> 	'The values of the about page',
-			'before_widget' => 	'<div class="title-about-values">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h3 class="third-title">',
-			'after_title' 	=> 	'</h3>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Low Environment Impact Value'),
-			'id' 			=> 	'low-impact-value',
-			'description' 	=> 	'Low Environmental Impact Value',
-			'before_widget' => 	'<div class="our-values">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4 class="values">',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Supporting the local economy'),
-			'id' 			=> 	'local-economy-value',
-			'description' 	=> 	'Supporting the local economy value',
-			'before_widget' => 	'<div class="our-values">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4 class="values">',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Participating in Recycling Programs'),
-			'id' 			=> 	'recycling-programs-value',
-			'description' 	=> 	'Participating in Recylcling Programs value',
-			'before_widget' => 	'<div class="our-values">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4 class="values">',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Helping those in need'),
-			'id' 			=> 	'those-in-need-value',
-			'description' 	=> 	'Helping those in need value',
-			'before_widget' => 	'<div class="our-values">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4 class="values">',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Low Environment Impact Value Icon'),
-			'id' 			=> 	'low-impact-value-icon',
-			'description' 	=> 	'Low Environmental Impact Value Icon',
-			'before_widget' => 	'<div class="about-values-icon">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4 class="values">',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Supporting the local economy Icon'),
-			'id' 			=> 	'local-economy-value-icon',
-			'description' 	=> 	'Supporting the local economy value Icon',
-			'before_widget' => 	'<div class="about-values-icon">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4 class="values">',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Participating in Recycling Programs Icon'),
-			'id' 			=> 	'recycling-programs-value-icon',
-			'description' 	=> 	'Participating in Recylcling Programs value icon',
-			'before_widget' => 	'<div class="about-values-icon">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4 class="values">',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Helping those in need Icon'),
-			'id' 			=> 	'those-in-need-value-icon',
-			'description' 	=> 	'Helping those in need value icon',
-			'before_widget' => 	'<div class="about-values-icon">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4 class="values">',
-			'after_title' 	=> 	'</h4>'
-		));
-
-
-		register_sidebar(array(
-			'name' 			=> 	('Meet Us Title'),
-			'id' 			=> 	'meet-us-title',
-			'description' 	=> 	'Title of the Meet Us Section',
-			'before_widget' => 	'<div class="meet-us">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h3 class="third-title">',
-			'after_title' 	=> 	'</h3>'
-		));
-
-
-		register_sidebar(array(
-			'name' 			=> 	('Rosanne Picture'),
-			'id' 			=> 	'rosanne-picture',
-			'description' 	=> 	'Picture of Rosanne',
-			'before_widget' => 	'<div class="about-us-pictures">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4>',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Rosanne Picture Info'),
-			'id' 			=> 	'rosanne-picture-info',
-			'description' 	=> 	'Information of Rosanne',
-			'before_widget' => 	'<div class="about-us-pictures-info">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h2>',
-			'after_title' 	=> 	'</h2>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Jan Picture'),
-			'id' 			=> 	'jan-picture',
-			'description' 	=> 	'Picture of Jan',
-			'before_widget' => 	'<div class="about-us-pictures">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4>',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Jan Picture Info'),
-			'id' 			=> 	'jan-picture-info',
-			'description' 	=> 	'Information of Jan',
-			'before_widget' => 	'<div class="about-us-pictures-info">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h2>',
-			'after_title' 	=> 	'</h2>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Sarah Picture'),
-			'id' 			=> 	'sarah-picture',
-			'description' 	=> 	'Picture of Sarah',
-			'before_widget' => 	'<div class="about-us-pictures">',
-			'after_widget'	=> 	'</div>',
-			'before_title'	=> 	'<h4>',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Sarah Picture Info'),
-			'id' 			=> 	'sarah-picture-info',
-			'description' 	=> 	'Information of Sarah',
-			'before_widget' => 	'<div class="about-us-pictures-info">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h2>',
-			'after_title' 	=> 	'</h2>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Christa Pictures'),
-			'id' 			=> 	'christa-picture',
-			'description' 	=> 	'Picture of Christa',
-			'before_widget' => 	'<div class="about-us-pictures">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h4>',
-			'after_title' 	=> 	'</h4>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Christa Pictures Info'),
-			'id' 			=> 	'christa-picture-info',
-			'description' 	=> 	'Information of Christa',
-			'before_widget' => 	'<div class="about-us-pictures-info">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h2>',
-			'after_title' 	=> 	'</h2>'
-		));
-
 		// Tutorials Page Widgets
 		register_sidebar(array(
 			'name' 			=> 	('Secondary title Tutorials'),
@@ -934,15 +839,25 @@
 			'after_title' 	=> 	'</h2>'
 		));
 
-		// Team Members Widget
+		// Footer Widgets
 		register_sidebar(array(
-			'name' 			=> 	('Team Members Widget'),
-			'id' 			=> 	'team-member',
-			'description'	=> 	'Team Member Information',
-			'before_widget' => 	'<div class="row center col-sm-12 col-md-6 col-xl-3 animated fadeIn eds-on-scroll">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h2>',
-			'after_title' 	=> 	'</h2>'
+			'name'          => ('Footer Left'),
+			'id'            => 'footer-left',
+			'description'   => 'Left section of the footer',
+			'before_widget' => '<div class="footer-left">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="footer-left-widget-title">',
+			'after_title'   => '</h3>',
+		));
+
+		register_sidebar(array(
+			'name'          => ('Footer Middle'),
+			'id'            => 'footer-middle',
+			'description'   => 'Middle section of the footer',
+			'before_widget' => '<div class="footer-middle">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3 class="footer-middle-widget-title">',
+			'after_title'   => '</h3>',
 		));
 	}
 

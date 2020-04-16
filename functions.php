@@ -363,13 +363,7 @@
 
 			    <div class="about-us-pictures">
 
-			    	<?php
-
-						$img_url = $instance['image'];
-
-						echo '<img src="' . $img_url . '"/>';
-
-					?>
+			    	<img src="<?php echo $instance['image']; ?>" />
 
 			    </div>
 

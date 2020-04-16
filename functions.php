@@ -329,7 +329,7 @@
 	// Create Team Member Widget
 	add_action('widgets_init', 'team_init');
 
-	function testimonial_init() {
+	function team_init() {
 		register_widget('team_widget');
 	}
 

@@ -709,9 +709,9 @@ p.noflex {
 .secondary-title {
 	 color: #63a496;
 	 text-align: center;
-	 padding-bottom: 3%;
+	 padding-bottom: 25px;
 	 font-size: 2rem;
-	 margin-top: 5%;
+	 margin-top: 50px;
 }
 
 .about-us-pictures img {
@@ -898,8 +898,8 @@ h4.values {
 }
 
 .tutorials-main-post p {
-    padding-top: 5%;
-    padding-bottom: 8%;
+    padding-top: 25px;
+    padding-bottom: 50px;
     line-height: 1.8;
     width: 75%;
     margin: auto;

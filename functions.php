@@ -365,15 +365,7 @@
 
 			    	<?php
 
-						$img_url = $instance['image'];
-
-						if ( $img_id = pippin_get_image_id($img_url) ) {
-						    // Using wp_get_attachment_image should return your alt text added in the WordPress admin.
-						    echo wp_get_attachment_image( $img_id, 'full' );
-						} else {
-						    // Fallback in case it's not found.
 						    echo '<img src="' . $img_url . '" alt="" />';
-						}
 
 					?>
 

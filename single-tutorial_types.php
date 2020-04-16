@@ -27,6 +27,7 @@
 					foreach ($choices as $value => $label) {
 						if (in_array($value, $field_value)) {
 							$myArray[] = "<li><a href='$value'>$label</a></li>";
+							echo $value . $field_value;
 						}
 					}  ?>
 

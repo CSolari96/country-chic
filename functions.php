@@ -365,7 +365,9 @@
 
 			    	<?php
 
-						    echo '<img src="' . $img_url . '" alt="" />';
+						$img_url = $instance['image'];
+
+						echo '<img src="' . $img_url . '"/>';
 
 					?>
 

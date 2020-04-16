@@ -197,7 +197,7 @@ a:hover, a:active {
 
 .hero-description {
   margin: 2% 0;
-  font-size: .75rem;
+  font-size: 1rem;
   text-shadow: 0 3px 6px #7b7b7b;
 	width: 300px;
 }
@@ -1236,7 +1236,7 @@ width: 44%;
   }
 
   .hero-description {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .hero-link {
@@ -1500,6 +1500,7 @@ width: 44%;
 
     .hero-description {
       width: 45%;
+      font-size: 1.5rem;
     }
 
     .hero-link {

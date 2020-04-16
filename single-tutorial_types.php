@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="container-fluid tutorials-post">
+<main class="container tutorials-post">
 
 	<div class="row col-12 justify-content-center">
 		<h2 class="secondary-title"><?php the_title(); ?></h2>

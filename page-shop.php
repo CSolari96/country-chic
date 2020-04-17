@@ -29,83 +29,59 @@
 
 	?>
 
-	<main class="shop-page">
+	<main class="shop-page container">
 
-		<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
+		<div class="row">
 
-		<div class="hero-widget-content page-header-banner bkg-center" style="background-image: url(<?php echo $background_img[0]; ?>)">
+			<?php
+				if (have_posts()) {
+					while (have_posts()) {
+						the_post(); ?>
 
-			<div class="container-fluid">
+						<?php the_content(); ?>
+			<?php
+					}  // End while
+				}  // End if
 
-				<div class="row">
-
-					<div class="col-md-12">
-
-						<h1 class="hero-title"> <?php the_title(); ?> </h1>
-
-					</div>
-
-				</div>
-
-			</div>
+			?>
 
 		</div>
 
-		<div class="container">
+		<div class="row">
 
-			<div class="row">
+			<aside class="filter col-md-3">
+
+				<h2 class="sort-title">Shop by Category</h2>
 
 				<?php
-					if (have_posts()) {
-						while (have_posts()) {
-							the_post(); ?>
 
-							<?php the_content(); ?>
-				<?php
-						}  // End while
-					}  // End if
+					$collections_query = [
+						'dropzone_collection_title' => '#title-container'
+					];
+
+					$Collections->collections($collections_query);
 
 				?>
 
-			</div>
+			   <div id="title-container">
 
-			<div class="row">
+			   </div>
 
-				<aside class="filter col-md-3">
+			</aside>
 
-					<h2 class="sort-title">Shop by Category</h2>
+			<section class="wps-container col-md-9">
+				
+			   <div class="wps-products-all">
 
-					<?php
+			      <?php
 
-						$collections_query = [
-							'dropzone_collection_title' => '#title-container'
-						];
+			      	$Products->products($args); 
+			      
+			      ?>
 
-						$Collections->collections($collections_query);
+			   </div>
 
-					?>
-
-				   <div id="title-container">
-
-				   </div>
-
-				</aside>
-
-				<section class="wps-container col-md-9">
-					
-				   <div class="wps-products-all">
-
-				      <?php
-
-				      	$Products->products($args); 
-				      
-				      ?>
-
-				   </div>
-
-				</section>
-
-			</div>
+			</section>
 
 		</div>
 

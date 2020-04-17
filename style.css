@@ -1155,6 +1155,7 @@ width: 44%;
 .payment img {
 	width: 40%;
 	max-width: 45px;
+	max-height: 45px;
 	margin: 0 1%;
 }
 
@@ -1433,8 +1434,6 @@ width: 44%;
 .post-featured-image img {
 	max-height: 450px;
 }
-
-	/*Footer 768 test */
 
 	.social-button {
 		width: 7%;

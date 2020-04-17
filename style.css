@@ -1091,6 +1091,10 @@ width: 44%;
 	width: 101%;
 }
 
+.social-footer {
+  max-width: 1140px;
+}
+
 .social-footer a{
 	text-decoration: none;
 	margin-left: 5%;

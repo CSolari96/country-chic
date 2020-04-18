@@ -10,13 +10,10 @@
 
 /*
 	Colors:
-		Primary Green: 	#63a497;
-		Blue-gray: 		#82a3af;
-		Gray: 			#7b7b7b;
-		Pink: 			#d87777;
-		Gold: 			#d4af37;
-		Light Blue: 	#99c6d1;
-		Dark Green: 	#126051;
+		Primary Green: 	 #63a497;
+		Blue-gray: 		   #82a3af;
+		Gray: 			     #7b7b7b;
+		Light Blue: 	   #99c6d1;
 */
 
 /**********IMPORT FONTS**********/
@@ -183,7 +180,7 @@ a:hover, a:active {
 }
 
 .hero-sub-title {
-  font-family: 'p22-hopper-edward', sans-serif;
+  font-family: 'Noteworthy', sans-serif;
 	font-size: 3rem;
   letter-spacing: .3rem;
   text-shadow: 0 3px 6px #7b7b7b;
@@ -250,7 +247,7 @@ a:hover, a:active {
 }
 
 .intro-widget-title span {
-  font-family: 'p22-hopper-edward';
+  font-family: 'Noteworthy';
   font-size: 1.9rem;
   color: #63a496;
   display: block;
@@ -311,7 +308,7 @@ a:hover, a:active {
 }
 
 .testimonials-name {
-  font-family: 'p22-hopper-edward';
+  font-family: 'Noteworthy';
   color: #63a497;
   width: 100%;
   text-align: center;
@@ -336,7 +333,7 @@ a:hover, a:active {
 }
 
 .testimonial-name {
-	font-family: 'p22-hopper-edward';
+	font-family: 'Noteworthy';
   color: #63a496;
   padding-right: 5%;
 }

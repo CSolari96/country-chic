@@ -181,8 +181,7 @@ a:hover, a:active {
 
 .hero-sub-title {
   font-family: 'Noteworthy', sans-serif;
-	font-size: 3rem;
-  letter-spacing: .3rem;
+	font-size: 1rem;
   text-shadow: 0 3px 6px #7b7b7b;
 }
 
@@ -1299,7 +1298,7 @@ img.social-icon {
   }
 
   .hero-sub-title {
-    font-size: 3.25rem;
+    font-size: 1.25rem;
   }
 
   .hero-title{

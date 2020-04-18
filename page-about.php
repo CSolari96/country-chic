@@ -38,6 +38,7 @@
 				<div class="row justify-content-center">
 					<div class="col-md-12">
 					<?php dynamic_sidebar('secondary-title-about'); ?>
+					<?php dynamic_sidebar('read-more-text'); ?>
 					</div>
 				</div>
 

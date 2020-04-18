@@ -568,6 +568,16 @@
 		));
 
 		register_sidebar(array(
+			'name' 			=> 	('Read More Text on Our Story'),
+			'id' 			=> 	'read-more-text',
+			'description' 	=> 	'The read more text on Our Story page',
+			'before_widget' => 	'<div class="hide" id="moreinfoabout">',
+			'after_widget' 	=> 	'</div>',
+			'before_title' 	=> 	'<h3>',
+			'after_title' 	=> 	'</h3>'
+		));
+
+		register_sidebar(array(
 			'name' 			=> 	('About video'),
 			'id' 			=> 	'video-about-us',
 			'description' 	=> 	'A video describing Country Chic',

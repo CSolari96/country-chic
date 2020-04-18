@@ -183,7 +183,7 @@ a:hover, a:active {
 }
 
 .hero-sub-title {
-  font-family: 'Noteworthy';
+  font-family: 'p22-hopper-edward', sans-serif;
   font-size: 1rem;
   text-shadow: 0 3px 6px #7b7b7b;
 }
@@ -1121,7 +1121,7 @@ img.social-icon {
 }
 
 .social-button {
-  max-width: 70px; 
+  max-width: 70px;
   max-height: 70px;
   margin: 0 0 2% 0;
   border-radius: 50%;

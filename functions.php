@@ -227,7 +227,7 @@
 
 						echo '<span class="testimonial-name">' . esc_html($instance['name']) . '</span>  ';
 
-						echo '<span class="testimonial-location">' . esc_html($instance['location']) . '</span';
+						echo '<span class="testimonial-location">' . esc_html($instance['location']) . '</span>';
 
 					?>
 
@@ -565,6 +565,7 @@
 			'before_title' 	=> 	'<h2 class="secondary-title">',
 			'after_title' 	=> 	'</h2>'
 		));
+
 
 		register_sidebar(array(
 			'name' 			=> 	('About video'),

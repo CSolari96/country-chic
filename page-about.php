@@ -38,9 +38,6 @@
 				<div class="row justify-content-center">
 					<div class="col-md-12">
 					<?php dynamic_sidebar('secondary-title-about'); ?>
-					<?php dynamic_sidebar('read-more-text'); ?>
-					<button class="readmorebutton" id="buttonshow">Read More</button>
-					<button class="hide readmorebutton" id="buttonhide">Show Less</button>
 					</div>
 				</div>
 

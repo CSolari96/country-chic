@@ -12,7 +12,6 @@
 		// Javascript Files
 		wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
 		wp_enqueue_script('shop-js', get_template_directory_uri() . '/js/shop.js');
-		wp_enqueue_script('readmore-js', get_template_directory_uri() . '/js/readmore.js');
 
 		if(is_page()) {
 			global $wp_query;
@@ -565,16 +564,6 @@
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h2 class="secondary-title">',
 			'after_title' 	=> 	'</h2>'
-		));
-
-		register_sidebar(array(
-			'name' 			=> 	('Read More Text on Our Story'),
-			'id' 			=> 	'read-more-text',
-			'description' 	=> 	'The read more text on Our Story page',
-			'before_widget' => 	'<div class="hide" id="moreinfoabout">',
-			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<h3>',
-			'after_title' 	=> 	'</h3>'
 		));
 
 		register_sidebar(array(

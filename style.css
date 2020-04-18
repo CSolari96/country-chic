@@ -486,7 +486,7 @@ a:hover, a:active {
 }
 
 .wps-products-price {
-  color: #7b7b7b;
+  color: #7b7b7b !important;
   font-size: 0.9rem;
   font-weight: 300;
 }
@@ -520,6 +520,9 @@ a:hover, a:active {
   margin: auto;
 }
 
+.wps-products-description.css-4q3uwa-fontSize-fontColor-ProductDescription {
+    color:  #7b7b7b;
+}
 /**********CONTACT PAGE STYLING**********/
 .jumbotron {
   background-attachment: scroll; /*changed to scroll on mobile version because fixed makes the pictures zoomed in and blurry */

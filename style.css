@@ -371,12 +371,11 @@ a:hover, a:active {
 
 .instagram-title {
   text-align: center;
-  font-family: 'p22-hopper-edward';
+  font-family: 'Montserrat', sans-serif;
   margin: 25px 0;
   line-height: 40px;
   color: #63a496;
-  font-size: 2rem;
-  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 .widget-home-instagram .textwidget.custom-html-widget, .contact-page-social {

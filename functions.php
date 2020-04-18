@@ -185,8 +185,8 @@
 
 	function pippin_get_image_id($image_url) {
 	    global $wpdb;
-	    $attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url )); 
-	    return $attachment[0]; 
+	    $attachment = $wpdb->get_col($wpdb->prepare("SELECT ID FROM $wpdb->posts WHERE guid='%s';", $image_url ));
+	    return $attachment[0];
 	}
 
 	function testimonial_init() {
@@ -396,7 +396,7 @@
 			</div>
 
 			<?php echo $args['after_widget'];
-		
+
 		}
 
 		public function update($new_instance, $old_instance) {
@@ -741,7 +741,7 @@
 			'name' 			=> 	('Have More Questions'),
 			'id' 			=> 	'contact-have-more-questions-title',
 			'description' 	=> 	'The title underneath the contact form',
-			'before_widget' => 	'<div>',
+			'before_widget' => 	'<div class="center-padding">',
 			'after_widget' 	=> 	'</div>',
 			'before_title' 	=> 	'<h3 class="third-title">',
 			'after_title' 	=> 	'</h3>'

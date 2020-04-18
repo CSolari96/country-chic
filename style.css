@@ -564,6 +564,11 @@ a:hover, a:active {
   max-width: 65px;
 }
 
+.center-padding {
+	padding: 15px;
+	text-align: center;
+}
+
 .contact-flex a:link, .contact-flex a:visited {
   color: #7b7b7b;
   text-decoration: none;

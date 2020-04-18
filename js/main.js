@@ -44,5 +44,5 @@ function hideMore () {
 //EVENT LISTENERS
 
 
-blueButton.addEventListener('click', revealMore);
+readButton.addEventListener('click', revealMore);
 showLess.addEventListener('click', hideMore);

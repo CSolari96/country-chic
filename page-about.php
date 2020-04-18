@@ -52,8 +52,6 @@
 			          <?php  }//ends while loop
 			          }//ends the if statement
 			         ?>
-							 <button class="readmorebutton" id="buttonshow">Read More</button>
- 						 	<button class="readmorebutton hide" id="buttonhide">Show Less</button>
 				 	</div>
 				</div>
 

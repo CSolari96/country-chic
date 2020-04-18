@@ -724,6 +724,10 @@ p.noflex {
   border-radius: 10%;
 }
 
+.about-values-icon img:hover {
+    transform: rotate(20deg);
+}
+
 .line-spacing p {
 	line-height: 1.8;
 	padding: 1% 0;

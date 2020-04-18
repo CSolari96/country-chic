@@ -7,14 +7,17 @@
 		<div class="col-12">
 
 			<?php
-				if (have_posts()) {
-					while (have_posts()) {
+				if (have_posts()) { ?>
+
+					<h2><?php printf(__('Search Results for: %s'), '<span>' . get_search_query() . '</span>'); ?></h2>
+
+				<?php while (have_posts()) {
 						the_post(); ?>
 
-						<h2><?php printf(__('Search Results for: %s'), '<span>' . get_search_query() . '</span>'); ?></h2>
+					<h3><?php the_title(); ?></h3>
 
-						<?php the_content(); ?>
-			<?php
+					<?php the_content(); 
+					
 					}  // End while
 				}  // End if
 

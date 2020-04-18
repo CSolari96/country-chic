@@ -726,6 +726,7 @@ p.noflex {
 
 .about-values-icon img:hover {
     transform: rotate(20deg);
+		-ms-transform: rotate(20deg); /* IE 9 */
 }
 
 .line-spacing p {

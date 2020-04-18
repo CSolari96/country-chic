@@ -66,11 +66,10 @@
 					while($loop->have_posts()): $loop->the_post();?>
 
 						<div class="card tutorial-cards animated fadeIn duration1 eds-on-scroll" style="width: 18rem;">
-				  			<div class="card-img-top"><?php the_post_thumbnail(); ?>
-								</div>
+				  			<div class="card-img-top"><?php the_post_thumbnail(); ?></div>
 				  			<div class="card-body">
 				    			<h5 class="card-title-tutorials"><a href="<?php the_permalink(); ?>" class="tutorial-title-link"><?php the_title(); ?></a></h5>
-				    			<p class="card-text"><?php the_excerpt(); ?></p>
+				    			<?php the_excerpt(); ?>
 				    			<a href="<?php the_permalink(); ?>" class="cards-link">Learn More </a>
 				  			</div>
 						</div>

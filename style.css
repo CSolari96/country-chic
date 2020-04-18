@@ -982,6 +982,7 @@ a.cards-link:active, a.cards-link:hover {
 .card p {
 	color: #7b7b7b !important;
 	font-style: normal !important;
+	padding: 5px 2px;
 }
 
 .tutorials-post {

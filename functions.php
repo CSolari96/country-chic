@@ -12,6 +12,7 @@
 		// Javascript Files
 		wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
 		wp_enqueue_script('shop-js', get_template_directory_uri() . '/js/shop.js');
+		wp_enqueue_script('shop-js', get_template_directory_uri() . '/js/readmore.js');
 
 		if(is_page()) {
 			global $wp_query;

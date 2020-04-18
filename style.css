@@ -359,6 +359,11 @@ a:hover, a:active {
 /* End Testimonials Container */
 
 /* Instagram Feed */
+.inline-icons-center {
+	display: flex;
+	justify-content: center;
+}
+
 .widget-home-instagram {
   padding: 50px 0 30px 0;
 }

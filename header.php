@@ -12,7 +12,9 @@
 
 	<style>
       @font-face { font-family: NoteWorthy; src: url('<?php echo get_template_directory_uri() . '/fonts/Noteworthy-Bold.ttf'?>'); }
-    </style>
+  </style>
+
+	<link rel="stylesheet" href="https://use.typekit.net/akj8ysu.css">
 
 	<!--<?php wp_enqueue_script('jquery'); ?>-->
 

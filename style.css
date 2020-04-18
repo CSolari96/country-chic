@@ -375,7 +375,6 @@ a:hover, a:active {
   margin: 25px 0;
   line-height: 40px;
   color: #63a496;
-	letter-spacing: .3rem;
 }
 
 .widget-home-instagram .textwidget.custom-html-widget, .contact-page-social {
@@ -503,7 +502,6 @@ a:hover, a:active {
 #collection_title {
   color: #63a497;
   padding: 2%;
-  font-family: 'p22-hopper-edward';
 }
 
 .wps-btn-next-page {

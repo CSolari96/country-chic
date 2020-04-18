@@ -1499,6 +1499,7 @@ img.social-icon {
 	.pagination-tutorials {
     display: flex;
     justify-content: space-between;
+		padding-bottom: 5%; 
 	}
 
 	.pagination {

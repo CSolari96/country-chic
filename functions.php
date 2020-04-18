@@ -814,8 +814,8 @@
 			'description' 	=> 	'The hours of Country Chic',
 			'before_widget' => 	'<div class="contact-page-hours">',
 			'after_widget' 	=> 	'</div>',
-			'before_title' 	=> 	'<p class="hours-contact">',
-			'after_title' 	=> 	'</p>'
+			'before_title' 	=> 	'<div>',
+			'after_title' 	=> 	'</div>'
 		));
 
 		// Tutorials Page Widgets

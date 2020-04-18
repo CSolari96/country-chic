@@ -13,7 +13,7 @@
 	<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
 				<?php
 				$field = get_field_object('product');
-				$fieldValues =  implode('<li>', $field['value']);
+				$fieldValues =  implode('<li>', $field['value'] . '</li>');
 				?>
 				<ul><?php echo $fieldValues ?> </ul>
 
@@ -21,7 +21,7 @@
 		<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
 							<?php
 							$fieldBrushes = get_field_object('brushes_used');
-							$fieldBrushesValues =  implode('<li>', $fieldBrushes['value']);
+							$fieldBrushesValues =  implode('<li>', $fieldBrushes['value'] . '</li>');
 							?>
 	<!---Looks to see if anything is under the brushes category in Advanced Custom Fields and doesn't post anything if not-->
 							<?php if( get_field('brushes_used') ): ?>

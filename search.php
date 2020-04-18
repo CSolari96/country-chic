@@ -14,11 +14,15 @@
 				<?php while (have_posts()) {
 						the_post(); ?>
 
-					<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					<div class="single-search-result">
 
-					<?php the_excerpt(); ?>
+						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
-					<a href="<?php the_permalink(); ?>">Read More...</a>
+						<?php the_excerpt(); ?>
+
+						<a href="<?php the_permalink(); ?>">Read More...</a>
+
+					</div>
 
 			<?php	}  // End while
 				} else { ?>

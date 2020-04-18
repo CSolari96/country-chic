@@ -18,7 +18,7 @@ function hideMore () {
   moreInfo.classList.add('hide');
   showLess.classList.add('hide');
   readButton.classList.remove('hide');
-}
+};
 
 //EVENT LISTENERS
 

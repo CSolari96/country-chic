@@ -123,7 +123,7 @@
 			</div>
 
 			<div class="row col-12 contact-icons">
-				<p class="noflex"><?php dynamic_sidebar('contact-page-hours'); ?></p>
+				<?php dynamic_sidebar('contact-page-hours'); ?>
 			</div>
 		</div>
 	</section>

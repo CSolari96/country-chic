@@ -4,7 +4,7 @@
 
   <div class="container-fluid">
       <div class="row social-footer animated fadeInLeft duration1 eds-on-scroll ">
-          <div class="col-md-12">
+          <div class="col-md-12 inline-icons">
 
             <a href="https://www.facebook.com/CountryChicPaint/">
               <div class="social-button">

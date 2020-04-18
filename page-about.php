@@ -117,6 +117,6 @@
 
 	</main>
 
-	<script type="text/javascript" src="../js/readmore.js"></script>
+	<script type="text/javascript" src="../../js/readmore.js"></script>
 
 <?php get_footer(); ?>

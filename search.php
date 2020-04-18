@@ -21,7 +21,13 @@
 					<a href="<?php the_permalink(); ?>">Read More...</a>
 
 			<?php	}  // End while
-				}  // End if
+				} else { ?>
+					<h2>No results found</h2>
+
+					<p>Sorry, we couldn't find what you were looking for. Try again with a different search term.</p>
+
+					<?php get_search_form(); ?>
+			<?php } // End if
 
 			?>
 

@@ -8,14 +8,14 @@
 	<div class="row">
 		<aside class="col-md-3 products-list">
 			<div class="all-products">
-				<h3 class="products-used-title">Country Chic</h3>
+				<h3 class="products-used-title">Country Chic Products</h3>
 
 	<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
 				<?php
 				$field = get_field_object('product');
-				$fieldValues =  $field['value'];
+				$fieldValues =  implode('<div>', $field['value']) . '</div>';
 				?>
-				<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul> 
+				<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul>
 
 
 		<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->

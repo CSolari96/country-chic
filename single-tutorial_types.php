@@ -47,8 +47,8 @@
 
 								<div class="pagination-tutorials">
 
-									<?php previous_post_link('%link', '<< Previous Tutorial'); ?>
-									<?php next_post_link('%link', 'Next Tutorial >>'); ?>
+									<?php previous_post_link('%link', '&#171; &nbsp; Previous Tutorial'); ?>
+									<?php next_post_link('%link', 'Next Tutorial &nbsp; &#187;'); ?>
 
 								</div>
 					<?php
@@ -57,8 +57,9 @@
 
 					?>
 
+			</section>
 		</div>
-		</section>
+
 
 
 </main>

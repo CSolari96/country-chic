@@ -36,7 +36,7 @@
 		<section class="tutorials-main-post">
 			<div class="row justify-content-center">
 				<div class="col-12">
-				<?php dynamic_sidebar('secondary-title-tutorials'); ?>
+				<?php dynamic_sidebar('secondary-title-tutorials'); ?> 
 				</div>
 			</div>
 				<div class="row justify-content-center">

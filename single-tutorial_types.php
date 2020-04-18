@@ -8,7 +8,7 @@
 	<div class="row">
 		<aside class="col-md-3 products-list">
 			<div class="all-products">
-				<h3 class="products-used-title">Country Chic Products</h3>
+				<h3 class="products-used-title">Country Chic</h3>
 
 	<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
 				<?php

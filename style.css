@@ -250,7 +250,7 @@ a:hover, a:active {
 }
 
 .intro-widget-title span {
-  font-family: 'Noteworthy';
+  font-family: 'p22-hopper-edward';
   font-size: 1.9rem;
   color: #63a496;
   display: block;
@@ -311,7 +311,7 @@ a:hover, a:active {
 }
 
 .testimonials-name {
-  font-family: 'Noteworthy';
+  font-family: 'p22-hopper-edward';
   color: #63a497;
   width: 100%;
   text-align: center;
@@ -336,7 +336,7 @@ a:hover, a:active {
 }
 
 .testimonial-name {
-	font-family: 'Noteworthy';
+	font-family: 'p22-hopper-edward';
   color: #63a496;
   padding-right: 5%;
 }
@@ -371,11 +371,12 @@ a:hover, a:active {
 
 .instagram-title {
   text-align: center;
-  font-family: 'Noteworthy';
+  font-family: 'p22-hopper-edward';
   margin: 25px 0;
   line-height: 40px;
   color: #63a496;
-	letter-spacing: .3rem;
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 .widget-home-instagram .textwidget.custom-html-widget, .contact-page-social {
@@ -503,7 +504,6 @@ a:hover, a:active {
 #collection_title {
   color: #63a497;
   padding: 2%;
-  font-family: 'Noteworthy';
 }
 
 .wps-btn-next-page {
@@ -1253,6 +1253,10 @@ img.social-icon {
 
 .search-results h2, .single-search-result {
   margin: 20px 0;
+}
+
+.search-no-results .search-results {
+  min-height: 350px;
 }
 
 /**********MEDIA QUERIES STYLING**********/

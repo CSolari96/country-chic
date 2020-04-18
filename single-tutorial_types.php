@@ -8,12 +8,12 @@
 	<div class="row">
 		<aside class="col-md-3 products-list">
 			<div class="all-products">
-				<h3 class="products-used-title">Country Chic Prod</h3>
+				<h3 class="products-used-title">Country Chic Products Used</h3>
 
 	<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
 				<?php
 				$field = get_field_object('product');
-				$fieldValues =  '<li>' . implode('', $field['value']) . '</li>';
+				$fieldValues =  '<li>' . implode('<li>', $field['value']) . '</li>';
 				?>
 				<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul>
 

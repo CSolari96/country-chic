@@ -15,7 +15,7 @@
 				$field = get_field_object('product');
 				$fieldValues =  '<li>' . implode('<li>', $field['value']) . '</li>';
 				?>
-				<ul><?php echo $fieldValues ?> </ul>
+				<ul><?php echo $fieldValues ?> </ul> 
 
 
 		<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->

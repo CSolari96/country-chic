@@ -977,6 +977,7 @@ a.cards-link, a.cards-link:visited {
 
 a.cards-link:active, a.cards-link:hover {
 	color:	#82a3af;
+	font-weight: bold;
 }
 
 .card p {

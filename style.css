@@ -184,7 +184,8 @@ a:hover, a:active {
 
 .hero-sub-title {
   font-family: 'p22-hopper-edward', sans-serif;
-  font-size: 1rem;
+	font-size: 3rem;
+  letter-spacing: .3rem;
   text-shadow: 0 3px 6px #7b7b7b;
 }
 
@@ -1296,7 +1297,7 @@ img.social-icon {
   }
 
   .hero-sub-title {
-    font-size: 1.25rem;
+    font-size: 3.25rem;
   }
 
   .hero-title{

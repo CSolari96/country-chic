@@ -78,9 +78,9 @@
 	<section>
 
 		<div class="row values-container contact-form-section" style="background-image: url('<?php echo get_template_directory_uri() . '/images/values_bkg.png'; ?>')">
-			
+
 			<?php dynamic_sidebar('contact-form-title'); ?>
-			
+
 			<?php dynamic_sidebar('contact-form'); ?>
 
 			<div class="col-12 row thank-you hide justify-content-center">
@@ -108,17 +108,17 @@
 			</div>
 
 			<div class="col-md-12 col-lg-4 contact-icons">
-					<img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/>
+					<a href="tel:1-888-523-2360"><img src="<?php echo get_template_directory_uri() . '/images/phone.png'?>" alt="Telephone icon" class="icons"/></a>
 					<?php dynamic_sidebar('contact-page-phone-number'); ?>
 			</div>
 
 			<div class="col-md-12 col-lg-4 contact-icons">
-					<img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/>
+					<a href="mailto:hello@countrychicpaint.com" target="_blank"><img src="<?php echo get_template_directory_uri() . '/images/paper-plane.png'?>" alt="Mail icon" class="icons"/></a>
 					<?php dynamic_sidebar('contact-page-email'); ?>
 			</div>
 
 			<div class="col-md-12 col-lg-4 contact-icons">
-					<img src="<?php echo get_template_directory_uri() . '/images/chat-bubble.png'?>" alt="Chat bubble" class="icons"/>
+					<a target="popup" href="https://tawk.to/chat/5e9388fb35bcbb0c9ab04f33/default"><img src="<?php echo get_template_directory_uri() . '/images/chat-bubble.png'?>" alt="Chat bubble" class="icons"/></a>
 					<?php dynamic_sidebar('contact-page-live-chat'); ?>
 			</div>
 

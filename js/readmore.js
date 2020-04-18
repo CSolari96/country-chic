@@ -4,7 +4,7 @@
 
 var readButton = document.getElementById("buttonshow");
 var showLess = document.getElementById("buttonhide");
-var moreInfo = document.getElementById("moreinfo-about");
+var moreInfo = document.getElementById("moreinfoabout");
 
 //FUNCTION
 

@@ -1121,6 +1121,7 @@ width: 44%;
   background-color: #63a497;
   transition: all 0.2s;
   z-index: 111111;
+	display: inline; 
 }
 
 .social-icon{

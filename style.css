@@ -1115,8 +1115,12 @@ width: 44%;
 	display: flex;
 }
 
+img.social-icon {
+    display: inherit;
+    margin: auto;
+}
+
 .social-button {
-	width: 13%;
   max-width: 70px;
   max-height: 70px;
   margin: 0 0 2% 0;

@@ -13,7 +13,7 @@
 	<!---Makes each item under the products category in Advanced Custom Field on a single bullet-->
 				<?php
 				$field = get_field_object('product');
-				$fieldValues =  $field['value']);
+				$fieldValues =  $field['value'];
 				?>
 				<ul><?php echo '<li>' . $fieldValues . '</li>' ?> </ul>
 

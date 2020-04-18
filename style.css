@@ -375,6 +375,7 @@ a:hover, a:active {
   margin: 25px 0;
   line-height: 40px;
   color: #63a496;
+  font-size: 2rem;
 }
 
 .widget-home-instagram .textwidget.custom-html-widget, .contact-page-social {

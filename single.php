@@ -1,28 +1,71 @@
 <?php get_header(); ?>
 
-<div class="container-fluid">
+<main class="container">
 
 	<div class="row">
-    <main class="col-md-12">
+	    
+	    <article class="col-md-9">
 
-		<?php
+			<?php
+
 					if (have_posts()) {
 						while (have_posts()) {
 							the_post(); ?>
 
 							<h2><?php the_title(); ?></h2>
 
+							<p class="post-info">
+								<?php 
+
+									echo "Published on " . get_the_date();
+									echo " | ";
+									echo "Written by " . get_the_author();
+
+								?>
+							</p>
+
+							<div class="post-featured-image">
+
+								<?php the_post_thumbnail("large"); ?>
+
+							</div>
+
 							<?php the_content(); ?>
-				<?php
-						}  // End while
-					}  // End if
+
+				<?php	} // End while
+					} // End if
+				?>
+
+				<div class="pagination-single">
+
+					<?php next_post_link("%link", "<< Newer Posts"); ?>
+
+				</div>
+
+				<div class="pagination-single">
+
+					<?php previous_post_link("%link", "Older Posts >>"); ?>
+
+				</div>
+
+				<?php 
+
+					if (comments_open() || get_comments_number()) {
+						comments_template();
+					}
 
 				?>
 
-    </main>
+    	</article>
+
+    	<aside class="col-md-3">
+
+    		<p>Sidebar here</p>
+
+    	</aside>
+
 	</div>
-</div>
 
-
+</main>
 
 <?php get_footer(); ?>

@@ -911,7 +911,6 @@ h4.values {
 }
 
 .tutorials-main-post p {
-    padding-top: 25px;
     padding-bottom: 50px;
     line-height: 1.8;
     width: 75%;
@@ -1499,7 +1498,7 @@ img.social-icon {
 	.pagination-tutorials {
     display: flex;
     justify-content: space-between;
-		padding-bottom: 5%; 
+		padding-bottom: 5%;
 	}
 
 	.pagination {

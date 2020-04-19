@@ -33,10 +33,10 @@
 
 	<main class="container">
 
-		<section class="tutorials-main-post">
+		<section class="tutorials-main-post line-spacing">
 			<div class="row justify-content-center">
 				<div class="col-12">
-				<?php dynamic_sidebar('secondary-title-tutorials'); ?>  
+				<?php dynamic_sidebar('secondary-title-tutorials'); ?>
 				</div>
 			</div>
 				<div class="row justify-content-center">

@@ -35,11 +35,11 @@
 						while (have_posts()) {
 							the_post(); ?>
 
-							<section class="col-md-9">
+							<section class="col-md-9 post-preview">
 
 								<div class="post-featured-image">
 
-									<?php the_post_thumbnail("medium"); ?>
+									<?php the_post_thumbnail("small"); ?>
 
 								</div>
 
@@ -47,10 +47,30 @@
 
 								<?php the_excerpt(); ?>
 
+								<a class="btn btn-sm" href="<?php the_permalink(); ?>">Read More</a>
+
 							</section>
 				<?php
-						}  // End while
-					}  // End if
+						}  // End while ?>
+
+						<div class="pagination-links">
+
+						<?php
+					       global $wp_query;
+
+					       $big = 999999999; // need an unlikely integer
+
+					       echo paginate_links( array(
+					       'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+					       'format' => '?paged=%#%',
+					       'current' => max( 1, get_query_var('paged') ),
+					       'total' => $wp_query->max_num_pages
+					        ) );
+
+						?>
+
+					</div>
+				<?php	}  // End if
 
 				?>
 

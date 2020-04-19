@@ -1,6 +1,6 @@
-<?php
-	echo "<h3>Comments:</h3>";
+<h3>Comments:</h3>
 
+<?php
 	foreach ($comments as $comment) {
 
 		echo "<div class='comment'>";

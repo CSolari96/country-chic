@@ -12,25 +12,49 @@
 						while (have_posts()) {
 							the_post(); ?>
 
-							<h2><?php the_title(); ?></h2>
+							<div class="the_post">
 
-							<p class="post-info">
-								<?php 
+								<h2><?php the_title(); ?></h2>
 
-									echo "Published on " . get_the_date();
-									echo " | ";
-									echo "Written by " . get_the_author();
+								<p class="post-info">
+									<?php 
 
-								?>
-							</p>
+										echo "Published on " . get_the_date();
+										echo " | ";
+										echo "Written by " . get_the_author();
 
-							<div class="post-featured-image">
+									?>
+								</p>
 
-								<?php the_post_thumbnail("large"); ?>
+								<div class="post-featured-image">
+
+									<?php the_post_thumbnail("large"); ?>
+
+								</div>
+
+								<?php the_content(); ?>
 
 							</div>
 
-							<?php the_content(); ?>
+							<div class="author_info row">
+
+								<div class="col-3">
+
+									<?php 
+									     echo get_avatar( get_the_author_email(), '60' ); 
+									?>
+
+								</div>
+
+								<div class="col-9">
+
+									<h3><?php get_author_meta('display_name'); ?></h3>
+
+									<p><?php echo wpautop( get_the_author_meta( 'description' ) ); ?></p>
+
+								</div>
+
+							</div>
 
 				<?php	} // End while
 					} // End if

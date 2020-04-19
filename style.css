@@ -1282,6 +1282,18 @@ img.social-icon {
     max-height: 200px;
 }
 
+.post-preview h2 {
+    color: #63a497;
+}
+
+.right-sidebar-widget-title {
+    margin: 10px 0;
+}
+
+.widget-right-sidebar li {
+    margin: 5px 0;
+}
+
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 501px) {
   .wps-product-single-content.col {

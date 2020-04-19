@@ -4,7 +4,7 @@
 
 	<div class="row">
 	    
-	    <article class="col-md-9">
+	    <article class="col-md-9 blog-post">
 
 			<?php
 

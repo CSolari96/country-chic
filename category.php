@@ -6,7 +6,7 @@
 
 			<div class="col-md-12">
 
-				<h2>You are browsing the category <?php single_cat_title(); ?></h2>
+				<h2>You are browsing the category: <?php single_cat_title(); ?></h2>
 
 			</div>
 

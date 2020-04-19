@@ -1,6 +1,6 @@
 <?php
 
-	echo "<h3>Comments:</h3>"
+	echo "<h3>Comments:</h3>";
 
 	foreach ($comments as $comment) {
 

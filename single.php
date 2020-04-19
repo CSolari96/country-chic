@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="container">
+<main class="container blog">
 
 	<div class="row">
 	    
@@ -60,7 +60,7 @@
 
     	<aside class="col-md-3">
 
-    		<p>Sidebar here</p>
+    		<?php dynamic_sidebar('right-sidebar'); ?>
 
     	</aside>
 

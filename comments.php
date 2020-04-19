@@ -8,7 +8,7 @@
 
 		echo "<div class='comment-date'>" . get_comment_date() . "</div>";
 
-		echo "<div class='comment-text'>" . get_comment_text() . "</div></div>";
+		echo "<div class='comment-text'>" . get_comment_text() . "</div> </div>";
 	}
 
 	comment_form();

@@ -37,6 +37,12 @@
 						while (have_posts()) {
 							the_post(); ?>
 
+							<div class="post-featured-image">
+
+								<?php the_post_thumbnail("large"); ?>
+
+							</div>
+
 							<h2><?php the_title(); ?></h2>
 
 							<?php the_excerpt(); ?>

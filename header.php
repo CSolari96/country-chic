@@ -55,7 +55,7 @@
 
 			</div>
 
-			<div class="col-10 col-md-4 col-lg-3 logo-container">
+			<div class="col-10 col-md-3 col-lg-3 logo-container">
 
 				<?php
 
@@ -75,7 +75,7 @@
 
 			</div>
 
-			<nav class="desktop-nav col-md-7 col-lg-8">
+			<nav class="desktop-nav col-md-8 col-lg-8">
 
 				<?php
 

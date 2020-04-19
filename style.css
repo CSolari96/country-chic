@@ -1269,11 +1269,6 @@ img.social-icon {
     display: block;
 }
 
-.blog aside {
-    border-left: 2px solid #82a3af;
-    padding-left: 20px;
-}
-
 .blog aside ul {
     margin-left: 20px;
 }
@@ -1544,10 +1539,10 @@ img.social-icon {
 		text-align: right;
 	}
 
-/****JUMBO IMAGES******/
-.post-featured-image img {
-	max-height: 450px;
-}
+  /****JUMBO IMAGES******/
+  .post-featured-image img {
+  	max-height: 450px;
+  }
 
 	.animals {
 		margin-top: -31.6%;
@@ -1558,6 +1553,11 @@ img.social-icon {
 		width: 8%;
 		margin: 0 2%;
 	}
+
+  .blog aside {
+    border-left: 2px solid #82a3af;
+    padding-left: 20px;
+}
 }
 
 @media(min-width: 900px) {

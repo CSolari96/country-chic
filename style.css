@@ -1279,6 +1279,7 @@ img.social-icon {
 
 .blog aside ul {
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .post-preview .post-featured-image img {
@@ -1299,7 +1300,7 @@ img.social-icon {
 }
 
 .widget-right-sidebar li {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 #comment {

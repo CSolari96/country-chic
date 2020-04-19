@@ -1,32 +1,26 @@
-
 <?php get_header(); ?>
 
-	<?php 
+	<main class="container blog">
 
-		$posts_page_id = get_option( 'page_for_posts' );
-		$background_img = wp_get_attachment_image_src( get_post_thumbnail_id($posts_page_id), 'full'); 
+		<div class="row">
 
-	?>
+			<div class="col-md-12">
 
-	<div class="hero-widget-content page-header-banner bkg-center" style="background-image: url(<?php echo $background_img[0]; ?>)">
+				<?php 
+					
+					if (is_day()) {
+						echo "<h2>Daily Archives: " . get_the_date() . "</h2>";
+					} elseif (is_month()) {
+						echo "<h2>Monthly Archives: " . get_the_date("F Y") . "</h2>";
+					} elseif (is_year()) {
+						echo "<h2>Yearly Archives: " . get_the_date("Y") . "</h2>";
+					} 
 
-		<div class="container-fluid">
-
-			<div class="row">
-
-				<div class="col-md-12">
-
-					<h1 class="hero-title"> <?php single_post_title(); ?> </h1>
-
-				</div>
+				?>
 
 			</div>
 
 		</div>
-
-	</div>
-
-	<main class="container blog">
 
 		<div class="row">
 
@@ -87,6 +81,5 @@
 		</div>
 
 	</main>
-
 
 <?php get_footer(); ?>

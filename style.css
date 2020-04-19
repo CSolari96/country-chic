@@ -1319,6 +1319,19 @@ img.social-icon {
     box-shadow: 0 3px 6px #7b7b7b;
 }
 
+.comment-author {font-weight: 700;}
+
+.comment-date {
+    font-size: .8rem;
+    margin-bottom: 10px;
+}
+
+.comment {
+    margin-bottom: 30px;
+    border-top: 2px solid #82a3af;
+    padding-top: 10px;
+}
+
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 501px) {
   .wps-product-single-content.col {

@@ -3,7 +3,7 @@
 
 	<?php 
 
-		$posts_page_id = get_option( 'page_for_posts' )
+		$posts_page_id = get_option( 'page_for_posts' );
 		$background_img = wp_get_attachment_image_src( get_post_thumbnail_id($posts_page_id), 'full'); 
 
 	?>

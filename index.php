@@ -1,13 +1,3 @@
-<?php
-
-	/*
-
-	Template Name: Blog Layout
-	Template Post Type: page
-
-	*/
-
-?>
 
 <?php get_header(); ?>
 

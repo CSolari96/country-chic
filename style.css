@@ -1265,6 +1265,10 @@ img.social-icon {
   margin: 20px 0;
 }
 
+.blog {
+  margin-top: 10px;
+}
+
 .post-preview h2, .post-preview p, .post-preview a, .blog-post h2, .blog-post p, .blog-post img {
     margin-top: 10px;
 }

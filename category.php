@@ -6,17 +6,7 @@
 
 			<div class="col-md-12">
 
-				<?php 
-					
-					if (is_day()) {
-						echo "<h2>Daily Archives: " . get_the_date() . "</h2>";
-					} elseif (is_month()) {
-						echo "<h2>Monthly Archives: " . get_the_date("F Y") . "</h2>";
-					} elseif (is_year()) {
-						echo "<h2>Yearly Archives: " . get_the_date("Y") . "</h2>";
-					} 
-
-				?>
+				<h2>You are browsing the category <?php single_cat_title(); ?></h2>
 
 			</div>
 

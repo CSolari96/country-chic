@@ -1458,62 +1458,7 @@ img.social-icon {
 }
 
 @media(min-width: 768px) {
-  .header {
-    min-height: 65px;
-  }
-
-  .logo {
-    width: 100%;
-    max-width: 300px;
-  }
-
-  .open-menu {
-      display: none;
-  }
-
-  .open-menu-btn {
-    display: none;
-  }
-
-  .desktop-nav {
-    display: block;
-  }
-
-  #top-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .top-menu-class ul {
-    display: flex;
-    justify-content: space-around;
-    padding: 8% 0;
-  }
-
-  .top-menu-class ul li {
-    list-style-type: none;
-    display: inline;
-  }
-
-  .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
-    text-decoration: none;
-    color: #7b7b7b;
-    text-transform: uppercase;
-    font-size: 0.85rem;
-    transition: all 0.4s;
-  }
-
-  .top-menu-class ul li a:hover, .top-menu-class ul li a:active {
-    color: #63a497;
-    font-weight: 700;
-    transition: all 0.4s;
-  }
-
-  .shopping-cart {
-    right: 30px;
-    top: 20px;
-  }
+  
 
   .page-header-banner {
     min-height: 450px;
@@ -1614,10 +1559,67 @@ img.social-icon {
   .blog aside {
     border-left: 2px solid #82a3af;
     padding-left: 20px;
-}
+  }
 }
 
 @media(min-width: 900px) {
+  .header {
+    min-height: 65px;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .open-menu {
+      display: none;
+  }
+
+  .open-menu-btn {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  #top-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .top-menu-class ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 8% 0;
+  }
+
+  .top-menu-class ul li {
+    list-style-type: none;
+    display: inline;
+  }
+
+  .top-menu-class ul li a:link, .top-menu-class ul li a:visited {
+    text-decoration: none;
+    color: #7b7b7b;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    transition: all 0.4s;
+  }
+
+  .top-menu-class ul li a:hover, .top-menu-class ul li a:active {
+    color: #63a497;
+    font-weight: 700;
+    transition: all 0.4s;
+  }
+
+  .shopping-cart {
+    right: 30px;
+    top: 20px;
+  }
+
   .wps-w-3.wps-item.p-3 {
     flex: 0 0 31% !important;
     margin: 3% 1%;

@@ -30,29 +30,29 @@
 
 		<div class="row">
 
-			<section class="col-md-9">
-
 				<?php
 					if (have_posts()) {
 						while (have_posts()) {
 							the_post(); ?>
 
-							<div class="post-featured-image">
+							<section class="col-md-9">
 
-								<?php the_post_thumbnail("medium"); ?>
+								<div class="post-featured-image">
 
-							</div>
+									<?php the_post_thumbnail("medium"); ?>
 
-							<h2><?php the_title(); ?></h2>
+								</div>
 
-							<?php the_excerpt(); ?>
+								<h2><?php the_title(); ?></h2>
+
+								<?php the_excerpt(); ?>
+
+							</section>
 				<?php
 						}  // End while
 					}  // End if
 
 				?>
-
-			</section>
 
 			<aside class="col-md-3">
 

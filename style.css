@@ -1302,6 +1302,8 @@ img.social-icon {
     display: block;
     border: 2px solid #99c6d1;
     margin: 10px 0;
+    font-family: 'Montserrat';
+    padding: 5px;
 }
 
 #commentform .form-submit .submit {

@@ -1281,6 +1281,11 @@ img.social-icon {
     color: #63a497;
 }
 
+.post-preview h2 a:link, .post-preview h2 a:visited {
+    color: #63a497 !important;
+    text-decoration: none;
+}
+
 .right-sidebar-widget-title {
     margin: 10px 0;
 }

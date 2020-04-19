@@ -1,5 +1,4 @@
 <h3 class="comment-heading">Comments:</h3>
-
 <?php
 	foreach ($comments as $comment) {
 

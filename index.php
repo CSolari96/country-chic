@@ -1,7 +1,12 @@
 
 <?php get_header(); ?>
 
-	<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
+	<?php 
+
+		$posts_page_id = get_option( 'page_for_posts' )
+		$background_img = wp_get_attachment_image_src( get_post_thumbnail_id($posts_page_id), 'full'); 
+
+	?>
 
 	<div class="hero-widget-content page-header-banner bkg-center" style="background-image: url(<?php echo $background_img[0]; ?>)">
 

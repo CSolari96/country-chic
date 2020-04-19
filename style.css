@@ -1303,6 +1303,11 @@ img.social-icon {
     margin: 10px 0;
 }
 
+blockquote {
+  font-weight: 600;
+  margin: 20px 0;
+}
+
 #comment {
     display: block;
     border: 2px solid #99c6d1;

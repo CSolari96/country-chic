@@ -30,7 +30,7 @@
 
 		<div class="row">
 
-			<div class="col-md-8">
+			<div class="col-sm-12 col-md-8">
 
 				<?php
 					if (have_posts()) {
@@ -78,7 +78,7 @@
 
 			</div>
 
-			<aside class="col-md-3">
+			<aside class="col-sm-12 col-md-3">
 
 				<?php dynamic_sidebar('right-sidebar'); ?>
 

@@ -4,7 +4,7 @@
 
 	<div class="row">
 	    
-	    <article class="col-md-9 blog-post">
+	    <article class="col-sm-12 col-md-8 blog-post">
 
 			<?php
 
@@ -58,7 +58,7 @@
 
     	</article>
 
-    	<aside class="col-md-3">
+    	<aside class="col-sm-12 col-md-3">
 
     		<?php dynamic_sidebar('right-sidebar'); ?>
 

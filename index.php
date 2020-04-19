@@ -26,16 +26,18 @@
 
 	</div>
 
-	<main class="container">
+	<main class="container blog">
 
 		<div class="row">
+
+			<div class="col-md-8">
 
 				<?php
 					if (have_posts()) {
 						while (have_posts()) {
 							the_post(); ?>
 
-							<section class="col-md-9 post-preview">
+							<section class="post-preview">
 
 								<div class="post-featured-image">
 
@@ -73,6 +75,8 @@
 				<?php	}  // End if
 
 				?>
+
+			</div>
 
 			<aside class="col-md-3">
 

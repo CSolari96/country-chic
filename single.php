@@ -41,16 +41,16 @@
 								<div class="col-3">
 
 									<?php 
-									     echo get_avatar( get_the_author_email(), '60' ); 
+									     echo get_avatar( the_author_meta('ID'), '60' ); 
 									?>
 
 								</div>
 
 								<div class="col-9">
 
-									<h3><?php get_author_meta('display_name'); ?></h3>
+									<h3><?php the_author_meta('display_name'); ?></h3>
 
-									<p><?php echo wpautop( get_the_author_meta( 'description' ) ); ?></p>
+									<p><?php echo wpautop( the_author_meta( 'description' ) ); ?></p>
 
 								</div>
 

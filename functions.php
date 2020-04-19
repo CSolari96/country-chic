@@ -829,6 +829,17 @@
 			'after_title' 	=> 	'</h2>'
 		));
 
+		// Blog Widgets
+		register_sidebar( array(
+			"name" 			=> 	("Right Sidebar"),
+			"id" 			=> 	"right-sidebar",
+			"description" 	=> 	"Right Sidebar area for blog template",
+			"before_widget" => 	"<div class='widget-right-sidebar'>",
+			"after_widget" 	=> 	"</div>",
+			"before_title" 	=> 	"<h3 class='right-sidebar-widget-title'>",
+			"after_title" 	=> 	"</h3>"
+		));
+
 		// 404 Page Widget
 		register_sidebar(array(
 			'name' 			=> 	('404 Page Widget'),

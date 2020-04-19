@@ -1256,6 +1256,32 @@ img.social-icon {
   min-height: 350px;
 }
 
+/**********BLOG STYLING**********/
+.post-preview, .blog aside {
+    margin: 50px 10px;
+}
+
+.post-preview h2, .post-preview p, .post-preview a {
+    margin-top: 10px;
+}
+
+.post-preview a {
+    display: block;
+}
+
+.blog aside {
+    border-left: 2px solid #82a3af;
+    padding-left: 20px;
+}
+
+.blog aside ul {
+    margin-left: 20px;
+}
+
+.post-preview .post-featured-image img {
+    max-height: 200px;
+}
+
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 501px) {
   .wps-product-single-content.col {

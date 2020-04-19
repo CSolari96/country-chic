@@ -1332,6 +1332,10 @@ img.social-icon {
     padding-top: 10px;
 }
 
+.comment-heading {
+  margin-bottom: 10px;
+}
+
 /**********MEDIA QUERIES STYLING**********/
 @media(min-width: 501px) {
   .wps-product-single-content.col {

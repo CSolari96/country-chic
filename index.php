@@ -1,3 +1,14 @@
+<?php
+
+	/*
+
+	Template Name: Blog Layout
+	Template Post Type: page
+
+	*/
+
+?>
+
 <?php get_header(); ?>
 
 	<?php $background_img = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
@@ -10,7 +21,7 @@
 
 				<div class="col-md-12">
 
-					<h1 class="hero-title"> <?php the_title(); ?> </h1>
+					<h1 class="hero-title"> <?php single_post_title(); ?> </h1>
 
 				</div>
 
@@ -24,19 +35,27 @@
 
 		<div class="row">
 
-			<?php
-				if (have_posts()) {
-					while (have_posts()) {
-						the_post(); ?>
+			<section class="col-md-9">
 
-						<h2><?php the_title(); ?></h2>
+				<?php
+					if (have_posts()) {
+						while (have_posts()) {
+							the_post(); ?>
 
-						<?php the_content(); ?>
-			<?php
-					}  // End while
-				}  // End if
+							<h2><?php the_title(); ?></h2>
 
-			?>
+							<?php the_excerpt(); ?>
+				<?php
+						}  // End while
+					}  // End if
+
+				?>
+
+			</section>
+
+			<aside class="col-md-3">
+
+			</aside>
 
 		</div>
 

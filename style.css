@@ -1222,7 +1222,7 @@ img.social-icon {
   color: #7b7b7b;
 }
 
-#searchsubmit {
+#searchsubmit,  {
   background-color: #63a497;
   color: #ffffff;
   margin: 10px;
@@ -1235,13 +1235,13 @@ img.social-icon {
   box-shadow: 0 3px 6px #7b7b7b;
 }
 
-#searchsubmit:link, #searchsubmit:visited {
+#searchsubmit:link, #searchsubmit:visited, #commentform .form-submit .submit:link, #commentform .form-submit .submit:visited {
   background-color: #63a497;
   color: #ffffff;
   transition: all 0.2s;
 }
 
-#searchsubmit:hover, #searchsubmit:active {
+#searchsubmit:hover, #searchsubmit:active, #commentform .form-submit .submit:hover, #commentform .form-submit .submit:active {
   background-color: #99c6d1;
   transition: all 0.2s;
   color: #ffffff;
@@ -1261,7 +1261,11 @@ img.social-icon {
     margin: 50px 10px;
 }
 
-.post-preview h2, .post-preview p, .post-preview a {
+.blog-post, .pagination-single {
+  margin: 20px 0;
+}
+
+.post-preview h2, .post-preview p, .post-preview a, .blog-post h2, .blog-post p, .blog-post img {
     margin-top: 10px;
 }
 
@@ -1277,7 +1281,7 @@ img.social-icon {
     max-height: 200px;
 }
 
-.post-preview h2 {
+.post-preview h2, .blog-post h2 {
     color: #63a497;
 }
 

@@ -35,19 +35,27 @@
 
 		<div class="row">
 
-			<?php
-				if (have_posts()) {
-					while (have_posts()) {
-						the_post(); ?>
+			<section class="col-md-9">
 
-						<h2><?php the_title(); ?></h2>
+				<?php
+					if (have_posts()) {
+						while (have_posts()) {
+							the_post(); ?>
 
-						<?php the_content(); ?>
-			<?php
-					}  // End while
-				}  // End if
+							<h2><?php the_title(); ?></h2>
 
-			?>
+							<?php the_excerpt(); ?>
+				<?php
+						}  // End while
+					}  // End if
+
+				?>
+
+			</section>
+
+			<aside class="col-md-3">
+
+			</aside>
 
 		</div>
 

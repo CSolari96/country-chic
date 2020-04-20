@@ -1108,6 +1108,7 @@ width: 44%;
 
 .social-footer {
   max-width: 1140px;
+  margin-bottom: 20px;
 }
 
 .social-footer a{
@@ -1161,14 +1162,14 @@ img.social-icon {
 }
 
 .under-footer{
-	padding: 1% 2%;
+	padding: 1% 5%;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+  align-items: center;
 }
 
 .copyright{
-	margin-top: 2%;
 	width: 50%;
 }
 
